@@ -30,18 +30,60 @@ for screen in uiScreens.findall("Screen"):
 #print(baseStaticTextVariableNames)
 
 generatedc = open(sys.argv[2], 'r').read()
+translateFile = open(sys.argv[3], 'r')
+translateInfo = {}
+for line in translateFile.readlines():
+    lineItems = line.split(':')
+    if len(lineItems) > 1:
+        translateInfo[lineItems[0]] = lineItems[1]
+    else:
+        translateInfo[lineItems[0]] = ""
+translateFile.close()
 
 
+for st in baseStaticTextVariableNames:
+    languages = ["_CH", "EN"]
+    for lg in languages:
+        wID = baseStaticTextVariableNames[st] + lg
+        if wID not in translateInfo:
+            translateInfo[wID] = "{0}//\n".format(wID)
+print(translateInfo)
 
 def fixGeneratedC(gc, staticTextInfos):
-    drawItemStart = gc.find("bool GFX_HGC_DrawItem(int itemId)")
+    drawItemStart = gc.find("bool GFX_HGC_DrawItem(int itemId)\n{")
     drawItemEnd = gc.find("default:", drawItemStart)
+    
+    originSectionStart = gc[0:drawItemStart]
+    originSectionEnd = gc[drawItemEnd:-1]
 
-    toFixSection = gc[drawItemStart, drawItemEnd]
-    for st in staticTextInfos:
-        
+    toFixSection = gc[drawItemStart:drawItemEnd]
+    fixedSection = ""
+    seekPos = 0
+    oldSeekPos = -1
+    
+#    print(toFixSection)
+    
+    while (seekPos < len(toFixSection)) and (seekPos != oldSeekPos):
+        casePos = toFixSection.find("case", seekPos)
+        if casePos == -1: break
+        caseEndPos = toFixSection.find(":", casePos)
+        caseBreakPos = toFixSection.find("break;", caseEndPos)
+        itemName = toFixSection[(casePos + 5):caseEndPos]
+        toAdd = ""
+        if itemName in  staticTextInfos:
+            toReplaceBegin = toFixSection.find("(GFX_XCHAR*)", caseEndPos)
+            toReplaceEnd = toFixSection.find(",", toReplaceBegin)
+            toAdd = toFixSection[seekPos:caseBreakPos].replace(toFixSection[toReplaceBegin:toReplaceEnd],
+                                                              "(GFX_XCHAR*){0}".format(staticTextInfos[itemName])) + "\n        break;"
+        else:
+            toAdd = (toFixSection[seekPos:caseBreakPos] + "\n        break;")
+        fixedSection += toAdd
+        oldSeekPos = seekPos
+        seekPos = caseBreakPos + 6
+    return (originSectionStart + fixedSection + "\n" + originSectionEnd )
+     
 
 def generateTranslateFun(staticTexts):
     return ""
     
-fixGeneratedC(generatedc, baseStaticTextVariableNames)
+toWriteGeneratedC = fixGeneratedC(generatedc, baseStaticTextVariableNames)
