@@ -1,31 +1,352 @@
-﻿StartUpPage_OTE_0Ch:智能单轴机械手控制器//
-StartUpPage_OTE_0Ch:智能上下轴机械手控制器//
-StartUpPage_OTE_0Ch:智能上下轴侧取机械手//
-StartUpPage_OTE_0Ch:智能前后轴机械手控制器//
-StartUpPage_OTE_0Ch:智能两轴机械手控制器//
-StartUpPage_OTE_0Ch:智能侧取机械手控制器//
-StartUpPage_OTE_0Ch:智能横走机械手控制器//
-
-MainInterface_OTE_24Ch:模号//
-MainInterface_OTE_25Ch:位置//
-MainInterface_OTE_26Ch:开模完//
-MainInterface_OTE_27Ch:安全门//
-MainInterface_OTE_28Ch:可关模//
-MainInterface_OTE_29Ch:可顶针//
-
-ManualPage_OTE_36Ch:横行模式//
-ManualPage_OTE_37Ch:手动速度//
-ManualPage_OTE_40Ch:手动位置//
-ManualPage_OTE_43Ch:寸动速度//
-ManualPage_OTE_46Ch:实际成品//
-ManualPage_OTE_48Ch:当前动作//
-
+Act_ConveyorCh:		输 送 机		//
+Act_ConveyorOffCh:		输送机断		//
+Act_ConveyorOnCh:		输送机通		//
+Act_DoubleArmCh:		双    臂		//
+Act_DoubleBackwCh:		双臂后退		//
+Act_DoubleDownCh:	双臂侧进//
+Act_DoubleFixCh:		双 臂 夹		//
+Act_DoubleForwCh:		双臂前进		//
+Act_DoublePutCh:		双 臂 放		//
+Act_DoubleUpCh:	双臂侧退//
+Act_EjectorPermitCh:		允许顶针		//
+Act_HoldCh:			吸    盘		//
+Act_HoldOffCh:		吸盘回缩		//剪刀下降
+Act_HoldOnCh:			吸盘前伸		//剪刀上升
+Act_HorizontalCh:		对中前伸		//
+Act_MainArmCh:		主    臂		//
+Act_MainBackwCh:		接料下降		//
+Act_MainDownCh:		手臂下降		//易辉非标
+Act_MainFixCh:		刮刀前伸		//
+Act_MainForwCh:		接料上升		//
+Act_MainPutCh:		刮刀回缩		//
+Act_MainUpCh:			手臂上升		//
+Act_MoldClsPermitCh:		允许关模		//
+Act_MoldEndCh:		模组结束		//
+Act_MoldOpenWaitCh:		等开模完		//
+Act_NULLCh:			无 动 作		//
+Act_OpenDelayCh:		开模延时		//
+Act_Process1Ch:		转    盘		//
+Act_Process1OffCh:		转盘停止		//吸盘回缩
+Act_Process1OnCh:		转盘旋转		//吸盘前伸
+Act_Reserved1Ch:		吸盘吹气		//
+Act_Reserved1OffCh:		吸盘吹断		//
+Act_Reserved1OnCh:		吸盘吹通		//
+Act_Reserved2Ch:		吸     4		//
+Act_Reserved2OffCh:		吸 4  断		//
+Act_Reserved2OnCh:		吸 4  通		//
+Act_ScissorsCh:		剪    刀		//
+Act_ScissorsOffCh:		剪 刀 断		//
+Act_ScissorsOnCh:		剪 刀 通		//
+Act_SpinInCh:			手臂外移		//
+Act_SpinOutCh:		手臂到中		//
+Act_SynEndCh:			同步结束		//
+Act_SynStartCh:		同步开始		//
+Act_VacuumCh:			真    空		//
+Act_VacuumPutCh:		吸 盘 放		//
+Act_VacuumSuckCh:		吸 盘 吸		//
+Act_VerticalCh:		对中回缩		//
+Act_ViceArmCh:		副    臂		//
+Act_ViceBackwCh:		助推伸出		//
+Act_ViceDownCh:		压头下压		//
+Act_ViceFixCh:		压轮伸出		//
+Act_ViceForwCh:		助推回缩		//
+Act_VicePutCh:		压轮收回		//
+Act_ViceUpCh:			压头收回		//
+Act_WaitX37Ch:		等待 X37		//
+AlarmInfoPage_OTE_274Ch:序号 编号   报警信息//
+AlarmReportScreen_DIS_AlaRptNOtext_CH:AlarmReportScreen_DIS_AlaRptNOtext_CH//
+AlarmReportScreen_STE_AlarmInfo1text_CH:AlarmReportScreen_STE_AlarmInfo1text_CH//
+AlarmReportScreen_STE_AlarmInfo2text_CH:AlarmReportScreen_STE_AlarmInfo2text_CH//
+AlarmReportScreen_STE_AlarmInfo3text_CH:AlarmReportScreen_STE_AlarmInfo3text_CH//
+AlarmReportScreen_STE_AlarmInfo4text_CH:AlarmReportScreen_STE_AlarmInfo4text_CH//
+AlarmReportScreen_STE_AlarmInfo5text_CH:AlarmReportScreen_STE_AlarmInfo5text_CH//
+Alarm_Num100Ch:		预留2阀通,预留2限断			//
+Alarm_Num101Ch:		预留2阀断,预留2限通			//
+Alarm_Num102Ch:		对中气缸前伸待机无开模完,不能回缩对中气缸		//
+Alarm_Num103Ch:		姿势变化前,型外安全区限断		//
+Alarm_Num104Ch:		全自动信号无				//
+Alarm_Num105Ch:		Y轴未在起点,未归原点			//
+Alarm_Num106Ch:		Y轴侧出极限通，Y轴侧进极限通		//
+Alarm_Num107Ch:		机台横行前,Y轴未在起始点		//
+Alarm_Num108Ch:		姿势变化前,Y轴未在起始点		//
+Alarm_Num109Ch:		Y轴最大位置未设定			//
+Alarm_Num10Ch:		机台停在型内,未归原点			//
+Alarm_Num110Ch:		Y轴下降点数*距离超过安全范围		//
+Alarm_Num111Ch:		Y轴侧进极限异常			//
+Alarm_Num112Ch:		Y轴侧出极限异常			//
+Alarm_Num113Ch:		Y轴不在起始位置,手动侧出		//
+Alarm_Num114Ch:		Y轴侧进时间过久			//
+Alarm_Num115Ch:		Y轴侧出时间过久			//
+Alarm_Num116Ch:		Y轴侧进位置小于起点位置		//
+Alarm_Num117Ch:		Y轴侧进位置大于最大值			//
+Alarm_Num118Ch:		Y轴伺服驱动器报警			//
+Alarm_Num119Ch:		Y轴最大待机位置大于最大值		//
+Alarm_Num11Ch:		对中气缸回缩限断,未归原点			//
+Alarm_Num120Ch:		Y轴待机位置大于最大待机位置		//
+Alarm_Num121Ch:		未教导等开模完     			//
+Alarm_Num12Ch:		对中气缸前伸限断,未归原点			//
+Alarm_Num13Ch:		下降取物时,开模完信号断		//
+Alarm_Num14Ch:		下降取物时,中板模信号断		//
+Alarm_Num150Ch:非X轴模内安全区,不可下降//
+Alarm_Num151Ch:非X轴模外安全区,不可下降//
+Alarm_Num152Ch:X轴前进后退前,主上升限Off//
+Alarm_Num153Ch:X轴前进后退前,副上升限Off//
+Alarm_Num154Ch:前进位置大于最大值//
+Alarm_Num155Ch:X轴前进时间过久//
+Alarm_Num156Ch:X轴后退时间过久//
+Alarm_Num157Ch:X轴伺服驱动器报警//
+Alarm_Num158Ch:X轴前进极限异常//
+Alarm_Num159Ch:X轴后退极限异常//
+Alarm_Num15Ch:		开模完信号通,安全门信号断		//
+Alarm_Num160Ch:X轴点数*距离超过安全范围//
+Alarm_Num161Ch:Y轴位置小于Y轴型外安全区//
+Alarm_Num16Ch:		开模完信号通,中板模信号断		//
+Alarm_Num17Ch:		手臂上升限通,手臂下降限通		//
+Alarm_Num18Ch:		接料气缸上升限通,接料气缸下降限通		//
+Alarm_Num19Ch:		压头收回限通,压头下压限通		//
+Alarm_Num1Ch:		开模完信号断,未归原点			//
+Alarm_Num20Ch:		接料助推回缩限通,接料助推伸出限通		//
+Alarm_Num21Ch:		机台手臂到中限通,机台横回限通		//
+Alarm_Num22Ch:		对中气缸前伸限通,对中气缸回缩限通			//
+Alarm_Num23Ch:		手臂下降前,开模完信号断		//
+Alarm_Num24Ch:		手臂下降前,中板模信号断		//
+Alarm_Num25Ch:		手臂下降前,安全门信号断		//
+Alarm_Num26Ch:		手臂下降前,对中气缸回缩限断			//
+Alarm_Num27Ch:		手臂下降前,对中气缸前伸限断			//
+Alarm_Num28Ch:		手臂下降前,刮刀气缸前伸限通			//
+Alarm_Num29Ch:		手臂下降前,刮刀压轮伸出限通			//
+Alarm_Num2Ch:		中板模确认限断,未归原点			//
+Alarm_Num30Ch:		手臂下降前,吸盘吸限通			//
+Alarm_Num31Ch:		手臂下降前,吸盘气缸前伸限通			//
+Alarm_Num32Ch:		机台横行前,手臂下降阀通		//
+Alarm_Num33Ch:		机台横行前,压头下压阀通		//
+Alarm_Num34Ch:		机台横行前,手臂上升限断		//
+Alarm_Num35Ch:		机台横行前,压头收回限断		//
+Alarm_Num36Ch:		姿势变化前,手臂下降阀通		//
+Alarm_Num37Ch:		姿势变化前,压头下压阀通		//
+Alarm_Num38Ch:		手臂下降阀通,手臂上升限通		//
+Alarm_Num39Ch:		手臂下降阀通,手臂下降限断		//
+Alarm_Num3Ch:		手臂上升限断,未归原点			//
+Alarm_Num40Ch:		手臂下降阀断,手臂上升限断		//
+Alarm_Num41Ch:		手臂下降阀断,手臂下降限通		//
+Alarm_Num42Ch:		压头下压阀通,压头收回限通		//
+Alarm_Num43Ch:		压头下压阀通,压头下压限断		//
+Alarm_Num44Ch:		压头下压阀断,压头收回限断		//
+Alarm_Num45Ch:		压头下压阀断,压头下压限通		//
+Alarm_Num46Ch:		接料气缸上升阀通,接料气缸上升限断		//
+Alarm_Num47Ch:		接料气缸上升阀通,接料气缸下降限通		//
+Alarm_Num48Ch:		接料气缸上升阀断,接料气缸上升限通		//
+Alarm_Num49Ch:		接料气缸上升阀断,接料气缸下降限断		//
+Alarm_Num4Ch:		压头收回限断,未归原点			//
+Alarm_Num50Ch:		接料助推回缩阀通,接料助推回缩限断		//
+Alarm_Num51Ch:		接料助推回缩阀通,接料助推前伸限通		//
+Alarm_Num52Ch:		接料助推回缩阀断,接料助推回缩限通		//
+Alarm_Num53Ch:		接料助推回缩阀断,接料助推前伸限断		//
+Alarm_Num54Ch:		刮刀气缸前伸阀通,刮倒气缸前伸限断			//
+Alarm_Num55Ch:		刮刀气缸前伸阀断,刮刀气缸前伸限通			//
+Alarm_Num56Ch:		刮刀压轮伸出阀通,刮刀压轮伸出限断			//
+Alarm_Num57Ch:		刮刀压轮伸出阀断,刮刀压轮伸出限通			//
+Alarm_Num58Ch:		真空阀通,真空限断			//
+Alarm_Num59Ch:		真空阀断,真空限通			//
+Alarm_Num5Ch:		刮刀前伸确认限通,未归原点			//
+Alarm_Num60Ch:		吸盘气缸前伸阀通,吸盘气缸回缩限断			//
+Alarm_Num61Ch:		吸盘气缸回缩阀断,吸盘气缸前伸限通			//
+Alarm_Num62Ch:		对中气缸前伸阀通,中气缸前伸限断			//
+Alarm_Num63Ch:		对中气缸回缩阀通,对中气缸回缩限断			//
+Alarm_Num64Ch:		手臂到中时间过久				//
+Alarm_Num65Ch:		手臂外移时间过久				//
+Alarm_Num66Ch:		紧急停止				//
+Alarm_Num67Ch:		程式不完整,不可执行				//
+Alarm_Num68Ch:		产量已到				//
+Alarm_Num69Ch:		动作未依模式进行			//
+Alarm_Num6Ch:		副夹确认限通,未归原点			//
+Alarm_Num70Ch:		等待开模逾时				//
+Alarm_Num71Ch:		伺服驱动器无脉冲输入		//
+Alarm_Num72Ch:		伺服驱动器报警			//
+Alarm_Num73Ch:		安全门位置未设定			//
+Alarm_Num74Ch:		Z轴置物点位置小于安全门位置		//
+Alarm_Num75Ch:		Z轴置物点位置大于最大值		//
+Alarm_Num76Ch:		外待机位置小于安全门位置		//
+Alarm_Num77Ch:		外待机位置大于最大值			//
+Alarm_Num78Ch:		循环置物点数*距离超过安全范围		//
+Alarm_Num79Ch:		手臂到中极限异常				//
+Alarm_Num7Ch:		吸盘吸限通,未归原点			//
+Alarm_Num80Ch:		手臂外移极限异常				//
+Alarm_Num81Ch:		机台不在起始位置,手动手臂外移		//
+Alarm_Num82Ch:		原点需重新复归,请按HP.键				//
+Alarm_Num83Ch:		手臂到中外移前,先执行对中气缸前伸		//
+Alarm_Num84Ch:		机台未在横轴两端,不能下降		//
+Alarm_Num85Ch:		气压不足				//
+Alarm_Num86Ch:		模内安全点小于起始点位置		//
+Alarm_Num87Ch:		模内安全点大于安全门位置		//
+Alarm_Num88Ch:		非模内安全下降区,不能下降		//
+Alarm_Num89Ch:		横行位置小于起点位置			//
+Alarm_Num8Ch:		吸盘气缸前伸限通,未归原点			//
+Alarm_Num90Ch:		横行位置大于最大值			//
+Alarm_Num91Ch:		模外下降前,型外安全区限断		//
+Alarm_Num92Ch:		型内手臂下降前,型内安全区限断		//
+Alarm_Num93Ch:		试用期已到				//
+Alarm_Num94Ch:		手臂到中前,先前伸对中气缸			//
+Alarm_Num95Ch:		手臂到中前,先回缩对中气缸			//
+Alarm_Num96Ch:		手臂外移前,先前伸对中气缸			//
+Alarm_Num97Ch:		手臂外移前,先回缩对中气缸			//
+Alarm_Num98Ch:		转盘旋转阀通,转盘停止限断			//
+Alarm_Num99Ch:		转盘停止阀断,转盘旋转限通			//
+Alarm_Num9Ch:		机台停在型外,未归原点			//
+AllMonitorParaPageZ_DIS_ALLMonitorParaZtext_CH:AllMonitorParaPageZ_DIS_ALLMonitorParaZtext_CH//
+AllMonitorParaPageZ_DIS_AllMonitorValueZtext_CH:AllMonitorParaPageZ_DIS_AllMonitorValueZtext_CH//
+AllMonitorParaPage_DIS_ALLMonitorParatext_CH:AllMonitorParaPage_DIS_ALLMonitorParatext_CH//
+AllMonitorParaPage_DIS_AllMonitorValuetext_CH:AllMonitorParaPage_DIS_AllMonitorValuetext_CH//
+AutoOperaScreen_DIS_AutoActTimetext_CH:AutoOperaScreen_DIS_AutoActTimetext_CH//
+AutoOperaScreen_DIS_AutoActuProtext_CH:AutoOperaScreen_DIS_AutoActuProtext_CH//
+AutoOperaScreen_DIS_AutoCurActtext_CH:AutoOperaScreen_DIS_AutoCurActtext_CH//
+AutoOperaScreen_DIS_AutoCycletext_CH:AutoOperaScreen_DIS_AutoCycletext_CH//
+AutoOperaScreen_DIS_AutoFetchTimetext_CH:AutoOperaScreen_DIS_AutoFetchTimetext_CH//
+AutoOperaScreen_DIS_AutoSetProtext_CH:AutoOperaScreen_DIS_AutoSetProtext_CH//
+AutoOperaScreen_STE_CurrActtext_CH:AutoOperaScreen_STE_CurrActtext_CH//
 AutoRunPage_OTE_51Ch:设定产量//
 AutoRunPage_OTE_53Ch:实际成品//
 AutoRunPage_OTE_55Ch:自动周期//
 AutoRunPage_OTE_58Ch:取物时间//
 AutoRunPage_OTE_61Ch:动作时间//
 AutoRunPage_OTE_64Ch:当前动作//
+Auto_StartTestTipsCh:按启动键进入试产模式//
+Auto_StartTipsCh:按启动键进入自动模式//
+BackLightPage_OTE_258Ch:亮度//
+BackLightPage_OTE_261Ch:上下键调整亮度//
+BrightnessAdjustScreen_DIS_BrigAdjBrignesstext_CH:BrightnessAdjustScreen_DIS_BrigAdjBrignesstext_CH//
+BrightnessAdjustScreen_DIS_BrigAdjLabeltext_CH:BrightnessAdjustScreen_DIS_BrigAdjLabeltext_CH//
+ClockTimePage_OTE_166Ch:日期：//
+ClockTimePage_OTE_168Ch:时间：//
+Com_FeedBackFBCh:	有反馈		//
+Com_FeedBackNoFBCh:	无反馈		//
+Com_FreqDecelSwitchCh:开关		//
+Com_FreqDecelTimeCh:	时间		//
+Com_FuncContinueCh:		关门继续		//
+Com_FuncFullRunCh:		全程		//
+Com_FuncHorizontalCh:	水平		//
+Com_FuncInsideCh:		型内		//
+Com_FuncInsideMoldCh:	模内		//
+Com_FuncNormallyCloseCh:	常闭		//
+Com_FuncNormallyOpenCh:	常开		//
+Com_FuncNotRestrictCh:	不限制		//
+Com_FuncNotUseCh:		不使用		//
+Com_FuncOFFCh:		关		//
+Com_FuncONCh:			开		//
+Com_FuncOutsideCh:		型外		//
+Com_FuncPositiveCh:正向//
+Com_FuncPositivePhaseCh:	正相		//
+Com_FuncResetInMoldCh:	关门复归		//
+Com_FuncReverseCh:反向//
+Com_FuncReversedPhaseCh:	反相		//
+Com_FuncStopCh:		关门停止		//
+Com_FuncTransverseOutCh:	外下前		//
+Com_FuncUseCh:		使用		//
+Com_FuncVerticalCh:		垂直		//
+Com_TravFreqConvCh:	变频		//
+Com_TravPneumaticCh:	气动		//
+Com_TravServoCh:	伺服		//
+CompanyInfoPage_OTE_232Ch:深圳市华成工业控制有限公司//
+CompanyInfoPage_OTE_233Ch:电话：//
+CompanyInfoPage_OTE_234Ch:传真：//
+CompanyInfoPage_OTE_235Ch:网址：//
+CompanyInfoScreen_DIS_CompInfoFaxtext_CH:CompanyInfoScreen_DIS_CompInfoFaxtext_CH//
+CompanyInfoScreen_DIS_CompInfoNametext_CH:CompanyInfoScreen_DIS_CompInfoNametext_CH//
+CompanyInfoScreen_DIS_CompInfoTeltext_CH:CompanyInfoScreen_DIS_CompInfoTeltext_CH//
+CompanyInfoScreen_DIS_CompInfoWebtext_CH:CompanyInfoScreen_DIS_CompInfoWebtext_CH//
+CycleTimePage_OTE_285Ch:序号   模号  周期时间 s //
+CycleTimeReportScreen_CycTimRptNOtext_CH:CycleTimeReportScreen_CycTimRptNOtext_CH//
+CycleTimeReportScreen_STE_CycleTime1text_CH:CycleTimeReportScreen_STE_CycleTime1text_CH//
+CycleTimeReportScreen_STE_CycleTime2text_CH:CycleTimeReportScreen_STE_CycleTime2text_CH//
+CycleTimeReportScreen_STE_CycleTime3text_CH:CycleTimeReportScreen_STE_CycleTime3text_CH//
+CycleTimeReportScreen_STE_CycleTime4text_CH:CycleTimeReportScreen_STE_CycleTime4text_CH//
+CycleTimeReportScreen_STE_CycleTime5text_CH:CycleTimeReportScreen_STE_CycleTime5text_CH//
+DB_POWERCh:			DB功耗//                
+DC_BUS_VOLTAGECh:		电压// 
+DI_PORT_STATUSCh:		输入信号//               
+DO_PORT_STATUSCh:		输出信号//             
+DateTimeSetScreen_DIS_Datetext_CH:DateTimeSetScreen_DIS_Datetext_CH//
+DateTimeSetScreen_DIS_Timetext_CH:DateTimeSetScreen_DIS_Timetext_CH//
+ELEC_ANGLECh:			旋转角2//
+ERC_ANACCh:		检测电流异常//
+ERC_ANACZCh:		Z检测电流异常//
+ERC_ANASCh:		速度指令A/D异常//
+ERC_ANASZCh:		Z速度指令A/D异常//
+ERC_ANATCh:		扭矩指令A/D异常//
+ERC_ANATZCh:		Z扭矩指令A/D异常//
+ERC_DBCh:		DB过载//
+ERC_DBZCh:		ZDB过载//
+ERC_EEPCh:		参数破坏//Servo1 Alarm
+ERC_EEPZCh:		Z参数破坏//Servo2 Alarm
+ERC_ENC1Ch:		编码器数据警报//
+ERC_ENC1ZCh:		Z编码器数据警报//
+ERC_ENCCh:		编码器数据警报//
+ERC_ENCZCh:		Z编码器数据警报//
+ERC_LBKCh:		电机线断线//
+ERC_LBKZCh:		Z电机线断线//
+ERC_LVCh:		电压不足//
+ERC_LVZCh:		Z电压不足//
+ERC_OC1Ch:		过电流检测//
+ERC_OC1ZCh:		Z过电流检测//
+ERC_OCCh:		过电流检测//
+ERC_OCZCh:		Z过电流检测//
+ERC_OL1Ch:		瞬时过载//
+ERC_OL1ZCh:		Z瞬时过载//
+ERC_OL2Ch:		连续最大负载//
+ERC_OL2ZCh:		Z连续最大负载//
+ERC_OSCh:		超速//
+ERC_OSZCh:		Z超速//
+ERC_OTCh:		散热片过热//
+ERC_OTZCh:		Z散热片过热//
+ERC_OV1Ch:		硬件过电压//
+ERC_OV1ZCh:		Z硬件过电压//
+ERC_OVCh:		过电压//
+ERC_OVZCh:		Z过电压//
+ERC_PARCh:		参数设定异常//
+ERC_PARZCh:		Z参数设定异常//
+ERC_PECh:		位置偏移过大//
+ERC_PEZCh:		Z位置偏移过大//
+ERC_PHLCh:		电源线缺相//
+ERC_PHLZCh:		Z电源线缺相//
+ERC_REGCh:		再生异常//
+ERC_REGOLCh:		再生过载//
+ERC_REGOLZCh:		Z再生过载//
+ERC_REGZCh:		Z再生异常//
+ERC_STRCh:		冲击电阻过载//
+ERC_STRZCh:		Z冲击电阻过载//
+ERC_SYSCh:		系统警报//
+ERC_SYSZCh:		Z系统警报//
+ERROR_CODECh:			故障//   
+EleToneme2Screen_DIS_EleInput3text_CH:EleToneme2Screen_DIS_EleInput3text_CH//
+EleToneme2Screen_DIS_EleInput4text_CH:EleToneme2Screen_DIS_EleInput4text_CH//
+EleToneme2Screen_DIS_VPressHPAdjtext_CH:EleToneme2Screen_DIS_VPressHPAdjtext_CH//
+EleToneme2Screen_DIS_VY46Reversetext_CH:EleToneme2Screen_DIS_VY46Reversetext_CH//
+EleToneme2Screen_STE_VBackAddtext_CH:EleToneme2Screen_STE_VBackAddtext_CH//
+EleToneme2Screen_STE_VBackSubtext_CH:EleToneme2Screen_STE_VBackSubtext_CH//
+EleToneme2Screen_STE_VDownAddtext_CH:EleToneme2Screen_STE_VDownAddtext_CH//
+EleToneme2Screen_STE_VDownSubtext_CH:EleToneme2Screen_STE_VDownSubtext_CH//
+EleToneme2Screen_STE_VForwardAddtext_CH:EleToneme2Screen_STE_VForwardAddtext_CH//
+EleToneme2Screen_STE_VForwardSubtext_CH:EleToneme2Screen_STE_VForwardSubtext_CH//
+EleTonemeScreen_DIS_EleInput1text_CH:EleTonemeScreen_DIS_EleInput1text_CH//
+EleTonemeScreen_DIS_EleInput2text_CH:EleTonemeScreen_DIS_EleInput2text_CH//
+EleTonemeScreen_STE_MBackAddtext_CH:EleTonemeScreen_STE_MBackAddtext_CH//
+EleTonemeScreen_STE_MBackSubtext_CH:EleTonemeScreen_STE_MBackSubtext_CH//
+EleTonemeScreen_STE_MDownAddtext_CH:EleTonemeScreen_STE_MDownAddtext_CH//
+EleTonemeScreen_STE_MDownSubtext_CH:EleTonemeScreen_STE_MDownSubtext_CH//
+EleTonemeScreen_STE_MForwardAddtext_CH:EleTonemeScreen_STE_MForwardAddtext_CH//
+EleTonemeScreen_STE_MForwardSubtext_CH:EleTonemeScreen_STE_MForwardSubtext_CH//
+EleTonemeScreen_STE_MPressHPAdjtext_CH:EleTonemeScreen_STE_MPressHPAdjtext_CH//
+EleTonemeScreen_STE_MY46Reversetext_CH:EleTonemeScreen_STE_MY46Reversetext_CH//
+FactoryTimePage_OTE_223Ch:设定周数//
+FactoryTimePage_OTE_225Ch:计时清零//
+FactoryTimePage_OTE_229Ch:使用周数//
+FactoryTimePage_OTE_230Ch:使用小时//
+FactoryTimeScreen_DIS_FacTimClrTimCnttext_CH:FactoryTimeScreen_DIS_FacTimClrTimCnttext_CH//
+FactoryTimeScreen_DIS_FacTimSetWekCnttext_CH:FactoryTimeScreen_DIS_FacTimSetWekCnttext_CH//
+FactoryTimeScreen_DIS_FacTimUseHourCnttext_CH:FactoryTimeScreen_DIS_FacTimUseHourCnttext_CH//
+FactoryTimeScreen_DIS_FacTimUseWekCnttext_CH:FactoryTimeScreen_DIS_FacTimUseWekCnttext_CH//
+FactoryTimeScreen_STE_ClrTimeCnttext_CH:FactoryTimeScreen_STE_ClrTimeCnttext_CH//
+Func_STLanguageNameCh:	中文		//
 FunctionPage_OTE_68Ch:语    言//
 FunctionPage_OTE_69Ch:设定模数//
 FunctionPage_OTE_71Ch:开模延时//
@@ -36,129 +357,51 @@ FunctionPage_OTE_80Ch:真空检测//
 FunctionPage_OTE_82Ch:抱具检测//
 FunctionPage_OTE_84Ch:产品清零//
 FunctionPage_OTE_86Ch:按 键 音//
-PassWord_OTE_88Ch:密  码//
-PassWordFunc1Page0_OTE_90Ch:周期时间//
-PassWordFunc1Page0_OTE_94Ch:顶    针//
-PassWordFunc1Page0_OTE_96Ch:安 全 门//
-PassWordFunc1Page0_OTE_98Ch:中 板 模//
-PassWordFunc1Page0_OTE_100Ch:待机姿势//
-PassWordFunc1Page0_OTE_102Ch:待机位置//
-PassWordFunc1Page0_OTE_104Ch:停止状态//
-PassWordFunc1Page0_OTE_106Ch:中位放延时//
-PassWordFunc1Page0_OTE_109Ch:取物位置//
-PassWordFunc1Page0_OTE_111Ch:模内嵌件//
-PassWordFunc1Page1_OTE_113Ch:点     数//
-PassWordFunc1Page1_OTE_114Ch:点    数2//
-PassWordFunc1Page1_OTE_115Ch:间    距2//
-PassWordFunc1Page1_OTE_116Ch:间     距//
-PassWordFunc1Page1_OTE_117Ch:输送机间隔//
-PassWordFunc1Page1_OTE_118Ch:预留1间隔//
-PassWordFunc1Page1_OTE_119Ch:关屏时间//
-PassWordFunc1Page1_OTE_120Ch:预留2间隔//
-PassWordFunc1Page1_OTE_121Ch:压力检测//
-PassWordFunc1Page1_OTE_121Ch:不良品清零//
-PassWordFunc1Page1_OTE_123Ch:不良品检测//
-PassWordFunc1Page1_OTE_124Ch:关模完检测//
-PassWordFunc1Page1_OTE_125Ch:夹吸检测//
-PassWordFunc1Page2_OTE_135Ch:安全门位置//
-PassWordFunc1Page2_OTE_138Ch:型外待机点//
-PassWordFunc1Page2_OTE_139Ch:模内安全区//
-PassWordFunc1Page2_OTE_140Ch:减速延时//
-PassWordFunc1Page2_OTE_140Ch:动作速度//
-PassWordFunc1Page2_OTE_141Ch:全 自 动//
-PassWordFunc1Page2_OTE_142Ch:压力开关//
-PassWordFunc1Page2_OTE_143Ch:型外慢下//
-PassWordFunc1Page2_OTE_145Ch:横出姿势//
-PassWordFunc1Page2_OTE_146Ch:横入姿势//
-PassWordFunc1Page2_OTE_147Ch:取物失败//
-PassWordFunc1Page2_OTE_157Ch:排列起始点//
-PassWordFunc1Page2_OTE_158Ch:排列起始点2//
-ResetFcSettingPage_OTE_159Ch:按输入键恢复出厂值//
-ProgramInfoPage_OTE_160Ch:产品型号：//
-ProgramInfoPage_OTE_162Ch:版本日期：//
-ProgramInfoPage_OTE_164Ch:版    本：//
-ClockTimePage_OTE_166Ch:日期：//
-ClockTimePage_OTE_168Ch:时间：//
-LimitTimePage_OTE_178Ch:主上下时间//
-LimitTimePage_OTE_180Ch:主进退时间//
-LimitTimePage_OTE_181Ch:副上下时间//
-LimitTimePage_OTE_182Ch:副进退时间//
-LimitTimePage_OTE_183Ch:横行时间//
-LimitTimePage_OTE_184Ch:侧姿时间//
-LimitTimePage_OTE_185Ch:加工1时间//
-LimitTimePage_OTE_186Ch:预留2时间//
-PassWordFunc2Page_OTE_194Ch:最大位置//
-PassWordFunc2Page_OTE_196Ch:齿轮比倍率//
-PassWordFunc2Page_OTE_198Ch:反馈显示//
-PassWordFunc2Page_OTE_199Ch:下降姿势//
-PassWordFunc2Page_OTE_200Ch:反馈脉冲入//
-PassWordFunc2Page_OTE_201Ch:反馈脉冲出//
-PassWordFunc2Page_OTE_202Ch:报警时间//
-PassWordFunc2Page_OTE_203Ch:加减速时间//
-PassWordFunc2Page_OTE_204Ch:最大速度//
-PassWordFunc2Page_OTE_210Ch:复归速度//
-PassWordFunc2Page_OTE_216Ch:全局速度//
-FactoryTimePage_OTE_223Ch:设定周数//
-FactoryTimePage_OTE_225Ch:计时清零//
-FactoryTimePage_OTE_229Ch:使用周数//
-FactoryTimePage_OTE_230Ch:使用小时//
-CompanyInfoPage_OTE_232Ch:深圳市华成工业控制有限公司//
-CompanyInfoPage_OTE_233Ch:电话：//
-CompanyInfoPage_OTE_234Ch:传真：//
-CompanyInfoPage_OTE_235Ch:网址：//
-LimitSettingPage_OTE_239Ch:横 行 轴//
-LimitSettingPage_OTE_240Ch:主下降限//
-LimitSettingPage_OTE_242Ch:主前进限//
-LimitSettingPage_OTE_243Ch:主后退限//
-LimitSettingPage_OTE_245Ch:副下降限//
-LimitSettingPage_OTE_247Ch:副前进限//
-LimitSettingPage_OTE_249Ch:副后退限//
-LimitSettingPage_OTE_251Ch:变频减速//
-LimitSettingPage_OTE_252Ch:反馈脉冲//
-BackLightPage_OTE_258Ch:亮度//
-BackLightPage_OTE_261Ch:上下键调整亮度//
-LoadPage_OTE_262Ch:读出(0-99) //
-LoadPage_OTE_264Ch:再按一次程序键进入教导模式！ //
-ParamPage_OTE_265Ch:动作//
-ParamPage_OTE_266Ch:距离//
-ParamPage_OTE_267Ch:速度//
-ParamPage_OTE_268Ch:时间//
-AlarmInfoPage_OTE_274Ch:序号 编号   报警信息//
-CycleTimePage_OTE_285Ch:序号   模号  周期时间 s //
-InputLimitPage0_OTE_312Ch:X10 水 平 限//
-InputLimitPage0_OTE_313Ch:X11 垂 直 限//
-InputLimitPage0_OTE_314Ch:X12 主 夹 限//
-InputLimitPage0_OTE_315Ch:X13 抱 具 限//
-InputLimitPage0_OTE_316Ch:X14 真空吸限//
-InputLimitPage0_OTE_315Ch:X13 吸2   限//
-InputLimitPage0_OTE_316Ch:X14 吸1   限//
-InputLimitPage0_OTE_317Ch:X15 主前进限//
-InputLimitPage0_OTE_318Ch:X16 主后退限//
-InputLimitPage0_OTE_319Ch:X17 主下降限//
-InputLimitPage0_OTE_321Ch:X21 中位置物//
-InputLimitPage0_OTE_322Ch:X22 压力检测//
-InputLimitPage0_OTE_323Ch:X23 型内安全//
-InputLimitPage0_OTE_324Ch:X24 型外安全//
-InputLimitPage0_OTE_325Ch:X25 原点信号//
-InputLimitPage0_OTE_326Ch:X27 横出极限//
-InputLimitPage0_OTE_327Ch:X26 横入极限//
-
-InputLimitPage0_OTE_323Ch:X23 减速开关//定义变频
+FunctionScreen_DIS_FCChkHoldtext_CH:FunctionScreen_DIS_FCChkHoldtext_CH//
+FunctionScreen_DIS_FCChkMFixtext_CH:FunctionScreen_DIS_FCChkMFixtext_CH//
+FunctionScreen_DIS_FCChkVFixtext_CH:FunctionScreen_DIS_FCChkVFixtext_CH//
+FunctionScreen_DIS_FCChkVaccutext_CH:FunctionScreen_DIS_FCChkVaccutext_CH//
+FunctionScreen_DIS_FCClearProtext_CH:FunctionScreen_DIS_FCClearProtext_CH//
+FunctionScreen_DIS_FCKeySoundtext_CH:FunctionScreen_DIS_FCKeySoundtext_CH//
+FunctionScreen_DIS_FCLanguagetext_CH:FunctionScreen_DIS_FCLanguagetext_CH//
+FunctionScreen_DIS_FCOpenDlytext_CH:FunctionScreen_DIS_FCOpenDlytext_CH//
+FunctionScreen_DIS_FCSetMoldtext_CH:FunctionScreen_DIS_FCSetMoldtext_CH//
+FunctionScreen_DIS_FCThimbtext_CH:FunctionScreen_DIS_FCThimbtext_CH//
+FunctionScreen_STE_ChkHoldtext_CH:FunctionScreen_STE_ChkHoldtext_CH//
+FunctionScreen_STE_ChkMFixtext_CH:FunctionScreen_STE_ChkMFixtext_CH//
+FunctionScreen_STE_ChkVFixtext_CH:FunctionScreen_STE_ChkVFixtext_CH//
+FunctionScreen_STE_ChkVaccutext_CH:FunctionScreen_STE_ChkVaccutext_CH//
+FunctionScreen_STE_ClearProtext_CH:FunctionScreen_STE_ClearProtext_CH//
+FunctionScreen_STE_KeySoundtext_CH:FunctionScreen_STE_KeySoundtext_CH//
+FunctionScreen_STE_Languagetext_CH:FunctionScreen_STE_Languagetext_CH//
+HINK_TEMPCh:			温度//
+InputLimitPage0_OTE_312Ch:X10对中前伸限//
+InputLimitPage0_OTE_313Ch:X11对中回缩限//
+InputLimitPage0_OTE_314Ch:X12刮刀前伸限//
+InputLimitPage0_OTE_315Ch:X13吸盘前伸限//
+InputLimitPage0_OTE_316Ch:X14 吸盘吸限//
+InputLimitPage0_OTE_317Ch:X15接料上升限//
+InputLimitPage0_OTE_318Ch:X16接料下降限//
+InputLimitPage0_OTE_319Ch:X17手臂下降限//
+InputLimitPage0_OTE_319_S2Ch:X17 主下降限//
+InputLimitPage0_OTE_320Ch:X20 副上位限//
+InputLimitPage0_OTE_320_S2Ch:X20 后退极限//
+InputLimitPage0_OTE_321Ch:X21 副 夹 限//
+InputLimitPage0_OTE_322Ch:X22 中位置料//
+InputLimitPage0_OTE_323Ch:X23 横 出 限//
 InputLimitPage0_OTE_324Ch:X24 横 出 限//
 InputLimitPage0_OTE_325Ch:X25 横 入 限//
-InputLimitPage0_OTE_326Ch:X27 预    留//
-InputLimitPage0_OTE_327Ch:X26 预    留//
-
-
-InputLimitPage1_OTE_344Ch:X30 副前进限//
-InputLimitPage1_OTE_345Ch:X31 副后退限//
-InputLimitPage1_OTE_346Ch:X32 副上升限//
-InputLimitPage1_OTE_347Ch:X33 副下降限//
-InputLimitPage1_OTE_348Ch:X34 副臂夹限//
-InputLimitPage1_OTE_349Ch:X35 主臂上升//
-InputLimitPage1_OTE_350Ch:X36 加工 1限//
-InputLimitPage1_OTE_351Ch:X37 预留 2限//
-InputLimitPage1_OTE_350Ch:X36 吸3   限//
+InputLimitPage0_OTE_325_S2Ch:X25 备用//
+InputLimitPage0_OTE_326Ch:X27 到中极限//
+InputLimitPage0_OTE_327Ch:X26 外移极限//
+InputLimitPage1_OTE_344Ch:X30接料助推缩//
+InputLimitPage1_OTE_345Ch:X31接料助推伸//
+InputLimitPage1_OTE_346Ch:X32压头收回限//
+InputLimitPage1_OTE_347Ch:X33压头下压限//
+InputLimitPage1_OTE_348Ch:X34刮刀压轮伸//
+InputLimitPage1_OTE_349Ch:X35 手臂上升//
+InputLimitPage1_OTE_349_S2Ch:X35 辅助原点//WEIDEKE_X_Y
+InputLimitPage1_OTE_350Ch:X36转盘旋转限//
 InputLimitPage1_OTE_351Ch:X37 吸4   限//
 InputLimitPage1_OTE_352Ch:安 全 门//
 InputLimitPage1_OTE_353Ch:开 模 完//
@@ -168,32 +411,222 @@ InputLimitPage1_OTE_356Ch:全 自 动//
 InputLimitPage1_OTE_357Ch:中 板 模//
 InputLimitPage1_OTE_358Ch:急停输入//
 InputLimitPage1_OTE_359Ch:顶 进 限//
-OutputValuePage0_OTE_376Ch:Y10 水 平 阀//
-OutputValuePage0_OTE_377Ch:Y11 垂 直 阀//
-OutputValuePage0_OTE_378Ch:Y12 主 夹 阀//
-OutputValuePage0_OTE_379Ch:Y13 抱 具 阀//
-OutputValuePage0_OTE_380Ch:Y14 真空吸阀//
-OutputValuePage0_OTE_379Ch:Y13 吸2   阀//
-OutputValuePage0_OTE_380Ch:Y14 吸1   阀//
-OutputValuePage0_OTE_381Ch:Y15 主前进阀//
-OutputValuePage0_OTE_382Ch:Y16 主后退阀//
-OutputValuePage0_OTE_383Ch:Y17 警    报//
-OutputValuePage0_OTE_384Ch:Y20 主上升阀//
-OutputValuePage0_OTE_385Ch:Y21 主下降阀//
-OutputValuePage0_OTE_386Ch:Y22 气 压 低//
-OutputValuePage0_OTE_387Ch:Y23 减 速 阀//
-OutputValuePage0_OTE_388Ch:Y24 预留 1阀//
-OutputValuePage0_OTE_389Ch:Y25 预留 2阀//
-OutputValuePage0_OTE_389Ch:Y25 吸4   阀//
-OutputValuePage0_OTE_391Ch:Y26 横 入 阀//
-OutputValuePage0_OTE_390Ch:Y27 横 出 阀//
-OutputValuePage1_OTE_408Ch:Y30 副前进阀//
-OutputValuePage1_OTE_409Ch:Y31 副后退阀//
-OutputValuePage1_OTE_410Ch:Y32 副上升阀//
-OutputValuePage1_OTE_411Ch:Y33 副下降阀//
-OutputValuePage1_OTE_412Ch:Y34 副 夹 阀//
-OutputValuePage1_OTE_413Ch:Y35 加工 1阀//
-OutputValuePage1_OTE_413Ch:Y35 吸3   阀//
+InputWatchScreen1_1_DIS_InWatchCheckPresstext_CH:InputWatchScreen1_1_DIS_InWatchCheckPresstext_CH//
+InputWatchScreen1_1_DIS_InWatchDownMaxtext_CH:InputWatchScreen1_1_DIS_InWatchDownMaxtext_CH//
+InputWatchScreen1_1_DIS_InWatchHoldtext_CH:InputWatchScreen1_1_DIS_InWatchHoldtext_CH//
+InputWatchScreen1_1_DIS_InWatchHoritext_CH:InputWatchScreen1_1_DIS_InWatchHoritext_CH//
+InputWatchScreen1_1_DIS_InWatchInSafetext_CH:InputWatchScreen1_1_DIS_InWatchInSafetext_CH//
+InputWatchScreen1_1_DIS_InWatchInjectiontext_CH:InputWatchScreen1_1_DIS_InWatchInjectiontext_CH//
+InputWatchScreen1_1_DIS_InWatchMainBacktext_CH:InputWatchScreen1_1_DIS_InWatchMainBacktext_CH//
+InputWatchScreen1_1_DIS_InWatchMainFixtext_CH:InputWatchScreen1_1_DIS_InWatchMainFixtext_CH//
+InputWatchScreen1_1_DIS_InWatchMainForwtext_CH:InputWatchScreen1_1_DIS_InWatchMainForwtext_CH//
+InputWatchScreen1_1_DIS_InWatchOutSafetext_CH:InputWatchScreen1_1_DIS_InWatchOutSafetext_CH//
+InputWatchScreen1_1_DIS_InWatchTravInLmttext_CH:InputWatchScreen1_1_DIS_InWatchTravInLmttext_CH//
+InputWatchScreen1_1_DIS_InWatchTravOutLmttext_CH:InputWatchScreen1_1_DIS_InWatchTravOutLmttext_CH//
+InputWatchScreen1_1_DIS_InWatchUpMaxtext_CH:InputWatchScreen1_1_DIS_InWatchUpMaxtext_CH//
+InputWatchScreen1_1_DIS_InWatchVacuumtext_CH:InputWatchScreen1_1_DIS_InWatchVacuumtext_CH//
+InputWatchScreen1_1_DIS_InWatchVertitext_CH:InputWatchScreen1_1_DIS_InWatchVertitext_CH//
+InputWatchScreen1_1_DIS_InWatchZOrigintext_CH:InputWatchScreen1_1_DIS_InWatchZOrigintext_CH//
+InputWatchScreen1_2_DIS_InWatchAutotext_CH:InputWatchScreen1_2_DIS_InWatchAutotext_CH//
+InputWatchScreen1_2_DIS_InWatchCloseFtext_CH:InputWatchScreen1_2_DIS_InWatchCloseFtext_CH//
+InputWatchScreen1_2_DIS_InWatchDefProtext_CH:InputWatchScreen1_2_DIS_InWatchDefProtext_CH//
+InputWatchScreen1_2_DIS_InWatchEmergencytext_CH:InputWatchScreen1_2_DIS_InWatchEmergencytext_CH//
+InputWatchScreen1_2_DIS_InWatchMidMoldtext_CH:InputWatchScreen1_2_DIS_InWatchMidMoldtext_CH//
+InputWatchScreen1_2_DIS_InWatchOpenFtext_CH:InputWatchScreen1_2_DIS_InWatchOpenFtext_CH//
+InputWatchScreen1_2_DIS_InWatchProcess1text_CH:InputWatchScreen1_2_DIS_InWatchProcess1text_CH//
+InputWatchScreen1_2_DIS_InWatchReserv2text_CH:InputWatchScreen1_2_DIS_InWatchReserv2text_CH//
+InputWatchScreen1_2_DIS_InWatchSafeGatetext_CH:InputWatchScreen1_2_DIS_InWatchSafeGatetext_CH//
+InputWatchScreen1_2_DIS_InWatchSubFixtext_CH:InputWatchScreen1_2_DIS_InWatchSubFixtext_CH//
+InputWatchScreen1_2_DIS_InWatchSubUptext_CH:InputWatchScreen1_2_DIS_InWatchSubUptext_CH//
+InputWatchScreen1_2_DIS_InWatchThimbletext_CH:InputWatchScreen1_2_DIS_InWatchThimbletext_CH//
+InputWatchScreen1_2_DIS_InWatchViceBacktext_CH:InputWatchScreen1_2_DIS_InWatchViceBacktext_CH//
+InputWatchScreen1_2_DIS_InWatchViceDowntext_CH:InputWatchScreen1_2_DIS_InWatchViceDowntext_CH//
+InputWatchScreen1_2_DIS_InWatchViceForwtext_CH:InputWatchScreen1_2_DIS_InWatchViceForwtext_CH//
+InputWatchScreen1_2_DIS_InWatchYOrigintext_CH:InputWatchScreen1_2_DIS_InWatchYOrigintext_CH//
+InputWatchScreen1_3_DIS_InWatchHold2text_CH:InputWatchScreen1_3_DIS_InWatchHold2text_CH//
+InputWatchScreen1_3_DIS_InWatchReserve1text_CH:InputWatchScreen1_3_DIS_InWatchReserve1text_CH//
+InputWatchScreen1_3_DIS_InWatchReserve2text_CH:InputWatchScreen1_3_DIS_InWatchReserve2text_CH//
+InputWatchScreen1_3_DIS_InWatchReserve3text_CH:InputWatchScreen1_3_DIS_InWatchReserve3text_CH//
+InputWatchScreen1_3_DIS_InWatchReserve4text_CH:InputWatchScreen1_3_DIS_InWatchReserve4text_CH//
+InputWatchScreen1_3_DIS_InWatchReserve5text_CH:InputWatchScreen1_3_DIS_InWatchReserve5text_CH//
+InputWatchScreen1_3_DIS_InWatchReserve6text_CH:InputWatchScreen1_3_DIS_InWatchReserve6text_CH//
+InputWatchScreen1_3_DIS_InWatchVacuum2text_CH:InputWatchScreen1_3_DIS_InWatchVacuum2text_CH//
+Instruct_StartTipsCh:按启动键进入教导模式//
+KeyboardTest_OTE_476Ch:急停//
+LeadInFinishedTipsCh:导入完成!//
+LeadInTipsCh:导入将覆盖当前模号!//
+LeadOutFinishedTipsCh:导出完成!//
+LeadOutTipsCh:导出当前模号参数//
+LimitSettingPage_OTE_239Ch:横 行 轴//
+LimitSettingPage_OTE_240Ch:主侧进限//
+LimitSettingPage_OTE_242Ch:主前进限//
+LimitSettingPage_OTE_243Ch:主后退限//
+LimitSettingPage_OTE_245Ch:副侧进限//
+LimitSettingPage_OTE_247Ch:副前进限//
+LimitSettingPage_OTE_249Ch:副后退限//
+LimitSettingPage_OTE_251Ch:变频减速//
+LimitSettingPage_OTE_252Ch:反馈脉冲//
+LimitSettingPage_OTE_551textCh:Z信号//
+LimitTimePage_OTE_178Ch:主侧进出时//
+LimitTimePage_OTE_180Ch:主进退时间//
+LimitTimePage_OTE_181Ch:副侧进出时//
+LimitTimePage_OTE_182Ch:副进退时间//
+LimitTimePage_OTE_183Ch:横行时间//
+LimitTimePage_OTE_184Ch:侧姿时间//
+LimitTimePage_OTE_185Ch:加工1时间//
+LimitTimePage_OTE_186Ch:预留2时间//
+LimitTimeScreen_DIS_LinitTimMainForwBktext_CH:LimitTimeScreen_DIS_LinitTimMainForwBktext_CH//
+LimitTimeScreen_DIS_LinitTimMainUpDowntext_CH:LimitTimeScreen_DIS_LinitTimMainUpDowntext_CH//
+LimitTimeScreen_DIS_LinitTimPosturetext_CH:LimitTimeScreen_DIS_LinitTimPosturetext_CH//
+LimitTimeScreen_DIS_LinitTimProcess1text_CH:LimitTimeScreen_DIS_LinitTimProcess1text_CH//
+LimitTimeScreen_DIS_LinitTimReser2text_CH:LimitTimeScreen_DIS_LinitTimReser2text_CH//
+LimitTimeScreen_DIS_LinitTimTravtext_CH:LimitTimeScreen_DIS_LinitTimTravtext_CH//
+LimitTimeScreen_DIS_LinitTimViceForwBktext_CH:LimitTimeScreen_DIS_LinitTimViceForwBktext_CH//
+LimitTimeScreen_DIS_LinitTimViceUpDowntext_CH:LimitTimeScreen_DIS_LinitTimViceUpDowntext_CH//
+LoadPage_OTE_262Ch:读出(0-99) //
+LoadPage_OTE_264Ch:再按一次程序键进入教导模式！ //
+MECH_ANGLECh:			旋转角1//              
+MI_AutoPrepStatusCh:	自动准备//
+MI_AutoStatusCh:	自动//
+MI_InstructStatusCh:	教导//
+MI_ManualStatusCh:	手动//
+MI_StopStatusCh:	停止//
+MachineLimitScreen_DIS_MacLimitFBPulsetext_CH:MachineLimitScreen_DIS_MacLimitFBPulsetext_CH//
+MachineLimitScreen_DIS_MacLimitFreqDeceltext_CH:MachineLimitScreen_DIS_MacLimitFreqDeceltext_CH//
+MachineLimitScreen_DIS_MacLimitMainBacktext_CH:MachineLimitScreen_DIS_MacLimitMainBacktext_CH//
+MachineLimitScreen_DIS_MacLimitMainDowntext_CH:MachineLimitScreen_DIS_MacLimitMainDowntext_CH//
+MachineLimitScreen_DIS_MacLimitMainFrowtext_CH:MachineLimitScreen_DIS_MacLimitMainFrowtext_CH//
+MachineLimitScreen_DIS_MacLimitTravAxistext_CH:MachineLimitScreen_DIS_MacLimitTravAxistext_CH//
+MachineLimitScreen_DIS_MacLimitViceBacktext_CH:MachineLimitScreen_DIS_MacLimitViceBacktext_CH//
+MachineLimitScreen_DIS_MacLimitViceDowntext_CH:MachineLimitScreen_DIS_MacLimitViceDowntext_CH//
+MachineLimitScreen_DIS_MacLimitViceForwtext_CH:MachineLimitScreen_DIS_MacLimitViceForwtext_CH//
+MachineLimitScreen_STE_FBPulsetext_CH:MachineLimitScreen_STE_FBPulsetext_CH//
+MachineLimitScreen_STE_FreqDeceltext_CH:MachineLimitScreen_STE_FreqDeceltext_CH//
+MachineLimitScreen_STE_MainBacktext_CH:MachineLimitScreen_STE_MainBacktext_CH//
+MachineLimitScreen_STE_MainDowntext_CH:MachineLimitScreen_STE_MainDowntext_CH//
+MachineLimitScreen_STE_MainForwtext_CH:MachineLimitScreen_STE_MainForwtext_CH//
+MachineLimitScreen_STE_TravAxistext_CH:MachineLimitScreen_STE_TravAxistext_CH//
+MachineLimitScreen_STE_ViceBacktext_CH:MachineLimitScreen_STE_ViceBacktext_CH//
+MachineLimitScreen_STE_ViceDowntext_CH:MachineLimitScreen_STE_ViceDowntext_CH//
+MachineLimitScreen_STE_ViceForwtext_CH:MachineLimitScreen_STE_ViceForwtext_CH//
+MainInterface_OTE_24Ch:模号//
+MainInterface_OTE_24_S2Ch:X//S2_X_Z
+MainInterface_OTE_25Ch:Y位置//
+MainInterface_OTE_25_S2Ch:X//S2-X-Y
+MainInterface_OTE_26Ch:开模完//
+MainInterface_OTE_26_S2Ch:塑机信号//
+MainInterface_OTE_27Ch:安全门//
+MainInterface_OTE_28Ch:可关模//
+MainInterface_OTE_29Ch:可顶针//
+MainInterface_STE_CloseMoldtext_CH:MainInterface_STE_CloseMoldtext_CH//
+MainInterface_STE_CurrActionStatustext_CH:MainInterface_STE_CurrActionStatustext_CH//
+MainInterface_STE_CurrPosZtext_CH:MainInterface_STE_CurrPosZtext_CH//
+MainInterface_STE_Datatext_CH:MainInterface_STE_Datatext_CH//
+MainInterface_STE_ModeNumtext_CH:MainInterface_STE_ModeNumtext_CH//
+MainInterface_STE_OpenMoldtext_CH:MainInterface_STE_OpenMoldtext_CH//
+MainInterface_STE_PageIndextext_CH:MainInterface_STE_PageIndextext_CH//
+MainInterface_STE_SafetyGatetext_CH:MainInterface_STE_SafetyGatetext_CH//
+MainInterface_STE_Thimbletext_CH:MainInterface_STE_Thimbletext_CH//
+MainInterface_STE_Timetext_CH:MainInterface_STE_Timetext_CH//
+MainInterface_STE_WarningInfortext_CH:MainInterface_STE_WarningInfortext_CH//
+ManualPage_OTE_36Ch:伺服模式//S1-X
+ManualPage_OTE_36_S2Ch:伺服模式//
+ManualPage_OTE_37Ch:手动速度//
+ManualPage_OTE_40Ch:X前进位置//
+ManualPage_OTE_40_S2Ch:X前进位置//
+ManualPage_OTE_41_S2Ch:X前进位置//
+ManualPage_OTE_42_S2Ch:Y外下位置//
+ManualPage_OTE_43Ch:寸动速度//
+ManualPage_OTE_46Ch:实际成品//
+ManualPage_OTE_48Ch:当前动作//
+ManualParaSetScreen_DIS_DotRangetext_CH:ManualParaSetScreen_DIS_DotRangetext_CH//
+ManualParaSetScreen_DIS_MauParaFetchPostext_CH:ManualParaSetScreen_DIS_MauParaFetchPostext_CH//
+ManualParaSetScreen_DIS_MauParaInchSpeedtext_CH:ManualParaSetScreen_DIS_MauParaInchSpeedtext_CH//
+ManualParaSetScreen_DIS_MauParaPostext_CH:ManualParaSetScreen_DIS_MauParaPostext_CH//
+ManualParaSetScreen_DIS_MauParaSpeedtext_CH:ManualParaSetScreen_DIS_MauParaSpeedtext_CH//
+ManualScreen_DIS_ManuActuProtext_CH:ManualScreen_DIS_ManuActuProtext_CH//
+ManualScreen_DIS_ManuCurActtext_CH:ManualScreen_DIS_ManuCurActtext_CH//
+ManualScreen_DIS_ManuInchSpeedtext_CH:ManualScreen_DIS_ManuInchSpeedtext_CH//
+ManualScreen_DIS_ManuPostext_CH:ManualScreen_DIS_ManuPostext_CH//
+ManualScreen_DIS_ManuSpeedtext_CH:ManualScreen_DIS_ManuSpeedtext_CH//
+ManualScreen_DIS_ManuTransvtext_CH:ManualScreen_DIS_ManuTransvtext_CH//
+ManualScreen_STE_TravModetext_CH:ManualScreen_STE_TravModetext_CH//
+ManualSettingPage_OTE_423Ch:寸动量程//
+ManualSettingPage_OTE_424Ch:手动速度//
+ManualSettingPage_OTE_427Ch:X前进位置//
+ManualSettingPage_OTE_430Ch:寸动速度//
+ManualSettingPage_OTE_433Ch:X待机位置//
+Manual_InchingModeCh:	寸动		//
+Manual_ManualModeCh:		单步		//NOT STANDARD
+Manual_ManualParamTips2_S2Ch:请按一次HP.键,确认更改待机位置//
+Manual_ManualParamTipsCh:请按一次HP.键,确认更改取物位置//
+Manual_ManualParamTips_S1Ch:按Enter键设置取物位置//
+Manual_ManualParamTips_S2Ch:按Enter键设置待机位置//
+MoniParaCh:			监视参数//
+MoniValueCh:			监视值//
+MonitorParaPage1_DIS_ZDB_POWERtext_CH:MonitorParaPage1_DIS_ZDB_POWERtext_CH//
+MonitorParaPage1_DIS_ZDC_BUS_VOLTAGEtext_CH:MonitorParaPage1_DIS_ZDC_BUS_VOLTAGEtext_CH//
+MonitorParaPage1_DIS_ZDI_PORT_STATUStext_CH:MonitorParaPage1_DIS_ZDI_PORT_STATUStext_CH//
+MonitorParaPage1_DIS_ZDO_PORT_STATUStext_CH:MonitorParaPage1_DIS_ZDO_PORT_STATUStext_CH//
+MonitorParaPage1_DIS_ZELEC_ANGLEtext_CH:MonitorParaPage1_DIS_ZELEC_ANGLEtext_CH//
+MonitorParaPage1_DIS_ZERROR_CODEtext_CH:MonitorParaPage1_DIS_ZERROR_CODEtext_CH//
+MonitorParaPage1_DIS_ZHINK_TEMPtext_CH:MonitorParaPage1_DIS_ZHINK_TEMPtext_CH//
+MonitorParaPage1_DIS_ZMECH_ANGLEtext_CH:MonitorParaPage1_DIS_ZMECH_ANGLEtext_CH//
+MonitorParaPage1_DIS_ZP_ERRORtext_CH:MonitorParaPage1_DIS_ZP_ERRORtext_CH//
+MonitorParaPage1_DIS_ZSPD_FBKtext_CH:MonitorParaPage1_DIS_ZSPD_FBKtext_CH//
+MonitorParaPage1_DIS_ZTRQ_BURDEN1text_CH:MonitorParaPage1_DIS_ZTRQ_BURDEN1text_CH//
+MonitorParaPage1_DIS_ZTRQ_BURDEN2text_CH:MonitorParaPage1_DIS_ZTRQ_BURDEN2text_CH//
+MonitorParaPage_DIS_DB_POWERtext_CH:MonitorParaPage_DIS_DB_POWERtext_CH//
+MonitorParaPage_DIS_DC_BUS_VOLTAGEtext_CH:MonitorParaPage_DIS_DC_BUS_VOLTAGEtext_CH//
+MonitorParaPage_DIS_DI_PORT_STATUStext_CH:MonitorParaPage_DIS_DI_PORT_STATUStext_CH//
+MonitorParaPage_DIS_DO_PORT_STATUStext_CH:MonitorParaPage_DIS_DO_PORT_STATUStext_CH//
+MonitorParaPage_DIS_ELEC_ANGLEtext_CH:MonitorParaPage_DIS_ELEC_ANGLEtext_CH//
+MonitorParaPage_DIS_ERROR_CODEtext_CH:MonitorParaPage_DIS_ERROR_CODEtext_CH//
+MonitorParaPage_DIS_HINK_TEMPtext_CH:MonitorParaPage_DIS_HINK_TEMPtext_CH//
+MonitorParaPage_DIS_MECH_ANGLEtext_CH:MonitorParaPage_DIS_MECH_ANGLEtext_CH//
+MonitorParaPage_DIS_P_ERRORtext_CH:MonitorParaPage_DIS_P_ERRORtext_CH//
+MonitorParaPage_DIS_SPD_FBKtext_CH:MonitorParaPage_DIS_SPD_FBKtext_CH//
+MonitorParaPage_DIS_TRQ_BURDEN1text_CH:MonitorParaPage_DIS_TRQ_BURDEN1text_CH//
+MonitorParaPage_DIS_TRQ_BURDEN2text_CH:MonitorParaPage_DIS_TRQ_BURDEN2text_CH//
+MotorAdjustPage_OTE_443Ch:输入 主调位 输出//
+MotorAdjustPage_OTE_457Ch:输入 副调位 输出//
+MotorAdjustPage_OTE_Tip_S2Ch:按HP.键调位//
+MotorAdjustPage_STE_MacMPosBackCh:后退位- Y41//
+MotorAdjustPage_STE_MacMPosForwCh:后退位+ Y41//
+MotorAdjustPage_STE_MacMTravBackCh:前进位- Y42//
+MotorAdjustPage_STE_MacMTravForwCh:前进位+ Y42//
+MotorAdjustPage_STE_MacMainDownCh:下降位- Y40//
+MotorAdjustPage_STE_MacMainUpCh:下降位+ Y40//
+MotorAdjustPage_STE_MacNegativeCh:Y46反向//
+MotorAdjustPage_STE_MacSPosBackCh:后退位- Y44//
+MotorAdjustPage_STE_MacSPosForwCh:后退位+ Y44//
+MotorAdjustPage_STE_MacSTravBackCh:前进位- Y45//
+MotorAdjustPage_STE_MacSTravForwCh:前进位+ Y45//
+MotorAdjustPage_STE_MacSubDownCh:下降位- Y43//
+MotorAdjustPage_STE_MacSubUpCh:下降位+ Y43//
+OutputRecoverScreen_DIS_OutRecoverHinttext_CH:OutputRecoverScreen_DIS_OutRecoverHinttext_CH//
+OutputValuePage0_OTE_376Ch:Y10对中前伸阀//
+OutputValuePage0_OTE_377Ch:Y11对中回缩阀//
+OutputValuePage0_OTE_378Ch:Y12刮刀前伸阀//
+OutputValuePage0_OTE_379Ch:Y13吸盘前伸阀//
+OutputValuePage0_OTE_380Ch:Y14 吸盘吸阀//
+OutputValuePage0_OTE_381Ch:Y15接料上升阀//
+OutputValuePage0_OTE_382Ch:Y16接料下降阀//
+OutputValuePage0_OTE_383Ch:Y17 垂 直 阀//
+OutputValuePage0_OTE_384Ch:Y20手臂上升阀//
+OutputValuePage0_OTE_385Ch:Y21手臂下降阀//
+OutputValuePage0_OTE_386Ch:Y22 副 夹 阀//
+OutputValuePage0_OTE_387Ch:Y23 横行减速//
+OutputValuePage0_OTE_388Ch:Y24吸盘吹气阀//
+OutputValuePage0_OTE_389Ch:Y25 横 出 阀//
+OutputValuePage0_OTE_390Ch:Y27手臂外移阀//
+OutputValuePage0_OTE_391Ch:Y26手臂到中阀//
+OutputValuePage1_OTE_408Ch:Y30接料助推缩//
+OutputValuePage1_OTE_409Ch:Y31接料助推伸//
+OutputValuePage1_OTE_410Ch:Y32压头收回阀//
+OutputValuePage1_OTE_411Ch:Y33压头下压阀//
+OutputValuePage1_OTE_412Ch:Y34刮刀压轮伸//
+OutputValuePage1_OTE_413Ch:Y35转盘旋转阀//
 OutputValuePage1_OTE_414Ch:Y36 剪 刀 阀//
 OutputValuePage1_OTE_415Ch:Y37 输送机阀//
 OutputValuePage1_OTE_416Ch:Y47 急停输出//
@@ -201,37 +634,693 @@ OutputValuePage1_OTE_417Ch:可 关 模//
 OutputValuePage1_OTE_418Ch:可 开 模//
 OutputValuePage1_OTE_419Ch:再 循 环//
 OutputValuePage1_OTE_420Ch:可 顶 针//
-
-ManualSettingPage_OTE_423Ch:寸动量程//
-ManualSettingPage_OTE_424Ch:手动速度//
-ManualSettingPage_OTE_427Ch:手动位置//
-ManualSettingPage_OTE_430Ch:寸动速度//
-ManualSettingPage_OTE_433Ch:取物位置//
-
+OutputWatchScreen1_1_DIS_OutWatchAlarmtext_CH:OutputWatchScreen1_1_DIS_OutWatchAlarmtext_CH//
+OutputWatchScreen1_1_DIS_OutWatchHoldtext_CH:OutputWatchScreen1_1_DIS_OutWatchHoldtext_CH//
+OutputWatchScreen1_1_DIS_OutWatchHoritext_CH:OutputWatchScreen1_1_DIS_OutWatchHoritext_CH//
+OutputWatchScreen1_1_DIS_OutWatchLowPresstext_CH:OutputWatchScreen1_1_DIS_OutWatchLowPresstext_CH//
+OutputWatchScreen1_1_DIS_OutWatchMainBacktext_CH:OutputWatchScreen1_1_DIS_OutWatchMainBacktext_CH//
+OutputWatchScreen1_1_DIS_OutWatchMainDowntext_CH:OutputWatchScreen1_1_DIS_OutWatchMainDowntext_CH//
+OutputWatchScreen1_1_DIS_OutWatchMainFixtext_CH:OutputWatchScreen1_1_DIS_OutWatchMainFixtext_CH//
+OutputWatchScreen1_1_DIS_OutWatchMainForwtext_CH:OutputWatchScreen1_1_DIS_OutWatchMainForwtext_CH//
+OutputWatchScreen1_1_DIS_OutWatchMainUptext_CH:OutputWatchScreen1_1_DIS_OutWatchMainUptext_CH//
+OutputWatchScreen1_1_DIS_OutWatchReserv1text_CH:OutputWatchScreen1_1_DIS_OutWatchReserv1text_CH//
+OutputWatchScreen1_1_DIS_OutWatchReserv2text_CH:OutputWatchScreen1_1_DIS_OutWatchReserv2text_CH//
+OutputWatchScreen1_1_DIS_OutWatchSlowDowntext_CH:OutputWatchScreen1_1_DIS_OutWatchSlowDowntext_CH//
+OutputWatchScreen1_1_DIS_OutWatchTravIntext_CH:OutputWatchScreen1_1_DIS_OutWatchTravIntext_CH//
+OutputWatchScreen1_1_DIS_OutWatchTravOuttext_CH:OutputWatchScreen1_1_DIS_OutWatchTravOuttext_CH//
+OutputWatchScreen1_1_DIS_OutWatchVacuumtext_CH:OutputWatchScreen1_1_DIS_OutWatchVacuumtext_CH//
+OutputWatchScreen1_1_DIS_OutWatchVertitext_CH:OutputWatchScreen1_1_DIS_OutWatchVertitext_CH//
+OutputWatchScreen1_2_DIS_OutWatchCloseSafetext_CH:OutputWatchScreen1_2_DIS_OutWatchCloseSafetext_CH//
+OutputWatchScreen1_2_DIS_OutWatchConeryortext_CH:OutputWatchScreen1_2_DIS_OutWatchConeryortext_CH//
+OutputWatchScreen1_2_DIS_OutWatchEmergStoptext_CH:OutputWatchScreen1_2_DIS_OutWatchEmergStoptext_CH//
+OutputWatchScreen1_2_DIS_OutWatchOpenSafetext_CH:OutputWatchScreen1_2_DIS_OutWatchOpenSafetext_CH//
+OutputWatchScreen1_2_DIS_OutWatchProcess1text_CH:OutputWatchScreen1_2_DIS_OutWatchProcess1text_CH//
+OutputWatchScreen1_2_DIS_OutWatchRecyclingtext_CH:OutputWatchScreen1_2_DIS_OutWatchRecyclingtext_CH//
+OutputWatchScreen1_2_DIS_OutWatchScissortext_CH:OutputWatchScreen1_2_DIS_OutWatchScissortext_CH//
+OutputWatchScreen1_2_DIS_OutWatchSubBacktext_CH:OutputWatchScreen1_2_DIS_OutWatchSubBacktext_CH//
+OutputWatchScreen1_2_DIS_OutWatchSubDowntext_CH:OutputWatchScreen1_2_DIS_OutWatchSubDowntext_CH//
+OutputWatchScreen1_2_DIS_OutWatchSubFixtext_CH:OutputWatchScreen1_2_DIS_OutWatchSubFixtext_CH//
+OutputWatchScreen1_2_DIS_OutWatchSubForwtext_CH:OutputWatchScreen1_2_DIS_OutWatchSubForwtext_CH//
+OutputWatchScreen1_2_DIS_OutWatchSubUptext_CH:OutputWatchScreen1_2_DIS_OutWatchSubUptext_CH//
+OutputWatchScreen1_2_DIS_OutWatchThimSafetext_CH:OutputWatchScreen1_2_DIS_OutWatchThimSafetext_CH//
+OutputWatchScreen1_2_DIS_OutWatchYReserv1text_CH:OutputWatchScreen1_2_DIS_OutWatchYReserv1text_CH//
+OutputWatchScreen1_2_DIS_OutWatchYReserv2text_CH:OutputWatchScreen1_2_DIS_OutWatchYReserv2text_CH//
+OutputWatchScreen1_2_DIS_OutWatchYReserv3text_CH:OutputWatchScreen1_2_DIS_OutWatchYReserv3text_CH//
+OutputWatchScreen1_3_DIS_OutWatchHold2text_CH:OutputWatchScreen1_3_DIS_OutWatchHold2text_CH//
+OutputWatchScreen1_3_DIS_OutWatchReserve1text_CH:OutputWatchScreen1_3_DIS_OutWatchReserve1text_CH//
+OutputWatchScreen1_3_DIS_OutWatchReserve2text_CH:OutputWatchScreen1_3_DIS_OutWatchReserve2text_CH//
+OutputWatchScreen1_3_DIS_OutWatchReserve3text_CH:OutputWatchScreen1_3_DIS_OutWatchReserve3text_CH//
+OutputWatchScreen1_3_DIS_OutWatchReserve4text_CH:OutputWatchScreen1_3_DIS_OutWatchReserve4text_CH//
+OutputWatchScreen1_3_DIS_OutWatchReserve5text_CH:OutputWatchScreen1_3_DIS_OutWatchReserve5text_CH//
+OutputWatchScreen1_3_DIS_OutWatchVacuum2text_CH:OutputWatchScreen1_3_DIS_OutWatchVacuum2text_CH//
+P_ERRORCh:			偏移量//  
+ParaInstructScreen_DIS_ParaInstActtext_CH:ParaInstructScreen_DIS_ParaInstActtext_CH//
+ParaInstructScreen_DIS_ParaInstDisttext_CH:ParaInstructScreen_DIS_ParaInstDisttext_CH//
+ParaInstructScreen_DIS_ParaInstMMtext_CH:ParaInstructScreen_DIS_ParaInstMMtext_CH//
+ParaInstructScreen_DIS_ParaInstPERtext_CH:ParaInstructScreen_DIS_ParaInstPERtext_CH//
+ParaInstructScreen_DIS_ParaInstSpeedtext_CH:ParaInstructScreen_DIS_ParaInstSpeedtext_CH//
+ParaInstructScreen_DIS_ParaInstStext_CH:ParaInstructScreen_DIS_ParaInstStext_CH//
+ParaInstructScreen_DIS_ParaInstTimetext_CH:ParaInstructScreen_DIS_ParaInstTimetext_CH//
+ParaInstructScreen_STE_ParamCurrActtext_CH:ParaInstructScreen_STE_ParamCurrActtext_CH//
+ParaSettingCh:			参数设置//
+ParamPage_OTE_265Ch:动作//
+ParamPage_OTE_266Ch:距离//
+ParamPage_OTE_267Ch:速度//
+ParamPage_OTE_268Ch:时间//
+PassWordFunc1Page0_OTE_100Ch:待机姿势//
+PassWordFunc1Page0_OTE_102Ch:Z待机位置//
+PassWordFunc1Page0_OTE_104Ch:停止状态//
+PassWordFunc1Page0_OTE_106Ch:中位放延时//
+PassWordFunc1Page0_OTE_109Ch:X待机位置//
+PassWordFunc1Page0_OTE_111Ch:模内嵌件//
+PassWordFunc1Page0_OTE_17_S2Ch:关模完检测//
+PassWordFunc1Page0_OTE_90Ch:周期时间//
+PassWordFunc1Page0_OTE_94Ch:顶    针//
+PassWordFunc1Page0_OTE_96Ch:安 全 门//
+PassWordFunc1Page0_OTE_98Ch:中 板 模//
+PassWordFunc1Page1_DefCounterCh:不良品计数//
+PassWordFunc1Page1_OTE_113Ch:X点    数//
+PassWordFunc1Page1_OTE_114Ch:点    数2//
+PassWordFunc1Page1_OTE_115Ch:间    距2//
+PassWordFunc1Page1_OTE_116Ch:X间    距//
+PassWordFunc1Page1_OTE_117Ch:输送机间隔//
+PassWordFunc1Page1_OTE_118Ch:预留1间隔//
+PassWordFunc1Page1_OTE_119Ch:关屏时间//
+PassWordFunc1Page1_OTE_120Ch:预留2间隔//
+PassWordFunc1Page1_OTE_121Ch:不良品清零//
+PassWordFunc1Page1_OTE_123Ch:不良品检测//
+PassWordFunc1Page1_OTE_124Ch:关模完检测//
+PassWordFunc1Page1_OTE_125Ch:夹吸检测//
+PassWordFunc1Page1_OTE_31_S2Ch:Z轴待机//
+PassWordFunc1Page1_OTE_33_S2Ch:X内待机点//
+PassWordFunc1Page1_OTE_35_S2Ch:Z外待机点//
+PassWordFunc1Page1_OTE_45_S2Ch:X待机位置//
+PassWordFunc1Page1_OTE_46_S2Ch:X模内安全区//
+PassWordFunc1Page1_OTE_47_S2Ch:X待机位置//
+PassWordFunc1Page2_OTE_135Ch:X型外安全区//
+PassWordFunc1Page2_OTE_138Ch:型外待机点//
+PassWordFunc1Page2_OTE_139Ch:X模内安全区//
+PassWordFunc1Page2_OTE_140Ch:动作速度//
+PassWordFunc1Page2_OTE_141Ch:全 自 动//
+PassWordFunc1Page2_OTE_142Ch:压力开关//
+PassWordFunc1Page2_OTE_143Ch:型外慢下//
+PassWordFunc1Page2_OTE_145Ch:横出姿势//
+PassWordFunc1Page2_OTE_146Ch:横入姿势//
+PassWordFunc1Page2_OTE_147Ch:取物失败//
+PassWordFunc1Page2_OTE_157Ch:X排列起始点//
+PassWordFunc1Page2_OTE_158Ch:排列起始点2//
+PassWordFunc1Page2_OTE_48_S2Ch:X多点置物//
+PassWordFunc1Page2_OTE_50_S2Ch:X置物起点//
+PassWordFunc1Page2_OTE_51_S2Ch:Z置物起点2//
+PassWordFunc1Page2_OTE_52_S2Ch:X轴点数//
+PassWordFunc1Page2_OTE_53_S2Ch:Z轴点数2//
+PassWordFunc1Page2_OTE_54_S2Ch:X轴间距//
+PassWordFunc1Page2_OTE_55_S2Ch:Z轴间距2//
+PassWordFunc1Page2_OTE_56_S2Ch:置物顺序//
+PassWordFunc1Page2_OTE_58_S2Ch:X多点置物//
+PassWordFunc1Page2_OTE_60_S2Ch:X置物起点//
+PassWordFunc1Page2_OTE_62_S2Ch:X轴点数//
+PassWordFunc1Page2_OTE_64_S2Ch:X轴间距//
+PassWordFunc1Page3_OTE_1_S2Ch:Y型外安全区//
+PassWordFunc1Page3_OTE_2_S2Ch:Y侧姿位置//
+PassWordFunc1Page3_OTE_473Ch:门开警报//
+PassWordFunc1Page3_OTE_475Ch:预留1通时//
+PassWordFunc1Page3_OTE_492Ch:输送机通时//
+PassWordFunc1Page3_OTE_493Ch:堆叠清零//
+PassWordFunc1Page3_OTE_494Ch:堆叠方向//
+PassWordFunc1Page3_OTE_InPosture_S2Ch:横入侧姿//
+PassWordFunc1Page3_OTE_InSynTime_S2Ch:Z入同步延时//
+PassWordFunc1Page3_OTE_OutPosture_S2Ch:横出侧姿//
+PassWordFunc1Page3_OTE_OutSynTime_S2Ch:Z出同步延时//
+PassWordFunc1Page3_OTE_YOriPitch_S2Ch:Y原点偏移//
+PassWordFunc1Page3_OTE_YStk_S2Ch:Y轴堆叠//
+PassWordFunc1Page3_OTE_ZOriPitch_S2Ch:Z原点偏移//
+PassWordFunc1Page3_OTE_ZStk_S2Ch:Z轴堆叠//
+PassWordFunc2Page0_OTE_66_S2Ch:X最大位置//
+PassWordFunc2Page0_OTE_70_S2Ch:X齿轮比倍率//
+PassWordFunc2Page0_OTE_79_S2Ch:X复归速度//
+PassWordFunc2Page0_OTE_82_S2Ch:X最大速度//
+PassWordFunc2Page0_OTE_85_S2Ch:X全局速度//
+PassWordFunc2Page0_OTE_88_S2Ch:X加减速时//
+PassWordFunc2Page1_OTE_100_S2Ch:X齿轮比倍率//
+PassWordFunc2Page1_OTE_106_S2Ch:X复归速度//
+PassWordFunc2Page1_OTE_109_S2Ch:X最大速度//
+PassWordFunc2Page1_OTE_112_S2Ch:X全局速度//
+PassWordFunc2Page1_OTE_115_S2Ch:X加减速时//
+PassWordFunc2Page1_OTE_116_S2Ch:X模内安全区//
+PassWordFunc2Page1_OTE_96_S2Ch:X最大位置//
+PassWordFunc2Page1_OTE_98_S2Ch:X模外安全区//
+PassWordFunc2Page2_OTE_151Ch:冶具反向//
+PassWordFunc2Page2_OTE_152Ch:Y外下减速点//
+PassWordFunc2Page2_OTE_153Ch:Y外下减速度//
+PassWordFunc2Page_OTE_194Ch:X最大位置//
+PassWordFunc2Page_OTE_196Ch:X齿轮比率//
+PassWordFunc2Page_OTE_198Ch:反馈显示//
+PassWordFunc2Page_OTE_199Ch:侧进姿势//
+PassWordFunc2Page_OTE_200Ch:反馈脉冲入//
+PassWordFunc2Page_OTE_201Ch:反馈脉冲出//
+PassWordFunc2Page_OTE_202Ch:报警时间//
+PassWordFunc2Page_OTE_203Ch:X加减速时//
+PassWordFunc2Page_OTE_204Ch:X最大速度//
+PassWordFunc2Page_OTE_210Ch:X复归速度//
+PassWordFunc2Page_OTE_216Ch:X全局速度//
+PassWordRandom_EDB_GetSerialNoCh:生成序列号//
+PassWordRandom_EDB_RegisterCh:注册//
+PassWordRandom_OTE_136Ch:序列号//
+PassWordRandom_OTE_138Ch:注册码//
+PassWordRandom_OTE_140Ch:限制使用周数//
+PassWordRandom_OTE_142Ch:已经使用周数//
+PassWordRandom_OTE_146Ch:无限期使用//
+PassWordRandom_OTE_147Ch:注册失败//
+PassWordRandom_OTE_148Ch:注册成功//
+PassWord_OTE_88Ch:密  码//
+PasswordRandomScreen_DIS_PsdRamRegCodetext_CH:PasswordRandomScreen_DIS_PsdRamRegCodetext_CH//
+PasswordRandomScreen_DIS_PsdRamSeriNotext_CH:PasswordRandomScreen_DIS_PsdRamSeriNotext_CH//
+PasswordRandomScreen_DIS_PsdRamTimeNoLimittext_CH:PasswordRandomScreen_DIS_PsdRamTimeNoLimittext_CH//
+PasswordRandomScreen_DIS_PsdRamWeekSettext_CH:PasswordRandomScreen_DIS_PsdRamWeekSettext_CH//
+PasswordRandomScreen_DIS_PsdRamWeekUsedtext_CH:PasswordRandomScreen_DIS_PsdRamWeekUsedtext_CH//
+PasswordScreen_DIS_Passwordtext_CH:PasswordScreen_DIS_Passwordtext_CH//
+PositionLoopGainCh:		位置环增益//
+PrepareTestMouldCh:试产模数//
+ProgramInfoPage_OTE_160Ch:产品型号：//
+ProgramInfoPage_OTE_162Ch:版本日期：//
+ProgramInfoPage_OTE_164Ch:版    本：//
+ProgramInfoScreen_DIS_DMT_ProgInfoDatetext_CH:ProgramInfoScreen_DIS_DMT_ProgInfoDatetext_CH//
+ProgramInfoScreen_DIS_DMT_ProgInfoTypetext_CH:ProgramInfoScreen_DIS_DMT_ProgInfoTypetext_CH//
+ProgramInfoScreen_DIS_DMT_ProgInfoVersiontext_CH:ProgramInfoScreen_DIS_DMT_ProgInfoVersiontext_CH//
+ProgramInfoScreen_DIS_ProgInfoDatetext_CH:ProgramInfoScreen_DIS_ProgInfoDatetext_CH//
+ProgramInfoScreen_DIS_ProgInfoTypetext_CH:ProgramInfoScreen_DIS_ProgInfoTypetext_CH//
+ProgramInfoScreen_DIS_ProgInfoVersiontext_CH:ProgramInfoScreen_DIS_ProgInfoVersiontext_CH//
+ProgramSelectScreen_DIS_ProgSlecReadtext_CH:ProgramSelectScreen_DIS_ProgSlecReadtext_CH//
+ProgramSelectScreen_DIS_ProgSlecWritetext_CH:ProgramSelectScreen_DIS_ProgSlecWritetext_CH//
+ResetFcSettingPage_OTE_159Ch:按输入键恢复出厂值//
+RiShengParamPage_OTE_1Ch:主下慢速一//
+RiShengParamPage_OTE_2Ch:主上慢速一//
+RiShengParamPage_OTE_3Ch:主下慢速二//
+RiShengParamPage_OTE_4Ch:主上慢速二//
+RiShengParamPage_OTE_5Ch:副下慢速一//
+RiShengParamPage_OTE_6Ch:副上慢速一//
+RiShengParamPage_OTE_7Ch:副下慢速二//
+RiShengParamPage_OTE_8Ch:副上慢速二//
+RiShengParamPage_OTE_9Ch:锁模时间//
+RotationalInertiaRatioCh:	转动惯量比//
+SPD_FBKCh:			电机转速//               
+SavePage_BTN_LeadInCh:导入//
+SavePage_BTN_LeadOutCh:导出//
+SavePage_BTN_PopCh:弹出//
+SavePage_BTN_RefreshCh:刷新//
 SavePage_OTE_435Ch:读出(0-99) //
 SavePage_OTE_437Ch:载入成功！//
 SavePage_OTE_438Ch:写入(20-99) //
-
-
-
-MainInterface_OTE_24En:CurrM //
-MainInterface_OTE_25En:CurrPos //
-MainInterface_OTE_26En:OpenF //
-MainInterface_OTE_27En:SafeD //
-MainInterface_OTE_28En:ClosE //
-MainInterface_OTE_29En:Thimb //
-ManualPage_OTE_36En:TravMode //
-ManualPage_OTE_37En:ManuSpd //
-ManualPage_OTE_40En:ManuPos //
-ManualPage_OTE_43En:DotSpd //
-ManualPage_OTE_46En:FnshCnt //
-ManualPage_OTE_48En:CurrAction: //
+SavePage_WriteTipsCh:按输入键进入教导页面//
+SerialTestPage_OTE_513Ch:输入：//
+SerialTestPage_OTE_515Ch:输出：//
+SerialTestPage_OTE_517Ch:启动键进行测试，停止键结束测试//
+ServoPage0_DIS_PositionLoopGaintext_CH:ServoPage0_DIS_PositionLoopGaintext_CH//
+ServoPage0_DIS_RotInertiaRatiotext_CH:ServoPage0_DIS_RotInertiaRatiotext_CH//
+ServoPage0_DIS_SpeedLoopGaintext_CH:ServoPage0_DIS_SpeedLoopGaintext_CH//
+ServoPage0_DIS_SpeedLoopIntegraltext_CH:ServoPage0_DIS_SpeedLoopIntegraltext_CH//
+ServoPage1_DIS_ParaSettingtext_CH:ServoPage1_DIS_ParaSettingtext_CH//
+ServoPage1_DIS_SettingValuetext_CH:ServoPage1_DIS_SettingValuetext_CH//
+ServoPage2_DIS_ZPositionLoopGaintext_CH:ServoPage2_DIS_ZPositionLoopGaintext_CH//
+ServoPage2_DIS_ZRotInertiaRatiotext_CH:ServoPage2_DIS_ZRotInertiaRatiotext_CH//
+ServoPage2_DIS_ZSpeedLoopGaintext_CH:ServoPage2_DIS_ZSpeedLoopGaintext_CH//
+ServoPage2_DIS_ZSpeedLoopIntegraltext_CH:ServoPage2_DIS_ZSpeedLoopIntegraltext_CH//
+ServoPage3_DIS_ZParaSettingtext_CH:ServoPage3_DIS_ZParaSettingtext_CH//
+ServoPage3_DIS_ZSettingValuetext_CH:ServoPage3_DIS_ZSettingValuetext_CH//
+SettingValueCh:			设置值//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1CycleTimetext_CH:SpecialFuncSetScreen1_1_DIS_FCSet1_1CycleTimetext_CH//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1EmbInMldtext_CH:SpecialFuncSetScreen1_1_DIS_FCSet1_1EmbInMldtext_CH//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1MidMoldtext_CH:SpecialFuncSetScreen1_1_DIS_FCSet1_1MidMoldtext_CH//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1SafeDoortext_CH:SpecialFuncSetScreen1_1_DIS_FCSet1_1SafeDoortext_CH//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1StartPostext_CH:SpecialFuncSetScreen1_1_DIS_FCSet1_1StartPostext_CH//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1StdbyGestext_CH:SpecialFuncSetScreen1_1_DIS_FCSet1_1StdbyGestext_CH//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1StdbyPostext_CH:SpecialFuncSetScreen1_1_DIS_FCSet1_1StdbyPostext_CH//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1StopStatustext_CH:SpecialFuncSetScreen1_1_DIS_FCSet1_1StopStatustext_CH//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1SubPutDetext_CH:SpecialFuncSetScreen1_1_DIS_FCSet1_1SubPutDetext_CH//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1Thimbtext_CH:SpecialFuncSetScreen1_1_DIS_FCSet1_1Thimbtext_CH//
+SpecialFuncSetScreen1_1_STE_EmbInMldtext_CH:SpecialFuncSetScreen1_1_STE_EmbInMldtext_CH//
+SpecialFuncSetScreen1_1_STE_MidMoldtext_CH:SpecialFuncSetScreen1_1_STE_MidMoldtext_CH//
+SpecialFuncSetScreen1_1_STE_SafeDoortext_CH:SpecialFuncSetScreen1_1_STE_SafeDoortext_CH//
+SpecialFuncSetScreen1_1_STE_StdbyGestext_CH:SpecialFuncSetScreen1_1_STE_StdbyGestext_CH//
+SpecialFuncSetScreen1_1_STE_StdbyPostext_CH:SpecialFuncSetScreen1_1_STE_StdbyPostext_CH//
+SpecialFuncSetScreen1_1_STE_StopSafetext_CH:SpecialFuncSetScreen1_1_STE_StopSafetext_CH//
+SpecialFuncSetScreen1_1_STE_Thimbtext_CH:SpecialFuncSetScreen1_1_STE_Thimbtext_CH//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckClsMldtext_CH:SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckClsMldtext_CH//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckDfPrdtext_CH:SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckDfPrdtext_CH//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckPresstext_CH:SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckPresstext_CH//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2ClScrTimtext_CH:SpecialFuncSetScreen1_2_DIS_FCSet1_2ClScrTimtext_CH//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2ClpAbDecttext_CH:SpecialFuncSetScreen1_2_DIS_FCSet1_2ClpAbDecttext_CH//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2ConvCnttext_CH:SpecialFuncSetScreen1_2_DIS_FCSet1_2ConvCnttext_CH//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2PointCnttext_CH:SpecialFuncSetScreen1_2_DIS_FCSet1_2PointCnttext_CH//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2Reserv1text_CH:SpecialFuncSetScreen1_2_DIS_FCSet1_2Reserv1text_CH//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2Reserv2text_CH:SpecialFuncSetScreen1_2_DIS_FCSet1_2Reserv2text_CH//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2Spacetext_CH:SpecialFuncSetScreen1_2_DIS_FCSet1_2Spacetext_CH//
+SpecialFuncSetScreen1_2_STE_ChckDfPrdtext_CH:SpecialFuncSetScreen1_2_STE_ChckDfPrdtext_CH//
+SpecialFuncSetScreen1_2_STE_ChckPresstext_CH:SpecialFuncSetScreen1_2_STE_ChckPresstext_CH//
+SpecialFuncSetScreen1_2_STE_ClpAbDecttext_CH:SpecialFuncSetScreen1_2_STE_ClpAbDecttext_CH//
+SpecialFuncSetScreen1_2_STE_Injectiontext_CH:SpecialFuncSetScreen1_2_STE_Injectiontext_CH//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2AutoLinittext_CH:SpecialFuncSetScreen1_3_DIS_FCSet1_2AutoLinittext_CH//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2FetchFailtext_CH:SpecialFuncSetScreen1_3_DIS_FCSet1_2FetchFailtext_CH//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2OutStdbytext_CH:SpecialFuncSetScreen1_3_DIS_FCSet1_2OutStdbytext_CH//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2PressSwtext_CH:SpecialFuncSetScreen1_3_DIS_FCSet1_2PressSwtext_CH//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2SafeInMoldtext_CH:SpecialFuncSetScreen1_3_DIS_FCSet1_2SafeInMoldtext_CH//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2SlowDelaytext_CH:SpecialFuncSetScreen1_3_DIS_FCSet1_2SlowDelaytext_CH//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2SlowDowntext_CH:SpecialFuncSetScreen1_3_DIS_FCSet1_2SlowDowntext_CH//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2StartPointtext_CH:SpecialFuncSetScreen1_3_DIS_FCSet1_2StartPointtext_CH//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2TrvInPsttext_CH:SpecialFuncSetScreen1_3_DIS_FCSet1_2TrvInPsttext_CH//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2TrvOutPsttext_CH:SpecialFuncSetScreen1_3_DIS_FCSet1_2TrvOutPsttext_CH//
+SpecialFuncSetScreen1_3_DIS_FCSet1_3SafeDoortext_CH:SpecialFuncSetScreen1_3_DIS_FCSet1_3SafeDoortext_CH//
+SpecialFuncSetScreen1_3_STE_AutoLimittext_CH:SpecialFuncSetScreen1_3_STE_AutoLimittext_CH//
+SpecialFuncSetScreen1_3_STE_OpenSafeDtext_CH:SpecialFuncSetScreen1_3_STE_OpenSafeDtext_CH//
+SpecialFuncSetScreen1_3_STE_PressSwtext_CH:SpecialFuncSetScreen1_3_STE_PressSwtext_CH//
+SpecialFuncSetScreen1_3_STE_QuickDowntext_CH:SpecialFuncSetScreen1_3_STE_QuickDowntext_CH//
+SpecialFuncSetScreen1_3_STE_TrvInPsttext_CH:SpecialFuncSetScreen1_3_STE_TrvInPsttext_CH//
+SpecialFuncSetScreen1_3_STE_TrvOutPsttext_CH:SpecialFuncSetScreen1_3_STE_TrvOutPsttext_CH//
+SpecialFuncSetScreen1_4_DIS_FCSet1_4ConveyOntext_CH:SpecialFuncSetScreen1_4_DIS_FCSet1_4ConveyOntext_CH//
+SpecialFuncSetScreen1_4_DIS_FCSet1_4OpDAlarmtext_CH:SpecialFuncSetScreen1_4_DIS_FCSet1_4OpDAlarmtext_CH//
+SpecialFuncSetScreen1_4_DIS_FCSet1_4Reser1Timetext_CH:SpecialFuncSetScreen1_4_DIS_FCSet1_4Reser1Timetext_CH//
+SpecialFuncSetScreen1_4_DIS_FCSet1_4StkCleartext_CH:SpecialFuncSetScreen1_4_DIS_FCSet1_4StkCleartext_CH//
+SpecialFuncSetScreen1_4_DIS_FCSet1_4StkDrttext_CH:SpecialFuncSetScreen1_4_DIS_FCSet1_4StkDrttext_CH//
+SpecialFuncSetScreen1_4_DIS_FCSet1_4TestMouldtext_CH:SpecialFuncSetScreen1_4_DIS_FCSet1_4TestMouldtext_CH//
+SpecialFuncSetScreen1_4_STE_OpenDoorAlarmtext_CH:SpecialFuncSetScreen1_4_STE_OpenDoorAlarmtext_CH//
+SpecialFuncSetScreen1_4_STE_StackCleartext_CH:SpecialFuncSetScreen1_4_STE_StackCleartext_CH//
+SpecialFuncSetScreen1_4_STE_ZStackDrttext_CH:SpecialFuncSetScreen1_4_STE_ZStackDrttext_CH//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1AccDecTimetext_CH:SpecialFuncSetScreen2_1_DIS_FCSet2_1AccDecTimetext_CH//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1AlarmTimetext_CH:SpecialFuncSetScreen2_1_DIS_FCSet2_1AlarmTimetext_CH//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1DownGesttext_CH:SpecialFuncSetScreen2_1_DIS_FCSet2_1DownGesttext_CH//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1FBPulseOuttext_CH:SpecialFuncSetScreen2_1_DIS_FCSet2_1FBPulseOuttext_CH//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1FeedBacktext_CH:SpecialFuncSetScreen2_1_DIS_FCSet2_1FeedBacktext_CH//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1MaxPostext_CH:SpecialFuncSetScreen2_1_DIS_FCSet2_1MaxPostext_CH//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1MaxSpeedtext_CH:SpecialFuncSetScreen2_1_DIS_FCSet2_1MaxSpeedtext_CH//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1OriSpeedtext_CH:SpecialFuncSetScreen2_1_DIS_FCSet2_1OriSpeedtext_CH//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1PolseIntext_CH:SpecialFuncSetScreen2_1_DIS_FCSet2_1PolseIntext_CH//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1WholeSpeedtext_CH:SpecialFuncSetScreen2_1_DIS_FCSet2_1WholeSpeedtext_CH//
+SpecialFuncSetScreen2_1_DMT_FBPulseIntext_CH:SpecialFuncSetScreen2_1_DMT_FBPulseIntext_CH//
+SpecialFuncSetScreen2_1_STE_DownGesttext_CH:SpecialFuncSetScreen2_1_STE_DownGesttext_CH//
+SpecialFuncSetScreen2_1_STE_FeedBacktext_CH:SpecialFuncSetScreen2_1_STE_FeedBacktext_CH//
+SpecialFuncSetScreen2_2_DIS_FCSet2_2FixReversetext_CH:SpecialFuncSetScreen2_2_DIS_FCSet2_2FixReversetext_CH//
+SpecialFuncSetScreen2_2_DIS_FCSet2_2WiatSigtext_CH:SpecialFuncSetScreen2_2_DIS_FCSet2_2WiatSigtext_CH//
+SpecialFuncSetScreen2_2_STE_FixRevtext_CH:SpecialFuncSetScreen2_2_STE_FixRevtext_CH//
+SpecialFuncSetScreen2_2_STE_MoldOpenWaittext_CH:SpecialFuncSetScreen2_2_STE_MoldOpenWaittext_CH//
+SpeedLoopGainCh:		速度环增益//Servo1 Param start
+SpeedLoopIntegralCh:		速度环积分//
+StartUpPage_OTE_0Ch:智能横走机械手控制器//
+TRQ_BURDEN1Ch:			累计负载//              
+TRQ_BURDEN2Ch:			再生负载//                 
+TestReportPage_OTE_1Ch:键盘正常，屏幕错误，串口正常//
+TestReportPage_OTE_2Ch:键盘正常，屏幕错误，串口错误//
+TestReportPage_OTE_510Ch:屏幕是否正常?//
+TestReportPage_OTE_511Ch:Enter/Ok   HP./No//
+TestReportPage_OTE_512Ch:键盘正常，屏幕正常，串口正常//
+TestReportPage_OTE_513Ch:键盘正常，屏幕正常，串口错误//
+WARN_LVCh:		电压不足//
+WARN_LVZCh:		Z电压不足//
+ZDB_POWERCh:			ZDB功耗//                
+ZDC_BUS_VOLTAGECh:		Z电压// 
+ZDI_PORT_STATUSCh:		Z输入信号//               
+ZDO_PORT_STATUSCh:		Z输出信号//             
+ZELEC_ANGLECh:			Z旋转角2//
+ZERROR_CODECh:			Z故障//   
+ZHINK_TEMPCh:			Z温度//
+ZMECH_ANGLECh:			Z旋转角1//              
+ZMoniParaCh:			Z监视参数//
+ZMoniValueCh:			Z监视值//
+ZP_ERRORCh:			Z偏移量//  
+ZParaSettingCh:			Z参数设置//
+ZPositionLoopGainCh:		Z位置环增益//
+ZRotationalInertiaRatioCh:	Z转动惯量比//
+ZSPD_FBKCh:			Z电机转速//               
+ZSettingValueCh:		Z设置值//
+ZSpeedLoopGainCh:		Z速度环增益//Servo2 Param start
+ZSpeedLoopIntegralCh:		Z速度环积分//
+ZTRQ_BURDEN1Ch:			Z累计负载//              
+ZTRQ_BURDEN2Ch:			Z再生负载//                 
+g_com_ASynCh:不同步//
+g_com_SynCh:同步//
+g_com_allowlockmoldCh:允许锁模//
+g_com_closeresetCh:关门复归//
+g_com_mulorderYZCh:先X后Z//
+g_com_mulorderZYCh:先Z后X//
+g_com_nolockmoldCh:禁止锁模//
+g_com_noteachCh:不可教导//
+g_com_safedoorfullchckCh:全程检测//
+g_com_safedoorinmoldchckCh:模内检测//
+g_com_safedoornochckCh:不检测//
+g_com_teachCh:可教导//
+include:	" !#$%&'()*+`-.,/;<=>?@[\]^_{|}~"°1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz		//
+Act_ConveyorEn:	Conveyor		//
+Act_ConveyorOffEn:	ConveyOff		//
+Act_ConveyorOnEn:	ConveyOn		//
+Act_DoubleArmEn:	Dob  Act			//
+Act_DoubleBackwEn:	Dob Back		//
+Act_DoubleDownEn:	Dob Down//
+Act_DoubleFixEn:	Dob  Fix			//
+Act_DoubleForwEn:	Dob Forw		//
+Act_DoublePutEn:	Dob  Put			//
+Act_DoubleUpEn:	Dob   Up//
+Act_EjectorPermitEn:	EjectPer		//
+Act_HoldEn:		Hold    			//
+Act_HoldOffEn:	Suck2OFF		//
+Act_HoldOnEn:		Suck2 On			//
+Act_HorizontalEn:	Horizon 		//
+Act_MainArmEn:	Main Act		//
+Act_MainBackwEn:	MainBack		//
+Act_MainDownEn:	Side In//
+Act_MainFixEn:	Main Fix		//
+Act_MainForwEn:	MainForw		//
+Act_MainPutEn:	Main Put		//
+Act_MainUpEn:		SideOut//
+Act_MoldClsPermitEn:	MdClsPer		//
+Act_MoldEndEn:	Mold End		//
+Act_MoldOpenWaitEn:	MdOpWait   		//
+Act_NULLEn:		No   Act			//
+Act_OpenDelayEn:	OpenDelay		//
+Act_Process1En:	Suck3		//
+Act_Process1OffEn:	Suck3OFF		//
+Act_Process1OnEn:	Suck3 ON		//
+Act_Reserved1En:	Reserve1		//
+Act_Reserved1OffEn:	Reser1Off		//
+Act_Reserved1OnEn:	Reser1On		//
+Act_Reserved2En:	Suck4		//
+Act_Reserved2OffEn:	Suck4OFF		//
+Act_Reserved2OnEn:	Suck4 ON		//
+Act_ScissorsEn:	Scissor		//
+Act_ScissorsOffEn:	Scis Off		//
+Act_ScissorsOnEn:	Scis  On			//
+Act_SpinInEn:		Spin  In			//
+Act_SpinOutEn:	Spin Out		//
+Act_SynEndEn:		Syn  End		//
+Act_SynStartEn:	SynStart		//
+Act_VacuumEn:		Vacuum			//
+Act_VacuumPutEn:	Suck1OFF			//
+Act_VacuumSuckEn:	Suck1 ON		//
+Act_VerticalEn:	Vertical		//
+Act_ViceArmEn:	Sub  Act			//
+Act_ViceBackwEn:	Sub Back		//
+Act_ViceDownEn:	Sub Down//
+Act_ViceFixEn:	Sub  Fix			//
+Act_ViceForwEn:	Sub Forw		//
+Act_VicePutEn:	Sub  Put			//
+Act_ViceUpEn:		Sub   Up//
+Act_WaitX37En:	WaitX37		//
+AlarmInfoPage_OTE_274En:NO.  Num   AlarmInfo //
+AlarmReportScreen_DIS_AlaRptNOtextEN:AlarmReportScreen_DIS_AlaRptNOtextEN//
+AlarmReportScreen_STE_AlarmInfo1textEN:AlarmReportScreen_STE_AlarmInfo1textEN//
+AlarmReportScreen_STE_AlarmInfo2textEN:AlarmReportScreen_STE_AlarmInfo2textEN//
+AlarmReportScreen_STE_AlarmInfo3textEN:AlarmReportScreen_STE_AlarmInfo3textEN//
+AlarmReportScreen_STE_AlarmInfo4textEN:AlarmReportScreen_STE_AlarmInfo4textEN//
+AlarmReportScreen_STE_AlarmInfo5textEN:AlarmReportScreen_STE_AlarmInfo5textEN//
+Alarm_Num100En:		Reserv2ValOn,Reserv2LmtOff		//
+Alarm_Num101En:		Reserv2ValOff,Reserv2LmtOn		//
+Alarm_Num102En:		NoOpenFini,CanNotVerti		//
+Alarm_Num103En:		BefChange,OutSafeLmtOff		//
+Alarm_Num104En:		NoAutoLmt				//
+Alarm_Num105En:		MainNotAtStart,NotOrigin		//
+Alarm_Num106En:		MainUpPoleOn,MainDownPoleOn		//
+Alarm_Num107En:		MainNotAtStart,TravlePre		//
+Alarm_Num108En:		MainNotAtStart,HoriPre		//
+Alarm_Num109En:		YPosMaxNotSet				//
+Alarm_Num10En:		InsideStdby				//
+Alarm_Num110En:		MulDotYDownHigherSafePos		//
+Alarm_Num111En:		YDownLimitAnomaly			//
+Alarm_Num112En:		YUpLimitAnomaly			//
+Alarm_Num113En:		YNotActStartUpManual			//
+Alarm_Num114En:		YDownTimeOut				//
+Alarm_Num115En:		YUpTimeOut				//
+Alarm_Num116En:		YDownPosLessStart			//
+Alarm_Num117En:		YDownPosHigherMax			//
+Alarm_Num118En:		YAxisServoAlarm			//
+Alarm_Num119En:		YStartPosMaxHigherPosMax		//
+Alarm_Num11En:		VertiLmtOff				//
+Alarm_Num120En:		YStartPosHigherStartPosMax		//
+Alarm_Num121En:		MoldOpenWaitUsed,NotTeach		//
+Alarm_Num12En:		HoriLmtOff				//
+Alarm_Num13En:		BefDown,OpenSignalOff		//
+Alarm_Num14En:		BefDown,MidMoldSignalOff		//
+Alarm_Num150En:NotX.InMoulSafe,NoDown//
+Alarm_Num151En:NotX.OutMoulSafe,NoDown//
+Alarm_Num152En:BeforeX.ForwBack,MainUpOff//
+Alarm_Num153En:BeforeX.ForwBack,AuxiUpOff//
+Alarm_Num154En:ForwPosLargeThanMax//
+Alarm_Num155En:X.ForwTimeOut//
+Alarm_Num156En:X.BackTimeOut//
+Alarm_Num157En:X.ServoAlarm//
+Alarm_Num158En:X.ForwLmtAbnomal//
+Alarm_Num159En:X.BackLmtAbnomal//
+Alarm_Num15En:		OpenSigOn,SafeSigOff			//
+Alarm_Num160En:X.Points*SpaceLargeThanSafe//
+Alarm_Num161En:Y.PosSmallThanY.OutMouldSafe//
+Alarm_Num16En:		OpenSigOff,MidSigOff			//
+Alarm_Num17En:		M.UpLmtOn,M.DownLmtOn		//
+Alarm_Num18En:		M.ForwLmtOn,M.BackLmtOn		//
+Alarm_Num19En:		S.UpLmtOn,S.DownLmtOn		//
+Alarm_Num1En:			OpenMoldSignalOff			//
+Alarm_Num20En:		S.ForwLmtOn,S.BackLmtOn		//
+Alarm_Num21En:		TravOutLmtOn,TravInLmtOn		//
+Alarm_Num22En:		VertiLmtOn,HoriLmtOn			//
+Alarm_Num23En:		BefDown,OpenLmtOff			//
+Alarm_Num24En:		BefDown,MidLmtOff			//
+Alarm_Num25En:		BefDown,SafeLmtOff			//
+Alarm_Num26En:		BefDown,VertiLmtOff			//
+Alarm_Num27En:		BefDown,HoriLmtOff			//
+Alarm_Num28En:		BefDown,M.FixLmtOn			//
+Alarm_Num29En:		BefDown,S.FixLmtOn			//
+Alarm_Num2En:			MidMoldLmtOff				//
+Alarm_Num30En:		BefDown,SuckLmtOn			//
+Alarm_Num31En:		BefDown,HoldLmtOn			//
+Alarm_Num32En:		BefTrav,M.DownVOn			//
+Alarm_Num33En:		BefTrav,S.DownVOn			//
+Alarm_Num34En:		BefTrav,M.UpLmtOff			//
+Alarm_Num35En:		BefTrav,S.UpLmtOff			//
+Alarm_Num36En:		BefCh,M.DownVOn			//
+Alarm_Num37En:		BefCh,S.DownVOn			//
+Alarm_Num38En:		M.DownVOn,M.UpLmtOn			//
+Alarm_Num39En:		M.DownVOn,M.DownLmtOn		//
+Alarm_Num3En:			M.UpLmtOff				//
+Alarm_Num40En:		M.DownVOff,M.UpLmtOff		//
+Alarm_Num41En:		M.DownVOff,M.DownLmtOn		//
+Alarm_Num42En:		S.DownVOn,S.UpLmtOn			//
+Alarm_Num43En:		S.DownVOn,S.DownLmtOff		//
+Alarm_Num44En:		S.DownVOff,S.UpLmtOff		//
+Alarm_Num45En:		S.DownVOff,S.DownLmtOn		//
+Alarm_Num46En:		M.ForwVOn,M.ForwLmtOff		//
+Alarm_Num47En:		M.ForwVOn,M.BackLmtOn		//
+Alarm_Num48En:		M.ForwVOff,M.ForwLmtOn		//
+Alarm_Num49En:		M.ForwVOff,M.BackLmtOff		//
+Alarm_Num4En:			SubUpLmtOff				//
+Alarm_Num50En:		S.ForwVOn,S.ForwLmtOff		//
+Alarm_Num51En:		S.ForwVOn,S.BackLmtOn		//
+Alarm_Num52En:		S.ForwVOff,S.ForwLmtOn		//
+Alarm_Num53En:		S.ForwVOff,S.BackLmtOff		//
+Alarm_Num54En:		M.FixVOn,M.FixLmtOff			//
+Alarm_Num55En:		M.FixVOff,M.FixLmtOn			//
+Alarm_Num56En:		S.FixVOn,S.FixLmtOff			//
+Alarm_Num57En:		S.FixVOff,S.FixLmtOn			//
+Alarm_Num58En:		VacuVOn,VacuLmtOff			//
+Alarm_Num59En:		VacuVOff,VacuLmtOn			//
+Alarm_Num5En:			M.FixLmtOn				//
+Alarm_Num60En:		HoldVOn,HoldLmtOff			//
+Alarm_Num61En:		HoldVOff,HoldLmtOn			//
+Alarm_Num62En:		HoriVOn,HoriLmtOff			//
+Alarm_Num63En:		VertiVOn,VertiLmtOff			//
+Alarm_Num64En:		TravOutTimeOut			//
+Alarm_Num65En:		TravInTimeOut				//
+Alarm_Num66En:		EmergStop				//
+Alarm_Num67En:		NotCompleteProgram			//
+Alarm_Num68En:		ProductReachesSetted			//
+Alarm_Num69En:		ActsNotActAsProgram			//
+Alarm_Num6En:			S.FixLmtOn				//
+Alarm_Num70En:		WaittingOpenTimeOut			//
+Alarm_Num71En:XNoPulseInputInServo		//
+Alarm_Num72En:		ServoAlarm				//
+Alarm_Num73En:		NotSetSafeDoorPos			//
+Alarm_Num74En:		PosOfPutLowerThanSafeDoor		//
+Alarm_Num75En:		PosOfPutHigherThanMax		//
+Alarm_Num76En:		OutPosLowerThanSafeDoor		//
+Alarm_Num77En:		OutStdbyPosHigherThanMax		//
+Alarm_Num78En:		CycleCnt,DistExcSafeRange		//
+Alarm_Num79En:		AbnormalTravOutLmt			//
+Alarm_Num7En:			SuckLmtOn				//
+Alarm_Num80En:		AbnormalTravInLmt			//
+Alarm_Num81En:		MichiNotAtOrigin			//
+Alarm_Num82En:		OriginNeedToRe-test			//
+Alarm_Num83En:		BefTravOut,MakeHori			//
+Alarm_Num84En:		NotSideOfAxis,CanNotDown		//
+Alarm_Num85En:		InsuffiPressure			//
+Alarm_Num86En:		InDownSafPtLowThanOri		//
+Alarm_Num87En:		InDownSafePtHighThanOri		//
+Alarm_Num88En:		NotDownArea,CanNotDown		//
+Alarm_Num89En:		TravPosLowerThanOrigin		//
+Alarm_Num8En:			HoldLmtOn				//
+Alarm_Num90En:		TravPosHigherThanMax			//
+Alarm_Num91En:		BefDownOutside,OutSafeOff		//
+Alarm_Num92En:		BefDownInside,ZNoOrigin		//
+Alarm_Num93En:		TrialTimeOut				//
+Alarm_Num94En:		BefOut,TobeHori			//
+Alarm_Num95En:		BefForw,TobeVerti			//
+Alarm_Num96En:		BefIn,TobeHori			//
+Alarm_Num97En:		BefIn,TobeVerti			//
+Alarm_Num98En:		Pro1ValveOn,Pro1LmtOff		//
+Alarm_Num99En:		Pro1ValveOff,Pro1LmtOn		//
+Alarm_Num9En:			OutsideStdby				//
+AllMonitorParaPageZ_DIS_ALLMonitorParaZtextEN:AllMonitorParaPageZ_DIS_ALLMonitorParaZtextEN//
+AllMonitorParaPageZ_DIS_AllMonitorValueZtextEN:AllMonitorParaPageZ_DIS_AllMonitorValueZtextEN//
+AllMonitorParaPage_DIS_ALLMonitorParatextEN:AllMonitorParaPage_DIS_ALLMonitorParatextEN//
+AllMonitorParaPage_DIS_AllMonitorValuetextEN:AllMonitorParaPage_DIS_AllMonitorValuetextEN//
+AutoOperaScreen_DIS_AutoActTimetextEN:AutoOperaScreen_DIS_AutoActTimetextEN//
+AutoOperaScreen_DIS_AutoActuProtextEN:AutoOperaScreen_DIS_AutoActuProtextEN//
+AutoOperaScreen_DIS_AutoCurActtextEN:AutoOperaScreen_DIS_AutoCurActtextEN//
+AutoOperaScreen_DIS_AutoCycletextEN:AutoOperaScreen_DIS_AutoCycletextEN//
+AutoOperaScreen_DIS_AutoFetchTimetextEN:AutoOperaScreen_DIS_AutoFetchTimetextEN//
+AutoOperaScreen_DIS_AutoSetProtextEN:AutoOperaScreen_DIS_AutoSetProtextEN//
+AutoOperaScreen_STE_CurrActtextEN:AutoOperaScreen_STE_CurrActtextEN//
 AutoRunPage_OTE_51En:SetProNo //
 AutoRunPage_OTE_53En:ActProNo //
 AutoRunPage_OTE_55En:AutoCycl //
 AutoRunPage_OTE_58En:TakeTime //
 AutoRunPage_OTE_61En:ProcTime //
 AutoRunPage_OTE_64En:CurrAct //
+Auto_StartTestTipsEn:Press Start to Test mold//
+Auto_StartTipsEn:Press Start to AutoRun mold//
+BackLightPage_OTE_258En:Brightness //
+BackLightPage_OTE_261En:Key up or down adjust bright //
+BrightnessAdjustScreen_DIS_BrigAdjBrignesstextEN:BrightnessAdjustScreen_DIS_BrigAdjBrignesstextEN//
+BrightnessAdjustScreen_DIS_BrigAdjLabeltextEN:BrightnessAdjustScreen_DIS_BrigAdjLabeltextEN//
+ClockTimePage_OTE_166En:Date//
+ClockTimePage_OTE_168En:Time//
+Com_FeedBackFBEn:	FeedB		//
+Com_FeedBackNoFBEn:	NoFeed		//
+Com_FreqDecelSwitchEn:	DecSw		//
+Com_FreqDecelTimeEn:	DecT		//
+Com_FuncContinueEn:		Conti		//
+Com_FuncFullRunEn:		FullRun	//
+Com_FuncHorizontalEn:	Hori		//
+Com_FuncInsideEn:		Inside		//
+Com_FuncInsideMoldEn:	InMold		//
+Com_FuncNormallyCloseEn:	NomClo		//
+Com_FuncNormallyOpenEn:	NomOpen	//
+Com_FuncNotRestrictEn:	NotRst		//
+Com_FuncNotUseEn:		No Use	//
+Com_FuncOFFEn:		OFF		//
+Com_FuncONEn:			ON		//
+Com_FuncOutsideEn:		OutSide	//
+Com_FuncPositiveEn:PSTV//
+Com_FuncPositivePhaseEn:	PP		//
+Com_FuncResetInMoldEn:	Rest		//
+Com_FuncReverseEn:REVS//
+Com_FuncReversedPhaseEn:	RP		//
+Com_FuncStopEn:		Stop		//
+Com_FuncTransverseOutEn:	TravOut	//
+Com_FuncUseEn:		Use		//
+Com_FuncVerticalEn:		Verti		//
+Com_TravFreqConvEn:	FreqCv		//
+Com_TravPneumaticEn:	Pneu		//
+Com_TravServoEn:	Servo		//
+CompanyInfoPage_OTE_232En:HUACHENG Ind Ctrl Co.Ltd. //
+CompanyInfoPage_OTE_233En:Tel //
+CompanyInfoPage_OTE_234En:Fax //
+CompanyInfoPage_OTE_235En:Web //
+CompanyInfoPage_OTE_236En:0755-26417678 //
+CompanyInfoPage_OTE_237En:0755-26416578 //
+CompanyInfoPage_OTE_238En:www.hc-system.com //
+CompanyInfoScreen_DIS_CompInfoFaxtextEN:CompanyInfoScreen_DIS_CompInfoFaxtextEN//
+CompanyInfoScreen_DIS_CompInfoNametextEN:CompanyInfoScreen_DIS_CompInfoNametextEN//
+CompanyInfoScreen_DIS_CompInfoTeltextEN:CompanyInfoScreen_DIS_CompInfoTeltextEN//
+CompanyInfoScreen_DIS_CompInfoWebtextEN:CompanyInfoScreen_DIS_CompInfoWebtextEN//
+CycleTimePage_OTE_285En:NO.   MoldNum  CycleTime s //
+CycleTimeReportScreen_CycTimRptNOtextEN:CycleTimeReportScreen_CycTimRptNOtextEN//
+CycleTimeReportScreen_STE_CycleTime1textEN:CycleTimeReportScreen_STE_CycleTime1textEN//
+CycleTimeReportScreen_STE_CycleTime2textEN:CycleTimeReportScreen_STE_CycleTime2textEN//
+CycleTimeReportScreen_STE_CycleTime3textEN:CycleTimeReportScreen_STE_CycleTime3textEN//
+CycleTimeReportScreen_STE_CycleTime4textEN:CycleTimeReportScreen_STE_CycleTime4textEN//
+CycleTimeReportScreen_STE_CycleTime5textEN:CycleTimeReportScreen_STE_CycleTime5textEN//
+DB_POWEREn:			DBpowerDissipation//                
+DC_BUS_VOLTAGEEn:		Voltage// 
+DI_PORT_STATUSEn:		InputSignal//               
+DO_PORT_STATUSEn:		OutputSignal//             
+DateTimeSetScreen_DIS_DatetextEN:DateTimeSetScreen_DIS_DatetextEN//
+DateTimeSetScreen_DIS_TimetextEN:DateTimeSetScreen_DIS_TimetextEN//
+ELEC_ANGLEEn:			RotAngle2//
+ERC_ANACEn:		CurrentAnomal//
+ERC_ANACZEn:		ZCurrentAnomal//
+ERC_ANASEn:		SpeedCmdADAnomal//
+ERC_ANASZEn:		ZSpeedCmdADAnomal//
+ERC_ANATEn:		TorqueCmdADAnomal//
+ERC_ANATZEn:		ZTorqueCmdADAnomal//
+ERC_DBEn:		DBOverLoad//
+ERC_DBZEn:		ZDBOverLoad//
+ERC_EEPEn:		ParaDamage//Servo1 Alarm
+ERC_EEPZEn:		ZParaDamage//Servo2 Alarm
+ERC_ENC1En:		EncoderAlarm1//
+ERC_ENC1ZEn:		ZEncoderAlarm1//
+ERC_ENCEn:		EncoderAlarm//
+ERC_ENCZEn:		ZEncoderAlarm//
+ERC_LBKEn:		MotorLineLack//
+ERC_LBKZEn:		ZMotorLineLack//
+ERC_LVEn:		LessVoltage//
+ERC_LVZEn:		ZLessVoltage//
+ERC_OC1En:		OverCurrent1//
+ERC_OC1ZEn:		ZOverCurrent1//
+ERC_OCEn:		OverCurrent//
+ERC_OCZEn:		ZOverCurrent//
+ERC_OL1En:		OverLoad//
+ERC_OL1ZEn:		ZOverLoad//
+ERC_OL2En:		OverLoadContinu//
+ERC_OL2ZEn:		ZOverLoadContinu//
+ERC_OSEn:		OverSpeed//
+ERC_OSZEn:		ZOverSpeed//
+ERC_OTEn:		OverTemp//
+ERC_OTZEn:		ZOverTemp//
+ERC_OV1En:		HardOverVol//
+ERC_OV1ZEn:		ZHardOverVol//
+ERC_OVEn:		OverVoltage//
+ERC_OVZEn:		ZOverVoltage//
+ERC_PAREn:		ParaSetAnomal//
+ERC_PARZEn:		ZParaSetAnomal//
+ERC_PEEn:		PositionError//
+ERC_PEZEn:		ZPositionError//
+ERC_PHLEn:		PowerLacks//
+ERC_PHLZEn:		ZPowerLacks//
+ERC_REGEn: 		RegenAanomal//
+ERC_REGOLEn: 		RegenOverload//
+ERC_REGOLZEn: 		ZRegenOverload//
+ERC_REGZEn: 		ZRegenAanomal//
+ERC_STREn:		ResistOverLoad//
+ERC_STRZEn:		ZResistOverLoad//
+ERC_SYSEn:		SystemAlert//
+ERC_SYSZEn:		ZSystemAlert//
+ERROR_CODEEn:			Breakdown//Servo1 Param end       
+EleToneme2Screen_DIS_EleInput3textEN:EleToneme2Screen_DIS_EleInput3textEN//
+EleToneme2Screen_DIS_EleInput4textEN:EleToneme2Screen_DIS_EleInput4textEN//
+EleToneme2Screen_DIS_VPressHPAdjtextEN:EleToneme2Screen_DIS_VPressHPAdjtextEN//
+EleToneme2Screen_DIS_VY46ReversetextEN:EleToneme2Screen_DIS_VY46ReversetextEN//
+EleToneme2Screen_STE_VBackAddtextEN:EleToneme2Screen_STE_VBackAddtextEN//
+EleToneme2Screen_STE_VBackSubtextEN:EleToneme2Screen_STE_VBackSubtextEN//
+EleToneme2Screen_STE_VDownAddtextEN:EleToneme2Screen_STE_VDownAddtextEN//
+EleToneme2Screen_STE_VDownSubtextEN:EleToneme2Screen_STE_VDownSubtextEN//
+EleToneme2Screen_STE_VForwardAddtextEN:EleToneme2Screen_STE_VForwardAddtextEN//
+EleToneme2Screen_STE_VForwardSubtextEN:EleToneme2Screen_STE_VForwardSubtextEN//
+EleTonemeScreen_DIS_EleInput1textEN:EleTonemeScreen_DIS_EleInput1textEN//
+EleTonemeScreen_DIS_EleInput2textEN:EleTonemeScreen_DIS_EleInput2textEN//
+EleTonemeScreen_STE_MBackAddtextEN:EleTonemeScreen_STE_MBackAddtextEN//
+EleTonemeScreen_STE_MBackSubtextEN:EleTonemeScreen_STE_MBackSubtextEN//
+EleTonemeScreen_STE_MDownAddtextEN:EleTonemeScreen_STE_MDownAddtextEN//
+EleTonemeScreen_STE_MDownSubtextEN:EleTonemeScreen_STE_MDownSubtextEN//
+EleTonemeScreen_STE_MForwardAddtextEN:EleTonemeScreen_STE_MForwardAddtextEN//
+EleTonemeScreen_STE_MForwardSubtextEN:EleTonemeScreen_STE_MForwardSubtextEN//
+EleTonemeScreen_STE_MPressHPAdjtextEN:EleTonemeScreen_STE_MPressHPAdjtextEN//
+EleTonemeScreen_STE_MY46ReversetextEN:EleTonemeScreen_STE_MY46ReversetextEN//
+FactoryTimePage_OTE_223En:SetWeekCnt //
+FactoryTimePage_OTE_225En:ClrTimeCnt //
+FactoryTimePage_OTE_229En:UseWeekCnt //
+FactoryTimePage_OTE_230En:UseHourCnt //
+FactoryTimeScreen_DIS_FacTimClrTimCnttextEN:FactoryTimeScreen_DIS_FacTimClrTimCnttextEN//
+FactoryTimeScreen_DIS_FacTimSetWekCnttextEN:FactoryTimeScreen_DIS_FacTimSetWekCnttextEN//
+FactoryTimeScreen_DIS_FacTimUseHourCnttextEN:FactoryTimeScreen_DIS_FacTimUseHourCnttextEN//
+FactoryTimeScreen_DIS_FacTimUseWekCnttextEN:FactoryTimeScreen_DIS_FacTimUseWekCnttextEN//
+FactoryTimeScreen_STE_ClrTimeCnttextEN:FactoryTimeScreen_STE_ClrTimeCnttextEN//
+Func_STLanguageNameEn:	English	//
 FunctionPage_OTE_68En:Language //
 FunctionPage_OTE_69En:SetMold //
 FunctionPage_OTE_71En:OpenDly //
@@ -242,136 +1331,51 @@ FunctionPage_OTE_80En:ChkVaccu //
 FunctionPage_OTE_82En:ChkHold //
 FunctionPage_OTE_84En:ClearPro //
 FunctionPage_OTE_86En:KeySound //
-PassWord_OTE_88En:PassWord //
-PassWordFunc1Page0_OTE_90En:CycleTime //
-PassWordFunc1Page0_OTE_94En:Thimb //
-PassWordFunc1Page0_OTE_96En:SafeDoor //
-PassWordFunc1Page0_OTE_98En:MidMold //
-PassWordFunc1Page0_OTE_100En:StdbyGes //
-PassWordFunc1Page0_OTE_102En:StdbyPos //
-PassWordFunc1Page0_OTE_104En:StopSafe //
-PassWordFunc1Page0_OTE_106En:SubPutDe //
-PassWordFunc1Page0_OTE_109En:StartPos //
-PassWordFunc1Page0_OTE_111En:EmbInMld //
-PassWordFunc1Page1_OTE_113En:PointCnt //
-PassWordFunc1Page1_OTE_114En:PointCnt2 //
-PassWordFunc1Page1_OTE_115En:Space2 //
-PassWordFunc1Page1_OTE_116En:Space //
-PassWordFunc1Page1_OTE_117En:ConvCnt //
-PassWordFunc1Page1_OTE_118En:Reservl //
-PassWordFunc1Page1_OTE_119En:ClScrTim //
-PassWordFunc1Page1_OTE_120En:Reserv2 //
-PassWordFunc1Page1_OTE_121En:ChckPress //
-PassWordFunc1Page1_OTE_121En:DefClear //
-PassWordFunc1Page1_OTE_123En:ChckDfPrd //
-PassWordFunc1Page1_OTE_124En:ChckClsMld//
-PassWordFunc1Page1_OTE_125En:ClpAbDect //
-PassWordFunc1Page2_OTE_135En:SafeDoor //
-PassWordFunc1Page2_OTE_138En:OutStdby //
-PassWordFunc1Page2_OTE_139En:SafeInMld //
-PassWordFunc1Page2_OTE_140En:SlowDelay //
-PassWordFunc1Page2_OTE_140En:ActSpeed //
-PassWordFunc1Page2_OTE_141En:AutoLimit //
-PassWordFunc1Page2_OTE_142En:PressSw //
-PassWordFunc1Page2_OTE_143En:SlowDowm //
-PassWordFunc1Page2_OTE_145En:TrvOutPst //
-PassWordFunc1Page2_OTE_146En:TrvInPst //
-PassWordFunc1Page2_OTE_147En:OpenSafeD //
-PassWordFunc1Page2_OTE_157En:StartPoint//
-PassWordFunc1Page2_OTE_158En:StartPoint2//
-ResetFcSettingPage_OTE_159En:Press enter to reset settings //
-ProgramInfoPage_OTE_160En:ProductType: //
-ProgramInfoPage_OTE_161En:HC-S1 //
-ProgramInfoPage_OTE_163En:2013-03-29 //
-ProgramInfoPage_OTE_165En:1.1.4.7 //
-ProgramInfoPage_OTE_162En:VersionDate: //
-ProgramInfoPage_OTE_164En:Version: //
-ClockTimePage_OTE_166En:Date://
-ClockTimePage_OTE_168En:Time://
-LimitTimePage_OTE_178En:MainUpDown //
-LimitTimePage_OTE_180En:MainForwBk //
-LimitTimePage_OTE_181En:ViceUpDown //
-LimitTimePage_OTE_182En:ViceForwBk //
-LimitTimePage_OTE_183En:Trav //
-LimitTimePage_OTE_184En:Posture //
-LimitTimePage_OTE_185En:Process1 //
-LimitTimePage_OTE_186En:Reversed2 //
-PassWordFunc2Page_OTE_194En:MaxPos //
-PassWordFunc2Page_OTE_196En:PolseIn //
-PassWordFunc2Page_OTE_198En:FeedBack //
-PassWordFunc2Page_OTE_199En:DownGest //
-PassWordFunc2Page_OTE_200En:FBPulseIn //
-PassWordFunc2Page_OTE_201En:FBPulseOut //
-PassWordFunc2Page_OTE_202En:AlarmTime //
-PassWordFunc2Page_OTE_203En:AccDecTime //
-PassWordFunc2Page_OTE_204En:MaxSpeed //
-PassWordFunc2Page_OTE_210En:OriSpeed //
-PassWordFunc2Page_OTE_216En:WholeSpeed //
-FactoryTimePage_OTE_223En:SetWeekCnt //
-FactoryTimePage_OTE_225En:ClrTimeCnt //
-FactoryTimePage_OTE_229En:UseWeekCnt //
-FactoryTimePage_OTE_230En:UseHourCnt //
-CompanyInfoPage_OTE_232En:HUACHENG Ind Ctrl Co.Ltd. //
-CompanyInfoPage_OTE_233En:Tel: //
-CompanyInfoPage_OTE_234En:Fax: //
-CompanyInfoPage_OTE_235En:Web: //
-CompanyInfoPage_OTE_236En:0755-26417678 //
-CompanyInfoPage_OTE_237En:0755-26416578 //
-CompanyInfoPage_OTE_238En:www.hc-system.com //
-LimitSettingPage_OTE_239En:TravAxis //
-LimitSettingPage_OTE_240En:MainDown //
-LimitSettingPage_OTE_242En:MainForw //
-LimitSettingPage_OTE_243En:MainBack //
-LimitSettingPage_OTE_245En:ViceDown //
-LimitSettingPage_OTE_247En:ViceForw //
-LimitSettingPage_OTE_249En:ViceBack //
-LimitSettingPage_OTE_251En:FreqDecel //
-LimitSettingPage_OTE_252En:FBPulse //
-BackLightPage_OTE_258En:Brightness //
-BackLightPage_OTE_261En:Key up or down adjust bright //
-LoadPage_OTE_262En:Read(0-99) //
-LoadPage_OTE_264En:Press PROG button to Instruct! //
-ParamPage_OTE_265En:Action //
-ParamPage_OTE_266En:Dist //
-ParamPage_OTE_267En:Speed //
-ParamPage_OTE_268En:Time //
-AlarmInfoPage_OTE_274En:NO.  Num   AlarmInfo //
-CycleTimePage_OTE_285En:NO.   MoldNum  CycleTime s //
-InputLimitPage0_OTE_312En:X10 Hori //
-InputLimitPage0_OTE_313En:X11 Verti //
-InputLimitPage0_OTE_314En:X12 MainFix //
-InputLimitPage0_OTE_315En:X13 Hold //
-InputLimitPage0_OTE_316En:X14 Vacuum //
-InputLimitPage0_OTE_315En:X13 Suck2 //
-InputLimitPage0_OTE_316En:X14 Suck1 //
-InputLimitPage0_OTE_317En:X15 MainForw //
-InputLimitPage0_OTE_318En:X16 MainBack //
-InputLimitPage0_OTE_319En:X17 MainDown //
-InputLimitPage0_OTE_320En:X20 Reserve //
-InputLimitPage0_OTE_321En:X21 Injection //
-InputLimitPage0_OTE_322En:X22 CheckPress //
-InputLimitPage0_OTE_323En:X23 InSafe //
-InputLimitPage0_OTE_324En:X24 OutSafe //
-InputLimitPage0_OTE_325En:X25 Origin //
-InputLimitPage0_OTE_326En:X27 TravOutLmt //
-InputLimitPage0_OTE_327En:X26 TravInLmt //
-
-InputLimitPage0_OTE_323En:X23 SlowDSw//定义变频
+FunctionScreen_DIS_FCChkHoldtextEN:FunctionScreen_DIS_FCChkHoldtextEN//
+FunctionScreen_DIS_FCChkMFixtextEN:FunctionScreen_DIS_FCChkMFixtextEN//
+FunctionScreen_DIS_FCChkVFixtextEN:FunctionScreen_DIS_FCChkVFixtextEN//
+FunctionScreen_DIS_FCChkVaccutextEN:FunctionScreen_DIS_FCChkVaccutextEN//
+FunctionScreen_DIS_FCClearProtextEN:FunctionScreen_DIS_FCClearProtextEN//
+FunctionScreen_DIS_FCKeySoundtextEN:FunctionScreen_DIS_FCKeySoundtextEN//
+FunctionScreen_DIS_FCLanguagetextEN:FunctionScreen_DIS_FCLanguagetextEN//
+FunctionScreen_DIS_FCOpenDlytextEN:FunctionScreen_DIS_FCOpenDlytextEN//
+FunctionScreen_DIS_FCSetMoldtextEN:FunctionScreen_DIS_FCSetMoldtextEN//
+FunctionScreen_DIS_FCThimbtextEN:FunctionScreen_DIS_FCThimbtextEN//
+FunctionScreen_STE_ChkHoldtextEN:FunctionScreen_STE_ChkHoldtextEN//
+FunctionScreen_STE_ChkMFixtextEN:FunctionScreen_STE_ChkMFixtextEN//
+FunctionScreen_STE_ChkVFixtextEN:FunctionScreen_STE_ChkVFixtextEN//
+FunctionScreen_STE_ChkVaccutextEN:FunctionScreen_STE_ChkVaccutextEN//
+FunctionScreen_STE_ClearProtextEN:FunctionScreen_STE_ClearProtextEN//
+FunctionScreen_STE_KeySoundtextEN:FunctionScreen_STE_KeySoundtextEN//
+FunctionScreen_STE_LanguagetextEN:FunctionScreen_STE_LanguagetextEN//
+HINK_TEMPEn:			Temprature//
+InputLimitPage0_OTE_312En:X10 MainUp //
+InputLimitPage0_OTE_313En:X11 MainBack //
+InputLimitPage0_OTE_314En:X12 Vacuum //
+InputLimitPage0_OTE_315En:X13 MainFix //
+InputLimitPage0_OTE_316En:X14 MidMold//
+InputLimitPage0_OTE_317En:X15 ForwMax//
+InputLimitPage0_OTE_318En:X16 XOrig//
+InputLimitPage0_OTE_319En:X17 Rev //
+InputLimitPage0_OTE_319_S2En:X17 DownMax//
+InputLimitPage0_OTE_320En:X20 SubUp//
+InputLimitPage0_OTE_320_S2En:X20 BackLmt//
+InputLimitPage0_OTE_321En:X21 SubFix//
+InputLimitPage0_OTE_322En:X22 MidPut//
+InputLimitPage0_OTE_323En:X23 TravOutLmt//
 InputLimitPage0_OTE_324En:X24 TravOutLmt//
 InputLimitPage0_OTE_325En:X25 TravInLmt//
-InputLimitPage0_OTE_326En:X27 Reserve//
-InputLimitPage0_OTE_327En:X26 Reserve//
-
-
+InputLimitPage0_OTE_325_S2En:X25 Rev//
+InputLimitPage0_OTE_326En:X27 ForwLmt //
+InputLimitPage0_OTE_327En:X26 BackLmt //
 InputLimitPage1_OTE_344En:X30 ViceForw //
 InputLimitPage1_OTE_345En:X31 ViceBack //
 InputLimitPage1_OTE_346En:X32 SubUp //
 InputLimitPage1_OTE_347En:X33 ViceDown //
 InputLimitPage1_OTE_348En:X34 SubFix //
-InputLimitPage1_OTE_349En:X35 MainUp //
-InputLimitPage1_OTE_350En:X36 Proecss1 //
-InputLimitPage1_OTE_351En:X37 Reserv2 //
-InputLimitPage1_OTE_350En:X36 Suck3 //
+InputLimitPage1_OTE_349En:X35 Origin//
+InputLimitPage1_OTE_349_S2En:X35 AuxiOri//
+InputLimitPage1_OTE_350En:X36 YOrigin//
 InputLimitPage1_OTE_351En:X37 Suck4 //
 InputLimitPage1_OTE_352En:SafeDoor //
 InputLimitPage1_OTE_353En:OpenFini //
@@ -381,31 +1385,217 @@ InputLimitPage1_OTE_356En:AutoLmt //
 InputLimitPage1_OTE_357En:MidMold //
 InputLimitPage1_OTE_358En:EmergStop //
 InputLimitPage1_OTE_359En:Thimble //
-OutputValuePage0_OTE_376En:Y10 Hori //
-OutputValuePage0_OTE_377En:Y11 Verti //
-OutputValuePage0_OTE_378En:Y12 MainFix //
-OutputValuePage0_OTE_379En:Y13 Hold //
-OutputValuePage0_OTE_380En:Y14 Vacuum //
-OutputValuePage0_OTE_379En:Y13 Suck2 //
-OutputValuePage0_OTE_380En:Y14 Suck1 //
-OutputValuePage0_OTE_381En:Y15 MainForw //
-OutputValuePage0_OTE_382En:Y16 MainBack //
-OutputValuePage0_OTE_383En:Y17 Alarm //
-OutputValuePage0_OTE_384En:Y20 MainUp //
-OutputValuePage0_OTE_385En:Y21 MainDown //
-OutputValuePage0_OTE_386En:Y22 LowPress //
+InputWatchScreen1_1_DIS_InWatchCheckPresstextEN:InputWatchScreen1_1_DIS_InWatchCheckPresstextEN//
+InputWatchScreen1_1_DIS_InWatchDownMaxtextEN:InputWatchScreen1_1_DIS_InWatchDownMaxtextEN//
+InputWatchScreen1_1_DIS_InWatchHoldtextEN:InputWatchScreen1_1_DIS_InWatchHoldtextEN//
+InputWatchScreen1_1_DIS_InWatchHoritextEN:InputWatchScreen1_1_DIS_InWatchHoritextEN//
+InputWatchScreen1_1_DIS_InWatchInSafetextEN:InputWatchScreen1_1_DIS_InWatchInSafetextEN//
+InputWatchScreen1_1_DIS_InWatchInjectiontextEN:InputWatchScreen1_1_DIS_InWatchInjectiontextEN//
+InputWatchScreen1_1_DIS_InWatchMainBacktextEN:InputWatchScreen1_1_DIS_InWatchMainBacktextEN//
+InputWatchScreen1_1_DIS_InWatchMainFixtextEN:InputWatchScreen1_1_DIS_InWatchMainFixtextEN//
+InputWatchScreen1_1_DIS_InWatchMainForwtextEN:InputWatchScreen1_1_DIS_InWatchMainForwtextEN//
+InputWatchScreen1_1_DIS_InWatchOutSafetextEN:InputWatchScreen1_1_DIS_InWatchOutSafetextEN//
+InputWatchScreen1_1_DIS_InWatchTravInLmttextEN:InputWatchScreen1_1_DIS_InWatchTravInLmttextEN//
+InputWatchScreen1_1_DIS_InWatchTravOutLmttextEN:InputWatchScreen1_1_DIS_InWatchTravOutLmttextEN//
+InputWatchScreen1_1_DIS_InWatchUpMaxtextEN:InputWatchScreen1_1_DIS_InWatchUpMaxtextEN//
+InputWatchScreen1_1_DIS_InWatchVacuumtextEN:InputWatchScreen1_1_DIS_InWatchVacuumtextEN//
+InputWatchScreen1_1_DIS_InWatchVertitextEN:InputWatchScreen1_1_DIS_InWatchVertitextEN//
+InputWatchScreen1_1_DIS_InWatchZOrigintextEN:InputWatchScreen1_1_DIS_InWatchZOrigintextEN//
+InputWatchScreen1_2_DIS_InWatchAutotextEN:InputWatchScreen1_2_DIS_InWatchAutotextEN//
+InputWatchScreen1_2_DIS_InWatchCloseFtextEN:InputWatchScreen1_2_DIS_InWatchCloseFtextEN//
+InputWatchScreen1_2_DIS_InWatchDefProtextEN:InputWatchScreen1_2_DIS_InWatchDefProtextEN//
+InputWatchScreen1_2_DIS_InWatchEmergencytextEN:InputWatchScreen1_2_DIS_InWatchEmergencytextEN//
+InputWatchScreen1_2_DIS_InWatchMidMoldtextEN:InputWatchScreen1_2_DIS_InWatchMidMoldtextEN//
+InputWatchScreen1_2_DIS_InWatchOpenFtextEN:InputWatchScreen1_2_DIS_InWatchOpenFtextEN//
+InputWatchScreen1_2_DIS_InWatchProcess1textEN:InputWatchScreen1_2_DIS_InWatchProcess1textEN//
+InputWatchScreen1_2_DIS_InWatchReserv2textEN:InputWatchScreen1_2_DIS_InWatchReserv2textEN//
+InputWatchScreen1_2_DIS_InWatchSafeGatetextEN:InputWatchScreen1_2_DIS_InWatchSafeGatetextEN//
+InputWatchScreen1_2_DIS_InWatchSubFixtextEN:InputWatchScreen1_2_DIS_InWatchSubFixtextEN//
+InputWatchScreen1_2_DIS_InWatchSubUptextEN:InputWatchScreen1_2_DIS_InWatchSubUptextEN//
+InputWatchScreen1_2_DIS_InWatchThimbletextEN:InputWatchScreen1_2_DIS_InWatchThimbletextEN//
+InputWatchScreen1_2_DIS_InWatchViceBacktextEN:InputWatchScreen1_2_DIS_InWatchViceBacktextEN//
+InputWatchScreen1_2_DIS_InWatchViceDowntextEN:InputWatchScreen1_2_DIS_InWatchViceDowntextEN//
+InputWatchScreen1_2_DIS_InWatchViceForwtextEN:InputWatchScreen1_2_DIS_InWatchViceForwtextEN//
+InputWatchScreen1_2_DIS_InWatchYOrigintextEN:InputWatchScreen1_2_DIS_InWatchYOrigintextEN//
+InputWatchScreen1_3_DIS_InWatchHold2textEN:InputWatchScreen1_3_DIS_InWatchHold2textEN//
+InputWatchScreen1_3_DIS_InWatchReserve1textEN:InputWatchScreen1_3_DIS_InWatchReserve1textEN//
+InputWatchScreen1_3_DIS_InWatchReserve2textEN:InputWatchScreen1_3_DIS_InWatchReserve2textEN//
+InputWatchScreen1_3_DIS_InWatchReserve3textEN:InputWatchScreen1_3_DIS_InWatchReserve3textEN//
+InputWatchScreen1_3_DIS_InWatchReserve4textEN:InputWatchScreen1_3_DIS_InWatchReserve4textEN//
+InputWatchScreen1_3_DIS_InWatchReserve5textEN:InputWatchScreen1_3_DIS_InWatchReserve5textEN//
+InputWatchScreen1_3_DIS_InWatchReserve6textEN:InputWatchScreen1_3_DIS_InWatchReserve6textEN//
+InputWatchScreen1_3_DIS_InWatchVacuum2textEN:InputWatchScreen1_3_DIS_InWatchVacuum2textEN//
+Instruct_StartTipsEn:Press Start to Instruct mold//
+KeyboardTest_OTE_476En:Emerg//
+LeadInFinishedTipsEn:Lead In Finished!//
+LeadInTipsEn:Cover Curr Mold!//
+LeadOutFinishedTipsEn:Lead Out Finished!//
+LeadOutTipsEn:Lead Out Curr Params//
+LimitSettingPage_OTE_239En:TravAxis //
+LimitSettingPage_OTE_240En:MainDown //
+LimitSettingPage_OTE_242En:MainForw //
+LimitSettingPage_OTE_243En:MainBack //
+LimitSettingPage_OTE_245En:ViceDown //
+LimitSettingPage_OTE_247En:ViceForw //
+LimitSettingPage_OTE_249En:ViceBack //
+LimitSettingPage_OTE_251En:FreqDecel //
+LimitSettingPage_OTE_252En:FBPulse //
+LimitSettingPage_OTE_551textEn:ZSignale//
+LimitTimePage_OTE_178En:MainUpDown //
+LimitTimePage_OTE_180En:MainForwBk //
+LimitTimePage_OTE_181En:ViceUpDown //
+LimitTimePage_OTE_182En:ViceForwBk //
+LimitTimePage_OTE_183En:Trav //
+LimitTimePage_OTE_184En:Posture //
+LimitTimePage_OTE_185En:Process1 //
+LimitTimePage_OTE_186En:Reversed2 //
+LimitTimeScreen_DIS_LinitTimMainForwBktextEN:LimitTimeScreen_DIS_LinitTimMainForwBktextEN//
+LimitTimeScreen_DIS_LinitTimMainUpDowntextEN:LimitTimeScreen_DIS_LinitTimMainUpDowntextEN//
+LimitTimeScreen_DIS_LinitTimPosturetextEN:LimitTimeScreen_DIS_LinitTimPosturetextEN//
+LimitTimeScreen_DIS_LinitTimProcess1textEN:LimitTimeScreen_DIS_LinitTimProcess1textEN//
+LimitTimeScreen_DIS_LinitTimReser2textEN:LimitTimeScreen_DIS_LinitTimReser2textEN//
+LimitTimeScreen_DIS_LinitTimTravtextEN:LimitTimeScreen_DIS_LinitTimTravtextEN//
+LimitTimeScreen_DIS_LinitTimViceForwBktextEN:LimitTimeScreen_DIS_LinitTimViceForwBktextEN//
+LimitTimeScreen_DIS_LinitTimViceUpDowntextEN:LimitTimeScreen_DIS_LinitTimViceUpDowntextEN//
+LoadPage_OTE_262En:Read(0-99) //
+LoadPage_OTE_264En:Press PROG button to Instruct! //
+MECH_ANGLEEn:			RotAngle1//              
+MI_AutoPrepStatusEn:	AtStdby//
+MI_AutoStatusEn:	Auto//
+MI_InstructStatusEn:	Inst//
+MI_ManualStatusEn:	Manu//
+MI_StopStatusEn:	Stop//
+MachineLimitScreen_DIS_MacLimitFBPulsetextEN:MachineLimitScreen_DIS_MacLimitFBPulsetextEN//
+MachineLimitScreen_DIS_MacLimitFreqDeceltextEN:MachineLimitScreen_DIS_MacLimitFreqDeceltextEN//
+MachineLimitScreen_DIS_MacLimitMainBacktextEN:MachineLimitScreen_DIS_MacLimitMainBacktextEN//
+MachineLimitScreen_DIS_MacLimitMainDowntextEN:MachineLimitScreen_DIS_MacLimitMainDowntextEN//
+MachineLimitScreen_DIS_MacLimitMainFrowtextEN:MachineLimitScreen_DIS_MacLimitMainFrowtextEN//
+MachineLimitScreen_DIS_MacLimitTravAxistextEN:MachineLimitScreen_DIS_MacLimitTravAxistextEN//
+MachineLimitScreen_DIS_MacLimitViceBacktextEN:MachineLimitScreen_DIS_MacLimitViceBacktextEN//
+MachineLimitScreen_DIS_MacLimitViceDowntextEN:MachineLimitScreen_DIS_MacLimitViceDowntextEN//
+MachineLimitScreen_DIS_MacLimitViceForwtextEN:MachineLimitScreen_DIS_MacLimitViceForwtextEN//
+MachineLimitScreen_STE_FBPulsetextEN:MachineLimitScreen_STE_FBPulsetextEN//
+MachineLimitScreen_STE_FreqDeceltextEN:MachineLimitScreen_STE_FreqDeceltextEN//
+MachineLimitScreen_STE_MainBacktextEN:MachineLimitScreen_STE_MainBacktextEN//
+MachineLimitScreen_STE_MainDowntextEN:MachineLimitScreen_STE_MainDowntextEN//
+MachineLimitScreen_STE_MainForwtextEN:MachineLimitScreen_STE_MainForwtextEN//
+MachineLimitScreen_STE_TravAxistextEN:MachineLimitScreen_STE_TravAxistextEN//
+MachineLimitScreen_STE_ViceBacktextEN:MachineLimitScreen_STE_ViceBacktextEN//
+MachineLimitScreen_STE_ViceDowntextEN:MachineLimitScreen_STE_ViceDowntextEN//
+MachineLimitScreen_STE_ViceForwtextEN:MachineLimitScreen_STE_ViceForwtextEN//
+MainInterface_OTE_24En:CurrM //
+MainInterface_OTE_25En:YPos//
+MainInterface_OTE_26En:OpenF //
+MainInterface_OTE_26_S2En:WaitSig//
+MainInterface_OTE_27En:SafeD //
+MainInterface_OTE_28En:ClosE //
+MainInterface_OTE_29En:Thimb //
+MainInterface_STE_CloseMoldtextEN:MainInterface_STE_CloseMoldtextEN//
+MainInterface_STE_CurrActionStatustextEN:MainInterface_STE_CurrActionStatustextEN//
+MainInterface_STE_CurrPosZtextEN:MainInterface_STE_CurrPosZtextEN//
+MainInterface_STE_DatatextEN:MainInterface_STE_DatatextEN//
+MainInterface_STE_ModeNumtextEN:MainInterface_STE_ModeNumtextEN//
+MainInterface_STE_OpenMoldtextEN:MainInterface_STE_OpenMoldtextEN//
+MainInterface_STE_PageIndextextEN:MainInterface_STE_PageIndextextEN//
+MainInterface_STE_SafetyGatetextEN:MainInterface_STE_SafetyGatetextEN//
+MainInterface_STE_ThimbletextEN:MainInterface_STE_ThimbletextEN//
+MainInterface_STE_TimetextEN:MainInterface_STE_TimetextEN//
+MainInterface_STE_WarningInfortextEN:MainInterface_STE_WarningInfortextEN//
+ManualPage_OTE_36En:ServoM//
+ManualPage_OTE_36_S2En:Mode//
+ManualPage_OTE_37En:ManuSpd //
+ManualPage_OTE_40En:XPos //
+ManualPage_OTE_40_S2En:XPos//
+ManualPage_OTE_41_S2En:XForwPos//
+ManualPage_OTE_42_S2En:YOutDnPos//
+ManualPage_OTE_43En:DotSpd //
+ManualPage_OTE_46En:FnshCnt //
+ManualPage_OTE_48En:CurrAction //
+ManualParaSetScreen_DIS_DotRangetextEN:ManualParaSetScreen_DIS_DotRangetextEN//
+ManualParaSetScreen_DIS_MauParaFetchPostextEN:ManualParaSetScreen_DIS_MauParaFetchPostextEN//
+ManualParaSetScreen_DIS_MauParaInchSpeedtextEN:ManualParaSetScreen_DIS_MauParaInchSpeedtextEN//
+ManualParaSetScreen_DIS_MauParaPostextEN:ManualParaSetScreen_DIS_MauParaPostextEN//
+ManualParaSetScreen_DIS_MauParaSpeedtextEN:ManualParaSetScreen_DIS_MauParaSpeedtextEN//
+ManualScreen_DIS_ManuActuProtextEN:ManualScreen_DIS_ManuActuProtextEN//
+ManualScreen_DIS_ManuCurActtextEN:ManualScreen_DIS_ManuCurActtextEN//
+ManualScreen_DIS_ManuInchSpeedtextEN:ManualScreen_DIS_ManuInchSpeedtextEN//
+ManualScreen_DIS_ManuPostextEN:ManualScreen_DIS_ManuPostextEN//
+ManualScreen_DIS_ManuSpeedtextEN:ManualScreen_DIS_ManuSpeedtextEN//
+ManualScreen_DIS_ManuTransvtextEN:ManualScreen_DIS_ManuTransvtextEN//
+ManualScreen_STE_TravModetextEN:ManualScreen_STE_TravModetextEN//
+ManualSettingPage_OTE_423En:DotRange //
+ManualSettingPage_OTE_424En:ManuSpd //
+ManualSettingPage_OTE_427En:XPos //
+ManualSettingPage_OTE_430En:DotSpd //
+ManualSettingPage_OTE_433En:XStdbyPos //
+Manual_InchingModeEn:	Inching	//
+Manual_ManualModeEn:		Manual		//
+Manual_ManualParamTipsEn:Please Press HP. to confirm setting//
+Manual_ManualParamTips_S2En:Press Enter Set Position//
+MoniParaEn:			MonitParam//
+MoniValueEn:			MonitValue//
+MonitorParaPage1_DIS_ZDB_POWERtextEN:MonitorParaPage1_DIS_ZDB_POWERtextEN//
+MonitorParaPage1_DIS_ZDC_BUS_VOLTAGEtextEN:MonitorParaPage1_DIS_ZDC_BUS_VOLTAGEtextEN//
+MonitorParaPage1_DIS_ZDI_PORT_STATUStextEN:MonitorParaPage1_DIS_ZDI_PORT_STATUStextEN//
+MonitorParaPage1_DIS_ZDO_PORT_STATUStextEN:MonitorParaPage1_DIS_ZDO_PORT_STATUStextEN//
+MonitorParaPage1_DIS_ZELEC_ANGLEtextEN:MonitorParaPage1_DIS_ZELEC_ANGLEtextEN//
+MonitorParaPage1_DIS_ZERROR_CODEtextEN:MonitorParaPage1_DIS_ZERROR_CODEtextEN//
+MonitorParaPage1_DIS_ZHINK_TEMPtextEN:MonitorParaPage1_DIS_ZHINK_TEMPtextEN//
+MonitorParaPage1_DIS_ZMECH_ANGLEtextEN:MonitorParaPage1_DIS_ZMECH_ANGLEtextEN//
+MonitorParaPage1_DIS_ZP_ERRORtextEN:MonitorParaPage1_DIS_ZP_ERRORtextEN//
+MonitorParaPage1_DIS_ZSPD_FBKtextEN:MonitorParaPage1_DIS_ZSPD_FBKtextEN//
+MonitorParaPage1_DIS_ZTRQ_BURDEN1textEN:MonitorParaPage1_DIS_ZTRQ_BURDEN1textEN//
+MonitorParaPage1_DIS_ZTRQ_BURDEN2textEN:MonitorParaPage1_DIS_ZTRQ_BURDEN2textEN//
+MonitorParaPage_DIS_DB_POWERtextEN:MonitorParaPage_DIS_DB_POWERtextEN//
+MonitorParaPage_DIS_DC_BUS_VOLTAGEtextEN:MonitorParaPage_DIS_DC_BUS_VOLTAGEtextEN//
+MonitorParaPage_DIS_DI_PORT_STATUStextEN:MonitorParaPage_DIS_DI_PORT_STATUStextEN//
+MonitorParaPage_DIS_DO_PORT_STATUStextEN:MonitorParaPage_DIS_DO_PORT_STATUStextEN//
+MonitorParaPage_DIS_ELEC_ANGLEtextEN:MonitorParaPage_DIS_ELEC_ANGLEtextEN//
+MonitorParaPage_DIS_ERROR_CODEtextEN:MonitorParaPage_DIS_ERROR_CODEtextEN//
+MonitorParaPage_DIS_HINK_TEMPtextEN:MonitorParaPage_DIS_HINK_TEMPtextEN//
+MonitorParaPage_DIS_MECH_ANGLEtextEN:MonitorParaPage_DIS_MECH_ANGLEtextEN//
+MonitorParaPage_DIS_P_ERRORtextEN:MonitorParaPage_DIS_P_ERRORtextEN//
+MonitorParaPage_DIS_SPD_FBKtextEN:MonitorParaPage_DIS_SPD_FBKtextEN//
+MonitorParaPage_DIS_TRQ_BURDEN1textEN:MonitorParaPage_DIS_TRQ_BURDEN1textEN//
+MonitorParaPage_DIS_TRQ_BURDEN2textEN:MonitorParaPage_DIS_TRQ_BURDEN2textEN//
+MotorAdjustPage_OTE_443En:In  MainAdj  Out//
+MotorAdjustPage_OTE_457En:In  ViceAdj  Out//
+MotorAdjustPage_OTE_Tip_S2En:HP. Adjust//
+MotorAdjustPage_STE_MacMPosBackEn:MPosBack Y41//
+MotorAdjustPage_STE_MacMPosForwEn:MPosForw Y41//
+MotorAdjustPage_STE_MacMTravBackEn:MTravBack Y42//
+MotorAdjustPage_STE_MacMTravForwEn:MTravForw Y42//
+MotorAdjustPage_STE_MacMainDownEn:MainDown Y40//
+MotorAdjustPage_STE_MacMainUpEn:Main  Up Y40//
+MotorAdjustPage_STE_MacNegativeEn:Y46Negative//
+MotorAdjustPage_STE_MacSPosBackEn:SPosBack//
+MotorAdjustPage_STE_MacSPosForwEn:SPosForw//
+MotorAdjustPage_STE_MacSTravBackEn:STravBack//
+MotorAdjustPage_STE_MacSTravForwEn:STravForw//
+MotorAdjustPage_STE_MacSubDownEn:Sub Down//
+MotorAdjustPage_STE_MacSubUpEn:Sub   Up//
+OutputRecoverScreen_DIS_OutRecoverHinttextEN:OutputRecoverScreen_DIS_OutRecoverHinttextEN//
+OutputValuePage0_OTE_376En:Y10 MainDown //
+OutputValuePage0_OTE_377En:Y11 MainForw //
+OutputValuePage0_OTE_378En:Y12 Vacuum //
+OutputValuePage0_OTE_379En:Y13 MainFix//
+OutputValuePage0_OTE_380En:Y14 Alarm //
+OutputValuePage0_OTE_381En:Y15 Reserv1 //
+OutputValuePage0_OTE_382En:Y16 Hori //
+OutputValuePage0_OTE_383En:Y17 Verti //
+OutputValuePage0_OTE_384En:Y20 M.Back//
+OutputValuePage0_OTE_385En:Y21 M.Forw //
+OutputValuePage0_OTE_386En:Y22 SubFix //
 OutputValuePage0_OTE_387En:Y23 SlowDown //
-OutputValuePage0_OTE_388En:Y24 Reserv1 //
-OutputValuePage0_OTE_389En:Y25 Reserv2 //
-OutputValuePage0_OTE_389En:Y25 Suck4 //
-OutputValuePage0_OTE_391En:Y26 TravIn //
-OutputValuePage0_OTE_390En:Y27 TravOut //
+OutputValuePage0_OTE_388En:Y24 TravIn //
+OutputValuePage0_OTE_389En:Y25 TravOut //
+OutputValuePage0_OTE_390En:Y27 Rev //
+OutputValuePage0_OTE_391En:Y26 Rev //
 OutputValuePage1_OTE_408En:Y30 SubForw //
 OutputValuePage1_OTE_409En:Y31 SubBack //
-OutputValuePage1_OTE_410En:Y32 SubUp //
-OutputValuePage1_OTE_411En:Y33 SubDown //
+OutputValuePage1_OTE_410En:Y32 SubBack //
+OutputValuePage1_OTE_411En:Y33 SubForw //
 OutputValuePage1_OTE_412En:Y34 SubFix //
-OutputValuePage1_OTE_413En:Y35 Process1 //
 OutputValuePage1_OTE_413En:Y35 Suck3 //
 OutputValuePage1_OTE_414En:Y36 Scissor //
 OutputValuePage1_OTE_415En:Y37 Coneryor //
@@ -417,1307 +1607,198 @@ OutputValuePage1_OTE_420En:ThimSafe //
 OutputValuePage1_OTE_421En:YReserv1 //
 OutputValuePage1_OTE_422En:YReserv3 //
 OutputValuePage1_OTE_423En:YReserv2 //
-
-ManualSettingPage_OTE_423En:DotRange //
-ManualSettingPage_OTE_424En:ManuSpd //
-ManualSettingPage_OTE_427En:ManuPos //
-ManualSettingPage_OTE_430En:DotSpd //
-ManualSettingPage_OTE_433En:TackPos //
-SavePage_OTE_435En:Read(0-99) //
-SavePage_OTE_437En:Load success! //
-SavePage_OTE_438En:Write(20-99) //
-
-
-
-
-MI_StopStatusCh:	停止//
-MI_ManualStatusCh:	手动//
-MI_AutoPrepStatusCh:	自动准备//
-MI_AutoStatusCh:	自动//
-MI_InstructStatusCh:	教导//
-
-Func_STLanguageNameCh:	中文		//
-Manual_ManualModeCh:		手动		//
-Manual_ManualModeCh:		单步		//NOT STANDARD
-Manual_InchingModeCh:	寸动		//
-
-Com_FuncUseCh:		使用		//
-Com_FuncNotUseCh:		不使用		//
-Com_FuncNotRestrictCh:	不限制		//
-Com_FuncPositivePhaseCh:	正相		//
-Com_FuncReversedPhaseCh:	反相		//
-Com_FuncOFFCh:		关		//
-Com_FuncONCh:			开		//
-Com_FuncHorizontalCh:	水平		//
-Com_FuncVerticalCh:		垂直		//
-Com_FuncOutsideCh:		型外		//
-Com_FuncInsideCh:		型内		//
-
-Com_FuncNormallyOpenCh:	常开		//
-Com_FuncNormallyCloseCh:	常闭		//
-Com_FuncTransverseOutCh:	外下前		//
-Com_FuncInsideMoldCh:	模内		//
-Com_FuncFullRunCh:		全程		//
-
-Com_FuncPositiveCh:正向//
-Com_FuncReverseCh:反向//
-
-Com_FuncContinueCh:		关门继续		//
-Com_FuncStopCh:		关门停止		//
-Com_FuncResetInMoldCh:	关门复归		//
-
-Com_TravServoCh:	伺服		//
-Com_TravFreqConvCh:	变频		//
-Com_TravPneumaticCh:	气动		//
-Com_FreqDecelTimeCh:	时间		//
-Com_FreqDecelSwitchCh:开关		//
-Com_FeedBackNoFBCh:	无反馈		//
-Com_FeedBackFBCh:	有反馈		//
-
-g_com_nolockmoldCh:禁止锁模//
-g_com_allowlockmoldCh:允许锁模//
-g_com_nolockmoldEn:NoLockM//
-g_com_allowlockmoldEn:AllowLkM//
-
-
-
-Alarm_Num1Ch:			开模完信号断,未归原点			//
-Alarm_Num2Ch:			中模确认限断,未归原点			//
-Alarm_Num3Ch:			主臂上升限断,未归原点			//
-Alarm_Num4Ch:			副臂上升限断,未归原点			//
-Alarm_Num5Ch:			主夹确认限通,未归原点			//
-Alarm_Num6Ch:			副夹确认限通,未归原点			//
-Alarm_Num7Ch:			真空吸限通,未归原点			//
-Alarm_Num8Ch:			抱具限通,未归原点			//
-Alarm_Num9Ch:			机台停在型外,未归原点			//
-Alarm_Num10Ch:		机台停在型内,未归原点			//
-Alarm_Num11Ch:		垂直限断,未归原点			//
-Alarm_Num12Ch:		水平限断,未归原点			//
-Alarm_Num13Ch:		下降取物时,开模完信号断		//
-Alarm_Num14Ch:		下降取物时,中板模信号断		//
-Alarm_Num15Ch:		开模完信号通,安全门信号断		//
-Alarm_Num16Ch:		开模完信号通,中板模信号断		//
-Alarm_Num17Ch:		主臂上升限通,主臂下降限通		//
-Alarm_Num18Ch:		主臂前进限通,主臂后退限通		//
-Alarm_Num19Ch:		副臂上升限通,副臂下降限通		//
-Alarm_Num20Ch:		副臂前进限通,副臂后退限通		//
-Alarm_Num21Ch:		机台横出限通,机台横入限通		//
-Alarm_Num22Ch:		水平限通,垂直限通			//
-Alarm_Num23Ch:		手臂下降前,开模完信号断		//
-Alarm_Num24Ch:		手臂下降前,中板模信号断		//
-Alarm_Num25Ch:		手臂下降前,安全门信号断		//
-Alarm_Num26Ch:		手臂下降前,垂直限断			//
-Alarm_Num27Ch:		手臂下降前,水平限断			//
-Alarm_Num28Ch:		手臂下降前,主夹限通			//
-Alarm_Num29Ch:		手臂下降前,副夹限通			//
-Alarm_Num30Ch:		手臂下降前,真空吸限通			//
-Alarm_Num31Ch:		手臂下降前,抱具限通			//
-Alarm_Num32Ch:		机台横行前,主臂下降阀通		//
-Alarm_Num33Ch:		机台横行前,副臂下降阀通		//
-Alarm_Num34Ch:		机台横行前,主臂上升限断		//
-Alarm_Num35Ch:		机台横行前,副臂上升限断		//
-Alarm_Num36Ch:		姿势变化前,主臂下降阀通		//
-Alarm_Num37Ch:		姿势变化前,副臂下降阀通		//
-Alarm_Num38Ch:		主臂下降阀通,主臂上升限通		//
-Alarm_Num39Ch:		主臂下降阀通,主臂下降限断		//
-Alarm_Num40Ch:		主臂下降阀断,主臂上升限断		//
-Alarm_Num41Ch:		主臂下降阀断,主臂下降限通		//
-Alarm_Num42Ch:		副臂下降阀通,副臂上升限通		//
-Alarm_Num43Ch:		副臂下降阀通,副臂下降限断		//
-Alarm_Num44Ch:		副臂下降阀断,副臂上升限断		//
-Alarm_Num45Ch:		副臂下降阀断,副臂下降限通		//
-Alarm_Num46Ch:		主臂前进阀通,主臂前进限断		//
-Alarm_Num47Ch:		主臂前进阀通,主臂后退限通		//
-Alarm_Num48Ch:		主臂前进阀断,主臂前进限通		//
-Alarm_Num49Ch:		主臂前进阀断,主臂后退限断		//
-Alarm_Num50Ch:		副臂前进阀通,副臂前进限断		//
-Alarm_Num51Ch:		副臂前进阀通,副臂后退限通		//
-Alarm_Num52Ch:		副臂前进阀断,副臂前进限通		//
-Alarm_Num53Ch:		副臂前进阀断,副臂后退限断		//
-Alarm_Num54Ch:		主夹阀通,主夹限断			//
-Alarm_Num55Ch:		主夹阀断,主夹限通			//
-Alarm_Num56Ch:		副夹阀通,副夹限断			//
-Alarm_Num57Ch:		副夹阀断,副夹限通			//
-Alarm_Num58Ch:		真空阀通,真空限断			//
-Alarm_Num59Ch:		真空阀断,真空限通			//
-Alarm_Num60Ch:		抱具阀通,抱具限断			//
-Alarm_Num61Ch:		抱具阀断,抱具限通			//
-Alarm_Num62Ch:		水平阀通,水平限断			//
-Alarm_Num63Ch:		垂直阀通,垂直限断			//
-Alarm_Num64Ch:		横出时间过久				//
-Alarm_Num65Ch:		横入时间过久				//
-Alarm_Num66Ch:		紧急停止				//
-Alarm_Num67Ch:		程式不完整				//
-Alarm_Num68Ch:		产量已到				//
-Alarm_Num69Ch:		动作未依模式进行			//
-Alarm_Num70Ch:		等待开模逾时				//
-Alarm_Num71Ch:		Y轴伺服驱动器无脉冲输入		//
-Alarm_Num72Ch:		Z轴伺服驱动器报警			//
-Alarm_Num73Ch:		安全门位置未设定			//
-Alarm_Num74Ch:		Z轴置物点位置小于安全门位置		//
-Alarm_Num75Ch:		Z轴置物点位置大于最大值		//
-Alarm_Num76Ch:		外待机位置小于安全门位置		//
-Alarm_Num77Ch:		外待机位置大于最大值			//
-Alarm_Num78Ch:		循环置物点数*距离超过安全范围		//
-Alarm_Num79Ch:		横出极限异常				//
-Alarm_Num80Ch:		横入极限异常				//
-Alarm_Num81Ch:		机台不在起始位置,手动横入		//
-Alarm_Num82Ch:		原点需重新复归				//
-Alarm_Num83Ch:		机台横出横入前,请先水平		//
-Alarm_Num84Ch:		机台未在横轴两端,不能下降		//
-Alarm_Num85Ch:		气压不足				//
-Alarm_Num86Ch:		模内安全点小于起始点位置		//
-Alarm_Num87Ch:		模内安全点大于安全门位置		//
-Alarm_Num88Ch:		非模内安全下降区,不能下降		//
-Alarm_Num89Ch:		横行位置小于起点位置			//
-Alarm_Num90Ch:		横行位置大于最大值			//
-Alarm_Num91Ch:		模外下降前,型外安全区限断		//
-Alarm_Num92Ch:		模内下降前,Z轴原点无信号		//
-Alarm_Num93Ch:		试用期已到				//
-Alarm_Num94Ch:		横出前,请先水平			//
-Alarm_Num95Ch:		横出前,请先垂直			//
-Alarm_Num96Ch:		横入前,请先水平			//
-Alarm_Num97Ch:		横入前,请先垂直			//
-Alarm_Num98Ch:		加工1阀通,加工1限断			//
-Alarm_Num99Ch:		加工1阀断,加工1限通			//
-Alarm_Num100Ch:		预留2阀通,预留2限断			//
-Alarm_Num101Ch:		预留2阀断,预留2限通			//
-Alarm_Num102Ch:		水平待机无开模完,不能垂直		//
-Alarm_Num103Ch:		姿势变化前,型外安全区限断		//
-Alarm_Num104Ch:		全自动信号无				//
-Alarm_Num105Ch:		Y轴未在起点,未归原点			//
-Alarm_Num106Ch:		Y轴上升极限通，Y轴下降极限通		//
-Alarm_Num107Ch:		机台横行前,Y轴未在起始点		//
-Alarm_Num108Ch:		姿势变化前,Y轴未在起始点		//
-Alarm_Num109Ch:		Y轴最大位置未设定			//
-Alarm_Num110Ch:		Y轴下降点数*距离超过安全范围		//
-Alarm_Num111Ch:		Y轴下降极限异常			//
-Alarm_Num112Ch:		Y轴上升极限异常			//
-Alarm_Num113Ch:		Y轴不在起始位置,手动上升		//
-Alarm_Num114Ch:		Y轴下降时间过久			//
-Alarm_Num115Ch:		Y轴上升时间过久			//
-Alarm_Num116Ch:		Y轴下降位置小于起点位置		//
-Alarm_Num117Ch:		Y轴下降位置大于最大值			//
-Alarm_Num118Ch:		Y轴伺服驱动器报警			//
-Alarm_Num119Ch:		Y轴最大待机位置大于最大值		//
-Alarm_Num120Ch:		Y轴待机位置大于最大待机位置		//
-Alarm_Num121Ch:		未教导等开模完     			//
-
-ERC_EEPCh:		参数破坏//Servo1 Alarm
-ERC_PARCh:		参数设定异常//
-ERC_OCCh:		过电流检测//
-ERC_OC1Ch:		过电流检测//
-ERC_REGCh:		再生异常//
-ERC_REGOLCh:		再生过载//
-ERC_OVCh:		过电压//
-ERC_LVCh:		电压不足//
-ERC_OV1Ch:		硬件过电压//
-ERC_OSCh:		超速//
-ERC_OL1Ch:		瞬时过载//
-ERC_OL2Ch:		连续最大负载//
-ERC_DBCh:		DB过载//
-ERC_STRCh:		冲击电阻过载//
-ERC_OTCh:		散热片过热//
-ERC_ENCCh:		编码器数据警报//
-ERC_ENC1Ch:		编码器数据警报//
-ERC_ANASCh:		速度指令A/D异常//
-ERC_ANATCh:		扭矩指令A/D异常//
-ERC_ANACCh:		检测电流异常//
-ERC_SYSCh:		系统警报//
-ERC_PECh:		位置偏移过大//
-ERC_PHLCh:		电源线缺相//
-ERC_LBKCh:		电机线断线//
-WARN_LVCh:		电压不足//
-
-ERC_EEPZCh:		Z参数破坏//Servo2 Alarm
-ERC_PARZCh:		Z参数设定异常//
-ERC_OCZCh:		Z过电流检测//
-ERC_OC1ZCh:		Z过电流检测//
-ERC_REGZCh:		Z再生异常//
-ERC_REGOLZCh:		Z再生过载//
-ERC_OVZCh:		Z过电压//
-ERC_LVZCh:		Z电压不足//
-ERC_OV1ZCh:		Z硬件过电压//
-ERC_OSZCh:		Z超速//
-ERC_OL1ZCh:		Z瞬时过载//
-ERC_OL2ZCh:		Z连续最大负载//
-ERC_DBZCh:		ZDB过载//
-ERC_STRZCh:		Z冲击电阻过载//
-ERC_OTZCh:		Z散热片过热//
-ERC_ENCZCh:		Z编码器数据警报//
-ERC_ENC1ZCh:		Z编码器数据警报//
-ERC_ANASZCh:		Z速度指令A/D异常//
-ERC_ANATZCh:		Z扭矩指令A/D异常//
-ERC_ANACZCh:		Z检测电流异常//
-ERC_SYSZCh:		Z系统警报//
-ERC_PEZCh:		Z位置偏移过大//
-ERC_PHLZCh:		Z电源线缺相//
-ERC_LBKZCh:		Z电机线断线//
-WARN_LVZCh:		Z电压不足//
-	
-
-Act_NULLCh:			无 动 作		//
-Act_OpenDelayCh:		开模延时		//
-Act_MainDownCh:		主臂下降		//
-Act_MainUpCh:			主臂上升		//
-Act_MainForwCh:		主臂前进		//
-Act_MainBackwCh:		主臂后退		//
-Act_MainFixCh:		主 臂 夹		//
-Act_MainPutCh:		主 臂 放		//
-Act_SpinOutCh:		横    出		//
-Act_SpinInCh:			横    入		//
-Act_VacuumSuckCh:		真 空 吸		//
-Act_VacuumPutCh:		真 空 放		//
-Act_VacuumSuckCh:		吸 1  通		//
-Act_VacuumPutCh:		吸 1  断		//
-Act_ViceDownCh:		副臂下降		//
-Act_ViceUpCh:			副臂上升		//
-Act_ViceForwCh:		副臂前进		//
-Act_ViceBackwCh:		副臂后退		//
-Act_ViceFixCh:		副 臂 夹		//
-Act_VicePutCh:		副 臂 放		//
-Act_DoubleDownCh:		双臂下降		//
-Act_DoubleUpCh:		双臂上升		//
-Act_DoubleForwCh:		双臂前进		//
-Act_DoubleBackwCh:		双臂后退		//
-Act_DoubleFixCh:		双 臂 夹		//
-Act_DoublePutCh:		双 臂 放		//
-Act_HorizontalCh:		姿势水平		//
-Act_VerticalCh:		姿势垂直		//
-Act_HoldOnCh:			抱 具 通		//
-Act_HoldOffCh:		抱 具 断		//
-Act_HoldOnCh:			吸 2  通		//
-Act_HoldOffCh:		吸 2  断		//
-Act_ScissorsOnCh:		剪 刀 通		//
-Act_ScissorsOffCh:		剪 刀 断		//
-Act_ConveyorOnCh:		输送机通		//
-Act_ConveyorOffCh:		输送机断		//
-Act_Process1OnCh:		加工1 通		//
-Act_Process1OffCh:		加工1 断		//
-Act_Process1OnCh:		吸 3  通		//
-Act_Process1OffCh:		吸 3  断		//
-Act_Reserved1OnCh:		预留1 通		//
-Act_Reserved1OffCh:		预留1 断		//
-Act_Reserved2OnCh:		预留2 通		//
-Act_Reserved2OffCh:		预留2 断		//
-Act_Reserved2OnCh:		吸 4  通		//
-Act_Reserved2OffCh:		吸 4  断		//
-Act_MainArmCh:		主    臂		//
-Act_ViceArmCh:		副    臂		//
-Act_DoubleArmCh:		双    臂		//
-Act_VacuumCh:			真    空		//
-Act_HoldCh:			抱    具		//
-Act_ScissorsCh:		剪    刀		//
-Act_ConveyorCh:		输 送 机		//
-Act_Process1Ch:		加 工  1		//
-Act_Process1Ch:		吸     3		//
-Act_Reserved1Ch:		预 留  1		//
-Act_Reserved2Ch:		预 留  2		//
-Act_Reserved2Ch:		吸     4		//
-Act_MoldOpenWaitCh:		等开模完		//
-Act_SynStartCh:		同步开始		//
-Act_SynEndCh:			同步结束		//
-Act_MoldClsPermitCh:		允许关模		//
-Act_EjectorPermitCh:		允许顶针		//
-Act_WaitX37Ch:		等待 X37		//
-Act_MoldEndCh:		模组结束		//
-
-
-MI_StopStatusEn:	Stop//
-MI_ManualStatusEn:	Manu//
-MI_AutoPrepStatusEn:	AtStdby//
-MI_AutoStatusEn:	Auto//
-MI_InstructStatusEn:	Inst//
-
-Func_STLanguageNameEn:	English	//
-Manual_ManualModeEn:		Manual		//
-Manual_InchingModeEn:	Inching	//
-
-Com_FuncUseEn:		Use		//
-Com_FuncNotUseEn:		No Use	//
-Com_FuncNotRestrictEn:	NotRst		//
-Com_FuncPositivePhaseEn:	PP		//
-Com_FuncReversedPhaseEn:	RP		//
-Com_FuncOFFEn:		OFF		//
-Com_FuncONEn:			ON		//
-Com_FuncHorizontalEn:	Hori		//
-Com_FuncVerticalEn:		Verti		//
-Com_FuncOutsideEn:		OutSide	//
-Com_FuncInsideEn:		Inside		//
-
-Com_FuncNormallyOpenEn:	NomOpen	//
-Com_FuncNormallyCloseEn:	NomClo		//
-Com_FuncTransverseOutEn:	TravOut	//
-Com_FuncInsideMoldEn:	InMold		//
-Com_FuncFullRunEn:		FullRun	//
-
-Com_FuncContinueEn:		Conti		//
-Com_FuncStopEn:		Stop		//
-Com_FuncResetInMoldEn:	Rest		//
-
-Com_FuncPositiveEn:PSTV//
-Com_FuncReverseEn:REVS//
-
-Com_TravServoEn:	Servo		//
-Com_TravFreqConvEn:	FreqCv		//
-Com_TravPneumaticEn:	Pneu		//
-Com_FreqDecelTimeEn:	DecT		//
-Com_FreqDecelSwitchEn:	DecSw		//
-Com_FeedBackNoFBEn:	NoFeed		//
-Com_FeedBackFBEn:	FeedB		//
-
-
-Alarm_Num1En:		OpenMoldSignalOff			//
-Alarm_Num2En:		MidMoldLmtOff				//
-Alarm_Num3En:		M.UpLmtOff				//
-Alarm_Num4En:		SubUpLmtOff				//
-Alarm_Num5En:		M.FixLmtOn				//
-Alarm_Num6En:		S.FixLmtOn				//
-Alarm_Num7En:		SuckLmtOn				//
-Alarm_Num8En:		HoldLmtOn				//
-Alarm_Num9En:		OutsideStdby				//
-Alarm_Num10En:		InsideStdby				//
-Alarm_Num11En:		VertiLmtOff				//
-Alarm_Num12En:		HoriLmtOff				//
-Alarm_Num13En:		BefDown,OpenSignalOff		//
-Alarm_Num14En:		BefDown,MidMoldSignalOff		//
-Alarm_Num15En:		OpenSigOn,SafeSigOff			//
-Alarm_Num16En:		OpenSigOff,MidSigOff			//
-Alarm_Num17En:		M.UpLmtOn,M.DownLmtOn		//
-Alarm_Num18En:		M.ForwLmtOn,M.BackLmtOn		//
-Alarm_Num19En:		S.UpLmtOn,S.DownLmtOn		//
-Alarm_Num20En:		S.ForwLmtOn,S.BackLmtOn		//
-Alarm_Num21En:		TravOutLmtOn,TravInLmtOn		//
-Alarm_Num22En:		VertiLmtOn,HoriLmtOn			//
-Alarm_Num23En:		BefDown,OpenLmtOff			//
-Alarm_Num24En:		BefDown,MidLmtOff			//
-Alarm_Num25En:		BefDown,SafeLmtOff			//
-Alarm_Num26En:		BefDown,VertiLmtOff			//
-Alarm_Num27En:		BefDown,HoriLmtOff			//
-Alarm_Num28En:		BefDown,M.FixLmtOn			//
-Alarm_Num29En:		BefDown,S.FixLmtOn			//
-Alarm_Num30En:		BefDown,SuckLmtOn			//
-Alarm_Num31En:		BefDown,HoldLmtOn			//
-Alarm_Num32En:		BefTrav,M.DownVOn			//
-Alarm_Num33En:		BefTrav,S.DownVOn			//
-Alarm_Num34En:		BefTrav,M.UpLmtOff			//
-Alarm_Num35En:		BefTrav,S.UpLmtOff			//
-Alarm_Num36En:		BefCh,M.DownVOn			//
-Alarm_Num37En:		BefCh,S.DownVOn			//
-Alarm_Num38En:		M.DownVOn,M.UpLmtOn			//
-Alarm_Num39En:		M.DownVOn,M.DownLmtOn		//
-Alarm_Num40En:		M.DownVOff,M.UpLmtOff		//
-Alarm_Num41En:		M.DownVOff,M.DownLmtOn		//
-Alarm_Num42En:		S.DownVOn,S.UpLmtOn			//
-Alarm_Num43En:		S.DownVOn,S.DownLmtOff		//
-Alarm_Num44En:		S.DownVOff,S.UpLmtOff		//
-Alarm_Num45En:		S.DownVOff,S.DownLmtOn		//
-Alarm_Num46En:		M.ForwVOn,M.ForwLmtOff		//
-Alarm_Num47En:		M.ForwVOn,M.BackLmtOn		//
-Alarm_Num48En:		M.ForwVOff,M.ForwLmtOn		//
-Alarm_Num49En:		M.ForwVOff,M.BackLmtOff		//
-Alarm_Num50En:		S.ForwVOn,S.ForwLmtOff		//
-Alarm_Num51En:		S.ForwVOn,S.BackLmtOn		//
-Alarm_Num52En:		S.ForwVOff,S.ForwLmtOn		//
-Alarm_Num53En:		S.ForwVOff,S.BackLmtOff		//
-Alarm_Num54En:		M.FixVOn,M.FixLmtOff			//
-Alarm_Num55En:		M.FixVOff,M.FixLmtOn			//
-Alarm_Num56En:		S.FixVOn,S.FixLmtOff			//
-Alarm_Num57En:		S.FixVOff,S.FixLmtOn			//
-Alarm_Num58En:		VacuVOn,VacuLmtOff			//
-Alarm_Num59En:		VacuVOff,VacuLmtOn			//
-Alarm_Num60En:		HoldVOn,HoldLmtOff			//
-Alarm_Num61En:		HoldVOff,HoldLmtOn			//
-Alarm_Num62En:		HoriVOn,HoriLmtOff			//
-Alarm_Num63En:		VertiVOn,VertiLmtOff			//
-Alarm_Num64En:		TravOutTimeOut			//
-Alarm_Num65En:		TravInTimeOut				//
-Alarm_Num66En:		EmergStop				//
-Alarm_Num67En:		NotCompleteProgram			//
-Alarm_Num68En:		ProductReachesSetted			//
-Alarm_Num69En:		ActsNotActAsProgram			//
-Alarm_Num70En:		WaittingOpenTimeOut			//
-Alarm_Num71En:		NoPulseInputInServo			//
-Alarm_Num72En:		ServoAlarm				//
-Alarm_Num73En:		NotSetSafeDoorPos			//
-Alarm_Num74En:		PosOfPutLowerThanSafeDoor		//
-Alarm_Num75En:		PosOfPutHigherThanMax		//
-Alarm_Num76En:		OutPosLowerThanSafeDoor		//
-Alarm_Num77En:		OutStdbyPosHigherThanMax		//
-Alarm_Num78En:		CycleCnt,DistExcSafeRange		//
-Alarm_Num79En:		AbnormalTravOutLmt			//
-Alarm_Num80En:		AbnormalTravInLmt			//
-Alarm_Num81En:		MichiNotAtOrigin			//
-Alarm_Num82En:		OriginNeedToRe-test			//
-Alarm_Num83En:		BefTravOut,MakeHori			//
-Alarm_Num84En:		NotSideOfAxis,CanNotDown		//
-Alarm_Num85En:		InsuffiPressure			//
-Alarm_Num86En:		InDownSafPtLowThanOri		//
-Alarm_Num87En:		InDownSafePtHighThanOri		//
-Alarm_Num88En:		NotDownArea,CanNotDown		//
-Alarm_Num89En:		TravPosLowerThanOrigin		//
-Alarm_Num90En:		TravPosHigherThanMax			//
-Alarm_Num91En:		BefDownOutside,OutSafeOff		//
-Alarm_Num92En:		BefDownInside,ZNoOrigin		//
-Alarm_Num93En:		TrialTimeOut				//
-Alarm_Num94En:		BefOut,TobeHori			//
-Alarm_Num95En:		BefForw,TobeVerti			//
-Alarm_Num96En:		BefIn,TobeHori			//
-Alarm_Num97En:		BefIn,TobeVerti			//
-Alarm_Num98En:		Pro1ValveOn,Pro1LmtOff		//
-Alarm_Num99En:		Pro1ValveOff,Pro1LmtOn		//
-Alarm_Num100En:		Reserv2ValOn,Reserv2LmtOff		//
-Alarm_Num101En:		Reserv2ValOff,Reserv2LmtOn		//
-Alarm_Num102En:		NoOpenFini,CanNotVerti		//
-Alarm_Num103En:		BefChange,OutSafeLmtOff		//
-Alarm_Num104En:		NoAutoLmt				//
-Alarm_Num105En:		MainNotAtStart,NotOrigin		//
-Alarm_Num106En:		MainUpPoleOn,MainDownPoleOn		//
-Alarm_Num107En:		MainNotAtStart,TravlePre		//
-Alarm_Num108En:		MainNotAtStart,HoriPre		//
-Alarm_Num109En:		YPosMaxNotSet				//
-Alarm_Num110En:		MulDotYDownHigherSafePos		//
-Alarm_Num111En:		YDownLimitAnomaly			//
-Alarm_Num112En:		YUpLimitAnomaly			//
-Alarm_Num113En:		YNotActStartUpManual			//
-Alarm_Num114En:		YDownTimeOut				//
-Alarm_Num115En:		YUpTimeOut				//
-Alarm_Num116En:		YDownPosLessStart			//
-Alarm_Num117En:		YDownPosHigherMax			//
-Alarm_Num118En:		YAxisServoAlarm			//
-Alarm_Num119En:		YStartPosMaxHigherPosMax		//
-Alarm_Num120En:		YStartPosHigherStartPosMax		//
-Alarm_Num121En:		MoldOpenWaitUsed,NotTeach		//
-
-ERC_EEPEn:		ParaDamage//Servo1 Alarm
-ERC_PAREn:		ParaSetAnomal//
-ERC_OCEn:		OverCurrent//
-ERC_OC1En:		OverCurrent1//
-ERC_REGEn: 		RegenAanomal//
-ERC_REGOLEn: 		RegenOverload//
-ERC_OVEn:		OverVoltage//
-ERC_LVEn:		LessVoltage//
-ERC_OV1En:		HardOverVol//
-ERC_OSEn:		OverSpeed//
-ERC_OL1En:		OverLoad//
-ERC_OL2En:		OverLoadContinu//
-ERC_DBEn:		DBOverLoad//
-ERC_STREn:		ResistOverLoad//
-ERC_OTEn:		OverTemp//
-ERC_ENCEn:		EncoderAlarm//
-ERC_ENC1En:		EncoderAlarm1//
-ERC_ANASEn:		SpeedCmdADAnomal//
-ERC_ANATEn:		TorqueCmdADAnomal//
-ERC_ANACEn:		CurrentAnomal//
-ERC_SYSEn:		SystemAlert//
-ERC_PEEn:		PositionError//
-ERC_PHLEn:		PowerLacks//
-ERC_LBKEn:		MotorLineLack//
-WARN_LVEn:		LessVoltage//
-
-ERC_EEPZEn:		ZParaDamage//Servo2 Alarm
-ERC_PARZEn:		ZParaSetAnomal//
-ERC_OCZEn:		ZOverCurrent//
-ERC_OC1ZEn:		ZOverCurrent1//
-ERC_REGZEn: 		ZRegenAanomal//
-ERC_REGOLZEn: 		ZRegenOverload//
-ERC_OVZEn:		ZOverVoltage//
-ERC_LVZEn:		ZLessVoltage//
-ERC_OV1ZEn:		ZHardOverVol//
-ERC_OSZEn:		ZOverSpeed//
-ERC_OL1ZEn:		ZOverLoad//
-ERC_OL2ZEn:		ZOverLoadContinu//
-ERC_DBZEn:		ZDBOverLoad//
-ERC_STRZEn:		ZResistOverLoad//
-ERC_OTZEn:		ZOverTemp//
-ERC_ENCZEn:		ZEncoderAlarm//
-ERC_ENC1ZEn:		ZEncoderAlarm1//
-ERC_ANASZEn:		ZSpeedCmdADAnomal//
-ERC_ANATZEn:		ZTorqueCmdADAnomal//
-ERC_ANACZEn:		ZCurrentAnomal//
-ERC_SYSZEn:		ZSystemAlert//
-ERC_PEZEn:		ZPositionError//
-ERC_PHLZEn:		ZPowerLacks//
-ERC_LBKZEn:		ZMotorLineLack//
-WARN_LVZEn:		ZLessVoltage//
-
-Act_NULLEn:		No   Act			//
-Act_OpenDelayEn:	OpenDelay		//
-Act_MainDownEn:	MainDown		//
-Act_MainUpEn:		Main  Up			//
-Act_MainForwEn:	MainForw		//
-Act_MainBackwEn:	MainBack		//
-Act_MainFixEn:	Main Fix		//
-Act_MainPutEn:	Main Put		//
-Act_SpinOutEn:	Spin Out		//
-Act_SpinInEn:		Spin  In			//
-Act_VacuumSuckEn:	Vac Suck		//
-Act_VacuumPutEn:	Vac  Put			//
-Act_VacuumSuckEn:	Suck1 ON		//
-Act_VacuumPutEn:	Suck1OFF			//
-Act_ViceDownEn:	Sub Down		//
-Act_ViceUpEn:		Sub   Up			//
-Act_ViceForwEn:	Sub Forw		//
-Act_ViceBackwEn:	Sub Back		//
-Act_ViceFixEn:	Sub  Fix			//
-Act_VicePutEn:	Sub  Put			//
-Act_DoubleDownEn:	Dob Down		//
-Act_DoubleUpEn:	Dob   Up			//
-Act_DoubleForwEn:	Dob Forw		//
-Act_DoubleBackwEn:	Dob Back		//
-Act_DoubleFixEn:	Dob  Fix			//
-Act_DoublePutEn:	Dob  Put			//
-Act_HorizontalEn:	Horizon 		//
-Act_VerticalEn:	Vertical		//
-Act_HoldOnEn:		Hold  On			//
-Act_HoldOffEn:	Hold Off		//
-Act_HoldOnEn:		Suck2 On			//
-Act_HoldOffEn:	Suck2OFF		//
-Act_ScissorsOnEn:	Scis  On			//
-Act_ScissorsOffEn:	Scis Off		//
-Act_ConveyorOnEn:	ConveyOn		//
-Act_ConveyorOffEn:	ConveyOff		//
-Act_Process1OnEn:	Proc 1On		//
-Act_Process1OffEn:	Proc 2On		//
-Act_Process1OnEn:	Suck3 ON		//
-Act_Process1OffEn:	Suck3OFF		//
-Act_Reserved1OnEn:	Reser1On		//
-Act_Reserved1OffEn:	Reser1Off		//
-Act_Reserved2OnEn:	Reser2On		//
-Act_Reserved2OffEn:	Reser2Off		//
-Act_Reserved2OnEn:	Suck4 ON		//
-Act_Reserved2OffEn:	Suck4OFF		//
-Act_MainArmEn:	Main Act		//
-Act_ViceArmEn:	Sub  Act			//
-Act_DoubleArmEn:	Dob  Act			//
-Act_VacuumEn:		Vacuum			//
-Act_HoldEn:		Hold    			//
-Act_ScissorsEn:	Scissor		//
-Act_ConveyorEn:	Conveyor		//
-Act_Process1En:	Process1		//
-Act_Process1En:	Suck3		//
-Act_Reserved1En:	Reserve1		//
-Act_Reserved2En:	Reserve2		//
-Act_Reserved2En:	Suck4		//
-Act_MoldOpenWaitEn:	MdOpWait   		//
-Act_SynStartEn:	SynStart		//
-Act_SynEndEn:		Syn  End		//
-Act_MoldClsPermitEn:	MdClsPer		//
-Act_EjectorPermitEn:	EjectPer		//
-Act_WaitX37En:	WaitX37		//
-Act_MoldEndEn:	Mold End		//
-
-MotorAdjustPage_OTE_443Ch:输入 主调位 输出//
-MotorAdjustPage_OTE_457Ch:输入 副调位 输出//
-MotorAdjustPage_STE_MacMainUpCh:下降位+ Y40//
-				  
-MotorAdjustPage_STE_MacMainDownCh:下降位- Y40//
-MotorAdjustPage_STE_MacMPosForwCh:后退位+ Y41//
-MotorAdjustPage_STE_MacMPosBackCh:后退位- Y41//
-				   
-MotorAdjustPage_STE_MacMTravForwCh:前进位+ Y42//
-MotorAdjustPage_STE_MacMTravBackCh:前进位- Y42//
-MotorAdjustPage_STE_MacSubUpCh:下降位+ Y43//
-MotorAdjustPage_STE_MacSubDownCh:下降位- Y43//
-MotorAdjustPage_STE_MacSPosForwCh:后退位+ Y44//
-MotorAdjustPage_STE_MacSPosBackCh:后退位- Y44//
-MotorAdjustPage_STE_MacSTravForwCh:前进位+ Y45//
-MotorAdjustPage_STE_MacSTravBackCh:前进位- Y45//
-MotorAdjustPage_STE_MacNegativeCh:Y46反向//
-
-MotorAdjustPage_OTE_443En:In  MainAdj  Out//
-MotorAdjustPage_OTE_457En:In  ViceAdj  Out//
-MotorAdjustPage_STE_MacMainUpEn:Main  Up Y40//
-MotorAdjustPage_STE_MacMainDownEn:MainDown Y40//
-MotorAdjustPage_STE_MacMPosForwEn:MPosForw Y41//
-MotorAdjustPage_STE_MacMPosBackEn:MPosBack Y41//
-MotorAdjustPage_STE_MacMTravForwEn:MTravForw Y42//
-MotorAdjustPage_STE_MacMTravBackEn:MTravBack Y42//
-MotorAdjustPage_STE_MacSubUpEn:Sub   Up//
-MotorAdjustPage_STE_MacSubDownEn:Sub Down//
-MotorAdjustPage_STE_MacSPosForwEn:SPosForw//
-MotorAdjustPage_STE_MacSPosBackEn:SPosBack//
-MotorAdjustPage_STE_MacSTravForwEn:STravForw//
-MotorAdjustPage_STE_MacSTravBackEn:STravBack//
-MotorAdjustPage_STE_MacNegativeEn:Y46Negative//
-
-Auto_StartTipsCh:按启动键进入自动模式//
-Auto_StartTestTipsCh:按启动键进入试产模式//
-Instruct_StartTipsCh:按启动键进入教导模式//
-SavePage_WriteTipsCh:按输入键进入教导页面//
-LeadOutTipsCh:导出当前模号参数//
-LeadOutTipsEn:Lead Out Curr Params//
-LeadInTipsCh:导入将覆盖当前模号!//
-LeadInTipsEn:Cover Curr Mold!//
-LeadOutFinishedTipsCh:导出完成!//
-LeadOutFinishedTipsEn:Lead Out Finished!//
-LeadInFinishedTipsCh:导入完成!//
-LeadInFinishedTipsEn:Lead In Finished!//
-Manual_ManualParamTipsCh:请按一次HP.键,确认更改取物位置//
-
-
-Auto_StartTipsEn:Press Start to AutoRun mold//
-Auto_StartTestTipsEn:Press Start to Test mold//
-Instruct_StartTipsEn:Press Start to Instruct mold//
-SavePage_WriteTipsEn:Press Enter to Instruct Page//
-Manual_ManualParamTipsEn:Please Press HP. to confirm setting//
-
-PassWordFunc1Page3_OTE_473Ch:门开警报//
-PassWordFunc1Page3_OTE_475Ch:预留1通时//
+OutputWatchScreen1_1_DIS_OutWatchAlarmtextEN:OutputWatchScreen1_1_DIS_OutWatchAlarmtextEN//
+OutputWatchScreen1_1_DIS_OutWatchHoldtextEN:OutputWatchScreen1_1_DIS_OutWatchHoldtextEN//
+OutputWatchScreen1_1_DIS_OutWatchHoritextEN:OutputWatchScreen1_1_DIS_OutWatchHoritextEN//
+OutputWatchScreen1_1_DIS_OutWatchLowPresstextEN:OutputWatchScreen1_1_DIS_OutWatchLowPresstextEN//
+OutputWatchScreen1_1_DIS_OutWatchMainBacktextEN:OutputWatchScreen1_1_DIS_OutWatchMainBacktextEN//
+OutputWatchScreen1_1_DIS_OutWatchMainDowntextEN:OutputWatchScreen1_1_DIS_OutWatchMainDowntextEN//
+OutputWatchScreen1_1_DIS_OutWatchMainFixtextEN:OutputWatchScreen1_1_DIS_OutWatchMainFixtextEN//
+OutputWatchScreen1_1_DIS_OutWatchMainForwtextEN:OutputWatchScreen1_1_DIS_OutWatchMainForwtextEN//
+OutputWatchScreen1_1_DIS_OutWatchMainUptextEN:OutputWatchScreen1_1_DIS_OutWatchMainUptextEN//
+OutputWatchScreen1_1_DIS_OutWatchReserv1textEN:OutputWatchScreen1_1_DIS_OutWatchReserv1textEN//
+OutputWatchScreen1_1_DIS_OutWatchReserv2textEN:OutputWatchScreen1_1_DIS_OutWatchReserv2textEN//
+OutputWatchScreen1_1_DIS_OutWatchSlowDowntextEN:OutputWatchScreen1_1_DIS_OutWatchSlowDowntextEN//
+OutputWatchScreen1_1_DIS_OutWatchTravIntextEN:OutputWatchScreen1_1_DIS_OutWatchTravIntextEN//
+OutputWatchScreen1_1_DIS_OutWatchTravOuttextEN:OutputWatchScreen1_1_DIS_OutWatchTravOuttextEN//
+OutputWatchScreen1_1_DIS_OutWatchVacuumtextEN:OutputWatchScreen1_1_DIS_OutWatchVacuumtextEN//
+OutputWatchScreen1_1_DIS_OutWatchVertitextEN:OutputWatchScreen1_1_DIS_OutWatchVertitextEN//
+OutputWatchScreen1_2_DIS_OutWatchCloseSafetextEN:OutputWatchScreen1_2_DIS_OutWatchCloseSafetextEN//
+OutputWatchScreen1_2_DIS_OutWatchConeryortextEN:OutputWatchScreen1_2_DIS_OutWatchConeryortextEN//
+OutputWatchScreen1_2_DIS_OutWatchEmergStoptextEN:OutputWatchScreen1_2_DIS_OutWatchEmergStoptextEN//
+OutputWatchScreen1_2_DIS_OutWatchOpenSafetextEN:OutputWatchScreen1_2_DIS_OutWatchOpenSafetextEN//
+OutputWatchScreen1_2_DIS_OutWatchProcess1textEN:OutputWatchScreen1_2_DIS_OutWatchProcess1textEN//
+OutputWatchScreen1_2_DIS_OutWatchRecyclingtextEN:OutputWatchScreen1_2_DIS_OutWatchRecyclingtextEN//
+OutputWatchScreen1_2_DIS_OutWatchScissortextEN:OutputWatchScreen1_2_DIS_OutWatchScissortextEN//
+OutputWatchScreen1_2_DIS_OutWatchSubBacktextEN:OutputWatchScreen1_2_DIS_OutWatchSubBacktextEN//
+OutputWatchScreen1_2_DIS_OutWatchSubDowntextEN:OutputWatchScreen1_2_DIS_OutWatchSubDowntextEN//
+OutputWatchScreen1_2_DIS_OutWatchSubFixtextEN:OutputWatchScreen1_2_DIS_OutWatchSubFixtextEN//
+OutputWatchScreen1_2_DIS_OutWatchSubForwtextEN:OutputWatchScreen1_2_DIS_OutWatchSubForwtextEN//
+OutputWatchScreen1_2_DIS_OutWatchSubUptextEN:OutputWatchScreen1_2_DIS_OutWatchSubUptextEN//
+OutputWatchScreen1_2_DIS_OutWatchThimSafetextEN:OutputWatchScreen1_2_DIS_OutWatchThimSafetextEN//
+OutputWatchScreen1_2_DIS_OutWatchYReserv1textEN:OutputWatchScreen1_2_DIS_OutWatchYReserv1textEN//
+OutputWatchScreen1_2_DIS_OutWatchYReserv2textEN:OutputWatchScreen1_2_DIS_OutWatchYReserv2textEN//
+OutputWatchScreen1_2_DIS_OutWatchYReserv3textEN:OutputWatchScreen1_2_DIS_OutWatchYReserv3textEN//
+OutputWatchScreen1_3_DIS_OutWatchHold2textEN:OutputWatchScreen1_3_DIS_OutWatchHold2textEN//
+OutputWatchScreen1_3_DIS_OutWatchReserve1textEN:OutputWatchScreen1_3_DIS_OutWatchReserve1textEN//
+OutputWatchScreen1_3_DIS_OutWatchReserve2textEN:OutputWatchScreen1_3_DIS_OutWatchReserve2textEN//
+OutputWatchScreen1_3_DIS_OutWatchReserve3textEN:OutputWatchScreen1_3_DIS_OutWatchReserve3textEN//
+OutputWatchScreen1_3_DIS_OutWatchReserve4textEN:OutputWatchScreen1_3_DIS_OutWatchReserve4textEN//
+OutputWatchScreen1_3_DIS_OutWatchReserve5textEN:OutputWatchScreen1_3_DIS_OutWatchReserve5textEN//
+OutputWatchScreen1_3_DIS_OutWatchVacuum2textEN:OutputWatchScreen1_3_DIS_OutWatchVacuum2textEN//
+P_ERROREn:			Offset//  
+ParaInstructScreen_DIS_ParaInstActtextEN:ParaInstructScreen_DIS_ParaInstActtextEN//
+ParaInstructScreen_DIS_ParaInstDisttextEN:ParaInstructScreen_DIS_ParaInstDisttextEN//
+ParaInstructScreen_DIS_ParaInstMMtextEN:ParaInstructScreen_DIS_ParaInstMMtextEN//
+ParaInstructScreen_DIS_ParaInstPERtextEN:ParaInstructScreen_DIS_ParaInstPERtextEN//
+ParaInstructScreen_DIS_ParaInstSpeedtextEN:ParaInstructScreen_DIS_ParaInstSpeedtextEN//
+ParaInstructScreen_DIS_ParaInstStextEN:ParaInstructScreen_DIS_ParaInstStextEN//
+ParaInstructScreen_DIS_ParaInstTimetextEN:ParaInstructScreen_DIS_ParaInstTimetextEN//
+ParaInstructScreen_STE_ParamCurrActtextEN:ParaInstructScreen_STE_ParamCurrActtextEN//
+ParaSettingEn:			ParamSetting//
+ParamPage_OTE_265En:Action //
+ParamPage_OTE_266En:Dist //
+ParamPage_OTE_267En:Speed //
+ParamPage_OTE_268En:Time //
+PassWordFunc1Page0_OTE_100En:StdbyGes //
+PassWordFunc1Page0_OTE_102En:ZStdbyPos //
+PassWordFunc1Page0_OTE_104En:StopSafe //
+PassWordFunc1Page0_OTE_106En:SubPutDe //
+PassWordFunc1Page0_OTE_109En:XStdbyPos //
+PassWordFunc1Page0_OTE_111En:EmbInMld //
+PassWordFunc1Page0_OTE_17_S2En:CloseMFns//
+PassWordFunc1Page0_OTE_90En:CycleTime //
+PassWordFunc1Page0_OTE_94En:Thimb //
+PassWordFunc1Page0_OTE_96En:SafeDoor //
+PassWordFunc1Page0_OTE_98En:MidMold //
+PassWordFunc1Page1_DefCounterEn:DefCounter//
+PassWordFunc1Page1_OTE_113En:XPointCnt //
+PassWordFunc1Page1_OTE_114En:PointCnt2 //
+PassWordFunc1Page1_OTE_115En:Space2 //
+PassWordFunc1Page1_OTE_116En:XSpace //
+PassWordFunc1Page1_OTE_117En:ConvCnt //
+PassWordFunc1Page1_OTE_118En:Reservl //
+PassWordFunc1Page1_OTE_119En:ClScrTim //
+PassWordFunc1Page1_OTE_120En:Reserv2 //
+PassWordFunc1Page1_OTE_121En:DefClear //
+PassWordFunc1Page1_OTE_123En:ChckDfPrd //
+PassWordFunc1Page1_OTE_124En:ChckClsMld//
+PassWordFunc1Page1_OTE_125En:ClpAbDect //
+PassWordFunc1Page1_OTE_31_S2En:ZStdby//
+PassWordFunc1Page1_OTE_33_S2En:XInStdPnt//
+PassWordFunc1Page1_OTE_35_S2En:ZOutStdPnt//
+PassWordFunc1Page1_OTE_45_S2En:XStdbyPnt//
+PassWordFunc1Page1_OTE_46_S2En:XSafeInMold//
+PassWordFunc1Page1_OTE_47_S2En:XStdbyPos//
+PassWordFunc1Page2_OTE_135En:XSafeOutMld//
+PassWordFunc1Page2_OTE_138En:OutStdby //
+PassWordFunc1Page2_OTE_139En:XSafeInMld //
+PassWordFunc1Page2_OTE_140En:ActSpeed //
+PassWordFunc1Page2_OTE_141En:AutoLimit //
+PassWordFunc1Page2_OTE_142En:PressSw //
+PassWordFunc1Page2_OTE_143En:SlowDowm //
+PassWordFunc1Page2_OTE_145En:TrvOutPst //
+PassWordFunc1Page2_OTE_146En:TrvInPst //
+PassWordFunc1Page2_OTE_147En:OpenSafeD //
+PassWordFunc1Page2_OTE_157En:XStartPoint//
+PassWordFunc1Page2_OTE_158En:StartPoint2//
+PassWordFunc1Page2_OTE_48_S2En:XMulDotPut//
+PassWordFunc1Page2_OTE_50_S2En:XStartPoint//
+PassWordFunc1Page2_OTE_51_S2En:ZStartPoint2//
+PassWordFunc1Page2_OTE_52_S2En:XPointCnt//
+PassWordFunc1Page2_OTE_53_S2En:ZPointCnt2//
+PassWordFunc1Page2_OTE_54_S2En:XSpace//
+PassWordFunc1Page2_OTE_55_S2En:ZSpace2//
+PassWordFunc1Page2_OTE_56_S2En:MulDotOrder//
+PassWordFunc1Page2_OTE_58_S2En:XMulDotPut//
+PassWordFunc1Page2_OTE_60_S2En:XStartPoint//
+PassWordFunc1Page2_OTE_62_S2En:XPointCnt//
+PassWordFunc1Page2_OTE_64_S2En:XSpace//
+PassWordFunc1Page3_OTE_1_S2En:YSafeOutMld//
+PassWordFunc1Page3_OTE_2_S2En:YGesPos//
 PassWordFunc1Page3_OTE_473En:OpenDAlar//
 PassWordFunc1Page3_OTE_475En:Reserv1Time//
-KeyboardTest_OTE_476Ch:急停//
-KeyboardTest_OTE_476En:Emerg//
-
-TestReportPage_OTE_510Ch:屏幕是否正常?//
-TestReportPage_OTE_511Ch:Enter/Ok   HP./No//
-TestReportPage_OTE_512Ch:键盘正常，屏幕正常，串口正常//
-TestReportPage_OTE_513Ch:键盘正常，屏幕正常，串口错误//
-TestReportPage_OTE_513En:Keyboard,Screen ok,Serial not//
-TestReportPage_OTE_510En:screen is ok?//
-TestReportPage_OTE_512En:Keyboard,Screen,Serial ok//
-TestReportPage_OTE_1Ch:键盘正常，屏幕错误，串口正常//
-TestReportPage_OTE_2Ch:键盘正常，屏幕错误，串口错误//
-TestReportPage_OTE_1En:Keyboard,Serial ok,Screen not//
-TestReportPage_OTE_2En:Keyboard ok,Screen and Serial not//
-
-SerialTestPage_OTE_513Ch:输入：//
-SerialTestPage_OTE_515Ch:输出：//
-SerialTestPage_OTE_513En:Input：//
-SerialTestPage_OTE_515En:Output：//
-SerialTestPage_OTE_517Ch:启动键进行测试，停止键结束测试//
-SerialTestPage_OTE_517En:Start key begin，Stop key finish//
-
-PassWordRandom_EDB_GetSerialNoCh:生成序列号//
-PassWordRandom_EDB_GetSerialNoEn:CreateSN//
-PassWordRandom_EDB_RegisterCh:注册//
-PassWordRandom_EDB_RegisterEn:Regi//
-PassWordRandom_OTE_136Ch:序列号//
-PassWordRandom_OTE_136En:SeriNo//
-PassWordRandom_OTE_138Ch:注册码//
-PassWordRandom_OTE_138En:RegCode//
-PassWordRandom_OTE_140Ch:限制使用周数//
-PassWordRandom_OTE_140En:WeekSet//
-PassWordRandom_OTE_142Ch:已经使用周数//
-PassWordRandom_OTE_142En:WeekUsed//
-PassWordRandom_OTE_146Ch:无限期使用//
-PassWordRandom_OTE_146En:TimeNoLimit//
-PassWordRandom_OTE_147Ch:注册失败//
-PassWordRandom_OTE_147En:RegFailed//
-PassWordRandom_OTE_148Ch:注册成功//
-PassWordRandom_OTE_148En:RegSuccess//
-
-MainInterface_OTE_26_S2Ch:塑机信号//
-MainInterface_OTE_26_S2En:WaitSig//
-g_com_teachCh:可教导//
-g_com_teachEn:Teach//
-g_com_noteachCh:不可教导//
-g_com_noteachEn:NoTeach//
-PassWordFunc1Page3_OTE_492Ch:输送机通时//
 PassWordFunc1Page3_OTE_492En:ConveyOn//
-PassWordFunc1Page3_OTE_493Ch:堆叠清零//
 PassWordFunc1Page3_OTE_493En:StkClear//
-
-PassWordFunc1Page3_OTE_494Ch:堆叠方向//
 PassWordFunc1Page3_OTE_494En:StkDrt//
-
-SavePage_BTN_RefreshCh:刷新//
-SavePage_BTN_RefreshEn:ReFresh//
-SavePage_BTN_LeadOutCh:导出//
-SavePage_BTN_LeadOutEn:LeadOut//
-SavePage_BTN_LeadInCh:导入//
-SavePage_BTN_LeadInEn:LeadIn//
-SavePage_BTN_PopCh:弹出//
-SavePage_BTN_PopEn:Pop//
-PassWordFunc2Page2_OTE_151Ch:冶具反向//
-PassWordFunc2Page2_OTE_151En:FixReverse//
-PassWordFunc2Page2_OTE_152Ch:Y外下减速点//
-PassWordFunc2Page2_OTE_152En:OutDSDPosY//
-PassWordFunc2Page2_OTE_153Ch:Y外下减速度//
-PassWordFunc2Page2_OTE_153En:OutDSDSpdY//
-
-PassWordFunc2Page1_OTE_116_S2Ch:Y内下提前//
-PassWordFunc2Page1_OTE_116_S2En:YDownPre//
-
-MainInterface_OTE_24_S2Ch:Y//
-MainInterface_OTE_25_S2Ch:Z//
-
-
-ManualPage_OTE_36_S2Ch:伺服模式//
-ManualPage_OTE_36_S2En:Mode//
-
-ManualPage_OTE_40_S2Ch:Z横行位置//
-ManualPage_OTE_40_S2En:ZTravPos//
-
-ManualPage_OTE_41_S2Ch:Y下降位置//
-ManualPage_OTE_41_S2En:YDownPos//
-ManualPage_OTE_42_S2Ch:Y外下位置//
-ManualPage_OTE_42_S2En:YOutDnPos//
-
-
-g_com_mulorderYZCh:先Y后Z//
-g_com_mulorderZYCh:先Z后Y//
-g_com_mulorderYZEn:Y->Z//
-g_com_mulorderZYEn:Z->Y//
-g_com_ASynCh:不同步//
-g_com_SynCh:同步//
-g_com_ASynEn:ASyn//
-g_com_SynEn:Syn//
-
-
-PassWordFunc1Page0_OTE_17_S2Ch:关模完检测//
-PassWordFunc1Page0_OTE_17_S2En:CloseMFns//
-PassWordFunc1Page1_OTE_31_S2Ch:Z轴待机//
-PassWordFunc1Page1_OTE_31_S2En:ZStdby//
-PassWordFunc1Page1_OTE_33_S2Ch:Z内待机点//
-PassWordFunc1Page1_OTE_33_S2En:ZInStdPnt//
-PassWordFunc1Page1_OTE_35_S2Ch:Z外待机点//
-PassWordFunc1Page1_OTE_35_S2En:ZOutStdPnt//
-PassWordFunc1Page1_OTE_45_S2Ch:Y待机位置//
-PassWordFunc1Page1_OTE_45_S2En:YStdbyPnt//
-PassWordFunc1Page1_OTE_46_S2Ch:Z模内安全区//
-PassWordFunc1Page1_OTE_46_S2En:ZSafeInMold//
-PassWordFunc1Page1_OTE_47_S2Ch:Z待机位置//
-PassWordFunc1Page1_OTE_47_S2En:ZStdbyPos//
-PassWordFunc1Page2_OTE_51_S2Ch:Z置物起点2//
-PassWordFunc1Page2_OTE_51_S2En:ZStartPoint2//
-PassWordFunc1Page2_OTE_53_S2Ch:Z轴点数2//
-PassWordFunc1Page2_OTE_53_S2En:ZPointCnt2//
-PassWordFunc1Page2_OTE_55_S2Ch:Z轴间距2//
-PassWordFunc1Page2_OTE_55_S2En:ZSpace2//
-
-
-PassWordFunc1Page2_OTE_48_S2Ch:Z多点置物//
-PassWordFunc1Page2_OTE_48_S2En:ZMulDotPut//
-PassWordFunc1Page2_OTE_50_S2Ch:Z置物起点//
-PassWordFunc1Page2_OTE_50_S2En:ZStartPoint//
-PassWordFunc1Page2_OTE_52_S2Ch:Z轴点数//
-PassWordFunc1Page2_OTE_52_S2En:ZPointCnt//
-PassWordFunc1Page2_OTE_54_S2Ch:Z轴间距//
-PassWordFunc1Page2_OTE_54_S2En:ZSpace//
-PassWordFunc1Page2_OTE_56_S2Ch:置物顺序//
-PassWordFunc1Page2_OTE_56_S2En:MulDotOrder//
-PassWordFunc1Page2_OTE_58_S2Ch:Y多点置物//
-PassWordFunc1Page2_OTE_58_S2En:YMulDotPut//
-PassWordFunc1Page2_OTE_60_S2Ch:Y置物起点//
-PassWordFunc1Page2_OTE_60_S2En:YStartPoint//
-PassWordFunc1Page2_OTE_62_S2Ch:Y轴点数//
-PassWordFunc1Page2_OTE_62_S2En:YPointCnt//
-PassWordFunc1Page2_OTE_64_S2Ch:Y轴间距//
-PassWordFunc1Page2_OTE_64_S2En:YSpace//
-PassWordFunc1Page3_OTE_ZStk_S2Ch:Z轴堆叠//
-PassWordFunc1Page3_OTE_ZStk_S2En:ZStack//
-PassWordFunc1Page3_OTE_YStk_S2Ch:Y轴堆叠//
-PassWordFunc1Page3_OTE_YStk_S2En:YStack//
-PassWordFunc1Page3_OTE_OutPosture_S2Ch:横出侧姿//
-PassWordFunc1Page3_OTE_OutPosture_S2En:OutPst//
-PassWordFunc1Page3_OTE_InPosture_S2Ch:横入侧姿//
 PassWordFunc1Page3_OTE_InPosture_S2En:InPst//
-PassWordFunc1Page3_OTE_OutSynTime_S2Ch:Z出同步延时//
-PassWordFunc1Page3_OTE_OutSynTime_S2En:ZOutSynT//
-PassWordFunc1Page3_OTE_InSynTime_S2Ch:Z入同步延时//
 PassWordFunc1Page3_OTE_InSynTime_S2En:ZInSynT//
-PassWordFunc1Page3_OTE_YOriPitch_S2Ch:Y原点偏移//
+PassWordFunc1Page3_OTE_OutPosture_S2En:OutPst//
+PassWordFunc1Page3_OTE_OutSynTime_S2En:ZOutSynT//
 PassWordFunc1Page3_OTE_YOriPitch_S2En:YOriPitch//
-PassWordFunc1Page3_OTE_ZOriPitch_S2Ch:Z原点偏移//
+PassWordFunc1Page3_OTE_YStk_S2En:YStack//
 PassWordFunc1Page3_OTE_ZOriPitch_S2En:ZOriPitch//
-
-
-PassWordFunc2Page0_OTE_66_S2Ch:Z最大位置//
-PassWordFunc2Page0_OTE_66_S2En:ZMaxPos//
-PassWordFunc2Page0_OTE_70_S2Ch:Z齿轮比倍率//
-PassWordFunc2Page0_OTE_70_S2En:ZPolseIn//
-PassWordFunc2Page0_OTE_79_S2Ch:Z复归速度//
-PassWordFunc2Page0_OTE_79_S2En:ZOriSpd//
-PassWordFunc2Page0_OTE_82_S2Ch:Z最大速度//
-PassWordFunc2Page0_OTE_82_S2En:ZMaxSpd//
-PassWordFunc2Page0_OTE_85_S2Ch:Z全局速度//
-PassWordFunc2Page0_OTE_85_S2En:ZWholeSpd//
-PassWordFunc2Page0_OTE_88_S2Ch:Z加减速时//
-PassWordFunc2Page0_OTE_88_S2En:ZAcDcTime//
-PassWordFunc2Page1_OTE_96_S2Ch:Y最大位置//
-PassWordFunc2Page1_OTE_96_S2En:YMaxPos//
-PassWordFunc2Page1_OTE_98_S2Ch:Y最大待机//
-PassWordFunc2Page1_OTE_98_S2En:YMaxStPos//
-PassWordFunc2Page1_OTE_100_S2Ch:Y齿轮比倍率//
-PassWordFunc2Page1_OTE_100_S2En:YPloseIn//
-PassWordFunc2Page1_OTE_106_S2Ch:Y复归速度//
-PassWordFunc2Page1_OTE_106_S2En:YOriSpd//
-PassWordFunc2Page1_OTE_109_S2Ch:Y最大速度//
-PassWordFunc2Page1_OTE_109_S2En:YMaxSpd//
-PassWordFunc2Page1_OTE_112_S2Ch:Y全局速度//
-PassWordFunc2Page1_OTE_112_S2En:YWholeSpd//
-PassWordFunc2Page1_OTE_115_S2Ch:Y加减速时//
-PassWordFunc2Page1_OTE_115_S2En:YAcDcTime//
-
-InputLimitPage0_OTE_319_S2Ch:X17 下降极限//
-InputLimitPage0_OTE_319_S2En:X17 DownMax//
-InputLimitPage0_OTE_320_S2Ch:X20 上升极限//
-InputLimitPage0_OTE_320_S2En:X20 UpMax//
-InputLimitPage0_OTE_325_S2Ch:X25 Z轴原点//
-InputLimitPage0_OTE_325_S2En:X25 ZOrigin //
-InputLimitPage1_OTE_349_S2Ch:X35 Y轴原点//
-InputLimitPage1_OTE_349_S2En:X35 YOrigin//
-LimitSettingPage_OTE_551textCh:Z信号//
-LimitSettingPage_OTE_551textEn:ZSignale//
-
-ProgramInfoPage_OTE_161_S2En:HC-S2 //
-ProgramInfoPage_OTE_163_S2En:2014-03-29 //
-ProgramInfoPage_OTE_165_S2En:1.2.2.6 //
-
-g_com_safedoornochckCh:不检测//
-g_com_safedoorinmoldchckCh:模内检测//
-g_com_safedoorfullchckCh:全程检测//
-g_com_safedoornochckEn:NoChck//
-g_com_safedoorinmoldchckEn:InMChck//
-g_com_safedoorfullchckEn:FullChck//
-g_com_closeresetCh:关门复归//
-
-
-Manual_ManualParamTips_S1Ch:按Enter键设置取物位置//
-Manual_ManualParamTips_S2Ch:按Enter键设置待机位置//
-Manual_ManualParamTips_S2En:Press Enter Set Position//
-
-Manual_ManualParamTips2_S2Ch:请按一次HP.键,确认更改待机位置//
-MotorAdjustPage_OTE_Tip_S2Ch:按HP.键调位//
-MotorAdjustPage_OTE_Tip_S2En:HP. Adjust//
-
-Alarm_Num71Ch:		伺服驱动器无脉冲输入		//
-Alarm_Num72Ch:		伺服驱动器报警			//
-Alarm_Num74Ch:		置物点位置小于安全门位置	//
-Alarm_Num75Ch:		置物点位置大于最大值		//
-
-
+PassWordFunc1Page3_OTE_ZStk_S2En:ZStack//
+PassWordFunc2Page0_OTE_66_S2En:XMaxPos//
+PassWordFunc2Page0_OTE_70_S2En:XPolseIn//
+PassWordFunc2Page0_OTE_79_S2En:XOriSpd//
+PassWordFunc2Page0_OTE_82_S2En:XMaxSpd//
+PassWordFunc2Page0_OTE_85_S2En:XWholeSpd//
+PassWordFunc2Page0_OTE_88_S2En:XAcDcTime//
+PassWordFunc2Page1_OTE_100_S2En:XPloseIn//
+PassWordFunc2Page1_OTE_106_S2En:XOriSpd//
+PassWordFunc2Page1_OTE_109_S2En:XMaxSpd//
+PassWordFunc2Page1_OTE_112_S2En:XWholeSpd//
+PassWordFunc2Page1_OTE_115_S2En:XAcDcTime//
+PassWordFunc2Page1_OTE_116_S2En:XInMSafe//
+PassWordFunc2Page1_OTE_96_S2En:XMaxPos//
+PassWordFunc2Page1_OTE_98_S2En:XMaxStPos//
+PassWordFunc2Page2_OTE_151En:FixReverse//
+PassWordFunc2Page2_OTE_152En:OutDSDPosY//
+PassWordFunc2Page2_OTE_153En:OutDSDSpdY//
+PassWordFunc2Page_OTE_194En:XMaxPos //
+PassWordFunc2Page_OTE_196En:XPolseIn //
+PassWordFunc2Page_OTE_198En:FeedBack //
+PassWordFunc2Page_OTE_199En:DownGest //
+PassWordFunc2Page_OTE_200En:FBPulseIn //
+PassWordFunc2Page_OTE_201En:FBPulseOut //
+PassWordFunc2Page_OTE_202En:AlarmTime //
+PassWordFunc2Page_OTE_203En:XADTime //
+PassWordFunc2Page_OTE_204En:XMaxSpeed //
+PassWordFunc2Page_OTE_210En:XOriSpeed //
+PassWordFunc2Page_OTE_216En:XWholeSpeed //
+PassWordRandom_EDB_GetSerialNoEn:CreateSN//
+PassWordRandom_EDB_RegisterEn:Regi//
+PassWordRandom_OTE_136En:SeriNo//
+PassWordRandom_OTE_138En:RegCode//
+PassWordRandom_OTE_140En:WeekSet//
+PassWordRandom_OTE_142En:WeekUsed//
+PassWordRandom_OTE_146En:TimeNoLimit//
+PassWordRandom_OTE_147En:RegFailed//
+PassWordRandom_OTE_148En:RegSuccess//
+PassWord_OTE_88En:PassWord //
+PasswordRandomScreen_DIS_PsdRamRegCodetextEN:PasswordRandomScreen_DIS_PsdRamRegCodetextEN//
+PasswordRandomScreen_DIS_PsdRamSeriNotextEN:PasswordRandomScreen_DIS_PsdRamSeriNotextEN//
+PasswordRandomScreen_DIS_PsdRamTimeNoLimittextEN:PasswordRandomScreen_DIS_PsdRamTimeNoLimittextEN//
+PasswordRandomScreen_DIS_PsdRamWeekSettextEN:PasswordRandomScreen_DIS_PsdRamWeekSettextEN//
+PasswordRandomScreen_DIS_PsdRamWeekUsedtextEN:PasswordRandomScreen_DIS_PsdRamWeekUsedtextEN//
+PasswordScreen_DIS_PasswordtextEN:PasswordScreen_DIS_PasswordtextEN//
+PositionLoopGainEn:		PosLoopGain//
+PrepareTestMouldEn:TestMould//
+ProgramInfoPage_OTE_160En:ProductType //
+ProgramInfoPage_OTE_161En:HC-S1 //
 ProgramInfoPage_OTE_161_H1En:HC-H1 //
-ProgramInfoPage_OTE_163_H1En:2013-03-29 //
-ProgramInfoPage_OTE_165_H1En:1.1.1.3 //
-
-InputLimitPage0_OTE_312Ch:X10 主上位限//
-InputLimitPage0_OTE_313Ch:X11 主后退限//
-InputLimitPage0_OTE_314Ch:X12 真空吸限//
-InputLimitPage0_OTE_315Ch:X13 主 夹 限//
-InputLimitPage0_OTE_316Ch:X14 中模板限//
-InputLimitPage0_OTE_317Ch:X15 压力开关//
-InputLimitPage0_OTE_317Ch:X15 不良品计数//
-InputLimitPage0_OTE_318Ch:X16 水 平 限//
-InputLimitPage0_OTE_319Ch:X17 垂 直 限//
-InputLimitPage0_OTE_320Ch:X20 副上位限//
-InputLimitPage0_OTE_321Ch:X21 副 夹 限//
-InputLimitPage0_OTE_322Ch:X22 中位置料//
-InputLimitPage0_OTE_323Ch:X23 横行慢速//
-InputLimitPage0_OTE_324Ch:X24 横 入 限//
-InputLimitPage0_OTE_325Ch:X25 横 出 限//
-InputLimitPage1_OTE_352Ch:安 全 门//
-InputLimitPage1_OTE_353Ch:开 模 完//
-InputLimitPage1_OTE_354Ch:关 模 完//
-InputLimitPage1_OTE_358Ch:急停输入//
-OutputValuePage0_OTE_376Ch:Y10 主下降阀//
-OutputValuePage0_OTE_377Ch:Y11 主前进阀//
-OutputValuePage0_OTE_378Ch:Y12 真空吸阀//
-OutputValuePage0_OTE_379Ch:Y13 主 夹 阀//
-OutputValuePage0_OTE_380Ch:Y14 警    报//
-OutputValuePage0_OTE_381Ch:Y15 预留 1阀//
-OutputValuePage0_OTE_382Ch:Y16 水 平 阀//
-OutputValuePage0_OTE_383Ch:Y17 垂 直 阀//
-OutputValuePage0_OTE_384Ch:Y20 副下降阀//
-OutputValuePage0_OTE_385Ch:Y21 副前进阀//
-OutputValuePage0_OTE_386Ch:Y22 副 夹 阀//
-OutputValuePage0_OTE_387Ch:Y23 横行减速//
-OutputValuePage0_OTE_388Ch:Y24 横 入 阀//
-OutputValuePage0_OTE_389Ch:Y25 横 出 阀//
-OutputValuePage0_OTE_391Ch:Y26 电机松闸//
-OutputValuePage0_OTE_390Ch:Y27 预留 2阀//
-OutputValuePage1_OTE_417Ch:可 关 模//
-OutputValuePage1_OTE_418Ch:可 开 模//
-OutputValuePage1_OTE_419Ch:再 循 环//
-OutputValuePage1_OTE_420Ch:可 顶 针//
-
-InputLimitPage0_OTE_312En:X10 MainUp //
-InputLimitPage0_OTE_313En:X11 MainBack //
-InputLimitPage0_OTE_314En:X12 Vacuum //
-InputLimitPage0_OTE_315En:X13 MainFix //
-InputLimitPage0_OTE_316En:X14 MidMold//
-InputLimitPage0_OTE_317En:X15 Pressure//
-InputLimitPage0_OTE_317En:X15 DefConut//
-InputLimitPage0_OTE_318En:X16 Hori//
-InputLimitPage0_OTE_319En:X17 Verti //
-InputLimitPage0_OTE_320En:X20 SubUp//
-InputLimitPage0_OTE_321En:X21 SubFix//
-InputLimitPage0_OTE_322En:X22 MidPut//
-InputLimitPage0_OTE_323En:X23 SlowDown//
-InputLimitPage0_OTE_324En:X24 TravInLmt //
-InputLimitPage0_OTE_325En:X25 TravOutLmt //
-InputLimitPage1_OTE_352En:SafeDoor //
-InputLimitPage1_OTE_353En:OpenFini //
-InputLimitPage1_OTE_354En:CloFini //
-InputLimitPage1_OTE_358En:EmergStop //
-
-OutputValuePage0_OTE_376En:Y10 MainDown //
-OutputValuePage0_OTE_377En:Y11 MainForw //
-OutputValuePage0_OTE_378En:Y12 Vacuum //
-OutputValuePage0_OTE_379En:Y13 MainFix//
-OutputValuePage0_OTE_380En:Y14 Alarm //
-OutputValuePage0_OTE_381En:Y15 Reserv1 //
-OutputValuePage0_OTE_382En:Y16 Hori //
-OutputValuePage0_OTE_383En:Y17 Verti //
-OutputValuePage0_OTE_384En:Y20 SubDown //
-OutputValuePage0_OTE_385En:Y21 SubForw //
-OutputValuePage0_OTE_386En:Y22 SubFix //
-OutputValuePage0_OTE_387En:Y23 SlowDown //
-OutputValuePage0_OTE_388En:Y24 TravIn //
-OutputValuePage0_OTE_389En:Y25 TravOut //
-OutputValuePage0_OTE_391En:Y26 Release //
-OutputValuePage0_OTE_390En:Y27 Reserv2//
-OutputValuePage1_OTE_417En:CloseSafe //
-OutputValuePage1_OTE_418En:OpenSafe //
-OutputValuePage1_OTE_419En:Recycling //
-OutputValuePage1_OTE_420En:ThimSafe //
-PassWordFunc1Page1_DefCounterCh:不良品计数//
-PassWordFunc1Page1_DefCounterEn:DefCounter//
-
+ProgramInfoPage_OTE_161_S2En:HC-S2 //
 ProgramInfoPage_OTE_161_UPEn:HC-S1-Y//S1-UPDOWN
+ProgramInfoPage_OTE_162En:VersionDate //
+ProgramInfoPage_OTE_163En:2013-03-29 //
+ProgramInfoPage_OTE_163_H1En:2013-03-29 //
+ProgramInfoPage_OTE_163_S2En:2014-03-29 //
 ProgramInfoPage_OTE_163_UPEn:2013-05-29//
+ProgramInfoPage_OTE_164En:Version //
+ProgramInfoPage_OTE_165En:1.1.4.7 //
+ProgramInfoPage_OTE_165_H1En:1.1.1.3 //
+ProgramInfoPage_OTE_165_S2En:1.2.2.6 //
 ProgramInfoPage_OTE_165_UPEn:1.1.1.0//
-
-MainInterface_OTE_25Ch:Y位置//
-MainInterface_OTE_25En:YPos//
-ManualPage_OTE_36Ch:运行模式//
-ManualPage_OTE_36En:MoveMode//
-InputLimitPage0_OTE_323Ch:X23 减速开关//
-InputLimitPage0_OTE_324Ch:X24 横 出 限//
-InputLimitPage0_OTE_325Ch:X25 横 入 限//
-InputLimitPage0_OTE_326Ch:X27主下降极限//
-InputLimitPage0_OTE_327Ch:X26主上升极限//
-InputLimitPage1_OTE_349Ch:X35 原点信号//
-InputLimitPage0_OTE_323En:X23 SlowDSw//
-InputLimitPage0_OTE_324En:X24 TravOutLmt//
-InputLimitPage0_OTE_325En:X25 TravInLmt//
-InputLimitPage0_OTE_326En:X27 MainDownLmt//
-InputLimitPage0_OTE_327En:X26 MainUpLmt//
-InputLimitPage1_OTE_349En:X35 Origin//
-
-Alarm_Num3Ch:			主臂未在起始点,未归原点//
-Alarm_Num17Ch:		主臂上升极限通,主臂下降极限通//
-Alarm_Num32Ch:		机台横行前,主臂未在起始点//
-Alarm_Num36Ch:		姿势变化前,主臂未在起始点//
-Alarm_Num73Ch:		最大位置未设定//
-Alarm_Num78Ch:		循环下降点数*距离超过安全范围	//
-Alarm_Num79Ch:		下降极限异常//
-Alarm_Num80Ch:		上升极限异常//
-Alarm_Num86Ch:		机台下降时间过久//
-Alarm_Num87Ch:		机台上升时间过久//
-Alarm_Num89Ch:		下降位置小于起点位置//
-Alarm_Num90Ch:		下降位置大于最大值//
-Alarm_Num3En:			M.NotAtOrigin,NoResetOrigin//
-Alarm_Num17En:		M.UpLmtOn,M.DownLmtOn//
-Alarm_Num32En:		BefTrav,M.NotAtOrigin//
-Alarm_Num36En:		BefCh,M.NotAtOrigin//
-Alarm_Num73En:		MaxPosNotSet//
-Alarm_Num78En:		CycleCnt,DistExcSafeRange//
-Alarm_Num79En:		DownAbnomal//
-Alarm_Num80En:		UpAbnomal//
-Alarm_Num86En:		DownTimeOut//
-Alarm_Num87En:		UpTimeOut//
-Alarm_Num89En:		DownPosLowerThanOrigin//
-Alarm_Num90En:		UpPosHigherThanMax//
-
-InputLimitPage0_OTE_319Ch:X17 备用//SIDE_TACK_Y
-InputLimitPage0_OTE_319En:X17 Rev //
-InputLimitPage0_OTE_324Ch:X24 备用//
-InputLimitPage0_OTE_325Ch:X25 备用//
-InputLimitPage0_OTE_326Ch:X27主侧进极限//
-InputLimitPage0_OTE_327Ch:X26主侧出极限//
-InputLimitPage0_OTE_324En:X24 Rev//
-InputLimitPage0_OTE_325En:X25 Rev//
-InputLimitPage0_OTE_326En:X27 MainDownLmt//
-InputLimitPage0_OTE_327En:X26 MainUpLmt//
-InputLimitPage1_OTE_346Ch:X32 副侧出限//
-InputLimitPage1_OTE_347Ch:X33 副侧进限//
-InputLimitPage1_OTE_346En:X32 SubUp //
-InputLimitPage1_OTE_347En:X33 ViceDown //
-OutputValuePage0_OTE_384Ch:Y20 主侧出阀//
-OutputValuePage0_OTE_384En:Y20 M.Back//
-OutputValuePage0_OTE_385Ch:Y21 主侧进阀//
-OutputValuePage0_OTE_385En:Y21 M.Forw //
-OutputValuePage0_OTE_391Ch:Y26 备用//
-OutputValuePage0_OTE_390Ch:Y27 备用//
-OutputValuePage0_OTE_391En:Y26 Rev //
-OutputValuePage0_OTE_390En:Y27 Rev //
-OutputValuePage1_OTE_410Ch:Y32 副侧出阀//
-OutputValuePage1_OTE_411Ch:Y33 副侧进阀//
-OutputValuePage1_OTE_410En:Y32 SubBack //
-OutputValuePage1_OTE_411En:Y33 SubForw //
-LimitTimePage_OTE_178Ch:主侧进出时//
-LimitTimePage_OTE_181Ch:副侧进出时//
-PassWordFunc2Page_OTE_199Ch:侧进姿势//
-LimitSettingPage_OTE_240Ch:主侧进限//
-LimitSettingPage_OTE_245Ch:副侧进限//
-Act_MainDownCh:	侧    进//
-Act_MainUpCh:		侧    出//
-Act_MainDownEn:	Side In//
-Act_MainUpEn:		SideOut//
-Act_ViceDownCh:	副臂侧进//
-Act_ViceUpCh:		副臂侧出//
-Act_ViceDownEn:	Sub Down//
-Act_ViceUpEn:		Sub   Up//
-Act_DoubleDownCh:	双臂侧进//
-Act_DoubleUpCh:	双臂侧出//
-Act_DoubleDownEn:	Dob Down//
-Act_DoubleUpEn:	Dob   Up//
-
-Alarm_Num1Ch:			开模完信号断,未归原点			//
-Alarm_Num2Ch:			中模确认限断,未归原点			//
-Alarm_Num3Ch:			主臂未在起始点,未归原点		//
-Alarm_Num4Ch:			副臂侧出限断,未归原点			//
-Alarm_Num5Ch:			主夹确认限通,未归原点			//
-Alarm_Num6Ch:			副夹确认限通,未归原点			//
-Alarm_Num7Ch:			真空吸限通,未归原点			//
-Alarm_Num8Ch:			抱具限通,未归原点			//
-Alarm_Num9Ch:			机台停在型外,未归原点			//
-Alarm_Num10Ch:		机台停在型内,未归原点			//
-Alarm_Num11Ch:		垂直限断,未归原点			//
-Alarm_Num12Ch:		水平限断,未归原点			//
-Alarm_Num13Ch:		取物时,开模完信号断			//
-Alarm_Num14Ch:		侧进取物时,中板模信号断		//
-Alarm_Num15Ch:		开模完信号通,安全门信号断		//
-Alarm_Num16Ch:		开模完信号通,中板模信号断		//
-Alarm_Num17Ch:		主臂侧出极限通,主臂侧进极限通		//
-Alarm_Num18Ch:		主臂前进限通,主臂后退限通		//
-Alarm_Num19Ch:		副臂侧出限通,副臂侧进限通		//
-Alarm_Num20Ch:		副臂前进限通,副臂后退限通		//
-Alarm_Num21Ch:		机台横出限通,机台横入限通		//
-Alarm_Num22Ch:		水平限通,垂直限通			//
-Alarm_Num23Ch:		手臂侧进前,开模完信号断		//
-Alarm_Num24Ch:		手臂侧进前,中板模信号断		//
-Alarm_Num25Ch:		手臂侧进前,安全门信号断		//
-Alarm_Num26Ch:		手臂侧进前,垂直限断			//
-Alarm_Num27Ch:		手臂侧进前,水平限断			//
-Alarm_Num28Ch:		手臂侧进前,主夹限通			//
-Alarm_Num29Ch:		手臂侧进前,副夹限通			//
-Alarm_Num30Ch:		手臂侧进前,真空吸限通			//
-Alarm_Num31Ch:		手臂侧进前,抱具限通			//
-Alarm_Num32Ch:		机台横行前,主臂未在起始点		//
-Alarm_Num33Ch:		机台横行前,副臂侧进阀通		//
-Alarm_Num34Ch:		机台横行前,主臂侧出限断		//
-Alarm_Num35Ch:		机台横行前,副臂侧出限断		//
-Alarm_Num36Ch:		姿势变化前,主臂未在起始点		//
-Alarm_Num37Ch:		姿势变化前,副臂侧进阀通		//
-Alarm_Num38Ch:		主臂侧进阀通,主臂侧出限通		//
-Alarm_Num39Ch:		主臂侧进阀通,主臂侧进限断		//
-Alarm_Num40Ch:		主臂侧进阀断,主臂侧出限断		//
-Alarm_Num41Ch:		主臂侧进阀断,主臂侧进限通		//
-Alarm_Num42Ch:		副臂侧进阀通,副臂侧出限通		//
-Alarm_Num43Ch:		副臂侧进阀通,副臂侧进限断		//
-Alarm_Num44Ch:		副臂侧进阀断,副臂侧出限断		//
-Alarm_Num45Ch:		副臂侧进阀断,副臂侧进限通		//
-Alarm_Num46Ch:		主臂前进阀通,主臂前进限断		//
-Alarm_Num47Ch:		主臂前进阀通,主臂后退限通		//
-Alarm_Num48Ch:		主臂前进阀断,主臂前进限通		//
-Alarm_Num49Ch:		主臂前进阀断,主臂后退限断		//
-Alarm_Num50Ch:		副臂前进阀通,副臂前进限断		//
-Alarm_Num51Ch:		副臂前进阀通,副臂后退限通		//
-Alarm_Num52Ch:		副臂前进阀断,副臂前进限通		//
-Alarm_Num53Ch:		副臂前进阀断,副臂后退限断		//
-Alarm_Num54Ch:		主夹阀通,主夹限断			//
-Alarm_Num55Ch:		主夹阀断,主夹限通			//
-Alarm_Num56Ch:		副夹阀通,副夹限断			//
-Alarm_Num57Ch:		副夹阀断,副夹限通			//
-Alarm_Num58Ch:		真空阀通,真空限断			//
-Alarm_Num59Ch:		真空阀断,真空限通			//
-Alarm_Num60Ch:		抱具阀通,抱具限断			//
-Alarm_Num61Ch:		抱具阀断,抱具限通			//
-Alarm_Num62Ch:		水平阀通,水平限断			//
-Alarm_Num63Ch:		垂直阀通,垂直限断			//
-Alarm_Num64Ch:		横出时间过久				//
-Alarm_Num65Ch:		横入时间过久				//
-Alarm_Num66Ch:		紧急停止				//
-Alarm_Num67Ch:		程式不完整				//
-Alarm_Num68Ch:		产量已到				//
-Alarm_Num69Ch:		动作未依模式进行			//
-Alarm_Num70Ch:		等待开模逾时				//
-Alarm_Num71Ch:		Y轴伺服驱动器无脉冲输入		//
-Alarm_Num72Ch:		Z轴伺服驱动器报警			//
-Alarm_Num73Ch:		最大位置未设定				//
-Alarm_Num74Ch:		Z轴置物点位置小于安全门位置		//
-Alarm_Num75Ch:		Z轴置物点位置大于最大值		//
-Alarm_Num76Ch:		外待机位置小于安全门位置		//
-Alarm_Num77Ch:		外待机位置大于最大值			//
-Alarm_Num78Ch:		循环侧进点数*距离超过安全范围		//
-Alarm_Num79Ch:		侧进极限异常				//
-Alarm_Num80Ch:		侧出极限异常				//
-Alarm_Num81Ch:		机台不在起始位置,手动横入		//
-Alarm_Num82Ch:		原点需重新复归				//
-Alarm_Num83Ch:		机台横出横入前,请先水平		//
-Alarm_Num84Ch:		机台未在横轴两端,不能侧进		//
-Alarm_Num85Ch:		气压不足				//
-Alarm_Num86Ch:		机台侧进时间过久			//
-Alarm_Num87Ch:		机台侧出时间过久			//
-Alarm_Num88Ch:		非模内安全侧进区,不能侧进		//
-Alarm_Num89Ch:		侧进位置小于起点位置			//
-Alarm_Num90Ch:		侧进位置大于最大值			//
-Alarm_Num91Ch:		模外侧进前,型外安全区限断		//
-Alarm_Num92Ch:		模内侧进前,Z轴原点无信号		//
-Alarm_Num93Ch:		试用期已到				//
-Alarm_Num94Ch:		横出前,请先水平			//
-Alarm_Num95Ch:		横出前,请先垂直			//
-Alarm_Num96Ch:		横入前,请先水平			//
-Alarm_Num97Ch:		横入前,请先垂直			//
-Alarm_Num98Ch:		加工1阀通,加工1限断			//
-Alarm_Num99Ch:		加工1阀断,加工1限通			//
-Alarm_Num100Ch:		预留2阀通,预留2限断			//
-Alarm_Num101Ch:		预留2阀断,预留2限通			//
-Alarm_Num102Ch:		水平待机无开模完,不能垂直		//
-Alarm_Num103Ch:		姿势变化前,型外安全区限断		//
-Alarm_Num104Ch:		全自动信号无				//
-Alarm_Num105Ch:		Y轴未在起点,未归原点			//
-Alarm_Num106Ch:		Y轴侧出极限通，Y轴侧进极限通		//
-Alarm_Num107Ch:		机台横行前,Y轴未在起始点		//
-Alarm_Num108Ch:		姿势变化前,Y轴未在起始点		//
-Alarm_Num109Ch:		Y轴最大位置未设定			//
-Alarm_Num110Ch:		Y轴下降点数*距离超过安全范围		//
-Alarm_Num111Ch:		Y轴侧进极限异常			//
-Alarm_Num112Ch:		Y轴侧出极限异常			//
-Alarm_Num113Ch:		Y轴不在起始位置,手动侧出		//
-Alarm_Num114Ch:		Y轴侧进时间过久			//
-Alarm_Num115Ch:		Y轴侧出时间过久			//
-Alarm_Num116Ch:		Y轴侧进位置小于起点位置		//
-Alarm_Num117Ch:		Y轴侧进位置大于最大值			//
-Alarm_Num118Ch:		Y轴伺服驱动器报警			//
-Alarm_Num119Ch:		Y轴最大待机位置大于最大值		//
-Alarm_Num120Ch:		Y轴待机位置大于最大待机位置		//
-Alarm_Num121Ch:		未教导等开模完     			//
-Alarm_Num1En:			OpenMoldSignalOff			//
-Alarm_Num2En:			MidMoldLmtOff				//
-Alarm_Num3En:			M.UpLmtOff				//
-Alarm_Num4En:			SubUpLmtOff				//
-Alarm_Num5En:			M.FixLmtOn				//
-Alarm_Num6En:			S.FixLmtOn				//
-Alarm_Num7En:			SuckLmtOn				//
-Alarm_Num8En:			HoldLmtOn				//
-Alarm_Num9En:			OutsideStdby				//
-Alarm_Num10En:		InsideStdby				//
-Alarm_Num11En:		VertiLmtOff				//
-Alarm_Num12En:		HoriLmtOff				//
-Alarm_Num13En:		BefDown,OpenSignalOff		//
-Alarm_Num14En:		BefDown,MidMoldSignalOff		//
-Alarm_Num15En:		OpenSigOn,SafeSigOff			//
-Alarm_Num16En:		OpenSigOff,MidSigOff			//
-Alarm_Num17En:		M.UpLmtOn,M.DownLmtOn		//
-Alarm_Num18En:		M.ForwLmtOn,M.BackLmtOn		//
-Alarm_Num19En:		S.UpLmtOn,S.DownLmtOn		//
-Alarm_Num20En:		S.ForwLmtOn,S.BackLmtOn		//
-Alarm_Num21En:		TravOutLmtOn,TravInLmtOn		//
-Alarm_Num22En:		VertiLmtOn,HoriLmtOn			//
-Alarm_Num23En:		BefDown,OpenLmtOff			//
-Alarm_Num24En:		BefDown,MidLmtOff			//
-Alarm_Num25En:		BefDown,SafeLmtOff			//
-Alarm_Num26En:		BefDown,VertiLmtOff			//
-Alarm_Num27En:		BefDown,HoriLmtOff			//
-Alarm_Num28En:		BefDown,M.FixLmtOn			//
-Alarm_Num29En:		BefDown,S.FixLmtOn			//
-Alarm_Num30En:		BefDown,SuckLmtOn			//
-Alarm_Num31En:		BefDown,HoldLmtOn			//
-Alarm_Num32En:		BefTrav,M.DownVOn			//
-Alarm_Num33En:		BefTrav,S.DownVOn			//
-Alarm_Num34En:		BefTrav,M.UpLmtOff			//
-Alarm_Num35En:		BefTrav,S.UpLmtOff			//
-Alarm_Num36En:		BefCh,M.DownVOn			//
-Alarm_Num37En:		BefCh,S.DownVOn			//
-Alarm_Num38En:		M.DownVOn,M.UpLmtOn			//
-Alarm_Num39En:		M.DownVOn,M.DownLmtOn		//
-Alarm_Num40En:		M.DownVOff,M.UpLmtOff		//
-Alarm_Num41En:		M.DownVOff,M.DownLmtOn		//
-Alarm_Num42En:		S.DownVOn,S.UpLmtOn			//
-Alarm_Num43En:		S.DownVOn,S.DownLmtOff		//
-Alarm_Num44En:		S.DownVOff,S.UpLmtOff		//
-Alarm_Num45En:		S.DownVOff,S.DownLmtOn		//
-Alarm_Num46En:		M.ForwVOn,M.ForwLmtOff		//
-Alarm_Num47En:		M.ForwVOn,M.BackLmtOn		//
-Alarm_Num48En:		M.ForwVOff,M.ForwLmtOn		//
-Alarm_Num49En:		M.ForwVOff,M.BackLmtOff		//
-Alarm_Num50En:		S.ForwVOn,S.ForwLmtOff		//
-Alarm_Num51En:		S.ForwVOn,S.BackLmtOn		//
-Alarm_Num52En:		S.ForwVOff,S.ForwLmtOn		//
-Alarm_Num53En:		S.ForwVOff,S.BackLmtOff		//
-Alarm_Num54En:		M.FixVOn,M.FixLmtOff			//
-Alarm_Num55En:		M.FixVOff,M.FixLmtOn			//
-Alarm_Num56En:		S.FixVOn,S.FixLmtOff			//
-Alarm_Num57En:		S.FixVOff,S.FixLmtOn			//
-Alarm_Num58En:		VacuVOn,VacuLmtOff			//
-Alarm_Num59En:		VacuVOff,VacuLmtOn			//
-Alarm_Num60En:		HoldVOn,HoldLmtOff			//
-Alarm_Num61En:		HoldVOff,HoldLmtOn			//
-Alarm_Num62En:		HoriVOn,HoriLmtOff			//
-Alarm_Num63En:		VertiVOn,VertiLmtOff			//
-Alarm_Num64En:		TravOutTimeOut			//
-Alarm_Num65En:		TravInTimeOut				//
-Alarm_Num66En:		EmergStop				//
-Alarm_Num67En:		NotCompleteProgram			//
-Alarm_Num68En:		ProductReachesSetted			//
-Alarm_Num69En:		ActsNotActAsProgram			//
-Alarm_Num70En:		WaittingOpenTimeOut			//
-Alarm_Num71En:		NoPulseInputInServo			//
-Alarm_Num72En:		ServoAlarm				//
-Alarm_Num73En:		NotSetSafeDoorPos			//
-Alarm_Num74En:		PosOfPutLowerThanSafeDoor		//
-Alarm_Num75En:		PosOfPutHigherThanMax		//
-Alarm_Num76En:		OutPosLowerThanSafeDoor		//
-Alarm_Num77En:		OutStdbyPosHigherThanMax		//
-Alarm_Num78En:		CycleCnt,DistExcSafeRange		//
-Alarm_Num79En:		AbnormalTravOutLmt			//
-Alarm_Num80En:		AbnormalTravInLmt			//
-Alarm_Num81En:		MichiNotAtOrigin			//
-Alarm_Num82En:		OriginNeedToRe-test			//
-Alarm_Num83En:		BefTravOut,MakeHori			//
-Alarm_Num84En:		NotSideOfAxis,CanNotDown		//
-Alarm_Num85En:		InsuffiPressure			//
-Alarm_Num86En:		InDownSafPtLowThanOri		//
-Alarm_Num87En:		InDownSafePtHighThanOri		//
-Alarm_Num88En:		NotDownArea,CanNotDown		//
-Alarm_Num89En:		TravPosLowerThanOrigin		//
-Alarm_Num90En:		TravPosHigherThanMax			//
-Alarm_Num91En:		BefDownOutside,OutSafeOff		//
-Alarm_Num92En:		BefDownInside,ZNoOrigin		//
-Alarm_Num93En:		TrialTimeOut				//
-Alarm_Num94En:		BefOut,TobeHori			//
-Alarm_Num95En:		BefForw,TobeVerti			//
-Alarm_Num96En:		BefIn,TobeHori			//
-Alarm_Num97En:		BefIn,TobeVerti			//
-Alarm_Num98En:		Pro1ValveOn,Pro1LmtOff		//
-Alarm_Num99En:		Pro1ValveOff,Pro1LmtOn		//
-Alarm_Num100En:		Reserv2ValOn,Reserv2LmtOff		//
-Alarm_Num101En:		Reserv2ValOff,Reserv2LmtOn		//
-Alarm_Num102En:		NoOpenFini,CanNotVerti		//
-Alarm_Num103En:		BefChange,OutSafeLmtOff		//
-Alarm_Num104En:		NoAutoLmt				//
-Alarm_Num105En:		MainNotAtStart,NotOrigin		//
-Alarm_Num106En:		MainUpPoleOn,MainDownPoleOn		//
-Alarm_Num107En:		MainNotAtStart,TravlePre		//
-Alarm_Num108En:		MainNotAtStart,HoriPre		//
-Alarm_Num109En:		YPosMaxNotSet				//
-Alarm_Num110En:		MulDotYDownHigherSafePos		//
-Alarm_Num111En:		YDownLimitAnomaly			//
-Alarm_Num112En:		YUpLimitAnomaly			//
-Alarm_Num113En:		YNotActStartUpManual			//
-Alarm_Num114En:		YDownTimeOut				//
-Alarm_Num115En:		YUpTimeOut				//
-Alarm_Num116En:		YDownPosLessStart			//
-Alarm_Num117En:		YDownPosHigherMax			//
-Alarm_Num118En:		YAxisServoAlarm			//
-Alarm_Num119En:		YStartPosMaxHigherPosMax		//
-Alarm_Num120En:		YStartPosHigherStartPosMax		//
-Alarm_Num121En:		MoldOpenWaitUsed,NotTeach		//
-
-
-RiShengParamPage_OTE_1Ch:主下慢速一//
-RiShengParamPage_OTE_2Ch:主上慢速一//
-RiShengParamPage_OTE_3Ch:主下慢速二//
-RiShengParamPage_OTE_4Ch:主上慢速二//
-RiShengParamPage_OTE_5Ch:副下慢速一//
-RiShengParamPage_OTE_6Ch:副上慢速一//
-RiShengParamPage_OTE_7Ch:副下慢速二//
-RiShengParamPage_OTE_8Ch:副上慢速二//
-RiShengParamPage_OTE_9Ch:锁模时间//
+ProgramInfoScreen_DIS_DMT_ProgInfoDatetextEN:ProgramInfoScreen_DIS_DMT_ProgInfoDatetextEN//
+ProgramInfoScreen_DIS_DMT_ProgInfoTypetextEN:ProgramInfoScreen_DIS_DMT_ProgInfoTypetextEN//
+ProgramInfoScreen_DIS_DMT_ProgInfoVersiontextEN:ProgramInfoScreen_DIS_DMT_ProgInfoVersiontextEN//
+ProgramInfoScreen_DIS_ProgInfoDatetextEN:ProgramInfoScreen_DIS_ProgInfoDatetextEN//
+ProgramInfoScreen_DIS_ProgInfoTypetextEN:ProgramInfoScreen_DIS_ProgInfoTypetextEN//
+ProgramInfoScreen_DIS_ProgInfoVersiontextEN:ProgramInfoScreen_DIS_ProgInfoVersiontextEN//
+ProgramSelectScreen_DIS_ProgSlecReadtextEN:ProgramSelectScreen_DIS_ProgSlecReadtextEN//
+ProgramSelectScreen_DIS_ProgSlecWritetextEN:ProgramSelectScreen_DIS_ProgSlecWritetextEN//
+ResetFcSettingPage_OTE_159En:Press enter to reset settings //
 RiShengParamPage_OTE_1En:M.Down1//
 RiShengParamPage_OTE_2En:M.Up1//
 RiShengParamPage_OTE_3En:M.Down2//
@@ -1727,544 +1808,146 @@ RiShengParamPage_OTE_6En:V.Up1//
 RiShengParamPage_OTE_7En:V.Down2//
 RiShengParamPage_OTE_8En:V.Up2//
 RiShengParamPage_OTE_9En:LockMT//
-PrepareTestMouldCh:试产模数//
-PrepareTestMouldEn:TestMould//
-
-MainInterface_OTE_25_S2Ch:X//S2-X-Y
-ManualPage_OTE_40_S2Ch:X前进位置//
-ManualPage_OTE_40_S2En:XPos//
-PassWordFunc1Page1_OTE_47_S2Ch:X待机位置//
-PassWordFunc1Page1_OTE_47_S2En:XStdbyPos//
-g_com_mulorderYZCh:先Y后X//
-g_com_mulorderZYCh:先X后Y//
-g_com_mulorderYZEn:Y->X//
-g_com_mulorderZYEn:X->Y//
-PassWordFunc1Page1_OTE_46_S2Ch:X模内安全区//
-PassWordFunc1Page1_OTE_46_S2En:XSafeInMold//
-PassWordFunc1Page1_OTE_33_S2Ch:X内待机点//
-PassWordFunc1Page1_OTE_33_S2En:XInStdPnt//
-PassWordFunc1Page2_OTE_48_S2Ch:X多点置物//
-PassWordFunc1Page2_OTE_48_S2En:XMulDotPut//
-PassWordFunc1Page2_OTE_50_S2Ch:X置物起点//
-PassWordFunc1Page2_OTE_50_S2En:XStartPoint//
-PassWordFunc1Page2_OTE_52_S2Ch:X轴点数//
-PassWordFunc1Page2_OTE_52_S2En:XPointCnt//
-PassWordFunc1Page2_OTE_54_S2Ch:X轴间距//
-PassWordFunc1Page2_OTE_54_S2En:XSpace//
-PassWordFunc2Page0_OTE_66_S2Ch:X最大位置//
-PassWordFunc2Page0_OTE_66_S2En:XMaxPos//
-PassWordFunc1Page2_OTE_135Ch:X型外安全区//
-PassWordFunc1Page2_OTE_135En:XSafeOutMld//
-PassWordFunc2Page0_OTE_70_S2Ch:X齿轮比倍率//
-PassWordFunc2Page0_OTE_70_S2En:XPolseIn//
-PassWordFunc2Page0_OTE_79_S2Ch:X复归速度//
-PassWordFunc2Page0_OTE_79_S2En:XOriSpd//
-PassWordFunc2Page0_OTE_82_S2Ch:X最大速度//
-PassWordFunc2Page0_OTE_82_S2En:XMaxSpd//
-PassWordFunc2Page0_OTE_85_S2Ch:X全局速度//
-PassWordFunc2Page0_OTE_85_S2En:XWholeSpd//
-PassWordFunc2Page0_OTE_88_S2Ch:X加减速时//
-PassWordFunc2Page0_OTE_88_S2En:XAcDcTime//
-InputLimitPage0_OTE_324Ch:X24 横 出 限//
-InputLimitPage0_OTE_324En:X24 TravOutLmt//
-InputLimitPage0_OTE_325_S2Ch:X25 横 入 限//
-InputLimitPage0_OTE_325_S2En:X25 TravInLmt//
-InputLimitPage0_OTE_326Ch:X27 前进极限//
-InputLimitPage0_OTE_326En:X27 ForwLmt //
-InputLimitPage0_OTE_327Ch:X26 后退极限//
-InputLimitPage0_OTE_327En:X26 BackLmt //
-InputLimitPage0_OTE_318Ch:X16 X轴原点//
-InputLimitPage0_OTE_318En:X16 XOrig//
-Alarm_Num150Ch:非X轴模内安全区,不可下降//
-Alarm_Num151Ch:非X轴模外安全区,不可下降//
-Alarm_Num152Ch:X轴前进后退前,主上升限Off//
-Alarm_Num153Ch:X轴前进后退前,副上升限Off//
-Alarm_Num154Ch:前进位置大于最大值//
-Alarm_Num155Ch:X轴前进时间过久//
-Alarm_Num156Ch:X轴后退时间过久//
-Alarm_Num157Ch:X轴伺服驱动器报警//
-Alarm_Num158Ch:X轴前进极限异常//
-Alarm_Num159Ch:X轴后退极限异常//
-Alarm_Num160Ch:X轴点数*距离超过安全范围//
-Alarm_Num161Ch:Y轴位置小于Y轴型外安全区//
-Alarm_Num150En:NotX.InMoulSafe,NoDown//
-Alarm_Num151En:NotX.OutMoulSafe,NoDown//
-Alarm_Num152En:BeforeX.ForwBack,MainUpOff//
-Alarm_Num153En:BeforeX.ForwBack,AuxiUpOff//
-Alarm_Num154En:ForwPosLargeThanMax//
-Alarm_Num155En:X.ForwTimeOut//
-Alarm_Num156En:X.BackTimeOut//
-Alarm_Num157En:X.ServoAlarm//
-Alarm_Num158En:X.ForwLmtAbnomal//
-Alarm_Num159En:X.BackLmtAbnomal//
-Alarm_Num160En:X.Points*SpaceLargeThanSafe//
-Alarm_Num161En:Y.PosSmallThanY.OutMouldSafe//
-
-ManualPage_OTE_41_S2Ch:Y旋转位置//ROTATING-Y
-ManualPage_OTE_41_S2En:YPos//
-PassWordFunc1Page3_OTE_1_S2Ch:Y型外安全区//
-PassWordFunc1Page3_OTE_1_S2En:YSafeOutMld//
-PassWordFunc1Page3_OTE_2_S2Ch:Y侧姿位置//
-PassWordFunc1Page3_OTE_2_S2En:YGesPos//
-InputLimitPage0_OTE_319_S2Ch:X17 旋入极限//
-InputLimitPage0_OTE_319_S2En:X17 DownLmt//
-InputLimitPage0_OTE_320_S2Ch:X20 旋出极限//
-InputLimitPage0_OTE_320_S2En:X20 UpLmt//
-InputLimitPage0_OTE_323Ch:X23 横 出 限//
-InputLimitPage0_OTE_323En:X23 TravOutLmt//
-OutputValuePage0_OTE_384Ch:Y20 旋 出 阀//
-OutputValuePage0_OTE_384En:Y20 RotateOut//
-OutputValuePage0_OTE_385Ch:Y21 旋 入 阀//
-OutputValuePage0_OTE_385En:Y21 RotateIn //
-Act_MainDownCh:		旋    入//
-Act_MainUpCh:			旋    出//
-Act_MainDownEn:	RotateIn//
-Act_MainUpEn:		RotateOut//
-Act_ViceDownCh:	副臂旋入//
-Act_ViceUpCh:		副臂旋出//
-Act_ViceDownEn:	Sub Down//
-Act_ViceUpEn:		Sub   Up//
-Act_DoubleDownCh:	双臂旋入//
-Act_DoubleUpCh:	双臂旋出//
-Act_DoubleDownEn:	Dob Down//
-Act_DoubleUpEn:	Dob   Up//
-
-
-ManualPage_OTE_41_S2Ch:Y侧进位置//SIDE_TACK_X_Y
-ManualPage_OTE_41_S2En:YPos//
-InputLimitPage0_OTE_319_S2Ch:X17 侧进极限//
-InputLimitPage0_OTE_319_S2En:X17 DownLmt//
-InputLimitPage0_OTE_320_S2Ch:X20 侧退极限//
-InputLimitPage0_OTE_320_S2En:X20 UpLmt//
-InputLimitPage0_OTE_324Ch:X24 备用//
-InputLimitPage0_OTE_324En:X24 Rev//
-InputLimitPage0_OTE_325_S2Ch:X25 备用//
-InputLimitPage0_OTE_325_S2En:X25 Rev//
-InputLimitPage1_OTE_346Ch:X32 副侧退限//
-InputLimitPage1_OTE_347Ch:X33 副侧进限//
-InputLimitPage1_OTE_346En:X32 SubUp //
-InputLimitPage1_OTE_347En:X33 ViceDown //
-OutputValuePage0_OTE_384Ch:Y20 主侧退阀//
-OutputValuePage0_OTE_384En:Y20 M.Back//
-OutputValuePage0_OTE_385Ch:Y21 主侧进阀//
-OutputValuePage0_OTE_385En:Y21 M.Forw //
-OutputValuePage0_OTE_391Ch:Y26 备用//
-OutputValuePage0_OTE_390Ch:Y27 备用//
-OutputValuePage0_OTE_391En:Y26 Rev //
-OutputValuePage0_OTE_390En:Y27 Rev //
-OutputValuePage1_OTE_410Ch:Y32 副侧退阀//
-OutputValuePage1_OTE_411Ch:Y33 副侧进阀//
-OutputValuePage1_OTE_410En:Y32 SubBack //
-OutputValuePage1_OTE_411En:Y33 SubForw //
-Act_MainDownCh:	侧    进//
-Act_MainUpCh:		侧    退//
-Act_MainDownEn:	Side In//
-Act_MainUpEn:		SideOut//
-Act_ViceDownCh:	副臂侧进//
-Act_ViceUpCh:		副臂侧退//
-Act_ViceDownEn:	Sub Down//
-Act_ViceUpEn:		Sub   Up//
-Act_DoubleDownCh:	双臂侧进//
-Act_DoubleUpCh:	双臂侧退//
-Act_DoubleDownEn:	Dob Down//
-Act_DoubleUpEn:	Dob   Up//
-
-
-ManualPage_OTE_36Ch:伺服模式//S1-X
-ManualPage_OTE_36En:ServoM//
-ManualPage_OTE_40Ch:X前进位置//
-ManualPage_OTE_40En:XPos //
-ManualSettingPage_OTE_427Ch:X前进位置//
-ManualSettingPage_OTE_427En:XPos //
-ManualSettingPage_OTE_433Ch:X待机位置//
-ManualSettingPage_OTE_433En:XStdbyPos //
-PassWordFunc1Page0_OTE_102Ch:Z待机位置//
-PassWordFunc1Page0_OTE_102En:ZStdbyPos //
-PassWordFunc1Page0_OTE_109Ch:X待机位置//
-PassWordFunc1Page0_OTE_109En:XStdbyPos //
-PassWordFunc1Page1_OTE_113Ch:X点    数//
-PassWordFunc1Page1_OTE_113En:XPointCnt //
-PassWordFunc1Page1_OTE_116Ch:X间    距//
-PassWordFunc1Page1_OTE_116En:XSpace //
-PassWordFunc1Page2_OTE_135Ch:X型外安全区//
-PassWordFunc1Page2_OTE_135En:XSafeOutMld//
-PassWordFunc1Page2_OTE_139Ch:X模内安全区//
-PassWordFunc1Page2_OTE_139En:XSafeInMld //
-PassWordFunc1Page2_OTE_157Ch:X排列起始点//
-PassWordFunc1Page2_OTE_157En:XStartPoint//
-PassWordFunc2Page_OTE_194Ch:X最大位置//
-PassWordFunc2Page_OTE_194En:XMaxPos //
-PassWordFunc2Page_OTE_196Ch:X齿轮比率//
-PassWordFunc2Page_OTE_196En:XPolseIn //
-PassWordFunc2Page_OTE_203Ch:X加减速时//
-PassWordFunc2Page_OTE_203En:XADTime //
-PassWordFunc2Page_OTE_204Ch:X最大速度//
-PassWordFunc2Page_OTE_204En:XMaxSpeed //
-PassWordFunc2Page_OTE_210Ch:X复归速度//
-PassWordFunc2Page_OTE_210En:XOriSpeed //
-PassWordFunc2Page_OTE_216Ch:X全局速度//
-PassWordFunc2Page_OTE_216En:XWholeSpeed //
-InputLimitPage0_OTE_318Ch:X16 X轴原点//
-InputLimitPage0_OTE_318En:X16 XOrig//
-InputLimitPage0_OTE_324Ch:X24 横 出 限//
-InputLimitPage0_OTE_324En:X24 TravOutLmt//
-InputLimitPage0_OTE_325Ch:X25 横 入 限//
-InputLimitPage0_OTE_325En:X25 TravInLmt//
-InputLimitPage0_OTE_326Ch:X27 前进极限//
-InputLimitPage0_OTE_326En:X27 ForwLmt //
-InputLimitPage0_OTE_327Ch:X26 后退极限//    
-InputLimitPage0_OTE_327En:X26 BackLmt //
-Alarm_Num150Ch:非X轴模内安全区,不可下降//
-Alarm_Num151Ch:非X轴模外安全区,不可下降//
-Alarm_Num152Ch:X轴前进后退前,主上升限Off//
-Alarm_Num153Ch:X轴前进后退前,副上升限Off//
-Alarm_Num154Ch:前进位置大于最大值//
-Alarm_Num155Ch:X轴前进时间过久//
-Alarm_Num156Ch:X轴后退时间过久//
-Alarm_Num157Ch:X轴伺服驱动器报警//
-Alarm_Num158Ch:X轴前进极限异常//
-Alarm_Num159Ch:X轴后退极限异常//
-Alarm_Num160Ch:X轴点数*距离超过安全范围//
-Alarm_Num150En:NotX.InMoulSafe,NoDown//
-Alarm_Num151En:NotX.OutMoulSafe,NoDown//
-Alarm_Num152En:BeforeX.ForwBack,MainUpOff//
-Alarm_Num153En:BeforeX.ForwBack,AuxiUpOff//
-Alarm_Num154En:ForwPosLargeThanMax//
-Alarm_Num155En:X.ForwTimeOut//
-Alarm_Num156En:X.BackTimeOut//
-Alarm_Num157En:X.ServoAlarm//
-Alarm_Num158En:X.ForwLmtAbnomal//
-Alarm_Num159En:X.BackLmtAbnomal//
-Alarm_Num160En:X.Points*SpaceLargeThanSafe//
-
-MainInterface_OTE_24_S2Ch:X//S2_X_Z
-ManualPage_OTE_41_S2Ch:X前进位置//
-ManualPage_OTE_41_S2En:XForwPos//
-g_com_mulorderYZCh:先X后Z//
-g_com_mulorderZYCh:先Z后X//
-g_com_mulorderYZEn:X->Z//
-g_com_mulorderZYEn:Z->X//
-PassWordFunc1Page1_OTE_45_S2Ch:X待机位置//
-PassWordFunc1Page1_OTE_45_S2En:XStdbyPnt//
-PassWordFunc1Page2_OTE_58_S2Ch:X多点置物//
-PassWordFunc1Page2_OTE_58_S2En:XMulDotPut//
-PassWordFunc1Page2_OTE_60_S2Ch:X置物起点//
-PassWordFunc1Page2_OTE_60_S2En:XStartPoint//
-PassWordFunc1Page2_OTE_62_S2Ch:X轴点数//
-PassWordFunc1Page2_OTE_62_S2En:XPointCnt//
-PassWordFunc1Page2_OTE_64_S2Ch:X轴间距//
-PassWordFunc1Page2_OTE_64_S2En:XSpace//
-PassWordFunc2Page1_OTE_96_S2Ch:X最大位置//
-PassWordFunc2Page1_OTE_96_S2En:XMaxPos//
-PassWordFunc2Page1_OTE_98_S2Ch:X模外安全区//
-PassWordFunc2Page1_OTE_98_S2En:XMaxStPos//
-PassWordFunc2Page1_OTE_100_S2Ch:X齿轮比倍率//
-PassWordFunc2Page1_OTE_100_S2En:XPloseIn//
-PassWordFunc2Page1_OTE_106_S2Ch:X复归速度//
-PassWordFunc2Page1_OTE_106_S2En:XOriSpd//
-PassWordFunc2Page1_OTE_109_S2Ch:X最大速度//
-PassWordFunc2Page1_OTE_109_S2En:XMaxSpd//
-PassWordFunc2Page1_OTE_112_S2Ch:X全局速度//
-PassWordFunc2Page1_OTE_112_S2En:XWholeSpd//
-PassWordFunc2Page1_OTE_115_S2Ch:X加减速时//
-PassWordFunc2Page1_OTE_115_S2En:XAcDcTime//
-PassWordFunc2Page1_OTE_116_S2Ch:X模内安全区//
-PassWordFunc2Page1_OTE_116_S2En:XInMSafe//
-InputLimitPage0_OTE_317Ch:X15 前进极限//
-InputLimitPage0_OTE_317En:X15 ForwMax//
-InputLimitPage0_OTE_318Ch:X16 X轴原点//
-InputLimitPage0_OTE_318En:X16 XOrig//
-InputLimitPage0_OTE_319_S2Ch:X17 主下降限//
-InputLimitPage0_OTE_319_S2En:X17 DownMax//
-InputLimitPage0_OTE_320_S2Ch:X20 后退极限//
-InputLimitPage0_OTE_320_S2En:X20 BackLmt//
-InputLimitPage1_OTE_349_S2Ch:X35 主臂上升//
-InputLimitPage1_OTE_349_S2En:X35 MainUp //
-Alarm_Num71Ch:X轴伺服驱动器无脉冲输入	//
-Alarm_Num71En:XNoPulseInputInServo		//
-Alarm_Num150Ch:非X轴模内安全区,不可下降//
-Alarm_Num151Ch:非X轴模外安全区,不可下降//
-Alarm_Num152Ch:X轴前进后退前,主上升限Off//
-Alarm_Num153Ch:X轴前进后退前,副上升限Off//
-Alarm_Num154Ch:前进位置大于最大值//
-Alarm_Num155Ch:X轴前进时间过久//
-Alarm_Num156Ch:X轴后退时间过久//
-Alarm_Num157Ch:X轴伺服驱动器报警//
-Alarm_Num158Ch:X轴前进极限异常//
-Alarm_Num159Ch:X轴后退极限异常//
-Alarm_Num160Ch:X轴点数*距离超过安全范围//
-Alarm_Num150En:NotX.InMoulSafe,NoDown//
-Alarm_Num151En:NotX.OutMoulSafe,NoDown//
-Alarm_Num152En:BeforeX.ForwBack,MainUpOff//
-Alarm_Num153En:BeforeX.ForwBack,AuxiUpOff//
-Alarm_Num154En:ForwPosLargeThanMax//
-Alarm_Num155En:X.ForwTimeOut//
-Alarm_Num156En:X.BackTimeOut//
-Alarm_Num157En:X.ServoAlarm//
-Alarm_Num158En:X.ForwLmtAbnomal//
-Alarm_Num159En:X.BackLmtAbnomal//
-Alarm_Num160En:X.Points*SpaceLargeThanSafe//
-
-
-InputLimitPage1_OTE_349_S2Ch:X35 辅助原点//WEIDEKE_X_Y
-InputLimitPage1_OTE_349_S2En:X35 AuxiOri//
-InputLimitPage1_OTE_350Ch:X36 Y轴原点//
-InputLimitPage1_OTE_350En:X36 YOrigin//
-
-Act_MainDownCh:		手臂下降		//易辉非标
-Act_MainUpCh:			手臂上升		//
-Act_MainForwCh:		接料上升		//
-Act_MainBackwCh:		接料下降		//
-Act_MainFixCh:		刮刀前伸		//
-Act_MainPutCh:		刮刀回缩		//
-Act_SpinOutCh:		手臂到中		//
-Act_SpinInCh:			手臂外移		//
-Act_VacuumSuckCh:		吸 盘 吸		//
-Act_VacuumPutCh:		吸 盘 放		//
-Act_ViceDownCh:		压头下压		//
-Act_ViceUpCh:			压头收回		//
-Act_ViceForwCh:		助推回缩		//
-Act_ViceBackwCh:		助推伸出		//
-Act_ViceFixCh:		压轮伸出		//
-Act_VicePutCh:		压轮收回		//
-Act_HorizontalCh:		对中前伸		//
-Act_VerticalCh:		对中回缩		//
-Act_HoldOnCh:			吸盘前伸		//剪刀上升
-Act_HoldOffCh:		吸盘回缩		//剪刀下降
-Act_Process1OnCh:		转盘旋转		//吸盘前伸
-Act_Process1OffCh:		转盘停止		//吸盘回缩
-Act_Reserved1OnCh:		吸盘吹通		//
-Act_Reserved1OffCh:		吸盘吹断		//
-Act_Reserved1Ch:		吸盘吹气		//
-Act_HoldCh:			吸    盘		//
-Act_Process1Ch:		转    盘		//
-
-
-InputLimitPage0_OTE_312Ch:X10对中前伸限//
-InputLimitPage0_OTE_313Ch:X11对中回缩限//
-InputLimitPage0_OTE_314Ch:X12刮刀前伸限//
-InputLimitPage0_OTE_315Ch:X13吸盘前伸限//
-InputLimitPage0_OTE_316Ch:X14 吸盘吸限//
-InputLimitPage0_OTE_317Ch:X15接料上升限//
-InputLimitPage0_OTE_318Ch:X16接料下降限//
-InputLimitPage0_OTE_319Ch:X17手臂下降限//
-InputLimitPage0_OTE_326Ch:X27 到中极限//
-InputLimitPage0_OTE_327Ch:X26 外移极限//
-InputLimitPage1_OTE_344Ch:X30接料助推缩//
-InputLimitPage1_OTE_345Ch:X31接料助推伸//
-InputLimitPage1_OTE_346Ch:X32压头收回限//
-InputLimitPage1_OTE_347Ch:X33压头下压限//
-InputLimitPage1_OTE_348Ch:X34刮刀压轮伸//
-InputLimitPage1_OTE_349Ch:X35 手臂上升//
-InputLimitPage1_OTE_350Ch:X36转盘旋转限//
-OutputValuePage0_OTE_376Ch:Y10对中前伸阀//
-OutputValuePage0_OTE_377Ch:Y11对中回缩阀//
-OutputValuePage0_OTE_378Ch:Y12刮刀前伸阀//
-OutputValuePage0_OTE_379Ch:Y13吸盘前伸阀//
-OutputValuePage0_OTE_380Ch:Y14 吸盘吸阀//
-OutputValuePage0_OTE_381Ch:Y15接料上升阀//
-OutputValuePage0_OTE_382Ch:Y16接料下降阀//
-OutputValuePage0_OTE_384Ch:Y20手臂上升阀//
-OutputValuePage0_OTE_385Ch:Y21手臂下降阀//
-OutputValuePage0_OTE_388Ch:Y24吸盘吹气阀//
-OutputValuePage0_OTE_391Ch:Y26手臂到中阀//
-OutputValuePage0_OTE_390Ch:Y27手臂外移阀//
-OutputValuePage1_OTE_408Ch:Y30接料助推缩//
-OutputValuePage1_OTE_409Ch:Y31接料助推伸//
-OutputValuePage1_OTE_410Ch:Y32压头收回阀//
-OutputValuePage1_OTE_411Ch:Y33压头下压阀//
-OutputValuePage1_OTE_412Ch:Y34刮刀压轮伸//
-OutputValuePage1_OTE_413Ch:Y35转盘旋转阀//
-
-Alarm_Num1Ch:		开模完信号断,未归原点			//
-Alarm_Num2Ch:		中板模确认限断,未归原点			//
-Alarm_Num3Ch:		手臂上升限断,未归原点			//
-Alarm_Num4Ch:		压头收回限断,未归原点			//
-Alarm_Num5Ch:		刮刀前伸确认限通,未归原点			//
-Alarm_Num6Ch:		副夹确认限通,未归原点			//
-Alarm_Num7Ch:		吸盘吸限通,未归原点			//
-Alarm_Num8Ch:		吸盘气缸前伸限通,未归原点			//
-Alarm_Num9Ch:		机台停在型外,未归原点			//
-Alarm_Num10Ch:		机台停在型内,未归原点			//
-Alarm_Num11Ch:		对中气缸回缩限断,未归原点			//
-Alarm_Num12Ch:		对中气缸前伸限断,未归原点			//
-Alarm_Num13Ch:		下降取物时,开模完信号断		//
-Alarm_Num14Ch:		下降取物时,中板模信号断		//
-Alarm_Num15Ch:		开模完信号通,安全门信号断		//
-Alarm_Num16Ch:		开模完信号通,中板模信号断		//
-Alarm_Num17Ch:		手臂上升限通,手臂下降限通		//
-Alarm_Num18Ch:		接料气缸上升限通,接料气缸下降限通		//
-Alarm_Num19Ch:		压头收回限通,压头下压限通		//
-Alarm_Num20Ch:		接料助推回缩限通,接料助推伸出限通		//
-Alarm_Num21Ch:		机台手臂到中限通,机台横回限通		//
-Alarm_Num22Ch:		对中气缸前伸限通,对中气缸回缩限通			//
-Alarm_Num23Ch:		手臂下降前,开模完信号断		//
-Alarm_Num24Ch:		手臂下降前,中板模信号断		//
-Alarm_Num25Ch:		手臂下降前,安全门信号断		//
-Alarm_Num26Ch:		手臂下降前,对中气缸回缩限断			//
-Alarm_Num27Ch:		手臂下降前,对中气缸前伸限断			//
-Alarm_Num28Ch:		手臂下降前,刮刀气缸前伸限通			//
-Alarm_Num29Ch:		手臂下降前,刮刀压轮伸出限通			//
-Alarm_Num30Ch:		手臂下降前,吸盘吸限通			//
-Alarm_Num31Ch:		手臂下降前,吸盘气缸前伸限通			//
-Alarm_Num32Ch:		机台横行前,手臂下降阀通		//
-Alarm_Num33Ch:		机台横行前,压头下压阀通		//
-Alarm_Num34Ch:		机台横行前,手臂上升限断		//
-Alarm_Num35Ch:		机台横行前,压头收回限断		//
-Alarm_Num36Ch:		姿势变化前,手臂下降阀通		//
-Alarm_Num37Ch:		姿势变化前,压头下压阀通		//
-Alarm_Num38Ch:		手臂下降阀通,手臂上升限通		//
-Alarm_Num39Ch:		手臂下降阀通,手臂下降限断		//
-Alarm_Num40Ch:		手臂下降阀断,手臂上升限断		//
-Alarm_Num41Ch:		手臂下降阀断,手臂下降限通		//
-Alarm_Num42Ch:		压头下压阀通,压头收回限通		//
-Alarm_Num43Ch:		压头下压阀通,压头下压限断		//
-Alarm_Num44Ch:		压头下压阀断,压头收回限断		//
-Alarm_Num45Ch:		压头下压阀断,压头下压限通		//
-Alarm_Num46Ch:		接料气缸上升阀通,接料气缸上升限断		//
-Alarm_Num47Ch:		接料气缸上升阀通,接料气缸下降限通		//
-Alarm_Num48Ch:		接料气缸上升阀断,接料气缸上升限通		//
-Alarm_Num49Ch:		接料气缸上升阀断,接料气缸下降限断		//
-Alarm_Num50Ch:		接料助推回缩阀通,接料助推回缩限断		//
-Alarm_Num51Ch:		接料助推回缩阀通,接料助推前伸限通		//
-Alarm_Num52Ch:		接料助推回缩阀断,接料助推回缩限通		//
-Alarm_Num53Ch:		接料助推回缩阀断,接料助推前伸限断		//
-Alarm_Num54Ch:		刮刀气缸前伸阀通,刮倒气缸前伸限断			//
-Alarm_Num55Ch:		刮刀气缸前伸阀断,刮刀气缸前伸限通			//
-Alarm_Num56Ch:		刮刀压轮伸出阀通,刮刀压轮伸出限断			//
-Alarm_Num57Ch:		刮刀压轮伸出阀断,刮刀压轮伸出限通			//
-Alarm_Num58Ch:		真空阀通,真空限断			//
-Alarm_Num59Ch:		真空阀断,真空限通			//
-Alarm_Num60Ch:		吸盘气缸前伸阀通,吸盘气缸回缩限断			//
-Alarm_Num61Ch:		吸盘气缸回缩阀断,吸盘气缸前伸限通			//
-Alarm_Num62Ch:		对中气缸前伸阀通,中气缸前伸限断			//
-Alarm_Num63Ch:		对中气缸回缩阀通,对中气缸回缩限断			//
-Alarm_Num64Ch:		手臂到中时间过久				//
-Alarm_Num65Ch:		手臂外移时间过久				//
-Alarm_Num66Ch:		紧急停止				//
-Alarm_Num67Ch:		程式不完整,不可执行				//
-Alarm_Num68Ch:		产量已到				//
-Alarm_Num69Ch:		动作未依模式进行			//
-Alarm_Num70Ch:		等待开模逾时				//
-Alarm_Num71Ch:		伺服驱动器无脉冲输入		//
-Alarm_Num72Ch:		伺服驱动器报警			//
-Alarm_Num73Ch:		安全门位置未设定			//
-Alarm_Num74Ch:		Z轴置物点位置小于安全门位置		//
-Alarm_Num75Ch:		Z轴置物点位置大于最大值		//
-Alarm_Num76Ch:		外待机位置小于安全门位置		//
-Alarm_Num77Ch:		外待机位置大于最大值			//
-Alarm_Num78Ch:		循环置物点数*距离超过安全范围		//
-Alarm_Num79Ch:		手臂到中极限异常				//
-Alarm_Num80Ch:		手臂外移极限异常				//
-Alarm_Num81Ch:		机台不在起始位置,手动手臂外移		//
-Alarm_Num82Ch:		原点需重新复归,请按HP.键				//
-Alarm_Num83Ch:		手臂到中外移前,先执行对中气缸前伸		//
-Alarm_Num84Ch:		机台未在横轴两端,不能下降		//
-Alarm_Num85Ch:		气压不足				//
-Alarm_Num86Ch:		模内安全点小于起始点位置		//
-Alarm_Num87Ch:		模内安全点大于安全门位置		//
-Alarm_Num88Ch:		非模内安全下降区,不能下降		//
-Alarm_Num89Ch:		横行位置小于起点位置			//
-Alarm_Num90Ch:		横行位置大于最大值			//
-Alarm_Num91Ch:		模外下降前,型外安全区限断		//
-Alarm_Num92Ch:		型内手臂下降前,型内安全区限断		//
-Alarm_Num93Ch:		试用期已到				//
-Alarm_Num94Ch:		手臂到中前,先前伸对中气缸			//
-Alarm_Num95Ch:		手臂到中前,先回缩对中气缸			//
-Alarm_Num96Ch:		手臂外移前,先前伸对中气缸			//
-Alarm_Num97Ch:		手臂外移前,先回缩对中气缸			//
-Alarm_Num98Ch:		转盘旋转阀通,转盘停止限断			//
-Alarm_Num99Ch:		转盘停止阀断,转盘旋转限通			//
-Alarm_Num100Ch:		预留2阀通,预留2限断			//
-Alarm_Num101Ch:		预留2阀断,预留2限通			//
-Alarm_Num102Ch:		对中气缸前伸待机无开模完,不能回缩对中气缸		//
-Alarm_Num103Ch:		姿势变化前,型外安全区限断		//
-Alarm_Num104Ch:		全自动信号无				//
-
-
-SpeedLoopGainCh:		速度环增益//Servo1 Param start
-SpeedLoopIntegralCh:		速度环积分//
-PositionLoopGainCh:		位置环增益//
-RotationalInertiaRatioCh:	转动惯量比//
-ParaSettingCh:			参数设置//
-SettingValueCh:			设置值//
+RotationalInertiaRatioEn:	RotInertiaRatio//
+SPD_FBKEn:			MotorSpd//               
+SavePage_BTN_LeadInEn:LeadIn//
+SavePage_BTN_LeadOutEn:LeadOut//
+SavePage_BTN_PopEn:Pop//
+SavePage_BTN_RefreshEn:ReFresh//
+SavePage_OTE_435En:Read(0-99) //
+SavePage_OTE_437En:Load success! //
+SavePage_OTE_438En:Write(20-99) //
+SavePage_WriteTipsEn:Press Enter to Instruct Page//
+SerialTestPage_OTE_513En:Input：//
+SerialTestPage_OTE_515En:Output：//
+SerialTestPage_OTE_517En:Start key begin，Stop key finish//
+ServoPage0_DIS_PositionLoopGaintextEN:ServoPage0_DIS_PositionLoopGaintextEN//
+ServoPage0_DIS_RotInertiaRatiotextEN:ServoPage0_DIS_RotInertiaRatiotextEN//
+ServoPage0_DIS_SpeedLoopGaintextEN:ServoPage0_DIS_SpeedLoopGaintextEN//
+ServoPage0_DIS_SpeedLoopIntegraltextEN:ServoPage0_DIS_SpeedLoopIntegraltextEN//
+ServoPage1_DIS_ParaSettingtextEN:ServoPage1_DIS_ParaSettingtextEN//
+ServoPage1_DIS_SettingValuetextEN:ServoPage1_DIS_SettingValuetextEN//
+ServoPage2_DIS_ZPositionLoopGaintextEN:ServoPage2_DIS_ZPositionLoopGaintextEN//
+ServoPage2_DIS_ZRotInertiaRatiotextEN:ServoPage2_DIS_ZRotInertiaRatiotextEN//
+ServoPage2_DIS_ZSpeedLoopGaintextEN:ServoPage2_DIS_ZSpeedLoopGaintextEN//
+ServoPage2_DIS_ZSpeedLoopIntegraltextEN:ServoPage2_DIS_ZSpeedLoopIntegraltextEN//
+ServoPage3_DIS_ZParaSettingtextEN:ServoPage3_DIS_ZParaSettingtextEN//
+ServoPage3_DIS_ZSettingValuetextEN:ServoPage3_DIS_ZSettingValuetextEN//
+SettingValueEn:			SetValue//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1CycleTimetextEN:SpecialFuncSetScreen1_1_DIS_FCSet1_1CycleTimetextEN//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1EmbInMldtextEN:SpecialFuncSetScreen1_1_DIS_FCSet1_1EmbInMldtextEN//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1MidMoldtextEN:SpecialFuncSetScreen1_1_DIS_FCSet1_1MidMoldtextEN//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1SafeDoortextEN:SpecialFuncSetScreen1_1_DIS_FCSet1_1SafeDoortextEN//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1StartPostextEN:SpecialFuncSetScreen1_1_DIS_FCSet1_1StartPostextEN//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1StdbyGestextEN:SpecialFuncSetScreen1_1_DIS_FCSet1_1StdbyGestextEN//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1StdbyPostextEN:SpecialFuncSetScreen1_1_DIS_FCSet1_1StdbyPostextEN//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1StopStatustextEN:SpecialFuncSetScreen1_1_DIS_FCSet1_1StopStatustextEN//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1SubPutDetextEN:SpecialFuncSetScreen1_1_DIS_FCSet1_1SubPutDetextEN//
+SpecialFuncSetScreen1_1_DIS_FCSet1_1ThimbtextEN:SpecialFuncSetScreen1_1_DIS_FCSet1_1ThimbtextEN//
+SpecialFuncSetScreen1_1_STE_EmbInMldtextEN:SpecialFuncSetScreen1_1_STE_EmbInMldtextEN//
+SpecialFuncSetScreen1_1_STE_MidMoldtextEN:SpecialFuncSetScreen1_1_STE_MidMoldtextEN//
+SpecialFuncSetScreen1_1_STE_SafeDoortextEN:SpecialFuncSetScreen1_1_STE_SafeDoortextEN//
+SpecialFuncSetScreen1_1_STE_StdbyGestextEN:SpecialFuncSetScreen1_1_STE_StdbyGestextEN//
+SpecialFuncSetScreen1_1_STE_StdbyPostextEN:SpecialFuncSetScreen1_1_STE_StdbyPostextEN//
+SpecialFuncSetScreen1_1_STE_StopSafetextEN:SpecialFuncSetScreen1_1_STE_StopSafetextEN//
+SpecialFuncSetScreen1_1_STE_ThimbtextEN:SpecialFuncSetScreen1_1_STE_ThimbtextEN//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckClsMldtextEN:SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckClsMldtextEN//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckDfPrdtextEN:SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckDfPrdtextEN//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckPresstextEN:SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckPresstextEN//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2ClScrTimtextEN:SpecialFuncSetScreen1_2_DIS_FCSet1_2ClScrTimtextEN//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2ClpAbDecttextEN:SpecialFuncSetScreen1_2_DIS_FCSet1_2ClpAbDecttextEN//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2ConvCnttextEN:SpecialFuncSetScreen1_2_DIS_FCSet1_2ConvCnttextEN//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2PointCnttextEN:SpecialFuncSetScreen1_2_DIS_FCSet1_2PointCnttextEN//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2Reserv1textEN:SpecialFuncSetScreen1_2_DIS_FCSet1_2Reserv1textEN//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2Reserv2textEN:SpecialFuncSetScreen1_2_DIS_FCSet1_2Reserv2textEN//
+SpecialFuncSetScreen1_2_DIS_FCSet1_2SpacetextEN:SpecialFuncSetScreen1_2_DIS_FCSet1_2SpacetextEN//
+SpecialFuncSetScreen1_2_STE_ChckDfPrdtextEN:SpecialFuncSetScreen1_2_STE_ChckDfPrdtextEN//
+SpecialFuncSetScreen1_2_STE_ChckPresstextEN:SpecialFuncSetScreen1_2_STE_ChckPresstextEN//
+SpecialFuncSetScreen1_2_STE_ClpAbDecttextEN:SpecialFuncSetScreen1_2_STE_ClpAbDecttextEN//
+SpecialFuncSetScreen1_2_STE_InjectiontextEN:SpecialFuncSetScreen1_2_STE_InjectiontextEN//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2AutoLinittextEN:SpecialFuncSetScreen1_3_DIS_FCSet1_2AutoLinittextEN//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2FetchFailtextEN:SpecialFuncSetScreen1_3_DIS_FCSet1_2FetchFailtextEN//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2OutStdbytextEN:SpecialFuncSetScreen1_3_DIS_FCSet1_2OutStdbytextEN//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2PressSwtextEN:SpecialFuncSetScreen1_3_DIS_FCSet1_2PressSwtextEN//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2SafeInMoldtextEN:SpecialFuncSetScreen1_3_DIS_FCSet1_2SafeInMoldtextEN//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2SlowDelaytextEN:SpecialFuncSetScreen1_3_DIS_FCSet1_2SlowDelaytextEN//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2SlowDowntextEN:SpecialFuncSetScreen1_3_DIS_FCSet1_2SlowDowntextEN//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2StartPointtextEN:SpecialFuncSetScreen1_3_DIS_FCSet1_2StartPointtextEN//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2TrvInPsttextEN:SpecialFuncSetScreen1_3_DIS_FCSet1_2TrvInPsttextEN//
+SpecialFuncSetScreen1_3_DIS_FCSet1_2TrvOutPsttextEN:SpecialFuncSetScreen1_3_DIS_FCSet1_2TrvOutPsttextEN//
+SpecialFuncSetScreen1_3_DIS_FCSet1_3SafeDoortextEN:SpecialFuncSetScreen1_3_DIS_FCSet1_3SafeDoortextEN//
+SpecialFuncSetScreen1_3_STE_AutoLimittextEN:SpecialFuncSetScreen1_3_STE_AutoLimittextEN//
+SpecialFuncSetScreen1_3_STE_OpenSafeDtextEN:SpecialFuncSetScreen1_3_STE_OpenSafeDtextEN//
+SpecialFuncSetScreen1_3_STE_PressSwtextEN:SpecialFuncSetScreen1_3_STE_PressSwtextEN//
+SpecialFuncSetScreen1_3_STE_QuickDowntextEN:SpecialFuncSetScreen1_3_STE_QuickDowntextEN//
+SpecialFuncSetScreen1_3_STE_TrvInPsttextEN:SpecialFuncSetScreen1_3_STE_TrvInPsttextEN//
+SpecialFuncSetScreen1_3_STE_TrvOutPsttextEN:SpecialFuncSetScreen1_3_STE_TrvOutPsttextEN//
+SpecialFuncSetScreen1_4_DIS_FCSet1_4ConveyOntextEN:SpecialFuncSetScreen1_4_DIS_FCSet1_4ConveyOntextEN//
+SpecialFuncSetScreen1_4_DIS_FCSet1_4OpDAlarmtextEN:SpecialFuncSetScreen1_4_DIS_FCSet1_4OpDAlarmtextEN//
+SpecialFuncSetScreen1_4_DIS_FCSet1_4Reser1TimetextEN:SpecialFuncSetScreen1_4_DIS_FCSet1_4Reser1TimetextEN//
+SpecialFuncSetScreen1_4_DIS_FCSet1_4StkCleartextEN:SpecialFuncSetScreen1_4_DIS_FCSet1_4StkCleartextEN//
+SpecialFuncSetScreen1_4_DIS_FCSet1_4StkDrttextEN:SpecialFuncSetScreen1_4_DIS_FCSet1_4StkDrttextEN//
+SpecialFuncSetScreen1_4_DIS_FCSet1_4TestMouldtextEN:SpecialFuncSetScreen1_4_DIS_FCSet1_4TestMouldtextEN//
+SpecialFuncSetScreen1_4_STE_OpenDoorAlarmtextEN:SpecialFuncSetScreen1_4_STE_OpenDoorAlarmtextEN//
+SpecialFuncSetScreen1_4_STE_StackCleartextEN:SpecialFuncSetScreen1_4_STE_StackCleartextEN//
+SpecialFuncSetScreen1_4_STE_ZStackDrttextEN:SpecialFuncSetScreen1_4_STE_ZStackDrttextEN//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1AccDecTimetextEN:SpecialFuncSetScreen2_1_DIS_FCSet2_1AccDecTimetextEN//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1AlarmTimetextEN:SpecialFuncSetScreen2_1_DIS_FCSet2_1AlarmTimetextEN//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1DownGesttextEN:SpecialFuncSetScreen2_1_DIS_FCSet2_1DownGesttextEN//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1FBPulseOuttextEN:SpecialFuncSetScreen2_1_DIS_FCSet2_1FBPulseOuttextEN//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1FeedBacktextEN:SpecialFuncSetScreen2_1_DIS_FCSet2_1FeedBacktextEN//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1MaxPostextEN:SpecialFuncSetScreen2_1_DIS_FCSet2_1MaxPostextEN//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1MaxSpeedtextEN:SpecialFuncSetScreen2_1_DIS_FCSet2_1MaxSpeedtextEN//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1OriSpeedtextEN:SpecialFuncSetScreen2_1_DIS_FCSet2_1OriSpeedtextEN//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1PolseIntextEN:SpecialFuncSetScreen2_1_DIS_FCSet2_1PolseIntextEN//
+SpecialFuncSetScreen2_1_DIS_FCSet2_1WholeSpeedtextEN:SpecialFuncSetScreen2_1_DIS_FCSet2_1WholeSpeedtextEN//
+SpecialFuncSetScreen2_1_DMT_FBPulseIntextEN:SpecialFuncSetScreen2_1_DMT_FBPulseIntextEN//
+SpecialFuncSetScreen2_1_STE_DownGesttextEN:SpecialFuncSetScreen2_1_STE_DownGesttextEN//
+SpecialFuncSetScreen2_1_STE_FeedBacktextEN:SpecialFuncSetScreen2_1_STE_FeedBacktextEN//
+SpecialFuncSetScreen2_2_DIS_FCSet2_2FixReversetextEN:SpecialFuncSetScreen2_2_DIS_FCSet2_2FixReversetextEN//
+SpecialFuncSetScreen2_2_DIS_FCSet2_2WiatSigtextEN:SpecialFuncSetScreen2_2_DIS_FCSet2_2WiatSigtextEN//
+SpecialFuncSetScreen2_2_STE_FixRevtextEN:SpecialFuncSetScreen2_2_STE_FixRevtextEN//
+SpecialFuncSetScreen2_2_STE_MoldOpenWaittextEN:SpecialFuncSetScreen2_2_STE_MoldOpenWaittextEN//
 SpeedLoopGainEn:		SpdLoopGain//
 SpeedLoopIntegralEn:		SpdLoopInt//
-PositionLoopGainEn:		PosLoopGain//
-RotationalInertiaRatioEn:	RotInertiaRatio//
-ParaSettingEn:			ParamSetting//
-SettingValueEn:			SetValue//
-MoniParaCh:			监视参数//
-MoniValueCh:			监视值//
-MoniParaEn:			MonitParam//
-MoniValueEn:			MonitValue//
-SPD_FBKCh:			电机转速//               
-MECH_ANGLECh:			旋转角1//              
-ELEC_ANGLECh:			旋转角2//
-DI_PORT_STATUSCh:		输入信号//               
-DO_PORT_STATUSCh:		输出信号//             
-P_ERRORCh:			偏移量//  
-TRQ_BURDEN1Ch:			累计负载//              
-TRQ_BURDEN2Ch:			再生负载//                 
-DB_POWERCh:			DB功耗//                
-DC_BUS_VOLTAGECh:		电压// 
-HINK_TEMPCh:			温度//
-ERROR_CODECh:			故障//   
-SPD_FBKEn:			MotorSpd//               
-MECH_ANGLEEn:			RotAngle1//              
-ELEC_ANGLEEn:			RotAngle2//
-DI_PORT_STATUSEn:		InputSignal//               
-DO_PORT_STATUSEn:		OutputSignal//             
-P_ERROREn:			Offset//  
 TRQ_BURDEN1En:			CumulativeLoad//              
 TRQ_BURDEN2En:			RegenerationLoad//                 
-DB_POWEREn:			DBpowerDissipation//                
-DC_BUS_VOLTAGEEn:		Voltage// 
-HINK_TEMPEn:			Temprature//
-ERROR_CODEEn:			Breakdown//Servo1 Param end       
-
-ZSpeedLoopGainCh:		Z速度环增益//Servo2 Param start
-ZSpeedLoopIntegralCh:		Z速度环积分//
-ZPositionLoopGainCh:		Z位置环增益//
-ZRotationalInertiaRatioCh:	Z转动惯量比//
-ZParaSettingCh:			Z参数设置//
-ZSettingValueCh:		Z设置值//
-ZSpeedLoopGainEn:		ZSpdLoopGain//
-ZSpeedLoopIntegralEn:		ZSpdLoopInt//
-ZPositionLoopGainEn:		ZPosLoopGain//
-ZRotationalInertiaRatioEn:	ZRotInertiaRatio//
-ZParaSettingEn:			ZParamSetting//
-ZSettingValueEn:		ZSetValue//
-ZMoniParaCh:			Z监视参数//
-ZMoniValueCh:			Z监视值//
-ZMoniParaEn:			ZMonitParam//
-ZMoniValueEn:			ZMonitValue//
-ZSPD_FBKCh:			Z电机转速//               
-ZMECH_ANGLECh:			Z旋转角1//              
-ZELEC_ANGLECh:			Z旋转角2//
-ZDI_PORT_STATUSCh:		Z输入信号//               
-ZDO_PORT_STATUSCh:		Z输出信号//             
-ZP_ERRORCh:			Z偏移量//  
-ZTRQ_BURDEN1Ch:			Z累计负载//              
-ZTRQ_BURDEN2Ch:			Z再生负载//                 
-ZDB_POWERCh:			ZDB功耗//                
-ZDC_BUS_VOLTAGECh:		Z电压// 
-ZHINK_TEMPCh:			Z温度//
-ZERROR_CODECh:			Z故障//   
-ZSPD_FBKEn:			ZMotorSpd//               
-ZMECH_ANGLEEn:			ZRotAngle1//              
-ZELEC_ANGLEEn:			ZRotAngle2//
-ZDI_PORT_STATUSEn:		ZInputSignal//               
-ZDO_PORT_STATUSEn:		ZOutputSignal//             
-ZP_ERROREn:			ZOffset//  
-ZTRQ_BURDEN1En:			ZCumulativeLoad//              
-ZTRQ_BURDEN2En:			ZRegenerationLoad//                 
+TestReportPage_OTE_1En:Keyboard,Serial ok,Screen not//
+TestReportPage_OTE_2En:Keyboard ok,Screen and Serial not//
+TestReportPage_OTE_510En:screen is ok?//
+TestReportPage_OTE_512En:Keyboard,Screen,Serial ok//
+TestReportPage_OTE_513En:Keyboard,Screen ok,Serial not//
+WARN_LVEn:		LessVoltage//
+WARN_LVZEn:		ZLessVoltage//
 ZDB_POWEREn:			ZDBpowerDissipation//                
 ZDC_BUS_VOLTAGEEn:		ZVoltage// 
-ZHINK_TEMPEn:			ZTemprature//
+ZDI_PORT_STATUSEn:		ZInputSignal//               
+ZDO_PORT_STATUSEn:		ZOutputSignal//             
+ZELEC_ANGLEEn:			ZRotAngle2//
 ZERROR_CODEEn:			ZBreakdown//Servo2 Param end    
+ZHINK_TEMPEn:			ZTemprature//
+ZMECH_ANGLEEn:			ZRotAngle1//              
+ZMoniParaEn:			ZMonitParam//
+ZMoniValueEn:			ZMonitValue//
+ZP_ERROREn:			ZOffset//  
+ZParaSettingEn:			ZParamSetting//
+ZPositionLoopGainEn:		ZPosLoopGain//
+ZRotationalInertiaRatioEn:	ZRotInertiaRatio//
+ZSPD_FBKEn:			ZMotorSpd//               
+ZSettingValueEn:		ZSetValue//
+ZSpeedLoopGainEn:		ZSpdLoopGain//
+ZSpeedLoopIntegralEn:		ZSpdLoopInt//
+ZTRQ_BURDEN1En:			ZCumulativeLoad//              
+ZTRQ_BURDEN2En:			ZRegenerationLoad//                 
+g_com_ASynEn:ASyn//
+g_com_SynEn:Syn//
+g_com_allowlockmoldEn:AllowLkM//
+g_com_mulorderYZEn:X->Z//
+g_com_mulorderZYEn:Z->X//
+g_com_nolockmoldEn:NoLockM//
+g_com_noteachEn:NoTeach//
+g_com_safedoorfullchckEn:FullChck//
+g_com_safedoorinmoldchckEn:InMChck//
+g_com_safedoornochckEn:NoChck//
+g_com_teachEn:Teach//
 
-
-include:	" !#$%&'()*+`-.,/:;<=>?@[\]^_{|}~"°		//
-include:	1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ		//
-include:	abcdefghijklmnopqrstuvwxyz			// the standard ASCII character set from ID's 32 - 127

@@ -4427,6 +4427,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_BUTTON_ALIGNMENT_0,       //alignment
                  GFX_BUTTON_SCHEME_0
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case ProgSlecLeadin:
         hgcObj.pProgSlecLeadinObj = GFX_GOL_ButtonCreate
@@ -4445,6 +4470,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_BUTTON_ALIGNMENT_1,       //alignment
                  GFX_BUTTON_SCHEME_1
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case ProgSlecLeadout:
         hgcObj.pProgSlecLeadoutObj = GFX_GOL_ButtonCreate
@@ -4463,6 +4513,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_BUTTON_ALIGNMENT_2,       //alignment
                  GFX_BUTTON_SCHEME_2
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case ProgSlecRefresh:
         hgcObj.pProgSlecRefreshObj = GFX_GOL_ButtonCreate
@@ -4481,6 +4556,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_BUTTON_ALIGNMENT_3,       //alignment
                  GFX_BUTTON_SCHEME_3
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case BTN_Register:
         hgcObj.pBTN_RegisterObj = GFX_GOL_ButtonCreate
@@ -4499,6 +4599,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_BUTTON_ALIGNMENT_4,       //alignment
                  GFX_BUTTON_SCHEME_4
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case BTN_GetSerialNo:
         hgcObj.pBTN_GetSerialNoObj = GFX_GOL_ButtonCreate
@@ -4517,6 +4642,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_BUTTON_ALIGNMENT_5,       //alignment
                  GFX_BUTTON_SCHEME_5
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_AlarmNum:
         hgcObj.pDMT_AlarmNumObj = GFX_GOL_DigitalMeterCreate
@@ -4534,6 +4684,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_0,//alignment
                  GFX_DGTL_MTR_SCHEME_0	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_CurrPosZ:
         hgcObj.pDMT_CurrPosZObj = GFX_GOL_DigitalMeterCreate
@@ -4551,6 +4726,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_1,//alignment
                  GFX_DGTL_MTR_SCHEME_1	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_CurrMode:
         hgcObj.pDMT_CurrModeObj = GFX_GOL_DigitalMeterCreate
@@ -4568,6 +4768,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_2,//alignment
                  GFX_DGTL_MTR_SCHEME_2	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ThimbDly:
         hgcObj.pDMT_ThimbDlyObj = GFX_GOL_DigitalMeterCreate
@@ -4585,6 +4810,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_3,//alignment
                  GFX_DGTL_MTR_SCHEME_3	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_OpenDly:
         hgcObj.pDMT_OpenDlyObj = GFX_GOL_DigitalMeterCreate
@@ -4602,6 +4852,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_4,//alignment
                  GFX_DGTL_MTR_SCHEME_4	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_SetMold:
         hgcObj.pDMT_SetMoldObj = GFX_GOL_DigitalMeterCreate
@@ -4619,6 +4894,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_5,//alignment
                  GFX_DGTL_MTR_SCHEME_5	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_SaveWrite:
         hgcObj.pDMT_SaveWriteObj = GFX_GOL_DigitalMeterCreate
@@ -4636,6 +4936,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_6,//alignment
                  GFX_DGTL_MTR_SCHEME_6	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_SaveRead:
         hgcObj.pDMT_SaveReadObj = GFX_GOL_DigitalMeterCreate
@@ -4653,6 +4978,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_7,//alignment
                  GFX_DGTL_MTR_SCHEME_7	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_Brightness:
         hgcObj.pDMT_BrightnessObj = GFX_GOL_DigitalMeterCreate
@@ -4670,6 +5020,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_8,//alignment
                  GFX_DGTL_MTR_SCHEME_8	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_FnshCnt:
         hgcObj.pDMT_FnshCntObj = GFX_GOL_DigitalMeterCreate
@@ -4687,6 +5062,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_9,//alignment
                  GFX_DGTL_MTR_SCHEME_9	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_DotSpd:
         hgcObj.pDMT_DotSpdObj = GFX_GOL_DigitalMeterCreate
@@ -4704,6 +5104,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_10,//alignment
                  GFX_DGTL_MTR_SCHEME_10	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ManPos:
         hgcObj.pDMT_ManPosObj = GFX_GOL_DigitalMeterCreate
@@ -4721,6 +5146,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_11,//alignment
                  GFX_DGTL_MTR_SCHEME_11	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ManSpd:
         hgcObj.pDMT_ManSpdObj = GFX_GOL_DigitalMeterCreate
@@ -4738,6 +5188,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_12,//alignment
                  GFX_DGTL_MTR_SCHEME_12	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_DotRange:
         hgcObj.pDMT_DotRangeObj = GFX_GOL_DigitalMeterCreate
@@ -4755,6 +5230,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_13,//alignment
                  GFX_DGTL_MTR_SCHEME_13	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_TackPos:
         hgcObj.pDMT_TackPosObj = GFX_GOL_DigitalMeterCreate
@@ -4772,6 +5272,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_14,//alignment
                  GFX_DGTL_MTR_SCHEME_14	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ManualPageDotSpd:
         hgcObj.pDMT_ManualPageDotSpdObj = GFX_GOL_DigitalMeterCreate
@@ -4789,6 +5314,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_15,//alignment
                  GFX_DGTL_MTR_SCHEME_15	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ManualPos:
         hgcObj.pDMT_ManualPosObj = GFX_GOL_DigitalMeterCreate
@@ -4806,6 +5356,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_16,//alignment
                  GFX_DGTL_MTR_SCHEME_16	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ManualSpd:
         hgcObj.pDMT_ManualSpdObj = GFX_GOL_DigitalMeterCreate
@@ -4823,6 +5398,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_17,//alignment
                  GFX_DGTL_MTR_SCHEME_17	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_AutoCycle:
         hgcObj.pDMT_AutoCycleObj = GFX_GOL_DigitalMeterCreate
@@ -4840,6 +5440,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_18,//alignment
                  GFX_DGTL_MTR_SCHEME_18	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ProcTime:
         hgcObj.pDMT_ProcTimeObj = GFX_GOL_DigitalMeterCreate
@@ -4857,6 +5482,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_19,//alignment
                  GFX_DGTL_MTR_SCHEME_19	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_TackTime:
         hgcObj.pDMT_TackTimeObj = GFX_GOL_DigitalMeterCreate
@@ -4874,6 +5524,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_20,//alignment
                  GFX_DGTL_MTR_SCHEME_20	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ActProNo:
         hgcObj.pDMT_ActProNoObj = GFX_GOL_DigitalMeterCreate
@@ -4891,6 +5566,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_21,//alignment
                  GFX_DGTL_MTR_SCHEME_21	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_PtrNo:
         hgcObj.pDMT_PtrNoObj = GFX_GOL_DigitalMeterCreate
@@ -4908,6 +5608,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_22,//alignment
                  GFX_DGTL_MTR_SCHEME_22	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_StartPos:
         hgcObj.pDMT_StartPosObj = GFX_GOL_DigitalMeterCreate
@@ -4925,6 +5650,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_23,//alignment
                  GFX_DGTL_MTR_SCHEME_23	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_SubPutDe:
         hgcObj.pDMT_SubPutDeObj = GFX_GOL_DigitalMeterCreate
@@ -4942,6 +5692,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_24,//alignment
                  GFX_DGTL_MTR_SCHEME_24	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_CycleTime:
         hgcObj.pDMT_CycleTimeObj = GFX_GOL_DigitalMeterCreate
@@ -4959,6 +5734,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_25,//alignment
                  GFX_DGTL_MTR_SCHEME_25	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_Reserv2:
         hgcObj.pDMT_Reserv2Obj = GFX_GOL_DigitalMeterCreate
@@ -4976,6 +5776,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_26,//alignment
                  GFX_DGTL_MTR_SCHEME_26	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ClsScrTim:
         hgcObj.pDMT_ClsScrTimObj = GFX_GOL_DigitalMeterCreate
@@ -4993,6 +5818,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_27,//alignment
                  GFX_DGTL_MTR_SCHEME_27	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_Reservl:
         hgcObj.pDMT_ReservlObj = GFX_GOL_DigitalMeterCreate
@@ -5010,6 +5860,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_28,//alignment
                  GFX_DGTL_MTR_SCHEME_28	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ConvCnt:
         hgcObj.pDMT_ConvCntObj = GFX_GOL_DigitalMeterCreate
@@ -5027,6 +5902,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_29,//alignment
                  GFX_DGTL_MTR_SCHEME_29	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_Space:
         hgcObj.pDMT_SpaceObj = GFX_GOL_DigitalMeterCreate
@@ -5044,6 +5944,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_30,//alignment
                  GFX_DGTL_MTR_SCHEME_30	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_PointCnt:
         hgcObj.pDMT_PointCntObj = GFX_GOL_DigitalMeterCreate
@@ -5061,6 +5986,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_31,//alignment
                  GFX_DGTL_MTR_SCHEME_31	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_StartPoint:
         hgcObj.pDMT_StartPointObj = GFX_GOL_DigitalMeterCreate
@@ -5078,6 +6028,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_32,//alignment
                  GFX_DGTL_MTR_SCHEME_32	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_SlowDelay:
         hgcObj.pDMT_SlowDelayObj = GFX_GOL_DigitalMeterCreate
@@ -5095,6 +6070,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_33,//alignment
                  GFX_DGTL_MTR_SCHEME_33	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_SafeInMld:
         hgcObj.pDMT_SafeInMldObj = GFX_GOL_DigitalMeterCreate
@@ -5112,6 +6112,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_34,//alignment
                  GFX_DGTL_MTR_SCHEME_34	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_OutStdby:
         hgcObj.pDMT_OutStdbyObj = GFX_GOL_DigitalMeterCreate
@@ -5129,6 +6154,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_35,//alignment
                  GFX_DGTL_MTR_SCHEME_35	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_SafeDoor:
         hgcObj.pDMT_SafeDoorObj = GFX_GOL_DigitalMeterCreate
@@ -5146,6 +6196,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_36,//alignment
                  GFX_DGTL_MTR_SCHEME_36	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_PrepareTestMould:
         hgcObj.pDMT_PrepareTestMouldObj = GFX_GOL_DigitalMeterCreate
@@ -5163,6 +6238,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_37,//alignment
                  GFX_DGTL_MTR_SCHEME_37	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ConveyorOnTime:
         hgcObj.pDMT_ConveyorOnTimeObj = GFX_GOL_DigitalMeterCreate
@@ -5180,6 +6280,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_38,//alignment
                  GFX_DGTL_MTR_SCHEME_38	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ReservOnTime:
         hgcObj.pDMT_ReservOnTimeObj = GFX_GOL_DigitalMeterCreate
@@ -5197,6 +6322,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_39,//alignment
                  GFX_DGTL_MTR_SCHEME_39	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_WholeSpeed:
         hgcObj.pDMT_WholeSpeedObj = GFX_GOL_DigitalMeterCreate
@@ -5214,6 +6364,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_40,//alignment
                  GFX_DGTL_MTR_SCHEME_40	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_MaxSpeed:
         hgcObj.pDMT_MaxSpeedObj = GFX_GOL_DigitalMeterCreate
@@ -5231,6 +6406,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_41,//alignment
                  GFX_DGTL_MTR_SCHEME_41	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_AccDecTime:
         hgcObj.pDMT_AccDecTimeObj = GFX_GOL_DigitalMeterCreate
@@ -5248,6 +6448,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_42,//alignment
                  GFX_DGTL_MTR_SCHEME_42	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_AlarmTime:
         hgcObj.pDMT_AlarmTimeObj = GFX_GOL_DigitalMeterCreate
@@ -5265,6 +6490,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_43,//alignment
                  GFX_DGTL_MTR_SCHEME_43	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_FBPulseOut:
         hgcObj.pDMT_FBPulseOutObj = GFX_GOL_DigitalMeterCreate
@@ -5282,6 +6532,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_44,//alignment
                  GFX_DGTL_MTR_SCHEME_44	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_FBkPulseIn:
         hgcObj.pDMT_FBkPulseInObj = GFX_GOL_DigitalMeterCreate
@@ -5299,6 +6574,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_45,//alignment
                  GFX_DGTL_MTR_SCHEME_45	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_OriSpeed:
         hgcObj.pDMT_OriSpeedObj = GFX_GOL_DigitalMeterCreate
@@ -5316,6 +6616,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_46,//alignment
                  GFX_DGTL_MTR_SCHEME_46	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_PolseIn:
         hgcObj.pDMT_PolseInObj = GFX_GOL_DigitalMeterCreate
@@ -5333,6 +6658,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_47,//alignment
                  GFX_DGTL_MTR_SCHEME_47	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_MaxPos:
         hgcObj.pDMT_MaxPosObj = GFX_GOL_DigitalMeterCreate
@@ -5350,6 +6700,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_48,//alignment
                  GFX_DGTL_MTR_SCHEME_48	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ParamPage1:
         hgcObj.pDMT_ParamPage1Obj = GFX_GOL_DigitalMeterCreate
@@ -5367,6 +6742,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_49,//alignment
                  GFX_DGTL_MTR_SCHEME_49	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ParamDistance:
         hgcObj.pDMT_ParamDistanceObj = GFX_GOL_DigitalMeterCreate
@@ -5384,6 +6784,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_50,//alignment
                  GFX_DGTL_MTR_SCHEME_50	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ParamSpeed:
         hgcObj.pDMT_ParamSpeedObj = GFX_GOL_DigitalMeterCreate
@@ -5401,6 +6826,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_51,//alignment
                  GFX_DGTL_MTR_SCHEME_51	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ParamTime:
         hgcObj.pDMT_ParamTimeObj = GFX_GOL_DigitalMeterCreate
@@ -5418,6 +6868,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_52,//alignment
                  GFX_DGTL_MTR_SCHEME_52	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_Reversed2:
         hgcObj.pDMT_Reversed2Obj = GFX_GOL_DigitalMeterCreate
@@ -5435,6 +6910,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_53,//alignment
                  GFX_DGTL_MTR_SCHEME_53	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_Process1:
         hgcObj.pDMT_Process1Obj = GFX_GOL_DigitalMeterCreate
@@ -5452,6 +6952,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_54,//alignment
                  GFX_DGTL_MTR_SCHEME_54	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_Posture:
         hgcObj.pDMT_PostureObj = GFX_GOL_DigitalMeterCreate
@@ -5469,6 +6994,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_55,//alignment
                  GFX_DGTL_MTR_SCHEME_55	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_Trav:
         hgcObj.pDMT_TravObj = GFX_GOL_DigitalMeterCreate
@@ -5486,6 +7036,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_56,//alignment
                  GFX_DGTL_MTR_SCHEME_56	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ViceForwBk:
         hgcObj.pDMT_ViceForwBkObj = GFX_GOL_DigitalMeterCreate
@@ -5503,6 +7078,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_57,//alignment
                  GFX_DGTL_MTR_SCHEME_57	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ViceUpDown:
         hgcObj.pDMT_ViceUpDownObj = GFX_GOL_DigitalMeterCreate
@@ -5520,6 +7120,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_58,//alignment
                  GFX_DGTL_MTR_SCHEME_58	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_MainForwBk:
         hgcObj.pDMT_MainForwBkObj = GFX_GOL_DigitalMeterCreate
@@ -5537,6 +7162,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_59,//alignment
                  GFX_DGTL_MTR_SCHEME_59	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_MainUpDowm:
         hgcObj.pDMT_MainUpDowmObj = GFX_GOL_DigitalMeterCreate
@@ -5554,6 +7204,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_60,//alignment
                  GFX_DGTL_MTR_SCHEME_60	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_TimerSecond:
         hgcObj.pDMT_TimerSecondObj = GFX_GOL_DigitalMeterCreate
@@ -5571,6 +7246,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_61,//alignment
                  GFX_DGTL_MTR_SCHEME_61	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_TimerMin:
         hgcObj.pDMT_TimerMinObj = GFX_GOL_DigitalMeterCreate
@@ -5588,6 +7288,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_62,//alignment
                  GFX_DGTL_MTR_SCHEME_62	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_TimerHour:
         hgcObj.pDMT_TimerHourObj = GFX_GOL_DigitalMeterCreate
@@ -5605,6 +7330,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_63,//alignment
                  GFX_DGTL_MTR_SCHEME_63	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_TimerDate:
         hgcObj.pDMT_TimerDateObj = GFX_GOL_DigitalMeterCreate
@@ -5622,6 +7372,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_64,//alignment
                  GFX_DGTL_MTR_SCHEME_64	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_TimerMonth:
         hgcObj.pDMT_TimerMonthObj = GFX_GOL_DigitalMeterCreate
@@ -5639,6 +7414,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_65,//alignment
                  GFX_DGTL_MTR_SCHEME_65	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_TimerYear:
         hgcObj.pDMT_TimerYearObj = GFX_GOL_DigitalMeterCreate
@@ -5656,6 +7456,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_66,//alignment
                  GFX_DGTL_MTR_SCHEME_66	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_WeekUsed:
         hgcObj.pDMT_WeekUsedObj = GFX_GOL_DigitalMeterCreate
@@ -5673,6 +7498,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_67,//alignment
                  GFX_DGTL_MTR_SCHEME_67	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_WeekLimit:
         hgcObj.pDMT_WeekLimitObj = GFX_GOL_DigitalMeterCreate
@@ -5690,6 +7540,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_68,//alignment
                  GFX_DGTL_MTR_SCHEME_68	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_UseHourCnt:
         hgcObj.pDMT_UseHourCntObj = GFX_GOL_DigitalMeterCreate
@@ -5707,6 +7582,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_69,//alignment
                  GFX_DGTL_MTR_SCHEME_69	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_UseWeekCnt:
         hgcObj.pDMT_UseWeekCntObj = GFX_GOL_DigitalMeterCreate
@@ -5724,6 +7624,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_70,//alignment
                  GFX_DGTL_MTR_SCHEME_70	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_SetWeekCnt:
         hgcObj.pDMT_SetWeekCntObj = GFX_GOL_DigitalMeterCreate
@@ -5741,6 +7666,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_71,//alignment
                  GFX_DGTL_MTR_SCHEME_71	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_MoniValue:
         hgcObj.pDMT_MoniValueObj = GFX_GOL_DigitalMeterCreate
@@ -5758,6 +7708,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_72,//alignment
                  GFX_DGTL_MTR_SCHEME_72	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_MoniPara:
         hgcObj.pDMT_MoniParaObj = GFX_GOL_DigitalMeterCreate
@@ -5775,6 +7750,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_73,//alignment
                  GFX_DGTL_MTR_SCHEME_73	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_MoniValueZ:
         hgcObj.pDMT_MoniValueZObj = GFX_GOL_DigitalMeterCreate
@@ -5792,6 +7792,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_74,//alignment
                  GFX_DGTL_MTR_SCHEME_74	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_MoniParaZ:
         hgcObj.pDMT_MoniParaZObj = GFX_GOL_DigitalMeterCreate
@@ -5809,6 +7834,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_75,//alignment
                  GFX_DGTL_MTR_SCHEME_75	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ERROR_CODE:
         hgcObj.pDMT_ERROR_CODEObj = GFX_GOL_DigitalMeterCreate
@@ -5826,6 +7876,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_76,//alignment
                  GFX_DGTL_MTR_SCHEME_76	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_HINK_TEMP:
         hgcObj.pDMT_HINK_TEMPObj = GFX_GOL_DigitalMeterCreate
@@ -5843,6 +7918,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_77,//alignment
                  GFX_DGTL_MTR_SCHEME_77	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_TRQ_BURDEN1:
         hgcObj.pDMT_TRQ_BURDEN1Obj = GFX_GOL_DigitalMeterCreate
@@ -5860,6 +7960,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_78,//alignment
                  GFX_DGTL_MTR_SCHEME_78	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_DC_BUS_VOLTAGE:
         hgcObj.pDMT_DC_BUS_VOLTAGEObj = GFX_GOL_DigitalMeterCreate
@@ -5877,6 +8002,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_79,//alignment
                  GFX_DGTL_MTR_SCHEME_79	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_DB_POWER:
         hgcObj.pDMT_DB_POWERObj = GFX_GOL_DigitalMeterCreate
@@ -5894,6 +8044,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_80,//alignment
                  GFX_DGTL_MTR_SCHEME_80	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_TRQ_BURDEN2:
         hgcObj.pDMT_TRQ_BURDEN2Obj = GFX_GOL_DigitalMeterCreate
@@ -5911,6 +8086,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_81,//alignment
                  GFX_DGTL_MTR_SCHEME_81	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_P_ERROR:
         hgcObj.pDMT_P_ERRORObj = GFX_GOL_DigitalMeterCreate
@@ -5928,6 +8128,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_82,//alignment
                  GFX_DGTL_MTR_SCHEME_82	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_DO_PORT_STATUS:
         hgcObj.pDMT_DO_PORT_STATUSObj = GFX_GOL_DigitalMeterCreate
@@ -5945,6 +8170,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_83,//alignment
                  GFX_DGTL_MTR_SCHEME_83	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_SPD_FBK:
         hgcObj.pDMT_SPD_FBKObj = GFX_GOL_DigitalMeterCreate
@@ -5962,6 +8212,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_84,//alignment
                  GFX_DGTL_MTR_SCHEME_84	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_DI_PORT_STATUS:
         hgcObj.pDMT_DI_PORT_STATUSObj = GFX_GOL_DigitalMeterCreate
@@ -5979,6 +8254,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_85,//alignment
                  GFX_DGTL_MTR_SCHEME_85	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ELEC_ANGLE:
         hgcObj.pDMT_ELEC_ANGLEObj = GFX_GOL_DigitalMeterCreate
@@ -5996,6 +8296,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_86,//alignment
                  GFX_DGTL_MTR_SCHEME_86	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_MECH_ANGLE:
         hgcObj.pDMT_MECH_ANGLEObj = GFX_GOL_DigitalMeterCreate
@@ -6013,6 +8338,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_87,//alignment
                  GFX_DGTL_MTR_SCHEME_87	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ERROR_CODEZ:
         hgcObj.pDMT_ERROR_CODEZObj = GFX_GOL_DigitalMeterCreate
@@ -6030,6 +8380,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_88,//alignment
                  GFX_DGTL_MTR_SCHEME_88	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_HINK_TEMPZ:
         hgcObj.pDMT_HINK_TEMPZObj = GFX_GOL_DigitalMeterCreate
@@ -6047,6 +8422,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_89,//alignment
                  GFX_DGTL_MTR_SCHEME_89	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_TRQ_BURDEN1Z:
         hgcObj.pDMT_TRQ_BURDEN1ZObj = GFX_GOL_DigitalMeterCreate
@@ -6064,6 +8464,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_90,//alignment
                  GFX_DGTL_MTR_SCHEME_90	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_DC_BUS_VOLTAGEZ:
         hgcObj.pDMT_DC_BUS_VOLTAGEZObj = GFX_GOL_DigitalMeterCreate
@@ -6081,6 +8506,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_91,//alignment
                  GFX_DGTL_MTR_SCHEME_91	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_DB_POWERZ:
         hgcObj.pDMT_DB_POWERZObj = GFX_GOL_DigitalMeterCreate
@@ -6098,6 +8548,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_92,//alignment
                  GFX_DGTL_MTR_SCHEME_92	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_TRQ_BURDEN2Z:
         hgcObj.pDMT_TRQ_BURDEN2ZObj = GFX_GOL_DigitalMeterCreate
@@ -6115,6 +8590,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_93,//alignment
                  GFX_DGTL_MTR_SCHEME_93	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_P_ERRORZ:
         hgcObj.pDMT_P_ERRORZObj = GFX_GOL_DigitalMeterCreate
@@ -6132,6 +8632,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_94,//alignment
                  GFX_DGTL_MTR_SCHEME_94	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_DO_PORT_STATUSZ:
         hgcObj.pDMT_DO_PORT_STATUSZObj = GFX_GOL_DigitalMeterCreate
@@ -6149,6 +8674,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_95,//alignment
                  GFX_DGTL_MTR_SCHEME_95	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_SPD_FBKZ:
         hgcObj.pDMT_SPD_FBKZObj = GFX_GOL_DigitalMeterCreate
@@ -6166,6 +8716,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_96,//alignment
                  GFX_DGTL_MTR_SCHEME_96	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_DI_PORT_STATUSZ:
         hgcObj.pDMT_DI_PORT_STATUSZObj = GFX_GOL_DigitalMeterCreate
@@ -6183,6 +8758,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_97,//alignment
                  GFX_DGTL_MTR_SCHEME_97	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_ELEC_ANGLEZ:
         hgcObj.pDMT_ELEC_ANGLEZObj = GFX_GOL_DigitalMeterCreate
@@ -6200,6 +8800,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_98,//alignment
                  GFX_DGTL_MTR_SCHEME_98	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_MECH_ANGLEZ:
         hgcObj.pDMT_MECH_ANGLEZObj = GFX_GOL_DigitalMeterCreate
@@ -6217,6 +8842,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_99,//alignment
                  GFX_DGTL_MTR_SCHEME_99	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_INERTIA:
         hgcObj.pDMT_INERTIAObj = GFX_GOL_DigitalMeterCreate
@@ -6234,6 +8884,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_100,//alignment
                  GFX_DGTL_MTR_SCHEME_100	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_POS_P1:
         hgcObj.pDMT_POS_P1Obj = GFX_GOL_DigitalMeterCreate
@@ -6251,6 +8926,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_101,//alignment
                  GFX_DGTL_MTR_SCHEME_101	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_SPD_TI1:
         hgcObj.pDMT_SPD_TI1Obj = GFX_GOL_DigitalMeterCreate
@@ -6268,6 +8968,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_102,//alignment
                  GFX_DGTL_MTR_SCHEME_102	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_SPD_P1:
         hgcObj.pDMT_SPD_P1Obj = GFX_GOL_DigitalMeterCreate
@@ -6285,6 +9010,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_103,//alignment
                  GFX_DGTL_MTR_SCHEME_103	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_CMDVALUE:
         hgcObj.pDMT_CMDVALUEObj = GFX_GOL_DigitalMeterCreate
@@ -6302,6 +9052,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_104,//alignment
                  GFX_DGTL_MTR_SCHEME_104	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_CMDID:
         hgcObj.pDMT_CMDIDObj = GFX_GOL_DigitalMeterCreate
@@ -6319,6 +9094,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_105,//alignment
                  GFX_DGTL_MTR_SCHEME_105	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_INERTIAZ:
         hgcObj.pDMT_INERTIAZObj = GFX_GOL_DigitalMeterCreate
@@ -6336,6 +9136,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_106,//alignment
                  GFX_DGTL_MTR_SCHEME_106	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_POS_P1Z:
         hgcObj.pDMT_POS_P1ZObj = GFX_GOL_DigitalMeterCreate
@@ -6353,6 +9178,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_107,//alignment
                  GFX_DGTL_MTR_SCHEME_107	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_SPD_TI1Z:
         hgcObj.pDMT_SPD_TI1ZObj = GFX_GOL_DigitalMeterCreate
@@ -6370,6 +9220,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_108,//alignment
                  GFX_DGTL_MTR_SCHEME_108	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_SPD_P1Z:
         hgcObj.pDMT_SPD_P1ZObj = GFX_GOL_DigitalMeterCreate
@@ -6387,6 +9262,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_109,//alignment
                  GFX_DGTL_MTR_SCHEME_109	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_CMDVALUEZ:
         hgcObj.pDMT_CMDVALUEZObj = GFX_GOL_DigitalMeterCreate
@@ -6404,6 +9304,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_110,//alignment
                  GFX_DGTL_MTR_SCHEME_110	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_CMDIDZ:
         hgcObj.pDMT_CMDIDZObj = GFX_GOL_DigitalMeterCreate
@@ -6421,6 +9346,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_DGTL_MTR_ALIGNMENT_111,//alignment
                  GFX_DGTL_MTR_SCHEME_111	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case SLD_Brightness:
         hgcObj.pSLD_BrightnessObj = GFX_GOL_ScrollBarCreate
@@ -6437,6 +9387,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_SCROLLBAR_POS_0,  // pos 
                  GFX_SCROLLBAR_SCHEME_0	//scheme
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PRB_ResetFactorySetting:
         hgcObj.pPRB_ResetFactorySettingObj = GFX_GOL_ProgressBarCreate
@@ -6453,6 +9428,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_PROGRESSBAR_SCHEME_0
                  );
         GFX_GOL_ProgressBarPositionSet(hgcObj.pPRB_ResetFactorySettingObj, GFX_PROGRESSBAR_POS_0);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case MTR_Speed:
         hgcObj.pMTR_SpeedObj = GFX_GOL_MeterCreate
@@ -6480,6 +9480,31 @@ bool GFX_HGC_DrawItem(int itemId)
                         GFX_RGBConvert(GFX_METER_COLOR4_RED_0, GFX_METER_COLOR4_GREEN_0, GFX_METER_COLOR4_BLUE_0),
                         GFX_RGBConvert(GFX_METER_COLOR5_RED_0, GFX_METER_COLOR5_GREEN_0, GFX_METER_COLOR5_BLUE_0),
                         GFX_RGBConvert(GFX_METER_COLOR6_RED_0, GFX_METER_COLOR6_GREEN_0, GFX_METER_COLOR6_BLUE_0));
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case EDB_PSW:
         hgcObj.pEDB_PSWObj = GFX_GOL_EditBoxCreate
@@ -6496,6 +9521,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_EDITBOX_ALIGNMENT_0,       //alignment
                  GFX_EDITBOX_SCHEME_0
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case EDB_RegisterCode:
         hgcObj.pEDB_RegisterCodeObj = GFX_GOL_EditBoxCreate
@@ -6512,6 +9562,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_EDITBOX_ALIGNMENT_1,       //alignment
                  GFX_EDITBOX_SCHEME_1
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case EDB_SerialNo:
         hgcObj.pEDB_SerialNoObj = GFX_GOL_EditBoxCreate
@@ -6528,6 +9603,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_EDITBOX_ALIGNMENT_2,       //alignment
                  GFX_EDITBOX_SCHEME_2
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case LSB_CurrAction:
         hgcObj.pLSB_CurrActionObj = GFX_GOL_ListBoxCreate(
@@ -6542,6 +9642,31 @@ bool GFX_HGC_DrawItem(int itemId)
                 GFX_LISTBOX_ALIGNMENT_0, //alignment
                 GFX_LISTBOX_SCHEME_0); // scheme
 		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case LSB_Parameter:
         hgcObj.pLSB_ParameterObj = GFX_GOL_ListBoxCreate(
@@ -6556,6 +9681,31 @@ bool GFX_HGC_DrawItem(int itemId)
                 GFX_LISTBOX_ALIGNMENT_1, //alignment
                 GFX_LISTBOX_SCHEME_1); // scheme
 		
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_PageIndex:
         hgcObj.pSTE_PageIndexObj = GFX_GOL_StaticTextCreate
@@ -6567,10 +9717,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_0,   // right
                  GFX_STATICTEXT_BOTTOM_0,  // bottom
                  GFX_STATICTEXT_STATE_0,   // state
-                 (GFX_XCHAR*)staticTextStr_0,    // text
+                 (GFX_XCHAR*)MainInterface_STE_PageIndextext,    // text
                  GFX_STATICTEXT_ALIGNMENT_0,       //alignment
                  GFX_STATICTEXT_SCHEME_0
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_WarningInfor:
         hgcObj.pSTE_WarningInforObj = GFX_GOL_StaticTextCreate
@@ -6582,10 +9757,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_1,   // right
                  GFX_STATICTEXT_BOTTOM_1,  // bottom
                  GFX_STATICTEXT_STATE_1,   // state
-                 (GFX_XCHAR*)staticTextStr_1,    // text
+                 (GFX_XCHAR*)MainInterface_STE_WarningInfortext,    // text
                  GFX_STATICTEXT_ALIGNMENT_1,       //alignment
                  GFX_STATICTEXT_SCHEME_1
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_Data:
         hgcObj.pSTE_DataObj = GFX_GOL_StaticTextCreate
@@ -6597,10 +9797,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_2,   // right
                  GFX_STATICTEXT_BOTTOM_2,  // bottom
                  GFX_STATICTEXT_STATE_2,   // state
-                 (GFX_XCHAR*)staticTextStr_2,    // text
+                 (GFX_XCHAR*)MainInterface_STE_Datatext,    // text
                  GFX_STATICTEXT_ALIGNMENT_2,       //alignment
                  GFX_STATICTEXT_SCHEME_2
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_Time:
         hgcObj.pSTE_TimeObj = GFX_GOL_StaticTextCreate
@@ -6612,10 +9837,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_3,   // right
                  GFX_STATICTEXT_BOTTOM_3,  // bottom
                  GFX_STATICTEXT_STATE_3,   // state
-                 (GFX_XCHAR*)staticTextStr_3,    // text
+                 (GFX_XCHAR*)MainInterface_STE_Timetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_3,       //alignment
                  GFX_STATICTEXT_SCHEME_3
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_Thimble:
         hgcObj.pSTE_ThimbleObj = GFX_GOL_StaticTextCreate
@@ -6627,10 +9877,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_4,   // right
                  GFX_STATICTEXT_BOTTOM_4,  // bottom
                  GFX_STATICTEXT_STATE_4,   // state
-                 (GFX_XCHAR*)staticTextStr_4,    // text
+                 (GFX_XCHAR*)MainInterface_STE_Thimbletext,    // text
                  GFX_STATICTEXT_ALIGNMENT_4,       //alignment
                  GFX_STATICTEXT_SCHEME_4
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_CloseMold:
         hgcObj.pSTE_CloseMoldObj = GFX_GOL_StaticTextCreate
@@ -6642,10 +9917,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_5,   // right
                  GFX_STATICTEXT_BOTTOM_5,  // bottom
                  GFX_STATICTEXT_STATE_5,   // state
-                 (GFX_XCHAR*)staticTextStr_5,    // text
+                 (GFX_XCHAR*)MainInterface_STE_CloseMoldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_5,       //alignment
                  GFX_STATICTEXT_SCHEME_5
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_SafetyGate:
         hgcObj.pSTE_SafetyGateObj = GFX_GOL_StaticTextCreate
@@ -6657,10 +9957,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_6,   // right
                  GFX_STATICTEXT_BOTTOM_6,  // bottom
                  GFX_STATICTEXT_STATE_6,   // state
-                 (GFX_XCHAR*)staticTextStr_6,    // text
+                 (GFX_XCHAR*)MainInterface_STE_SafetyGatetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_6,       //alignment
                  GFX_STATICTEXT_SCHEME_6
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_OpenMold:
         hgcObj.pSTE_OpenMoldObj = GFX_GOL_StaticTextCreate
@@ -6672,10 +9997,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_7,   // right
                  GFX_STATICTEXT_BOTTOM_7,  // bottom
                  GFX_STATICTEXT_STATE_7,   // state
-                 (GFX_XCHAR*)staticTextStr_7,    // text
+                 (GFX_XCHAR*)MainInterface_STE_OpenMoldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_7,       //alignment
                  GFX_STATICTEXT_SCHEME_7
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_CurrActionStatus:
         hgcObj.pSTE_CurrActionStatusObj = GFX_GOL_StaticTextCreate
@@ -6687,10 +10037,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_8,   // right
                  GFX_STATICTEXT_BOTTOM_8,  // bottom
                  GFX_STATICTEXT_STATE_8,   // state
-                 (GFX_XCHAR*)staticTextStr_8,    // text
+                 (GFX_XCHAR*)MainInterface_STE_CurrActionStatustext,    // text
                  GFX_STATICTEXT_ALIGNMENT_8,       //alignment
                  GFX_STATICTEXT_SCHEME_8
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_CurrPosZ:
         hgcObj.pSTE_CurrPosZObj = GFX_GOL_StaticTextCreate
@@ -6702,10 +10077,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_9,   // right
                  GFX_STATICTEXT_BOTTOM_9,  // bottom
                  GFX_STATICTEXT_STATE_9,   // state
-                 (GFX_XCHAR*)staticTextStr_9,    // text
+                 (GFX_XCHAR*)MainInterface_STE_CurrPosZtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_9,       //alignment
                  GFX_STATICTEXT_SCHEME_9
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ModeNum:
         hgcObj.pSTE_ModeNumObj = GFX_GOL_StaticTextCreate
@@ -6717,10 +10117,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_10,   // right
                  GFX_STATICTEXT_BOTTOM_10,  // bottom
                  GFX_STATICTEXT_STATE_10,   // state
-                 (GFX_XCHAR*)staticTextStr_10,    // text
+                 (GFX_XCHAR*)MainInterface_STE_ModeNumtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_10,       //alignment
                  GFX_STATICTEXT_SCHEME_10
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCKeySound:
         hgcObj.pDIS_FCKeySoundObj = GFX_GOL_StaticTextCreate
@@ -6732,10 +10157,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_11,   // right
                  GFX_STATICTEXT_BOTTOM_11,  // bottom
                  GFX_STATICTEXT_STATE_11,   // state
-                 (GFX_XCHAR*)staticTextStr_11,    // text
+                 (GFX_XCHAR*)FunctionScreen_DIS_FCKeySoundtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_11,       //alignment
                  GFX_STATICTEXT_SCHEME_11
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCClearPro:
         hgcObj.pDIS_FCClearProObj = GFX_GOL_StaticTextCreate
@@ -6747,10 +10197,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_12,   // right
                  GFX_STATICTEXT_BOTTOM_12,  // bottom
                  GFX_STATICTEXT_STATE_12,   // state
-                 (GFX_XCHAR*)staticTextStr_12,    // text
+                 (GFX_XCHAR*)FunctionScreen_DIS_FCClearProtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_12,       //alignment
                  GFX_STATICTEXT_SCHEME_12
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCChkHold:
         hgcObj.pDIS_FCChkHoldObj = GFX_GOL_StaticTextCreate
@@ -6762,10 +10237,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_13,   // right
                  GFX_STATICTEXT_BOTTOM_13,  // bottom
                  GFX_STATICTEXT_STATE_13,   // state
-                 (GFX_XCHAR*)staticTextStr_13,    // text
+                 (GFX_XCHAR*)FunctionScreen_DIS_FCChkHoldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_13,       //alignment
                  GFX_STATICTEXT_SCHEME_13
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCChkVaccu:
         hgcObj.pDIS_FCChkVaccuObj = GFX_GOL_StaticTextCreate
@@ -6777,10 +10277,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_14,   // right
                  GFX_STATICTEXT_BOTTOM_14,  // bottom
                  GFX_STATICTEXT_STATE_14,   // state
-                 (GFX_XCHAR*)staticTextStr_14,    // text
+                 (GFX_XCHAR*)FunctionScreen_DIS_FCChkVaccutext,    // text
                  GFX_STATICTEXT_ALIGNMENT_14,       //alignment
                  GFX_STATICTEXT_SCHEME_14
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCChkVFix:
         hgcObj.pDIS_FCChkVFixObj = GFX_GOL_StaticTextCreate
@@ -6792,10 +10317,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_15,   // right
                  GFX_STATICTEXT_BOTTOM_15,  // bottom
                  GFX_STATICTEXT_STATE_15,   // state
-                 (GFX_XCHAR*)staticTextStr_15,    // text
+                 (GFX_XCHAR*)FunctionScreen_DIS_FCChkVFixtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_15,       //alignment
                  GFX_STATICTEXT_SCHEME_15
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCThimb:
         hgcObj.pDIS_FCThimbObj = GFX_GOL_StaticTextCreate
@@ -6807,10 +10357,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_16,   // right
                  GFX_STATICTEXT_BOTTOM_16,  // bottom
                  GFX_STATICTEXT_STATE_16,   // state
-                 (GFX_XCHAR*)staticTextStr_16,    // text
+                 (GFX_XCHAR*)FunctionScreen_DIS_FCThimbtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_16,       //alignment
                  GFX_STATICTEXT_SCHEME_16
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCChkMFix:
         hgcObj.pDIS_FCChkMFixObj = GFX_GOL_StaticTextCreate
@@ -6822,10 +10397,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_17,   // right
                  GFX_STATICTEXT_BOTTOM_17,  // bottom
                  GFX_STATICTEXT_STATE_17,   // state
-                 (GFX_XCHAR*)staticTextStr_17,    // text
+                 (GFX_XCHAR*)FunctionScreen_DIS_FCChkMFixtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_17,       //alignment
                  GFX_STATICTEXT_SCHEME_17
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCOpenDly:
         hgcObj.pDIS_FCOpenDlyObj = GFX_GOL_StaticTextCreate
@@ -6837,10 +10437,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_18,   // right
                  GFX_STATICTEXT_BOTTOM_18,  // bottom
                  GFX_STATICTEXT_STATE_18,   // state
-                 (GFX_XCHAR*)staticTextStr_18,    // text
+                 (GFX_XCHAR*)FunctionScreen_DIS_FCOpenDlytext,    // text
                  GFX_STATICTEXT_ALIGNMENT_18,       //alignment
                  GFX_STATICTEXT_SCHEME_18
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSetMold:
         hgcObj.pDIS_FCSetMoldObj = GFX_GOL_StaticTextCreate
@@ -6852,10 +10477,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_19,   // right
                  GFX_STATICTEXT_BOTTOM_19,  // bottom
                  GFX_STATICTEXT_STATE_19,   // state
-                 (GFX_XCHAR*)staticTextStr_19,    // text
+                 (GFX_XCHAR*)FunctionScreen_DIS_FCSetMoldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_19,       //alignment
                  GFX_STATICTEXT_SCHEME_19
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCLanguage:
         hgcObj.pDIS_FCLanguageObj = GFX_GOL_StaticTextCreate
@@ -6867,10 +10517,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_20,   // right
                  GFX_STATICTEXT_BOTTOM_20,  // bottom
                  GFX_STATICTEXT_STATE_20,   // state
-                 (GFX_XCHAR*)staticTextStr_20,    // text
+                 (GFX_XCHAR*)FunctionScreen_DIS_FCLanguagetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_20,       //alignment
                  GFX_STATICTEXT_SCHEME_20
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_KeySound:
         hgcObj.pSTE_KeySoundObj = GFX_GOL_StaticTextCreate
@@ -6882,10 +10557,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_21,   // right
                  GFX_STATICTEXT_BOTTOM_21,  // bottom
                  GFX_STATICTEXT_STATE_21,   // state
-                 (GFX_XCHAR*)staticTextStr_21,    // text
+                 (GFX_XCHAR*)FunctionScreen_STE_KeySoundtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_21,       //alignment
                  GFX_STATICTEXT_SCHEME_21
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ClearPro:
         hgcObj.pSTE_ClearProObj = GFX_GOL_StaticTextCreate
@@ -6897,10 +10597,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_22,   // right
                  GFX_STATICTEXT_BOTTOM_22,  // bottom
                  GFX_STATICTEXT_STATE_22,   // state
-                 (GFX_XCHAR*)staticTextStr_22,    // text
+                 (GFX_XCHAR*)FunctionScreen_STE_ClearProtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_22,       //alignment
                  GFX_STATICTEXT_SCHEME_22
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ChkHold:
         hgcObj.pSTE_ChkHoldObj = GFX_GOL_StaticTextCreate
@@ -6912,10 +10637,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_23,   // right
                  GFX_STATICTEXT_BOTTOM_23,  // bottom
                  GFX_STATICTEXT_STATE_23,   // state
-                 (GFX_XCHAR*)staticTextStr_23,    // text
+                 (GFX_XCHAR*)FunctionScreen_STE_ChkHoldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_23,       //alignment
                  GFX_STATICTEXT_SCHEME_23
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ChkVaccu:
         hgcObj.pSTE_ChkVaccuObj = GFX_GOL_StaticTextCreate
@@ -6927,10 +10677,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_24,   // right
                  GFX_STATICTEXT_BOTTOM_24,  // bottom
                  GFX_STATICTEXT_STATE_24,   // state
-                 (GFX_XCHAR*)staticTextStr_24,    // text
+                 (GFX_XCHAR*)FunctionScreen_STE_ChkVaccutext,    // text
                  GFX_STATICTEXT_ALIGNMENT_24,       //alignment
                  GFX_STATICTEXT_SCHEME_24
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ChkVFix:
         hgcObj.pSTE_ChkVFixObj = GFX_GOL_StaticTextCreate
@@ -6942,10 +10717,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_25,   // right
                  GFX_STATICTEXT_BOTTOM_25,  // bottom
                  GFX_STATICTEXT_STATE_25,   // state
-                 (GFX_XCHAR*)staticTextStr_25,    // text
+                 (GFX_XCHAR*)FunctionScreen_STE_ChkVFixtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_25,       //alignment
                  GFX_STATICTEXT_SCHEME_25
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ChkMFix:
         hgcObj.pSTE_ChkMFixObj = GFX_GOL_StaticTextCreate
@@ -6957,10 +10757,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_26,   // right
                  GFX_STATICTEXT_BOTTOM_26,  // bottom
                  GFX_STATICTEXT_STATE_26,   // state
-                 (GFX_XCHAR*)staticTextStr_26,    // text
+                 (GFX_XCHAR*)FunctionScreen_STE_ChkMFixtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_26,       //alignment
                  GFX_STATICTEXT_SCHEME_26
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_Language:
         hgcObj.pSTE_LanguageObj = GFX_GOL_StaticTextCreate
@@ -6972,10 +10797,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_27,   // right
                  GFX_STATICTEXT_BOTTOM_27,  // bottom
                  GFX_STATICTEXT_STATE_27,   // state
-                 (GFX_XCHAR*)staticTextStr_27,    // text
+                 (GFX_XCHAR*)FunctionScreen_STE_Languagetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_27,       //alignment
                  GFX_STATICTEXT_SCHEME_27
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_Password:
         hgcObj.pDIS_PasswordObj = GFX_GOL_StaticTextCreate
@@ -6987,10 +10837,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_28,   // right
                  GFX_STATICTEXT_BOTTOM_28,  // bottom
                  GFX_STATICTEXT_STATE_28,   // state
-                 (GFX_XCHAR*)staticTextStr_28,    // text
+                 (GFX_XCHAR*)PasswordScreen_DIS_Passwordtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_28,       //alignment
                  GFX_STATICTEXT_SCHEME_28
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ProgSlecWrite:
         hgcObj.pDIS_ProgSlecWriteObj = GFX_GOL_StaticTextCreate
@@ -7002,10 +10877,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_29,   // right
                  GFX_STATICTEXT_BOTTOM_29,  // bottom
                  GFX_STATICTEXT_STATE_29,   // state
-                 (GFX_XCHAR*)staticTextStr_29,    // text
+                 (GFX_XCHAR*)ProgramSelectScreen_DIS_ProgSlecWritetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_29,       //alignment
                  GFX_STATICTEXT_SCHEME_29
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ProgSlecRead:
         hgcObj.pDIS_ProgSlecReadObj = GFX_GOL_StaticTextCreate
@@ -7017,10 +10917,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_30,   // right
                  GFX_STATICTEXT_BOTTOM_30,  // bottom
                  GFX_STATICTEXT_STATE_30,   // state
-                 (GFX_XCHAR*)staticTextStr_30,    // text
+                 (GFX_XCHAR*)ProgramSelectScreen_DIS_ProgSlecReadtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_30,       //alignment
                  GFX_STATICTEXT_SCHEME_30
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_BrigAdjLabel:
         hgcObj.pDIS_BrigAdjLabelObj = GFX_GOL_StaticTextCreate
@@ -7032,10 +10957,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_31,   // right
                  GFX_STATICTEXT_BOTTOM_31,  // bottom
                  GFX_STATICTEXT_STATE_31,   // state
-                 (GFX_XCHAR*)staticTextStr_31,    // text
+                 (GFX_XCHAR*)BrightnessAdjustScreen_DIS_BrigAdjLabeltext,    // text
                  GFX_STATICTEXT_ALIGNMENT_31,       //alignment
                  GFX_STATICTEXT_SCHEME_31
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_BrigAdjBrigness:
         hgcObj.pDIS_BrigAdjBrignessObj = GFX_GOL_StaticTextCreate
@@ -7047,10 +10997,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_32,   // right
                  GFX_STATICTEXT_BOTTOM_32,  // bottom
                  GFX_STATICTEXT_STATE_32,   // state
-                 (GFX_XCHAR*)staticTextStr_32,    // text
+                 (GFX_XCHAR*)BrightnessAdjustScreen_DIS_BrigAdjBrignesstext,    // text
                  GFX_STATICTEXT_ALIGNMENT_32,       //alignment
                  GFX_STATICTEXT_SCHEME_32
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_TravMode:
         hgcObj.pSTE_TravModeObj = GFX_GOL_StaticTextCreate
@@ -7062,10 +11037,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_33,   // right
                  GFX_STATICTEXT_BOTTOM_33,  // bottom
                  GFX_STATICTEXT_STATE_33,   // state
-                 (GFX_XCHAR*)staticTextStr_33,    // text
+                 (GFX_XCHAR*)ManualScreen_STE_TravModetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_33,       //alignment
                  GFX_STATICTEXT_SCHEME_33
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ManuCurAct:
         hgcObj.pDIS_ManuCurActObj = GFX_GOL_StaticTextCreate
@@ -7077,10 +11077,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_34,   // right
                  GFX_STATICTEXT_BOTTOM_34,  // bottom
                  GFX_STATICTEXT_STATE_34,   // state
-                 (GFX_XCHAR*)staticTextStr_34,    // text
+                 (GFX_XCHAR*)ManualScreen_DIS_ManuCurActtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_34,       //alignment
                  GFX_STATICTEXT_SCHEME_34
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ManuActuPro:
         hgcObj.pDIS_ManuActuProObj = GFX_GOL_StaticTextCreate
@@ -7092,10 +11117,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_35,   // right
                  GFX_STATICTEXT_BOTTOM_35,  // bottom
                  GFX_STATICTEXT_STATE_35,   // state
-                 (GFX_XCHAR*)staticTextStr_35,    // text
+                 (GFX_XCHAR*)ManualScreen_DIS_ManuActuProtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_35,       //alignment
                  GFX_STATICTEXT_SCHEME_35
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ManuInchSpeed:
         hgcObj.pDIS_ManuInchSpeedObj = GFX_GOL_StaticTextCreate
@@ -7107,10 +11157,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_36,   // right
                  GFX_STATICTEXT_BOTTOM_36,  // bottom
                  GFX_STATICTEXT_STATE_36,   // state
-                 (GFX_XCHAR*)staticTextStr_36,    // text
+                 (GFX_XCHAR*)ManualScreen_DIS_ManuInchSpeedtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_36,       //alignment
                  GFX_STATICTEXT_SCHEME_36
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ManuPos:
         hgcObj.pDIS_ManuPosObj = GFX_GOL_StaticTextCreate
@@ -7122,10 +11197,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_37,   // right
                  GFX_STATICTEXT_BOTTOM_37,  // bottom
                  GFX_STATICTEXT_STATE_37,   // state
-                 (GFX_XCHAR*)staticTextStr_37,    // text
+                 (GFX_XCHAR*)ManualScreen_DIS_ManuPostext,    // text
                  GFX_STATICTEXT_ALIGNMENT_37,       //alignment
                  GFX_STATICTEXT_SCHEME_37
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ManuSpeed:
         hgcObj.pDIS_ManuSpeedObj = GFX_GOL_StaticTextCreate
@@ -7137,10 +11237,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_38,   // right
                  GFX_STATICTEXT_BOTTOM_38,  // bottom
                  GFX_STATICTEXT_STATE_38,   // state
-                 (GFX_XCHAR*)staticTextStr_38,    // text
+                 (GFX_XCHAR*)ManualScreen_DIS_ManuSpeedtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_38,       //alignment
                  GFX_STATICTEXT_SCHEME_38
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ManuTransv:
         hgcObj.pDIS_ManuTransvObj = GFX_GOL_StaticTextCreate
@@ -7152,10 +11277,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_39,   // right
                  GFX_STATICTEXT_BOTTOM_39,  // bottom
                  GFX_STATICTEXT_STATE_39,   // state
-                 (GFX_XCHAR*)staticTextStr_39,    // text
+                 (GFX_XCHAR*)ManualScreen_DIS_ManuTransvtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_39,       //alignment
                  GFX_STATICTEXT_SCHEME_39
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_DotRange:
         hgcObj.pDIS_DotRangeObj = GFX_GOL_StaticTextCreate
@@ -7167,10 +11317,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_40,   // right
                  GFX_STATICTEXT_BOTTOM_40,  // bottom
                  GFX_STATICTEXT_STATE_40,   // state
-                 (GFX_XCHAR*)staticTextStr_40,    // text
+                 (GFX_XCHAR*)ManualParaSetScreen_DIS_DotRangetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_40,       //alignment
                  GFX_STATICTEXT_SCHEME_40
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_MauParaFetchPos:
         hgcObj.pDIS_MauParaFetchPosObj = GFX_GOL_StaticTextCreate
@@ -7182,10 +11357,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_41,   // right
                  GFX_STATICTEXT_BOTTOM_41,  // bottom
                  GFX_STATICTEXT_STATE_41,   // state
-                 (GFX_XCHAR*)staticTextStr_41,    // text
+                 (GFX_XCHAR*)ManualParaSetScreen_DIS_MauParaFetchPostext,    // text
                  GFX_STATICTEXT_ALIGNMENT_41,       //alignment
                  GFX_STATICTEXT_SCHEME_41
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_MauParaInchSpeed:
         hgcObj.pDIS_MauParaInchSpeedObj = GFX_GOL_StaticTextCreate
@@ -7197,10 +11397,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_42,   // right
                  GFX_STATICTEXT_BOTTOM_42,  // bottom
                  GFX_STATICTEXT_STATE_42,   // state
-                 (GFX_XCHAR*)staticTextStr_42,    // text
+                 (GFX_XCHAR*)ManualParaSetScreen_DIS_MauParaInchSpeedtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_42,       //alignment
                  GFX_STATICTEXT_SCHEME_42
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_MauParaPos:
         hgcObj.pDIS_MauParaPosObj = GFX_GOL_StaticTextCreate
@@ -7212,10 +11437,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_43,   // right
                  GFX_STATICTEXT_BOTTOM_43,  // bottom
                  GFX_STATICTEXT_STATE_43,   // state
-                 (GFX_XCHAR*)staticTextStr_43,    // text
+                 (GFX_XCHAR*)ManualParaSetScreen_DIS_MauParaPostext,    // text
                  GFX_STATICTEXT_ALIGNMENT_43,       //alignment
                  GFX_STATICTEXT_SCHEME_43
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_MauParaSpeed:
         hgcObj.pDIS_MauParaSpeedObj = GFX_GOL_StaticTextCreate
@@ -7227,10 +11477,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_44,   // right
                  GFX_STATICTEXT_BOTTOM_44,  // bottom
                  GFX_STATICTEXT_STATE_44,   // state
-                 (GFX_XCHAR*)staticTextStr_44,    // text
+                 (GFX_XCHAR*)ManualParaSetScreen_DIS_MauParaSpeedtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_44,       //alignment
                  GFX_STATICTEXT_SCHEME_44
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_MPressHPAdj:
         hgcObj.pSTE_MPressHPAdjObj = GFX_GOL_StaticTextCreate
@@ -7242,10 +11517,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_45,   // right
                  GFX_STATICTEXT_BOTTOM_45,  // bottom
                  GFX_STATICTEXT_STATE_45,   // state
-                 (GFX_XCHAR*)staticTextStr_45,    // text
+                 (GFX_XCHAR*)EleTonemeScreen_STE_MPressHPAdjtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_45,       //alignment
                  GFX_STATICTEXT_SCHEME_45
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_MY46Reverse:
         hgcObj.pSTE_MY46ReverseObj = GFX_GOL_StaticTextCreate
@@ -7257,10 +11557,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_46,   // right
                  GFX_STATICTEXT_BOTTOM_46,  // bottom
                  GFX_STATICTEXT_STATE_46,   // state
-                 (GFX_XCHAR*)staticTextStr_46,    // text
+                 (GFX_XCHAR*)EleTonemeScreen_STE_MY46Reversetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_46,       //alignment
                  GFX_STATICTEXT_SCHEME_46
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_EleInput2:
         hgcObj.pDIS_EleInput2Obj = GFX_GOL_StaticTextCreate
@@ -7272,10 +11597,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_47,   // right
                  GFX_STATICTEXT_BOTTOM_47,  // bottom
                  GFX_STATICTEXT_STATE_47,   // state
-                 (GFX_XCHAR*)staticTextStr_47,    // text
+                 (GFX_XCHAR*)EleTonemeScreen_DIS_EleInput2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_47,       //alignment
                  GFX_STATICTEXT_SCHEME_47
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_EleInput1:
         hgcObj.pDIS_EleInput1Obj = GFX_GOL_StaticTextCreate
@@ -7287,10 +11637,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_48,   // right
                  GFX_STATICTEXT_BOTTOM_48,  // bottom
                  GFX_STATICTEXT_STATE_48,   // state
-                 (GFX_XCHAR*)staticTextStr_48,    // text
+                 (GFX_XCHAR*)EleTonemeScreen_DIS_EleInput1text,    // text
                  GFX_STATICTEXT_ALIGNMENT_48,       //alignment
                  GFX_STATICTEXT_SCHEME_48
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_MForwardSub:
         hgcObj.pSTE_MForwardSubObj = GFX_GOL_StaticTextCreate
@@ -7302,10 +11677,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_49,   // right
                  GFX_STATICTEXT_BOTTOM_49,  // bottom
                  GFX_STATICTEXT_STATE_49,   // state
-                 (GFX_XCHAR*)staticTextStr_49,    // text
+                 (GFX_XCHAR*)EleTonemeScreen_STE_MForwardSubtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_49,       //alignment
                  GFX_STATICTEXT_SCHEME_49
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_MForwardAdd:
         hgcObj.pSTE_MForwardAddObj = GFX_GOL_StaticTextCreate
@@ -7317,10 +11717,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_50,   // right
                  GFX_STATICTEXT_BOTTOM_50,  // bottom
                  GFX_STATICTEXT_STATE_50,   // state
-                 (GFX_XCHAR*)staticTextStr_50,    // text
+                 (GFX_XCHAR*)EleTonemeScreen_STE_MForwardAddtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_50,       //alignment
                  GFX_STATICTEXT_SCHEME_50
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_MBackSub:
         hgcObj.pSTE_MBackSubObj = GFX_GOL_StaticTextCreate
@@ -7332,10 +11757,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_51,   // right
                  GFX_STATICTEXT_BOTTOM_51,  // bottom
                  GFX_STATICTEXT_STATE_51,   // state
-                 (GFX_XCHAR*)staticTextStr_51,    // text
+                 (GFX_XCHAR*)EleTonemeScreen_STE_MBackSubtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_51,       //alignment
                  GFX_STATICTEXT_SCHEME_51
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_MBackAdd:
         hgcObj.pSTE_MBackAddObj = GFX_GOL_StaticTextCreate
@@ -7347,10 +11797,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_52,   // right
                  GFX_STATICTEXT_BOTTOM_52,  // bottom
                  GFX_STATICTEXT_STATE_52,   // state
-                 (GFX_XCHAR*)staticTextStr_52,    // text
+                 (GFX_XCHAR*)EleTonemeScreen_STE_MBackAddtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_52,       //alignment
                  GFX_STATICTEXT_SCHEME_52
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_MDownSub:
         hgcObj.pSTE_MDownSubObj = GFX_GOL_StaticTextCreate
@@ -7362,10 +11837,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_53,   // right
                  GFX_STATICTEXT_BOTTOM_53,  // bottom
                  GFX_STATICTEXT_STATE_53,   // state
-                 (GFX_XCHAR*)staticTextStr_53,    // text
+                 (GFX_XCHAR*)EleTonemeScreen_STE_MDownSubtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_53,       //alignment
                  GFX_STATICTEXT_SCHEME_53
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_MDownAdd:
         hgcObj.pSTE_MDownAddObj = GFX_GOL_StaticTextCreate
@@ -7377,10 +11877,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_54,   // right
                  GFX_STATICTEXT_BOTTOM_54,  // bottom
                  GFX_STATICTEXT_STATE_54,   // state
-                 (GFX_XCHAR*)staticTextStr_54,    // text
+                 (GFX_XCHAR*)EleTonemeScreen_STE_MDownAddtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_54,       //alignment
                  GFX_STATICTEXT_SCHEME_54
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_VPressHPAdj:
         hgcObj.pDIS_VPressHPAdjObj = GFX_GOL_StaticTextCreate
@@ -7392,10 +11917,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_55,   // right
                  GFX_STATICTEXT_BOTTOM_55,  // bottom
                  GFX_STATICTEXT_STATE_55,   // state
-                 (GFX_XCHAR*)staticTextStr_55,    // text
+                 (GFX_XCHAR*)EleToneme2Screen_DIS_VPressHPAdjtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_55,       //alignment
                  GFX_STATICTEXT_SCHEME_55
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_VY46Reverse:
         hgcObj.pDIS_VY46ReverseObj = GFX_GOL_StaticTextCreate
@@ -7407,10 +11957,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_56,   // right
                  GFX_STATICTEXT_BOTTOM_56,  // bottom
                  GFX_STATICTEXT_STATE_56,   // state
-                 (GFX_XCHAR*)staticTextStr_56,    // text
+                 (GFX_XCHAR*)EleToneme2Screen_DIS_VY46Reversetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_56,       //alignment
                  GFX_STATICTEXT_SCHEME_56
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_EleInput4:
         hgcObj.pDIS_EleInput4Obj = GFX_GOL_StaticTextCreate
@@ -7422,10 +11997,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_57,   // right
                  GFX_STATICTEXT_BOTTOM_57,  // bottom
                  GFX_STATICTEXT_STATE_57,   // state
-                 (GFX_XCHAR*)staticTextStr_57,    // text
+                 (GFX_XCHAR*)EleToneme2Screen_DIS_EleInput4text,    // text
                  GFX_STATICTEXT_ALIGNMENT_57,       //alignment
                  GFX_STATICTEXT_SCHEME_57
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_EleInput3:
         hgcObj.pDIS_EleInput3Obj = GFX_GOL_StaticTextCreate
@@ -7437,10 +12037,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_58,   // right
                  GFX_STATICTEXT_BOTTOM_58,  // bottom
                  GFX_STATICTEXT_STATE_58,   // state
-                 (GFX_XCHAR*)staticTextStr_58,    // text
+                 (GFX_XCHAR*)EleToneme2Screen_DIS_EleInput3text,    // text
                  GFX_STATICTEXT_ALIGNMENT_58,       //alignment
                  GFX_STATICTEXT_SCHEME_58
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_VForwardSub:
         hgcObj.pSTE_VForwardSubObj = GFX_GOL_StaticTextCreate
@@ -7452,10 +12077,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_59,   // right
                  GFX_STATICTEXT_BOTTOM_59,  // bottom
                  GFX_STATICTEXT_STATE_59,   // state
-                 (GFX_XCHAR*)staticTextStr_59,    // text
+                 (GFX_XCHAR*)EleToneme2Screen_STE_VForwardSubtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_59,       //alignment
                  GFX_STATICTEXT_SCHEME_59
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_VForwardAdd:
         hgcObj.pSTE_VForwardAddObj = GFX_GOL_StaticTextCreate
@@ -7467,10 +12117,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_60,   // right
                  GFX_STATICTEXT_BOTTOM_60,  // bottom
                  GFX_STATICTEXT_STATE_60,   // state
-                 (GFX_XCHAR*)staticTextStr_60,    // text
+                 (GFX_XCHAR*)EleToneme2Screen_STE_VForwardAddtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_60,       //alignment
                  GFX_STATICTEXT_SCHEME_60
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_VBackSub:
         hgcObj.pSTE_VBackSubObj = GFX_GOL_StaticTextCreate
@@ -7482,10 +12157,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_61,   // right
                  GFX_STATICTEXT_BOTTOM_61,  // bottom
                  GFX_STATICTEXT_STATE_61,   // state
-                 (GFX_XCHAR*)staticTextStr_61,    // text
+                 (GFX_XCHAR*)EleToneme2Screen_STE_VBackSubtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_61,       //alignment
                  GFX_STATICTEXT_SCHEME_61
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_VBackAdd:
         hgcObj.pSTE_VBackAddObj = GFX_GOL_StaticTextCreate
@@ -7497,10 +12197,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_62,   // right
                  GFX_STATICTEXT_BOTTOM_62,  // bottom
                  GFX_STATICTEXT_STATE_62,   // state
-                 (GFX_XCHAR*)staticTextStr_62,    // text
+                 (GFX_XCHAR*)EleToneme2Screen_STE_VBackAddtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_62,       //alignment
                  GFX_STATICTEXT_SCHEME_62
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_VDownSub:
         hgcObj.pSTE_VDownSubObj = GFX_GOL_StaticTextCreate
@@ -7512,10 +12237,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_63,   // right
                  GFX_STATICTEXT_BOTTOM_63,  // bottom
                  GFX_STATICTEXT_STATE_63,   // state
-                 (GFX_XCHAR*)staticTextStr_63,    // text
+                 (GFX_XCHAR*)EleToneme2Screen_STE_VDownSubtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_63,       //alignment
                  GFX_STATICTEXT_SCHEME_63
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_VDownAdd:
         hgcObj.pSTE_VDownAddObj = GFX_GOL_StaticTextCreate
@@ -7527,10 +12277,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_64,   // right
                  GFX_STATICTEXT_BOTTOM_64,  // bottom
                  GFX_STATICTEXT_STATE_64,   // state
-                 (GFX_XCHAR*)staticTextStr_64,    // text
+                 (GFX_XCHAR*)EleToneme2Screen_STE_VDownAddtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_64,       //alignment
                  GFX_STATICTEXT_SCHEME_64
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_CurrAct:
         hgcObj.pSTE_CurrActObj = GFX_GOL_StaticTextCreate
@@ -7542,10 +12317,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_65,   // right
                  GFX_STATICTEXT_BOTTOM_65,  // bottom
                  GFX_STATICTEXT_STATE_65,   // state
-                 (GFX_XCHAR*)staticTextStr_65,    // text
+                 (GFX_XCHAR*)AutoOperaScreen_STE_CurrActtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_65,       //alignment
                  GFX_STATICTEXT_SCHEME_65
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_AutoCurAct:
         hgcObj.pDIS_AutoCurActObj = GFX_GOL_StaticTextCreate
@@ -7557,10 +12357,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_66,   // right
                  GFX_STATICTEXT_BOTTOM_66,  // bottom
                  GFX_STATICTEXT_STATE_66,   // state
-                 (GFX_XCHAR*)staticTextStr_66,    // text
+                 (GFX_XCHAR*)AutoOperaScreen_DIS_AutoCurActtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_66,       //alignment
                  GFX_STATICTEXT_SCHEME_66
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_AutoActTime:
         hgcObj.pDIS_AutoActTimeObj = GFX_GOL_StaticTextCreate
@@ -7572,10 +12397,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_67,   // right
                  GFX_STATICTEXT_BOTTOM_67,  // bottom
                  GFX_STATICTEXT_STATE_67,   // state
-                 (GFX_XCHAR*)staticTextStr_67,    // text
+                 (GFX_XCHAR*)AutoOperaScreen_DIS_AutoActTimetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_67,       //alignment
                  GFX_STATICTEXT_SCHEME_67
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_AutoFetchTime:
         hgcObj.pDIS_AutoFetchTimeObj = GFX_GOL_StaticTextCreate
@@ -7587,10 +12437,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_68,   // right
                  GFX_STATICTEXT_BOTTOM_68,  // bottom
                  GFX_STATICTEXT_STATE_68,   // state
-                 (GFX_XCHAR*)staticTextStr_68,    // text
+                 (GFX_XCHAR*)AutoOperaScreen_DIS_AutoFetchTimetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_68,       //alignment
                  GFX_STATICTEXT_SCHEME_68
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_AutoCycle:
         hgcObj.pDIS_AutoCycleObj = GFX_GOL_StaticTextCreate
@@ -7602,10 +12477,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_69,   // right
                  GFX_STATICTEXT_BOTTOM_69,  // bottom
                  GFX_STATICTEXT_STATE_69,   // state
-                 (GFX_XCHAR*)staticTextStr_69,    // text
+                 (GFX_XCHAR*)AutoOperaScreen_DIS_AutoCycletext,    // text
                  GFX_STATICTEXT_ALIGNMENT_69,       //alignment
                  GFX_STATICTEXT_SCHEME_69
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_AutoActuPro:
         hgcObj.pDIS_AutoActuProObj = GFX_GOL_StaticTextCreate
@@ -7617,10 +12517,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_70,   // right
                  GFX_STATICTEXT_BOTTOM_70,  // bottom
                  GFX_STATICTEXT_STATE_70,   // state
-                 (GFX_XCHAR*)staticTextStr_70,    // text
+                 (GFX_XCHAR*)AutoOperaScreen_DIS_AutoActuProtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_70,       //alignment
                  GFX_STATICTEXT_SCHEME_70
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_AutoSetPro:
         hgcObj.pDIS_AutoSetProObj = GFX_GOL_StaticTextCreate
@@ -7632,10 +12557,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_71,   // right
                  GFX_STATICTEXT_BOTTOM_71,  // bottom
                  GFX_STATICTEXT_STATE_71,   // state
-                 (GFX_XCHAR*)staticTextStr_71,    // text
+                 (GFX_XCHAR*)AutoOperaScreen_DIS_AutoSetProtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_71,       //alignment
                  GFX_STATICTEXT_SCHEME_71
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_1EmbInMld:
         hgcObj.pDIS_FCSet1_1EmbInMldObj = GFX_GOL_StaticTextCreate
@@ -7647,10 +12597,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_72,   // right
                  GFX_STATICTEXT_BOTTOM_72,  // bottom
                  GFX_STATICTEXT_STATE_72,   // state
-                 (GFX_XCHAR*)staticTextStr_72,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_DIS_FCSet1_1EmbInMldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_72,       //alignment
                  GFX_STATICTEXT_SCHEME_72
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_1StartPos:
         hgcObj.pDIS_FCSet1_1StartPosObj = GFX_GOL_StaticTextCreate
@@ -7662,10 +12637,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_73,   // right
                  GFX_STATICTEXT_BOTTOM_73,  // bottom
                  GFX_STATICTEXT_STATE_73,   // state
-                 (GFX_XCHAR*)staticTextStr_73,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_DIS_FCSet1_1StartPostext,    // text
                  GFX_STATICTEXT_ALIGNMENT_73,       //alignment
                  GFX_STATICTEXT_SCHEME_73
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_1SubPutDe:
         hgcObj.pDIS_FCSet1_1SubPutDeObj = GFX_GOL_StaticTextCreate
@@ -7677,10 +12677,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_74,   // right
                  GFX_STATICTEXT_BOTTOM_74,  // bottom
                  GFX_STATICTEXT_STATE_74,   // state
-                 (GFX_XCHAR*)staticTextStr_74,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_DIS_FCSet1_1SubPutDetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_74,       //alignment
                  GFX_STATICTEXT_SCHEME_74
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_1StopStatus:
         hgcObj.pDIS_FCSet1_1StopStatusObj = GFX_GOL_StaticTextCreate
@@ -7692,10 +12717,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_75,   // right
                  GFX_STATICTEXT_BOTTOM_75,  // bottom
                  GFX_STATICTEXT_STATE_75,   // state
-                 (GFX_XCHAR*)staticTextStr_75,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_DIS_FCSet1_1StopStatustext,    // text
                  GFX_STATICTEXT_ALIGNMENT_75,       //alignment
                  GFX_STATICTEXT_SCHEME_75
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_1StdbyPos:
         hgcObj.pDIS_FCSet1_1StdbyPosObj = GFX_GOL_StaticTextCreate
@@ -7707,10 +12757,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_76,   // right
                  GFX_STATICTEXT_BOTTOM_76,  // bottom
                  GFX_STATICTEXT_STATE_76,   // state
-                 (GFX_XCHAR*)staticTextStr_76,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_DIS_FCSet1_1StdbyPostext,    // text
                  GFX_STATICTEXT_ALIGNMENT_76,       //alignment
                  GFX_STATICTEXT_SCHEME_76
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_1StdbyGes:
         hgcObj.pDIS_FCSet1_1StdbyGesObj = GFX_GOL_StaticTextCreate
@@ -7722,10 +12797,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_77,   // right
                  GFX_STATICTEXT_BOTTOM_77,  // bottom
                  GFX_STATICTEXT_STATE_77,   // state
-                 (GFX_XCHAR*)staticTextStr_77,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_DIS_FCSet1_1StdbyGestext,    // text
                  GFX_STATICTEXT_ALIGNMENT_77,       //alignment
                  GFX_STATICTEXT_SCHEME_77
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_1MidMold:
         hgcObj.pDIS_FCSet1_1MidMoldObj = GFX_GOL_StaticTextCreate
@@ -7737,10 +12837,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_78,   // right
                  GFX_STATICTEXT_BOTTOM_78,  // bottom
                  GFX_STATICTEXT_STATE_78,   // state
-                 (GFX_XCHAR*)staticTextStr_78,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_DIS_FCSet1_1MidMoldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_78,       //alignment
                  GFX_STATICTEXT_SCHEME_78
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_1SafeDoor:
         hgcObj.pDIS_FCSet1_1SafeDoorObj = GFX_GOL_StaticTextCreate
@@ -7752,10 +12877,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_79,   // right
                  GFX_STATICTEXT_BOTTOM_79,  // bottom
                  GFX_STATICTEXT_STATE_79,   // state
-                 (GFX_XCHAR*)staticTextStr_79,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_DIS_FCSet1_1SafeDoortext,    // text
                  GFX_STATICTEXT_ALIGNMENT_79,       //alignment
                  GFX_STATICTEXT_SCHEME_79
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_1Thimb:
         hgcObj.pDIS_FCSet1_1ThimbObj = GFX_GOL_StaticTextCreate
@@ -7767,10 +12917,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_80,   // right
                  GFX_STATICTEXT_BOTTOM_80,  // bottom
                  GFX_STATICTEXT_STATE_80,   // state
-                 (GFX_XCHAR*)staticTextStr_80,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_DIS_FCSet1_1Thimbtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_80,       //alignment
                  GFX_STATICTEXT_SCHEME_80
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_1CycleTime:
         hgcObj.pDIS_FCSet1_1CycleTimeObj = GFX_GOL_StaticTextCreate
@@ -7782,10 +12957,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_81,   // right
                  GFX_STATICTEXT_BOTTOM_81,  // bottom
                  GFX_STATICTEXT_STATE_81,   // state
-                 (GFX_XCHAR*)staticTextStr_81,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_DIS_FCSet1_1CycleTimetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_81,       //alignment
                  GFX_STATICTEXT_SCHEME_81
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_EmbInMld:
         hgcObj.pSTE_EmbInMldObj = GFX_GOL_StaticTextCreate
@@ -7797,10 +12997,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_82,   // right
                  GFX_STATICTEXT_BOTTOM_82,  // bottom
                  GFX_STATICTEXT_STATE_82,   // state
-                 (GFX_XCHAR*)staticTextStr_82,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_STE_EmbInMldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_82,       //alignment
                  GFX_STATICTEXT_SCHEME_82
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_StopSafe:
         hgcObj.pSTE_StopSafeObj = GFX_GOL_StaticTextCreate
@@ -7812,10 +13037,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_83,   // right
                  GFX_STATICTEXT_BOTTOM_83,  // bottom
                  GFX_STATICTEXT_STATE_83,   // state
-                 (GFX_XCHAR*)staticTextStr_83,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_STE_StopSafetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_83,       //alignment
                  GFX_STATICTEXT_SCHEME_83
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_StdbyPos:
         hgcObj.pSTE_StdbyPosObj = GFX_GOL_StaticTextCreate
@@ -7827,10 +13077,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_84,   // right
                  GFX_STATICTEXT_BOTTOM_84,  // bottom
                  GFX_STATICTEXT_STATE_84,   // state
-                 (GFX_XCHAR*)staticTextStr_84,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_STE_StdbyPostext,    // text
                  GFX_STATICTEXT_ALIGNMENT_84,       //alignment
                  GFX_STATICTEXT_SCHEME_84
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_StdbyGes:
         hgcObj.pSTE_StdbyGesObj = GFX_GOL_StaticTextCreate
@@ -7842,10 +13117,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_85,   // right
                  GFX_STATICTEXT_BOTTOM_85,  // bottom
                  GFX_STATICTEXT_STATE_85,   // state
-                 (GFX_XCHAR*)staticTextStr_85,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_STE_StdbyGestext,    // text
                  GFX_STATICTEXT_ALIGNMENT_85,       //alignment
                  GFX_STATICTEXT_SCHEME_85
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_MidMold:
         hgcObj.pSTE_MidMoldObj = GFX_GOL_StaticTextCreate
@@ -7857,10 +13157,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_86,   // right
                  GFX_STATICTEXT_BOTTOM_86,  // bottom
                  GFX_STATICTEXT_STATE_86,   // state
-                 (GFX_XCHAR*)staticTextStr_86,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_STE_MidMoldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_86,       //alignment
                  GFX_STATICTEXT_SCHEME_86
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_SafeDoor:
         hgcObj.pSTE_SafeDoorObj = GFX_GOL_StaticTextCreate
@@ -7872,10 +13197,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_87,   // right
                  GFX_STATICTEXT_BOTTOM_87,  // bottom
                  GFX_STATICTEXT_STATE_87,   // state
-                 (GFX_XCHAR*)staticTextStr_87,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_STE_SafeDoortext,    // text
                  GFX_STATICTEXT_ALIGNMENT_87,       //alignment
                  GFX_STATICTEXT_SCHEME_87
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_Thimb:
         hgcObj.pSTE_ThimbObj = GFX_GOL_StaticTextCreate
@@ -7887,10 +13237,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_88,   // right
                  GFX_STATICTEXT_BOTTOM_88,  // bottom
                  GFX_STATICTEXT_STATE_88,   // state
-                 (GFX_XCHAR*)staticTextStr_88,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_1_STE_Thimbtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_88,       //alignment
                  GFX_STATICTEXT_SCHEME_88
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2ClpAbDect:
         hgcObj.pDIS_FCSet1_2ClpAbDectObj = GFX_GOL_StaticTextCreate
@@ -7902,10 +13277,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_89,   // right
                  GFX_STATICTEXT_BOTTOM_89,  // bottom
                  GFX_STATICTEXT_STATE_89,   // state
-                 (GFX_XCHAR*)staticTextStr_89,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_2_DIS_FCSet1_2ClpAbDecttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_89,       //alignment
                  GFX_STATICTEXT_SCHEME_89
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2ChckClsMld:
         hgcObj.pDIS_FCSet1_2ChckClsMldObj = GFX_GOL_StaticTextCreate
@@ -7917,10 +13317,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_90,   // right
                  GFX_STATICTEXT_BOTTOM_90,  // bottom
                  GFX_STATICTEXT_STATE_90,   // state
-                 (GFX_XCHAR*)staticTextStr_90,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckClsMldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_90,       //alignment
                  GFX_STATICTEXT_SCHEME_90
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2ChckDfPrd:
         hgcObj.pDIS_FCSet1_2ChckDfPrdObj = GFX_GOL_StaticTextCreate
@@ -7932,10 +13357,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_91,   // right
                  GFX_STATICTEXT_BOTTOM_91,  // bottom
                  GFX_STATICTEXT_STATE_91,   // state
-                 (GFX_XCHAR*)staticTextStr_91,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckDfPrdtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_91,       //alignment
                  GFX_STATICTEXT_SCHEME_91
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2ChckPress:
         hgcObj.pDIS_FCSet1_2ChckPressObj = GFX_GOL_StaticTextCreate
@@ -7947,10 +13397,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_92,   // right
                  GFX_STATICTEXT_BOTTOM_92,  // bottom
                  GFX_STATICTEXT_STATE_92,   // state
-                 (GFX_XCHAR*)staticTextStr_92,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_2_DIS_FCSet1_2ChckPresstext,    // text
                  GFX_STATICTEXT_ALIGNMENT_92,       //alignment
                  GFX_STATICTEXT_SCHEME_92
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2Reserv2:
         hgcObj.pDIS_FCSet1_2Reserv2Obj = GFX_GOL_StaticTextCreate
@@ -7962,10 +13437,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_93,   // right
                  GFX_STATICTEXT_BOTTOM_93,  // bottom
                  GFX_STATICTEXT_STATE_93,   // state
-                 (GFX_XCHAR*)staticTextStr_93,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_2_DIS_FCSet1_2Reserv2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_93,       //alignment
                  GFX_STATICTEXT_SCHEME_93
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2ClScrTim:
         hgcObj.pDIS_FCSet1_2ClScrTimObj = GFX_GOL_StaticTextCreate
@@ -7977,10 +13477,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_94,   // right
                  GFX_STATICTEXT_BOTTOM_94,  // bottom
                  GFX_STATICTEXT_STATE_94,   // state
-                 (GFX_XCHAR*)staticTextStr_94,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_2_DIS_FCSet1_2ClScrTimtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_94,       //alignment
                  GFX_STATICTEXT_SCHEME_94
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2Reserv1:
         hgcObj.pDIS_FCSet1_2Reserv1Obj = GFX_GOL_StaticTextCreate
@@ -7992,10 +13517,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_95,   // right
                  GFX_STATICTEXT_BOTTOM_95,  // bottom
                  GFX_STATICTEXT_STATE_95,   // state
-                 (GFX_XCHAR*)staticTextStr_95,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_2_DIS_FCSet1_2Reserv1text,    // text
                  GFX_STATICTEXT_ALIGNMENT_95,       //alignment
                  GFX_STATICTEXT_SCHEME_95
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2ConvCnt:
         hgcObj.pDIS_FCSet1_2ConvCntObj = GFX_GOL_StaticTextCreate
@@ -8007,10 +13557,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_96,   // right
                  GFX_STATICTEXT_BOTTOM_96,  // bottom
                  GFX_STATICTEXT_STATE_96,   // state
-                 (GFX_XCHAR*)staticTextStr_96,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_2_DIS_FCSet1_2ConvCnttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_96,       //alignment
                  GFX_STATICTEXT_SCHEME_96
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2Space:
         hgcObj.pDIS_FCSet1_2SpaceObj = GFX_GOL_StaticTextCreate
@@ -8022,10 +13597,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_97,   // right
                  GFX_STATICTEXT_BOTTOM_97,  // bottom
                  GFX_STATICTEXT_STATE_97,   // state
-                 (GFX_XCHAR*)staticTextStr_97,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_2_DIS_FCSet1_2Spacetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_97,       //alignment
                  GFX_STATICTEXT_SCHEME_97
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2PointCnt:
         hgcObj.pDIS_FCSet1_2PointCntObj = GFX_GOL_StaticTextCreate
@@ -8037,10 +13637,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_98,   // right
                  GFX_STATICTEXT_BOTTOM_98,  // bottom
                  GFX_STATICTEXT_STATE_98,   // state
-                 (GFX_XCHAR*)staticTextStr_98,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_2_DIS_FCSet1_2PointCnttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_98,       //alignment
                  GFX_STATICTEXT_SCHEME_98
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ClpAbDect:
         hgcObj.pSTE_ClpAbDectObj = GFX_GOL_StaticTextCreate
@@ -8052,10 +13677,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_99,   // right
                  GFX_STATICTEXT_BOTTOM_99,  // bottom
                  GFX_STATICTEXT_STATE_99,   // state
-                 (GFX_XCHAR*)staticTextStr_99,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_2_STE_ClpAbDecttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_99,       //alignment
                  GFX_STATICTEXT_SCHEME_99
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_Injection:
         hgcObj.pSTE_InjectionObj = GFX_GOL_StaticTextCreate
@@ -8067,10 +13717,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_100,   // right
                  GFX_STATICTEXT_BOTTOM_100,  // bottom
                  GFX_STATICTEXT_STATE_100,   // state
-                 (GFX_XCHAR*)staticTextStr_100,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_2_STE_Injectiontext,    // text
                  GFX_STATICTEXT_ALIGNMENT_100,       //alignment
                  GFX_STATICTEXT_SCHEME_100
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ChckDfPrd:
         hgcObj.pSTE_ChckDfPrdObj = GFX_GOL_StaticTextCreate
@@ -8082,10 +13757,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_101,   // right
                  GFX_STATICTEXT_BOTTOM_101,  // bottom
                  GFX_STATICTEXT_STATE_101,   // state
-                 (GFX_XCHAR*)staticTextStr_101,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_2_STE_ChckDfPrdtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_101,       //alignment
                  GFX_STATICTEXT_SCHEME_101
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ChckPress:
         hgcObj.pSTE_ChckPressObj = GFX_GOL_StaticTextCreate
@@ -8097,10 +13797,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_102,   // right
                  GFX_STATICTEXT_BOTTOM_102,  // bottom
                  GFX_STATICTEXT_STATE_102,   // state
-                 (GFX_XCHAR*)staticTextStr_102,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_2_STE_ChckPresstext,    // text
                  GFX_STATICTEXT_ALIGNMENT_102,       //alignment
                  GFX_STATICTEXT_SCHEME_102
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2FetchFail:
         hgcObj.pDIS_FCSet1_2FetchFailObj = GFX_GOL_StaticTextCreate
@@ -8112,10 +13837,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_103,   // right
                  GFX_STATICTEXT_BOTTOM_103,  // bottom
                  GFX_STATICTEXT_STATE_103,   // state
-                 (GFX_XCHAR*)staticTextStr_103,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_DIS_FCSet1_2FetchFailtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_103,       //alignment
                  GFX_STATICTEXT_SCHEME_103
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2TrvInPst:
         hgcObj.pDIS_FCSet1_2TrvInPstObj = GFX_GOL_StaticTextCreate
@@ -8127,10 +13877,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_104,   // right
                  GFX_STATICTEXT_BOTTOM_104,  // bottom
                  GFX_STATICTEXT_STATE_104,   // state
-                 (GFX_XCHAR*)staticTextStr_104,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_DIS_FCSet1_2TrvInPsttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_104,       //alignment
                  GFX_STATICTEXT_SCHEME_104
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2TrvOutPst:
         hgcObj.pDIS_FCSet1_2TrvOutPstObj = GFX_GOL_StaticTextCreate
@@ -8142,10 +13917,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_105,   // right
                  GFX_STATICTEXT_BOTTOM_105,  // bottom
                  GFX_STATICTEXT_STATE_105,   // state
-                 (GFX_XCHAR*)staticTextStr_105,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_DIS_FCSet1_2TrvOutPsttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_105,       //alignment
                  GFX_STATICTEXT_SCHEME_105
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2SlowDown:
         hgcObj.pDIS_FCSet1_2SlowDownObj = GFX_GOL_StaticTextCreate
@@ -8157,10 +13957,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_106,   // right
                  GFX_STATICTEXT_BOTTOM_106,  // bottom
                  GFX_STATICTEXT_STATE_106,   // state
-                 (GFX_XCHAR*)staticTextStr_106,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_DIS_FCSet1_2SlowDowntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_106,       //alignment
                  GFX_STATICTEXT_SCHEME_106
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2PressSw:
         hgcObj.pDIS_FCSet1_2PressSwObj = GFX_GOL_StaticTextCreate
@@ -8172,10 +13997,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_107,   // right
                  GFX_STATICTEXT_BOTTOM_107,  // bottom
                  GFX_STATICTEXT_STATE_107,   // state
-                 (GFX_XCHAR*)staticTextStr_107,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_DIS_FCSet1_2PressSwtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_107,       //alignment
                  GFX_STATICTEXT_SCHEME_107
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2AutoLinit:
         hgcObj.pDIS_FCSet1_2AutoLinitObj = GFX_GOL_StaticTextCreate
@@ -8187,10 +14037,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_108,   // right
                  GFX_STATICTEXT_BOTTOM_108,  // bottom
                  GFX_STATICTEXT_STATE_108,   // state
-                 (GFX_XCHAR*)staticTextStr_108,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_DIS_FCSet1_2AutoLinittext,    // text
                  GFX_STATICTEXT_ALIGNMENT_108,       //alignment
                  GFX_STATICTEXT_SCHEME_108
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2StartPoint:
         hgcObj.pDIS_FCSet1_2StartPointObj = GFX_GOL_StaticTextCreate
@@ -8202,10 +14077,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_109,   // right
                  GFX_STATICTEXT_BOTTOM_109,  // bottom
                  GFX_STATICTEXT_STATE_109,   // state
-                 (GFX_XCHAR*)staticTextStr_109,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_DIS_FCSet1_2StartPointtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_109,       //alignment
                  GFX_STATICTEXT_SCHEME_109
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2SlowDelay:
         hgcObj.pDIS_FCSet1_2SlowDelayObj = GFX_GOL_StaticTextCreate
@@ -8217,10 +14117,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_110,   // right
                  GFX_STATICTEXT_BOTTOM_110,  // bottom
                  GFX_STATICTEXT_STATE_110,   // state
-                 (GFX_XCHAR*)staticTextStr_110,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_DIS_FCSet1_2SlowDelaytext,    // text
                  GFX_STATICTEXT_ALIGNMENT_110,       //alignment
                  GFX_STATICTEXT_SCHEME_110
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2SafeInMold:
         hgcObj.pDIS_FCSet1_2SafeInMoldObj = GFX_GOL_StaticTextCreate
@@ -8232,10 +14157,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_111,   // right
                  GFX_STATICTEXT_BOTTOM_111,  // bottom
                  GFX_STATICTEXT_STATE_111,   // state
-                 (GFX_XCHAR*)staticTextStr_111,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_DIS_FCSet1_2SafeInMoldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_111,       //alignment
                  GFX_STATICTEXT_SCHEME_111
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_2OutStdby:
         hgcObj.pDIS_FCSet1_2OutStdbyObj = GFX_GOL_StaticTextCreate
@@ -8247,10 +14197,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_112,   // right
                  GFX_STATICTEXT_BOTTOM_112,  // bottom
                  GFX_STATICTEXT_STATE_112,   // state
-                 (GFX_XCHAR*)staticTextStr_112,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_DIS_FCSet1_2OutStdbytext,    // text
                  GFX_STATICTEXT_ALIGNMENT_112,       //alignment
                  GFX_STATICTEXT_SCHEME_112
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_3SafeDoor:
         hgcObj.pDIS_FCSet1_3SafeDoorObj = GFX_GOL_StaticTextCreate
@@ -8262,10 +14237,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_113,   // right
                  GFX_STATICTEXT_BOTTOM_113,  // bottom
                  GFX_STATICTEXT_STATE_113,   // state
-                 (GFX_XCHAR*)staticTextStr_113,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_DIS_FCSet1_3SafeDoortext,    // text
                  GFX_STATICTEXT_ALIGNMENT_113,       //alignment
                  GFX_STATICTEXT_SCHEME_113
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_OpenSafeD:
         hgcObj.pSTE_OpenSafeDObj = GFX_GOL_StaticTextCreate
@@ -8277,10 +14277,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_114,   // right
                  GFX_STATICTEXT_BOTTOM_114,  // bottom
                  GFX_STATICTEXT_STATE_114,   // state
-                 (GFX_XCHAR*)staticTextStr_114,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_STE_OpenSafeDtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_114,       //alignment
                  GFX_STATICTEXT_SCHEME_114
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_TrvInPst:
         hgcObj.pSTE_TrvInPstObj = GFX_GOL_StaticTextCreate
@@ -8292,10 +14317,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_115,   // right
                  GFX_STATICTEXT_BOTTOM_115,  // bottom
                  GFX_STATICTEXT_STATE_115,   // state
-                 (GFX_XCHAR*)staticTextStr_115,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_STE_TrvInPsttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_115,       //alignment
                  GFX_STATICTEXT_SCHEME_115
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_TrvOutPst:
         hgcObj.pSTE_TrvOutPstObj = GFX_GOL_StaticTextCreate
@@ -8307,10 +14357,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_116,   // right
                  GFX_STATICTEXT_BOTTOM_116,  // bottom
                  GFX_STATICTEXT_STATE_116,   // state
-                 (GFX_XCHAR*)staticTextStr_116,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_STE_TrvOutPsttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_116,       //alignment
                  GFX_STATICTEXT_SCHEME_116
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_QuickDown:
         hgcObj.pSTE_QuickDownObj = GFX_GOL_StaticTextCreate
@@ -8322,10 +14397,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_117,   // right
                  GFX_STATICTEXT_BOTTOM_117,  // bottom
                  GFX_STATICTEXT_STATE_117,   // state
-                 (GFX_XCHAR*)staticTextStr_117,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_STE_QuickDowntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_117,       //alignment
                  GFX_STATICTEXT_SCHEME_117
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_PressSw:
         hgcObj.pSTE_PressSwObj = GFX_GOL_StaticTextCreate
@@ -8337,10 +14437,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_118,   // right
                  GFX_STATICTEXT_BOTTOM_118,  // bottom
                  GFX_STATICTEXT_STATE_118,   // state
-                 (GFX_XCHAR*)staticTextStr_118,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_STE_PressSwtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_118,       //alignment
                  GFX_STATICTEXT_SCHEME_118
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_AutoLimit:
         hgcObj.pSTE_AutoLimitObj = GFX_GOL_StaticTextCreate
@@ -8352,10 +14477,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_119,   // right
                  GFX_STATICTEXT_BOTTOM_119,  // bottom
                  GFX_STATICTEXT_STATE_119,   // state
-                 (GFX_XCHAR*)staticTextStr_119,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_3_STE_AutoLimittext,    // text
                  GFX_STATICTEXT_ALIGNMENT_119,       //alignment
                  GFX_STATICTEXT_SCHEME_119
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_4StkDrt:
         hgcObj.pDIS_FCSet1_4StkDrtObj = GFX_GOL_StaticTextCreate
@@ -8367,10 +14517,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_120,   // right
                  GFX_STATICTEXT_BOTTOM_120,  // bottom
                  GFX_STATICTEXT_STATE_120,   // state
-                 (GFX_XCHAR*)staticTextStr_120,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_4_DIS_FCSet1_4StkDrttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_120,       //alignment
                  GFX_STATICTEXT_SCHEME_120
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_4TestMould:
         hgcObj.pDIS_FCSet1_4TestMouldObj = GFX_GOL_StaticTextCreate
@@ -8382,10 +14557,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_121,   // right
                  GFX_STATICTEXT_BOTTOM_121,  // bottom
                  GFX_STATICTEXT_STATE_121,   // state
-                 (GFX_XCHAR*)staticTextStr_121,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_4_DIS_FCSet1_4TestMouldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_121,       //alignment
                  GFX_STATICTEXT_SCHEME_121
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_4StkClear:
         hgcObj.pDIS_FCSet1_4StkClearObj = GFX_GOL_StaticTextCreate
@@ -8397,10 +14597,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_122,   // right
                  GFX_STATICTEXT_BOTTOM_122,  // bottom
                  GFX_STATICTEXT_STATE_122,   // state
-                 (GFX_XCHAR*)staticTextStr_122,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_4_DIS_FCSet1_4StkCleartext,    // text
                  GFX_STATICTEXT_ALIGNMENT_122,       //alignment
                  GFX_STATICTEXT_SCHEME_122
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_4ConveyOn:
         hgcObj.pDIS_FCSet1_4ConveyOnObj = GFX_GOL_StaticTextCreate
@@ -8412,10 +14637,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_123,   // right
                  GFX_STATICTEXT_BOTTOM_123,  // bottom
                  GFX_STATICTEXT_STATE_123,   // state
-                 (GFX_XCHAR*)staticTextStr_123,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_4_DIS_FCSet1_4ConveyOntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_123,       //alignment
                  GFX_STATICTEXT_SCHEME_123
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_4Reser1Time:
         hgcObj.pDIS_FCSet1_4Reser1TimeObj = GFX_GOL_StaticTextCreate
@@ -8427,10 +14677,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_124,   // right
                  GFX_STATICTEXT_BOTTOM_124,  // bottom
                  GFX_STATICTEXT_STATE_124,   // state
-                 (GFX_XCHAR*)staticTextStr_124,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_4_DIS_FCSet1_4Reser1Timetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_124,       //alignment
                  GFX_STATICTEXT_SCHEME_124
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet1_4OpDAlarm:
         hgcObj.pDIS_FCSet1_4OpDAlarmObj = GFX_GOL_StaticTextCreate
@@ -8442,10 +14717,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_125,   // right
                  GFX_STATICTEXT_BOTTOM_125,  // bottom
                  GFX_STATICTEXT_STATE_125,   // state
-                 (GFX_XCHAR*)staticTextStr_125,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_4_DIS_FCSet1_4OpDAlarmtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_125,       //alignment
                  GFX_STATICTEXT_SCHEME_125
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ZStackDrt:
         hgcObj.pSTE_ZStackDrtObj = GFX_GOL_StaticTextCreate
@@ -8457,10 +14757,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_126,   // right
                  GFX_STATICTEXT_BOTTOM_126,  // bottom
                  GFX_STATICTEXT_STATE_126,   // state
-                 (GFX_XCHAR*)staticTextStr_126,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_4_STE_ZStackDrttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_126,       //alignment
                  GFX_STATICTEXT_SCHEME_126
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_StackClear:
         hgcObj.pSTE_StackClearObj = GFX_GOL_StaticTextCreate
@@ -8472,10 +14797,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_127,   // right
                  GFX_STATICTEXT_BOTTOM_127,  // bottom
                  GFX_STATICTEXT_STATE_127,   // state
-                 (GFX_XCHAR*)staticTextStr_127,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_4_STE_StackCleartext,    // text
                  GFX_STATICTEXT_ALIGNMENT_127,       //alignment
                  GFX_STATICTEXT_SCHEME_127
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_OpenDoorAlarm:
         hgcObj.pSTE_OpenDoorAlarmObj = GFX_GOL_StaticTextCreate
@@ -8487,10 +14837,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_128,   // right
                  GFX_STATICTEXT_BOTTOM_128,  // bottom
                  GFX_STATICTEXT_STATE_128,   // state
-                 (GFX_XCHAR*)staticTextStr_128,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen1_4_STE_OpenDoorAlarmtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_128,       //alignment
                  GFX_STATICTEXT_SCHEME_128
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet2_1OriSpeed:
         hgcObj.pDIS_FCSet2_1OriSpeedObj = GFX_GOL_StaticTextCreate
@@ -8502,10 +14877,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_129,   // right
                  GFX_STATICTEXT_BOTTOM_129,  // bottom
                  GFX_STATICTEXT_STATE_129,   // state
-                 (GFX_XCHAR*)staticTextStr_129,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_1_DIS_FCSet2_1OriSpeedtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_129,       //alignment
                  GFX_STATICTEXT_SCHEME_129
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet2_1WholeSpeed:
         hgcObj.pDIS_FCSet2_1WholeSpeedObj = GFX_GOL_StaticTextCreate
@@ -8517,10 +14917,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_130,   // right
                  GFX_STATICTEXT_BOTTOM_130,  // bottom
                  GFX_STATICTEXT_STATE_130,   // state
-                 (GFX_XCHAR*)staticTextStr_130,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_1_DIS_FCSet2_1WholeSpeedtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_130,       //alignment
                  GFX_STATICTEXT_SCHEME_130
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet2_1MaxSpeed:
         hgcObj.pDIS_FCSet2_1MaxSpeedObj = GFX_GOL_StaticTextCreate
@@ -8532,10 +14957,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_131,   // right
                  GFX_STATICTEXT_BOTTOM_131,  // bottom
                  GFX_STATICTEXT_STATE_131,   // state
-                 (GFX_XCHAR*)staticTextStr_131,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_1_DIS_FCSet2_1MaxSpeedtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_131,       //alignment
                  GFX_STATICTEXT_SCHEME_131
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet2_1AccDecTime:
         hgcObj.pDIS_FCSet2_1AccDecTimeObj = GFX_GOL_StaticTextCreate
@@ -8547,10 +14997,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_132,   // right
                  GFX_STATICTEXT_BOTTOM_132,  // bottom
                  GFX_STATICTEXT_STATE_132,   // state
-                 (GFX_XCHAR*)staticTextStr_132,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_1_DIS_FCSet2_1AccDecTimetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_132,       //alignment
                  GFX_STATICTEXT_SCHEME_132
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet2_1AlarmTime:
         hgcObj.pDIS_FCSet2_1AlarmTimeObj = GFX_GOL_StaticTextCreate
@@ -8562,10 +15037,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_133,   // right
                  GFX_STATICTEXT_BOTTOM_133,  // bottom
                  GFX_STATICTEXT_STATE_133,   // state
-                 (GFX_XCHAR*)staticTextStr_133,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_1_DIS_FCSet2_1AlarmTimetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_133,       //alignment
                  GFX_STATICTEXT_SCHEME_133
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet2_1FBPulseOut:
         hgcObj.pDIS_FCSet2_1FBPulseOutObj = GFX_GOL_StaticTextCreate
@@ -8577,10 +15077,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_134,   // right
                  GFX_STATICTEXT_BOTTOM_134,  // bottom
                  GFX_STATICTEXT_STATE_134,   // state
-                 (GFX_XCHAR*)staticTextStr_134,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_1_DIS_FCSet2_1FBPulseOuttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_134,       //alignment
                  GFX_STATICTEXT_SCHEME_134
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DMT_FBPulseIn:
         hgcObj.pDMT_FBPulseInObj = GFX_GOL_StaticTextCreate
@@ -8592,10 +15117,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_135,   // right
                  GFX_STATICTEXT_BOTTOM_135,  // bottom
                  GFX_STATICTEXT_STATE_135,   // state
-                 (GFX_XCHAR*)staticTextStr_135,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_1_DMT_FBPulseIntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_135,       //alignment
                  GFX_STATICTEXT_SCHEME_135
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet2_1DownGest:
         hgcObj.pDIS_FCSet2_1DownGestObj = GFX_GOL_StaticTextCreate
@@ -8607,10 +15157,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_136,   // right
                  GFX_STATICTEXT_BOTTOM_136,  // bottom
                  GFX_STATICTEXT_STATE_136,   // state
-                 (GFX_XCHAR*)staticTextStr_136,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_1_DIS_FCSet2_1DownGesttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_136,       //alignment
                  GFX_STATICTEXT_SCHEME_136
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet2_1FeedBack:
         hgcObj.pDIS_FCSet2_1FeedBackObj = GFX_GOL_StaticTextCreate
@@ -8622,10 +15197,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_137,   // right
                  GFX_STATICTEXT_BOTTOM_137,  // bottom
                  GFX_STATICTEXT_STATE_137,   // state
-                 (GFX_XCHAR*)staticTextStr_137,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_1_DIS_FCSet2_1FeedBacktext,    // text
                  GFX_STATICTEXT_ALIGNMENT_137,       //alignment
                  GFX_STATICTEXT_SCHEME_137
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet2_1PolseIn:
         hgcObj.pDIS_FCSet2_1PolseInObj = GFX_GOL_StaticTextCreate
@@ -8637,10 +15237,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_138,   // right
                  GFX_STATICTEXT_BOTTOM_138,  // bottom
                  GFX_STATICTEXT_STATE_138,   // state
-                 (GFX_XCHAR*)staticTextStr_138,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_1_DIS_FCSet2_1PolseIntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_138,       //alignment
                  GFX_STATICTEXT_SCHEME_138
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet2_1MaxPos:
         hgcObj.pDIS_FCSet2_1MaxPosObj = GFX_GOL_StaticTextCreate
@@ -8652,10 +15277,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_139,   // right
                  GFX_STATICTEXT_BOTTOM_139,  // bottom
                  GFX_STATICTEXT_STATE_139,   // state
-                 (GFX_XCHAR*)staticTextStr_139,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_1_DIS_FCSet2_1MaxPostext,    // text
                  GFX_STATICTEXT_ALIGNMENT_139,       //alignment
                  GFX_STATICTEXT_SCHEME_139
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_DownGest:
         hgcObj.pSTE_DownGestObj = GFX_GOL_StaticTextCreate
@@ -8667,10 +15317,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_140,   // right
                  GFX_STATICTEXT_BOTTOM_140,  // bottom
                  GFX_STATICTEXT_STATE_140,   // state
-                 (GFX_XCHAR*)staticTextStr_140,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_1_STE_DownGesttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_140,       //alignment
                  GFX_STATICTEXT_SCHEME_140
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_FeedBack:
         hgcObj.pSTE_FeedBackObj = GFX_GOL_StaticTextCreate
@@ -8682,10 +15357,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_141,   // right
                  GFX_STATICTEXT_BOTTOM_141,  // bottom
                  GFX_STATICTEXT_STATE_141,   // state
-                 (GFX_XCHAR*)staticTextStr_141,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_1_STE_FeedBacktext,    // text
                  GFX_STATICTEXT_ALIGNMENT_141,       //alignment
                  GFX_STATICTEXT_SCHEME_141
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet2_2FixReverse:
         hgcObj.pDIS_FCSet2_2FixReverseObj = GFX_GOL_StaticTextCreate
@@ -8697,10 +15397,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_142,   // right
                  GFX_STATICTEXT_BOTTOM_142,  // bottom
                  GFX_STATICTEXT_STATE_142,   // state
-                 (GFX_XCHAR*)staticTextStr_142,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_2_DIS_FCSet2_2FixReversetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_142,       //alignment
                  GFX_STATICTEXT_SCHEME_142
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FCSet2_2WiatSig:
         hgcObj.pDIS_FCSet2_2WiatSigObj = GFX_GOL_StaticTextCreate
@@ -8712,10 +15437,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_143,   // right
                  GFX_STATICTEXT_BOTTOM_143,  // bottom
                  GFX_STATICTEXT_STATE_143,   // state
-                 (GFX_XCHAR*)staticTextStr_143,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_2_DIS_FCSet2_2WiatSigtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_143,       //alignment
                  GFX_STATICTEXT_SCHEME_143
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_FixRev:
         hgcObj.pSTE_FixRevObj = GFX_GOL_StaticTextCreate
@@ -8727,10 +15477,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_144,   // right
                  GFX_STATICTEXT_BOTTOM_144,  // bottom
                  GFX_STATICTEXT_STATE_144,   // state
-                 (GFX_XCHAR*)staticTextStr_144,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_2_STE_FixRevtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_144,       //alignment
                  GFX_STATICTEXT_SCHEME_144
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_MoldOpenWait:
         hgcObj.pSTE_MoldOpenWaitObj = GFX_GOL_StaticTextCreate
@@ -8742,10 +15517,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_145,   // right
                  GFX_STATICTEXT_BOTTOM_145,  // bottom
                  GFX_STATICTEXT_STATE_145,   // state
-                 (GFX_XCHAR*)staticTextStr_145,    // text
+                 (GFX_XCHAR*)SpecialFuncSetScreen2_2_STE_MoldOpenWaittext,    // text
                  GFX_STATICTEXT_ALIGNMENT_145,       //alignment
                  GFX_STATICTEXT_SCHEME_145
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ParaInstMM:
         hgcObj.pDIS_ParaInstMMObj = GFX_GOL_StaticTextCreate
@@ -8757,10 +15557,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_146,   // right
                  GFX_STATICTEXT_BOTTOM_146,  // bottom
                  GFX_STATICTEXT_STATE_146,   // state
-                 (GFX_XCHAR*)staticTextStr_146,    // text
+                 (GFX_XCHAR*)ParaInstructScreen_DIS_ParaInstMMtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_146,       //alignment
                  GFX_STATICTEXT_SCHEME_146
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ParaInstPER:
         hgcObj.pDIS_ParaInstPERObj = GFX_GOL_StaticTextCreate
@@ -8772,10 +15597,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_147,   // right
                  GFX_STATICTEXT_BOTTOM_147,  // bottom
                  GFX_STATICTEXT_STATE_147,   // state
-                 (GFX_XCHAR*)staticTextStr_147,    // text
+                 (GFX_XCHAR*)ParaInstructScreen_DIS_ParaInstPERtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_147,       //alignment
                  GFX_STATICTEXT_SCHEME_147
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ParaInstS:
         hgcObj.pDIS_ParaInstSObj = GFX_GOL_StaticTextCreate
@@ -8787,10 +15637,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_148,   // right
                  GFX_STATICTEXT_BOTTOM_148,  // bottom
                  GFX_STATICTEXT_STATE_148,   // state
-                 (GFX_XCHAR*)staticTextStr_148,    // text
+                 (GFX_XCHAR*)ParaInstructScreen_DIS_ParaInstStext,    // text
                  GFX_STATICTEXT_ALIGNMENT_148,       //alignment
                  GFX_STATICTEXT_SCHEME_148
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ParaInstTime:
         hgcObj.pDIS_ParaInstTimeObj = GFX_GOL_StaticTextCreate
@@ -8802,10 +15677,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_149,   // right
                  GFX_STATICTEXT_BOTTOM_149,  // bottom
                  GFX_STATICTEXT_STATE_149,   // state
-                 (GFX_XCHAR*)staticTextStr_149,    // text
+                 (GFX_XCHAR*)ParaInstructScreen_DIS_ParaInstTimetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_149,       //alignment
                  GFX_STATICTEXT_SCHEME_149
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ParaInstSpeed:
         hgcObj.pDIS_ParaInstSpeedObj = GFX_GOL_StaticTextCreate
@@ -8817,10 +15717,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_150,   // right
                  GFX_STATICTEXT_BOTTOM_150,  // bottom
                  GFX_STATICTEXT_STATE_150,   // state
-                 (GFX_XCHAR*)staticTextStr_150,    // text
+                 (GFX_XCHAR*)ParaInstructScreen_DIS_ParaInstSpeedtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_150,       //alignment
                  GFX_STATICTEXT_SCHEME_150
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ParaInstDist:
         hgcObj.pDIS_ParaInstDistObj = GFX_GOL_StaticTextCreate
@@ -8832,10 +15757,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_151,   // right
                  GFX_STATICTEXT_BOTTOM_151,  // bottom
                  GFX_STATICTEXT_STATE_151,   // state
-                 (GFX_XCHAR*)staticTextStr_151,    // text
+                 (GFX_XCHAR*)ParaInstructScreen_DIS_ParaInstDisttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_151,       //alignment
                  GFX_STATICTEXT_SCHEME_151
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ParaInstAct:
         hgcObj.pDIS_ParaInstActObj = GFX_GOL_StaticTextCreate
@@ -8847,10 +15797,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_152,   // right
                  GFX_STATICTEXT_BOTTOM_152,  // bottom
                  GFX_STATICTEXT_STATE_152,   // state
-                 (GFX_XCHAR*)staticTextStr_152,    // text
+                 (GFX_XCHAR*)ParaInstructScreen_DIS_ParaInstActtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_152,       //alignment
                  GFX_STATICTEXT_SCHEME_152
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ParamCurrAct:
         hgcObj.pSTE_ParamCurrActObj = GFX_GOL_StaticTextCreate
@@ -8862,10 +15837,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_153,   // right
                  GFX_STATICTEXT_BOTTOM_153,  // bottom
                  GFX_STATICTEXT_STATE_153,   // state
-                 (GFX_XCHAR*)staticTextStr_153,    // text
+                 (GFX_XCHAR*)ParaInstructScreen_STE_ParamCurrActtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_153,       //alignment
                  GFX_STATICTEXT_SCHEME_153
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_AlarmInfo1:
         hgcObj.pSTE_AlarmInfo1Obj = GFX_GOL_StaticTextCreate
@@ -8877,10 +15877,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_154,   // right
                  GFX_STATICTEXT_BOTTOM_154,  // bottom
                  GFX_STATICTEXT_STATE_154,   // state
-                 (GFX_XCHAR*)staticTextStr_154,    // text
+                 (GFX_XCHAR*)AlarmReportScreen_STE_AlarmInfo1text,    // text
                  GFX_STATICTEXT_ALIGNMENT_154,       //alignment
                  GFX_STATICTEXT_SCHEME_154
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_AlarmInfo5:
         hgcObj.pSTE_AlarmInfo5Obj = GFX_GOL_StaticTextCreate
@@ -8892,10 +15917,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_155,   // right
                  GFX_STATICTEXT_BOTTOM_155,  // bottom
                  GFX_STATICTEXT_STATE_155,   // state
-                 (GFX_XCHAR*)staticTextStr_155,    // text
+                 (GFX_XCHAR*)AlarmReportScreen_STE_AlarmInfo5text,    // text
                  GFX_STATICTEXT_ALIGNMENT_155,       //alignment
                  GFX_STATICTEXT_SCHEME_155
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_AlarmInfo4:
         hgcObj.pSTE_AlarmInfo4Obj = GFX_GOL_StaticTextCreate
@@ -8907,10 +15957,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_156,   // right
                  GFX_STATICTEXT_BOTTOM_156,  // bottom
                  GFX_STATICTEXT_STATE_156,   // state
-                 (GFX_XCHAR*)staticTextStr_156,    // text
+                 (GFX_XCHAR*)AlarmReportScreen_STE_AlarmInfo4text,    // text
                  GFX_STATICTEXT_ALIGNMENT_156,       //alignment
                  GFX_STATICTEXT_SCHEME_156
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_AlarmInfo3:
         hgcObj.pSTE_AlarmInfo3Obj = GFX_GOL_StaticTextCreate
@@ -8922,10 +15997,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_157,   // right
                  GFX_STATICTEXT_BOTTOM_157,  // bottom
                  GFX_STATICTEXT_STATE_157,   // state
-                 (GFX_XCHAR*)staticTextStr_157,    // text
+                 (GFX_XCHAR*)AlarmReportScreen_STE_AlarmInfo3text,    // text
                  GFX_STATICTEXT_ALIGNMENT_157,       //alignment
                  GFX_STATICTEXT_SCHEME_157
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_AlarmInfo2:
         hgcObj.pSTE_AlarmInfo2Obj = GFX_GOL_StaticTextCreate
@@ -8937,10 +16037,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_158,   // right
                  GFX_STATICTEXT_BOTTOM_158,  // bottom
                  GFX_STATICTEXT_STATE_158,   // state
-                 (GFX_XCHAR*)staticTextStr_158,    // text
+                 (GFX_XCHAR*)AlarmReportScreen_STE_AlarmInfo2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_158,       //alignment
                  GFX_STATICTEXT_SCHEME_158
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_AlaRptNO:
         hgcObj.pDIS_AlaRptNOObj = GFX_GOL_StaticTextCreate
@@ -8952,10 +16077,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_159,   // right
                  GFX_STATICTEXT_BOTTOM_159,  // bottom
                  GFX_STATICTEXT_STATE_159,   // state
-                 (GFX_XCHAR*)staticTextStr_159,    // text
+                 (GFX_XCHAR*)AlarmReportScreen_DIS_AlaRptNOtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_159,       //alignment
                  GFX_STATICTEXT_SCHEME_159
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_CycleTime5:
         hgcObj.pSTE_CycleTime5Obj = GFX_GOL_StaticTextCreate
@@ -8967,10 +16117,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_160,   // right
                  GFX_STATICTEXT_BOTTOM_160,  // bottom
                  GFX_STATICTEXT_STATE_160,   // state
-                 (GFX_XCHAR*)staticTextStr_160,    // text
+                 (GFX_XCHAR*)CycleTimeReportScreen_STE_CycleTime5text,    // text
                  GFX_STATICTEXT_ALIGNMENT_160,       //alignment
                  GFX_STATICTEXT_SCHEME_160
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_CycleTime4:
         hgcObj.pSTE_CycleTime4Obj = GFX_GOL_StaticTextCreate
@@ -8982,10 +16157,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_161,   // right
                  GFX_STATICTEXT_BOTTOM_161,  // bottom
                  GFX_STATICTEXT_STATE_161,   // state
-                 (GFX_XCHAR*)staticTextStr_161,    // text
+                 (GFX_XCHAR*)CycleTimeReportScreen_STE_CycleTime4text,    // text
                  GFX_STATICTEXT_ALIGNMENT_161,       //alignment
                  GFX_STATICTEXT_SCHEME_161
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_CycleTime3:
         hgcObj.pSTE_CycleTime3Obj = GFX_GOL_StaticTextCreate
@@ -8997,10 +16197,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_162,   // right
                  GFX_STATICTEXT_BOTTOM_162,  // bottom
                  GFX_STATICTEXT_STATE_162,   // state
-                 (GFX_XCHAR*)staticTextStr_162,    // text
+                 (GFX_XCHAR*)CycleTimeReportScreen_STE_CycleTime3text,    // text
                  GFX_STATICTEXT_ALIGNMENT_162,       //alignment
                  GFX_STATICTEXT_SCHEME_162
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_CycleTime2:
         hgcObj.pSTE_CycleTime2Obj = GFX_GOL_StaticTextCreate
@@ -9012,10 +16237,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_163,   // right
                  GFX_STATICTEXT_BOTTOM_163,  // bottom
                  GFX_STATICTEXT_STATE_163,   // state
-                 (GFX_XCHAR*)staticTextStr_163,    // text
+                 (GFX_XCHAR*)CycleTimeReportScreen_STE_CycleTime2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_163,       //alignment
                  GFX_STATICTEXT_SCHEME_163
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_CycleTime1:
         hgcObj.pSTE_CycleTime1Obj = GFX_GOL_StaticTextCreate
@@ -9027,10 +16277,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_164,   // right
                  GFX_STATICTEXT_BOTTOM_164,  // bottom
                  GFX_STATICTEXT_STATE_164,   // state
-                 (GFX_XCHAR*)staticTextStr_164,    // text
+                 (GFX_XCHAR*)CycleTimeReportScreen_STE_CycleTime1text,    // text
                  GFX_STATICTEXT_ALIGNMENT_164,       //alignment
                  GFX_STATICTEXT_SCHEME_164
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case CycTimRptNO:
         hgcObj.pCycTimRptNOObj = GFX_GOL_StaticTextCreate
@@ -9042,10 +16317,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_165,   // right
                  GFX_STATICTEXT_BOTTOM_165,  // bottom
                  GFX_STATICTEXT_STATE_165,   // state
-                 (GFX_XCHAR*)staticTextStr_165,    // text
+                 (GFX_XCHAR*)CycleTimeReportScreen_CycTimRptNOtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_165,       //alignment
                  GFX_STATICTEXT_SCHEME_165
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_LinitTimReser2:
         hgcObj.pDIS_LinitTimReser2Obj = GFX_GOL_StaticTextCreate
@@ -9057,10 +16357,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_166,   // right
                  GFX_STATICTEXT_BOTTOM_166,  // bottom
                  GFX_STATICTEXT_STATE_166,   // state
-                 (GFX_XCHAR*)staticTextStr_166,    // text
+                 (GFX_XCHAR*)LimitTimeScreen_DIS_LinitTimReser2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_166,       //alignment
                  GFX_STATICTEXT_SCHEME_166
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_LinitTimProcess1:
         hgcObj.pDIS_LinitTimProcess1Obj = GFX_GOL_StaticTextCreate
@@ -9072,10 +16397,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_167,   // right
                  GFX_STATICTEXT_BOTTOM_167,  // bottom
                  GFX_STATICTEXT_STATE_167,   // state
-                 (GFX_XCHAR*)staticTextStr_167,    // text
+                 (GFX_XCHAR*)LimitTimeScreen_DIS_LinitTimProcess1text,    // text
                  GFX_STATICTEXT_ALIGNMENT_167,       //alignment
                  GFX_STATICTEXT_SCHEME_167
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_LinitTimPosture:
         hgcObj.pDIS_LinitTimPostureObj = GFX_GOL_StaticTextCreate
@@ -9087,10 +16437,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_168,   // right
                  GFX_STATICTEXT_BOTTOM_168,  // bottom
                  GFX_STATICTEXT_STATE_168,   // state
-                 (GFX_XCHAR*)staticTextStr_168,    // text
+                 (GFX_XCHAR*)LimitTimeScreen_DIS_LinitTimPosturetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_168,       //alignment
                  GFX_STATICTEXT_SCHEME_168
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_LinitTimTrav:
         hgcObj.pDIS_LinitTimTravObj = GFX_GOL_StaticTextCreate
@@ -9102,10 +16477,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_169,   // right
                  GFX_STATICTEXT_BOTTOM_169,  // bottom
                  GFX_STATICTEXT_STATE_169,   // state
-                 (GFX_XCHAR*)staticTextStr_169,    // text
+                 (GFX_XCHAR*)LimitTimeScreen_DIS_LinitTimTravtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_169,       //alignment
                  GFX_STATICTEXT_SCHEME_169
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_LinitTimViceForwBk:
         hgcObj.pDIS_LinitTimViceForwBkObj = GFX_GOL_StaticTextCreate
@@ -9117,10 +16517,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_170,   // right
                  GFX_STATICTEXT_BOTTOM_170,  // bottom
                  GFX_STATICTEXT_STATE_170,   // state
-                 (GFX_XCHAR*)staticTextStr_170,    // text
+                 (GFX_XCHAR*)LimitTimeScreen_DIS_LinitTimViceForwBktext,    // text
                  GFX_STATICTEXT_ALIGNMENT_170,       //alignment
                  GFX_STATICTEXT_SCHEME_170
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_LinitTimViceUpDown:
         hgcObj.pDIS_LinitTimViceUpDownObj = GFX_GOL_StaticTextCreate
@@ -9132,10 +16557,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_171,   // right
                  GFX_STATICTEXT_BOTTOM_171,  // bottom
                  GFX_STATICTEXT_STATE_171,   // state
-                 (GFX_XCHAR*)staticTextStr_171,    // text
+                 (GFX_XCHAR*)LimitTimeScreen_DIS_LinitTimViceUpDowntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_171,       //alignment
                  GFX_STATICTEXT_SCHEME_171
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_LinitTimMainForwBk:
         hgcObj.pDIS_LinitTimMainForwBkObj = GFX_GOL_StaticTextCreate
@@ -9147,10 +16597,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_172,   // right
                  GFX_STATICTEXT_BOTTOM_172,  // bottom
                  GFX_STATICTEXT_STATE_172,   // state
-                 (GFX_XCHAR*)staticTextStr_172,    // text
+                 (GFX_XCHAR*)LimitTimeScreen_DIS_LinitTimMainForwBktext,    // text
                  GFX_STATICTEXT_ALIGNMENT_172,       //alignment
                  GFX_STATICTEXT_SCHEME_172
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_LinitTimMainUpDown:
         hgcObj.pDIS_LinitTimMainUpDownObj = GFX_GOL_StaticTextCreate
@@ -9162,10 +16637,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_173,   // right
                  GFX_STATICTEXT_BOTTOM_173,  // bottom
                  GFX_STATICTEXT_STATE_173,   // state
-                 (GFX_XCHAR*)staticTextStr_173,    // text
+                 (GFX_XCHAR*)LimitTimeScreen_DIS_LinitTimMainUpDowntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_173,       //alignment
                  GFX_STATICTEXT_SCHEME_173
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_MacLimitFreqDecel:
         hgcObj.pDIS_MacLimitFreqDecelObj = GFX_GOL_StaticTextCreate
@@ -9177,10 +16677,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_174,   // right
                  GFX_STATICTEXT_BOTTOM_174,  // bottom
                  GFX_STATICTEXT_STATE_174,   // state
-                 (GFX_XCHAR*)staticTextStr_174,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_DIS_MacLimitFreqDeceltext,    // text
                  GFX_STATICTEXT_ALIGNMENT_174,       //alignment
                  GFX_STATICTEXT_SCHEME_174
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_MacLimitViceDown:
         hgcObj.pDIS_MacLimitViceDownObj = GFX_GOL_StaticTextCreate
@@ -9192,10 +16717,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_175,   // right
                  GFX_STATICTEXT_BOTTOM_175,  // bottom
                  GFX_STATICTEXT_STATE_175,   // state
-                 (GFX_XCHAR*)staticTextStr_175,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_DIS_MacLimitViceDowntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_175,       //alignment
                  GFX_STATICTEXT_SCHEME_175
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_MacLimitMainBack:
         hgcObj.pDIS_MacLimitMainBackObj = GFX_GOL_StaticTextCreate
@@ -9207,10 +16757,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_176,   // right
                  GFX_STATICTEXT_BOTTOM_176,  // bottom
                  GFX_STATICTEXT_STATE_176,   // state
-                 (GFX_XCHAR*)staticTextStr_176,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_DIS_MacLimitMainBacktext,    // text
                  GFX_STATICTEXT_ALIGNMENT_176,       //alignment
                  GFX_STATICTEXT_SCHEME_176
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_MacLimitMainFrow:
         hgcObj.pDIS_MacLimitMainFrowObj = GFX_GOL_StaticTextCreate
@@ -9222,10 +16797,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_177,   // right
                  GFX_STATICTEXT_BOTTOM_177,  // bottom
                  GFX_STATICTEXT_STATE_177,   // state
-                 (GFX_XCHAR*)staticTextStr_177,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_DIS_MacLimitMainFrowtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_177,       //alignment
                  GFX_STATICTEXT_SCHEME_177
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_MacLimitMainDown:
         hgcObj.pDIS_MacLimitMainDownObj = GFX_GOL_StaticTextCreate
@@ -9237,10 +16837,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_178,   // right
                  GFX_STATICTEXT_BOTTOM_178,  // bottom
                  GFX_STATICTEXT_STATE_178,   // state
-                 (GFX_XCHAR*)staticTextStr_178,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_DIS_MacLimitMainDowntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_178,       //alignment
                  GFX_STATICTEXT_SCHEME_178
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_MacLimitTravAxis:
         hgcObj.pDIS_MacLimitTravAxisObj = GFX_GOL_StaticTextCreate
@@ -9252,10 +16877,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_179,   // right
                  GFX_STATICTEXT_BOTTOM_179,  // bottom
                  GFX_STATICTEXT_STATE_179,   // state
-                 (GFX_XCHAR*)staticTextStr_179,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_DIS_MacLimitTravAxistext,    // text
                  GFX_STATICTEXT_ALIGNMENT_179,       //alignment
                  GFX_STATICTEXT_SCHEME_179
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_MacLimitFBPulse:
         hgcObj.pDIS_MacLimitFBPulseObj = GFX_GOL_StaticTextCreate
@@ -9267,10 +16917,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_180,   // right
                  GFX_STATICTEXT_BOTTOM_180,  // bottom
                  GFX_STATICTEXT_STATE_180,   // state
-                 (GFX_XCHAR*)staticTextStr_180,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_DIS_MacLimitFBPulsetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_180,       //alignment
                  GFX_STATICTEXT_SCHEME_180
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_MacLimitViceBack:
         hgcObj.pDIS_MacLimitViceBackObj = GFX_GOL_StaticTextCreate
@@ -9282,10 +16957,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_181,   // right
                  GFX_STATICTEXT_BOTTOM_181,  // bottom
                  GFX_STATICTEXT_STATE_181,   // state
-                 (GFX_XCHAR*)staticTextStr_181,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_DIS_MacLimitViceBacktext,    // text
                  GFX_STATICTEXT_ALIGNMENT_181,       //alignment
                  GFX_STATICTEXT_SCHEME_181
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_MacLimitViceForw:
         hgcObj.pDIS_MacLimitViceForwObj = GFX_GOL_StaticTextCreate
@@ -9297,10 +16997,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_182,   // right
                  GFX_STATICTEXT_BOTTOM_182,  // bottom
                  GFX_STATICTEXT_STATE_182,   // state
-                 (GFX_XCHAR*)staticTextStr_182,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_DIS_MacLimitViceForwtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_182,       //alignment
                  GFX_STATICTEXT_SCHEME_182
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_FBPulse:
         hgcObj.pSTE_FBPulseObj = GFX_GOL_StaticTextCreate
@@ -9312,10 +17037,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_183,   // right
                  GFX_STATICTEXT_BOTTOM_183,  // bottom
                  GFX_STATICTEXT_STATE_183,   // state
-                 (GFX_XCHAR*)staticTextStr_183,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_STE_FBPulsetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_183,       //alignment
                  GFX_STATICTEXT_SCHEME_183
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_FreqDecel:
         hgcObj.pSTE_FreqDecelObj = GFX_GOL_StaticTextCreate
@@ -9327,10 +17077,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_184,   // right
                  GFX_STATICTEXT_BOTTOM_184,  // bottom
                  GFX_STATICTEXT_STATE_184,   // state
-                 (GFX_XCHAR*)staticTextStr_184,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_STE_FreqDeceltext,    // text
                  GFX_STATICTEXT_ALIGNMENT_184,       //alignment
                  GFX_STATICTEXT_SCHEME_184
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ViceBack:
         hgcObj.pSTE_ViceBackObj = GFX_GOL_StaticTextCreate
@@ -9342,10 +17117,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_185,   // right
                  GFX_STATICTEXT_BOTTOM_185,  // bottom
                  GFX_STATICTEXT_STATE_185,   // state
-                 (GFX_XCHAR*)staticTextStr_185,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_STE_ViceBacktext,    // text
                  GFX_STATICTEXT_ALIGNMENT_185,       //alignment
                  GFX_STATICTEXT_SCHEME_185
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ViceForw:
         hgcObj.pSTE_ViceForwObj = GFX_GOL_StaticTextCreate
@@ -9357,10 +17157,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_186,   // right
                  GFX_STATICTEXT_BOTTOM_186,  // bottom
                  GFX_STATICTEXT_STATE_186,   // state
-                 (GFX_XCHAR*)staticTextStr_186,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_STE_ViceForwtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_186,       //alignment
                  GFX_STATICTEXT_SCHEME_186
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ViceDown:
         hgcObj.pSTE_ViceDownObj = GFX_GOL_StaticTextCreate
@@ -9372,10 +17197,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_187,   // right
                  GFX_STATICTEXT_BOTTOM_187,  // bottom
                  GFX_STATICTEXT_STATE_187,   // state
-                 (GFX_XCHAR*)staticTextStr_187,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_STE_ViceDowntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_187,       //alignment
                  GFX_STATICTEXT_SCHEME_187
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_MainBack:
         hgcObj.pSTE_MainBackObj = GFX_GOL_StaticTextCreate
@@ -9387,10 +17237,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_188,   // right
                  GFX_STATICTEXT_BOTTOM_188,  // bottom
                  GFX_STATICTEXT_STATE_188,   // state
-                 (GFX_XCHAR*)staticTextStr_188,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_STE_MainBacktext,    // text
                  GFX_STATICTEXT_ALIGNMENT_188,       //alignment
                  GFX_STATICTEXT_SCHEME_188
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_MainForw:
         hgcObj.pSTE_MainForwObj = GFX_GOL_StaticTextCreate
@@ -9402,10 +17277,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_189,   // right
                  GFX_STATICTEXT_BOTTOM_189,  // bottom
                  GFX_STATICTEXT_STATE_189,   // state
-                 (GFX_XCHAR*)staticTextStr_189,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_STE_MainForwtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_189,       //alignment
                  GFX_STATICTEXT_SCHEME_189
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_MainDown:
         hgcObj.pSTE_MainDownObj = GFX_GOL_StaticTextCreate
@@ -9417,10 +17317,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_190,   // right
                  GFX_STATICTEXT_BOTTOM_190,  // bottom
                  GFX_STATICTEXT_STATE_190,   // state
-                 (GFX_XCHAR*)staticTextStr_190,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_STE_MainDowntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_190,       //alignment
                  GFX_STATICTEXT_SCHEME_190
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_TravAxis:
         hgcObj.pSTE_TravAxisObj = GFX_GOL_StaticTextCreate
@@ -9432,10 +17357,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_191,   // right
                  GFX_STATICTEXT_BOTTOM_191,  // bottom
                  GFX_STATICTEXT_STATE_191,   // state
-                 (GFX_XCHAR*)staticTextStr_191,    // text
+                 (GFX_XCHAR*)MachineLimitScreen_STE_TravAxistext,    // text
                  GFX_STATICTEXT_ALIGNMENT_191,       //alignment
                  GFX_STATICTEXT_SCHEME_191
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchTravOutLmt:
         hgcObj.pDIS_InWatchTravOutLmtObj = GFX_GOL_StaticTextCreate
@@ -9447,10 +17397,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_192,   // right
                  GFX_STATICTEXT_BOTTOM_192,  // bottom
                  GFX_STATICTEXT_STATE_192,   // state
-                 (GFX_XCHAR*)staticTextStr_192,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchTravOutLmttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_192,       //alignment
                  GFX_STATICTEXT_SCHEME_192
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchTravInLmt:
         hgcObj.pDIS_InWatchTravInLmtObj = GFX_GOL_StaticTextCreate
@@ -9462,10 +17437,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_193,   // right
                  GFX_STATICTEXT_BOTTOM_193,  // bottom
                  GFX_STATICTEXT_STATE_193,   // state
-                 (GFX_XCHAR*)staticTextStr_193,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchTravInLmttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_193,       //alignment
                  GFX_STATICTEXT_SCHEME_193
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchZOrigin:
         hgcObj.pDIS_InWatchZOriginObj = GFX_GOL_StaticTextCreate
@@ -9477,10 +17477,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_194,   // right
                  GFX_STATICTEXT_BOTTOM_194,  // bottom
                  GFX_STATICTEXT_STATE_194,   // state
-                 (GFX_XCHAR*)staticTextStr_194,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchZOrigintext,    // text
                  GFX_STATICTEXT_ALIGNMENT_194,       //alignment
                  GFX_STATICTEXT_SCHEME_194
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchOutSafe:
         hgcObj.pDIS_InWatchOutSafeObj = GFX_GOL_StaticTextCreate
@@ -9492,10 +17517,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_195,   // right
                  GFX_STATICTEXT_BOTTOM_195,  // bottom
                  GFX_STATICTEXT_STATE_195,   // state
-                 (GFX_XCHAR*)staticTextStr_195,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchOutSafetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_195,       //alignment
                  GFX_STATICTEXT_SCHEME_195
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchInSafe:
         hgcObj.pDIS_InWatchInSafeObj = GFX_GOL_StaticTextCreate
@@ -9507,10 +17557,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_196,   // right
                  GFX_STATICTEXT_BOTTOM_196,  // bottom
                  GFX_STATICTEXT_STATE_196,   // state
-                 (GFX_XCHAR*)staticTextStr_196,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchInSafetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_196,       //alignment
                  GFX_STATICTEXT_SCHEME_196
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchCheckPress:
         hgcObj.pDIS_InWatchCheckPressObj = GFX_GOL_StaticTextCreate
@@ -9522,10 +17597,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_197,   // right
                  GFX_STATICTEXT_BOTTOM_197,  // bottom
                  GFX_STATICTEXT_STATE_197,   // state
-                 (GFX_XCHAR*)staticTextStr_197,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchCheckPresstext,    // text
                  GFX_STATICTEXT_ALIGNMENT_197,       //alignment
                  GFX_STATICTEXT_SCHEME_197
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchInjection:
         hgcObj.pDIS_InWatchInjectionObj = GFX_GOL_StaticTextCreate
@@ -9537,10 +17637,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_198,   // right
                  GFX_STATICTEXT_BOTTOM_198,  // bottom
                  GFX_STATICTEXT_STATE_198,   // state
-                 (GFX_XCHAR*)staticTextStr_198,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchInjectiontext,    // text
                  GFX_STATICTEXT_ALIGNMENT_198,       //alignment
                  GFX_STATICTEXT_SCHEME_198
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchUpMax:
         hgcObj.pDIS_InWatchUpMaxObj = GFX_GOL_StaticTextCreate
@@ -9552,10 +17677,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_199,   // right
                  GFX_STATICTEXT_BOTTOM_199,  // bottom
                  GFX_STATICTEXT_STATE_199,   // state
-                 (GFX_XCHAR*)staticTextStr_199,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchUpMaxtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_199,       //alignment
                  GFX_STATICTEXT_SCHEME_199
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchDownMax:
         hgcObj.pDIS_InWatchDownMaxObj = GFX_GOL_StaticTextCreate
@@ -9567,10 +17717,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_200,   // right
                  GFX_STATICTEXT_BOTTOM_200,  // bottom
                  GFX_STATICTEXT_STATE_200,   // state
-                 (GFX_XCHAR*)staticTextStr_200,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchDownMaxtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_200,       //alignment
                  GFX_STATICTEXT_SCHEME_200
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchMainBack:
         hgcObj.pDIS_InWatchMainBackObj = GFX_GOL_StaticTextCreate
@@ -9582,10 +17757,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_201,   // right
                  GFX_STATICTEXT_BOTTOM_201,  // bottom
                  GFX_STATICTEXT_STATE_201,   // state
-                 (GFX_XCHAR*)staticTextStr_201,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchMainBacktext,    // text
                  GFX_STATICTEXT_ALIGNMENT_201,       //alignment
                  GFX_STATICTEXT_SCHEME_201
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchMainForw:
         hgcObj.pDIS_InWatchMainForwObj = GFX_GOL_StaticTextCreate
@@ -9597,10 +17797,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_202,   // right
                  GFX_STATICTEXT_BOTTOM_202,  // bottom
                  GFX_STATICTEXT_STATE_202,   // state
-                 (GFX_XCHAR*)staticTextStr_202,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchMainForwtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_202,       //alignment
                  GFX_STATICTEXT_SCHEME_202
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchVacuum:
         hgcObj.pDIS_InWatchVacuumObj = GFX_GOL_StaticTextCreate
@@ -9612,10 +17837,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_203,   // right
                  GFX_STATICTEXT_BOTTOM_203,  // bottom
                  GFX_STATICTEXT_STATE_203,   // state
-                 (GFX_XCHAR*)staticTextStr_203,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchVacuumtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_203,       //alignment
                  GFX_STATICTEXT_SCHEME_203
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchHold:
         hgcObj.pDIS_InWatchHoldObj = GFX_GOL_StaticTextCreate
@@ -9627,10 +17877,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_204,   // right
                  GFX_STATICTEXT_BOTTOM_204,  // bottom
                  GFX_STATICTEXT_STATE_204,   // state
-                 (GFX_XCHAR*)staticTextStr_204,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchHoldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_204,       //alignment
                  GFX_STATICTEXT_SCHEME_204
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchMainFix:
         hgcObj.pDIS_InWatchMainFixObj = GFX_GOL_StaticTextCreate
@@ -9642,10 +17917,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_205,   // right
                  GFX_STATICTEXT_BOTTOM_205,  // bottom
                  GFX_STATICTEXT_STATE_205,   // state
-                 (GFX_XCHAR*)staticTextStr_205,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchMainFixtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_205,       //alignment
                  GFX_STATICTEXT_SCHEME_205
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchVerti:
         hgcObj.pDIS_InWatchVertiObj = GFX_GOL_StaticTextCreate
@@ -9657,10 +17957,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_206,   // right
                  GFX_STATICTEXT_BOTTOM_206,  // bottom
                  GFX_STATICTEXT_STATE_206,   // state
-                 (GFX_XCHAR*)staticTextStr_206,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchVertitext,    // text
                  GFX_STATICTEXT_ALIGNMENT_206,       //alignment
                  GFX_STATICTEXT_SCHEME_206
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchHori:
         hgcObj.pDIS_InWatchHoriObj = GFX_GOL_StaticTextCreate
@@ -9672,10 +17997,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_207,   // right
                  GFX_STATICTEXT_BOTTOM_207,  // bottom
                  GFX_STATICTEXT_STATE_207,   // state
-                 (GFX_XCHAR*)staticTextStr_207,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_1_DIS_InWatchHoritext,    // text
                  GFX_STATICTEXT_ALIGNMENT_207,       //alignment
                  GFX_STATICTEXT_SCHEME_207
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchReserv2:
         hgcObj.pDIS_InWatchReserv2Obj = GFX_GOL_StaticTextCreate
@@ -9687,10 +18037,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_208,   // right
                  GFX_STATICTEXT_BOTTOM_208,  // bottom
                  GFX_STATICTEXT_STATE_208,   // state
-                 (GFX_XCHAR*)staticTextStr_208,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchReserv2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_208,       //alignment
                  GFX_STATICTEXT_SCHEME_208
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchProcess1:
         hgcObj.pDIS_InWatchProcess1Obj = GFX_GOL_StaticTextCreate
@@ -9702,10 +18077,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_209,   // right
                  GFX_STATICTEXT_BOTTOM_209,  // bottom
                  GFX_STATICTEXT_STATE_209,   // state
-                 (GFX_XCHAR*)staticTextStr_209,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchProcess1text,    // text
                  GFX_STATICTEXT_ALIGNMENT_209,       //alignment
                  GFX_STATICTEXT_SCHEME_209
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchYOrigin:
         hgcObj.pDIS_InWatchYOriginObj = GFX_GOL_StaticTextCreate
@@ -9717,10 +18117,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_210,   // right
                  GFX_STATICTEXT_BOTTOM_210,  // bottom
                  GFX_STATICTEXT_STATE_210,   // state
-                 (GFX_XCHAR*)staticTextStr_210,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchYOrigintext,    // text
                  GFX_STATICTEXT_ALIGNMENT_210,       //alignment
                  GFX_STATICTEXT_SCHEME_210
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchSubFix:
         hgcObj.pDIS_InWatchSubFixObj = GFX_GOL_StaticTextCreate
@@ -9732,10 +18157,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_211,   // right
                  GFX_STATICTEXT_BOTTOM_211,  // bottom
                  GFX_STATICTEXT_STATE_211,   // state
-                 (GFX_XCHAR*)staticTextStr_211,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchSubFixtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_211,       //alignment
                  GFX_STATICTEXT_SCHEME_211
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchViceDown:
         hgcObj.pDIS_InWatchViceDownObj = GFX_GOL_StaticTextCreate
@@ -9747,10 +18197,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_212,   // right
                  GFX_STATICTEXT_BOTTOM_212,  // bottom
                  GFX_STATICTEXT_STATE_212,   // state
-                 (GFX_XCHAR*)staticTextStr_212,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchViceDowntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_212,       //alignment
                  GFX_STATICTEXT_SCHEME_212
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchSubUp:
         hgcObj.pDIS_InWatchSubUpObj = GFX_GOL_StaticTextCreate
@@ -9762,10 +18237,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_213,   // right
                  GFX_STATICTEXT_BOTTOM_213,  // bottom
                  GFX_STATICTEXT_STATE_213,   // state
-                 (GFX_XCHAR*)staticTextStr_213,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchSubUptext,    // text
                  GFX_STATICTEXT_ALIGNMENT_213,       //alignment
                  GFX_STATICTEXT_SCHEME_213
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchViceBack:
         hgcObj.pDIS_InWatchViceBackObj = GFX_GOL_StaticTextCreate
@@ -9777,10 +18277,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_214,   // right
                  GFX_STATICTEXT_BOTTOM_214,  // bottom
                  GFX_STATICTEXT_STATE_214,   // state
-                 (GFX_XCHAR*)staticTextStr_214,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchViceBacktext,    // text
                  GFX_STATICTEXT_ALIGNMENT_214,       //alignment
                  GFX_STATICTEXT_SCHEME_214
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchEmergency:
         hgcObj.pDIS_InWatchEmergencyObj = GFX_GOL_StaticTextCreate
@@ -9792,10 +18317,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_215,   // right
                  GFX_STATICTEXT_BOTTOM_215,  // bottom
                  GFX_STATICTEXT_STATE_215,   // state
-                 (GFX_XCHAR*)staticTextStr_215,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchEmergencytext,    // text
                  GFX_STATICTEXT_ALIGNMENT_215,       //alignment
                  GFX_STATICTEXT_SCHEME_215
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchThimble:
         hgcObj.pDIS_InWatchThimbleObj = GFX_GOL_StaticTextCreate
@@ -9807,10 +18357,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_216,   // right
                  GFX_STATICTEXT_BOTTOM_216,  // bottom
                  GFX_STATICTEXT_STATE_216,   // state
-                 (GFX_XCHAR*)staticTextStr_216,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchThimbletext,    // text
                  GFX_STATICTEXT_ALIGNMENT_216,       //alignment
                  GFX_STATICTEXT_SCHEME_216
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchMidMold:
         hgcObj.pDIS_InWatchMidMoldObj = GFX_GOL_StaticTextCreate
@@ -9822,10 +18397,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_217,   // right
                  GFX_STATICTEXT_BOTTOM_217,  // bottom
                  GFX_STATICTEXT_STATE_217,   // state
-                 (GFX_XCHAR*)staticTextStr_217,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchMidMoldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_217,       //alignment
                  GFX_STATICTEXT_SCHEME_217
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchAuto:
         hgcObj.pDIS_InWatchAutoObj = GFX_GOL_StaticTextCreate
@@ -9837,10 +18437,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_218,   // right
                  GFX_STATICTEXT_BOTTOM_218,  // bottom
                  GFX_STATICTEXT_STATE_218,   // state
-                 (GFX_XCHAR*)staticTextStr_218,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchAutotext,    // text
                  GFX_STATICTEXT_ALIGNMENT_218,       //alignment
                  GFX_STATICTEXT_SCHEME_218
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchDefPro:
         hgcObj.pDIS_InWatchDefProObj = GFX_GOL_StaticTextCreate
@@ -9852,10 +18477,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_219,   // right
                  GFX_STATICTEXT_BOTTOM_219,  // bottom
                  GFX_STATICTEXT_STATE_219,   // state
-                 (GFX_XCHAR*)staticTextStr_219,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchDefProtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_219,       //alignment
                  GFX_STATICTEXT_SCHEME_219
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchCloseF:
         hgcObj.pDIS_InWatchCloseFObj = GFX_GOL_StaticTextCreate
@@ -9867,10 +18517,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_220,   // right
                  GFX_STATICTEXT_BOTTOM_220,  // bottom
                  GFX_STATICTEXT_STATE_220,   // state
-                 (GFX_XCHAR*)staticTextStr_220,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchCloseFtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_220,       //alignment
                  GFX_STATICTEXT_SCHEME_220
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchOpenF:
         hgcObj.pDIS_InWatchOpenFObj = GFX_GOL_StaticTextCreate
@@ -9882,10 +18557,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_221,   // right
                  GFX_STATICTEXT_BOTTOM_221,  // bottom
                  GFX_STATICTEXT_STATE_221,   // state
-                 (GFX_XCHAR*)staticTextStr_221,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchOpenFtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_221,       //alignment
                  GFX_STATICTEXT_SCHEME_221
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchSafeGate:
         hgcObj.pDIS_InWatchSafeGateObj = GFX_GOL_StaticTextCreate
@@ -9897,10 +18597,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_222,   // right
                  GFX_STATICTEXT_BOTTOM_222,  // bottom
                  GFX_STATICTEXT_STATE_222,   // state
-                 (GFX_XCHAR*)staticTextStr_222,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchSafeGatetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_222,       //alignment
                  GFX_STATICTEXT_SCHEME_222
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchViceForw:
         hgcObj.pDIS_InWatchViceForwObj = GFX_GOL_StaticTextCreate
@@ -9912,10 +18637,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_223,   // right
                  GFX_STATICTEXT_BOTTOM_223,  // bottom
                  GFX_STATICTEXT_STATE_223,   // state
-                 (GFX_XCHAR*)staticTextStr_223,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_2_DIS_InWatchViceForwtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_223,       //alignment
                  GFX_STATICTEXT_SCHEME_223
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchReserve6:
         hgcObj.pDIS_InWatchReserve6Obj = GFX_GOL_StaticTextCreate
@@ -9927,10 +18677,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_224,   // right
                  GFX_STATICTEXT_BOTTOM_224,  // bottom
                  GFX_STATICTEXT_STATE_224,   // state
-                 (GFX_XCHAR*)staticTextStr_224,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_3_DIS_InWatchReserve6text,    // text
                  GFX_STATICTEXT_ALIGNMENT_224,       //alignment
                  GFX_STATICTEXT_SCHEME_224
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchReserve5:
         hgcObj.pDIS_InWatchReserve5Obj = GFX_GOL_StaticTextCreate
@@ -9942,10 +18717,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_225,   // right
                  GFX_STATICTEXT_BOTTOM_225,  // bottom
                  GFX_STATICTEXT_STATE_225,   // state
-                 (GFX_XCHAR*)staticTextStr_225,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_3_DIS_InWatchReserve5text,    // text
                  GFX_STATICTEXT_ALIGNMENT_225,       //alignment
                  GFX_STATICTEXT_SCHEME_225
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchReserve4:
         hgcObj.pDIS_InWatchReserve4Obj = GFX_GOL_StaticTextCreate
@@ -9957,10 +18757,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_226,   // right
                  GFX_STATICTEXT_BOTTOM_226,  // bottom
                  GFX_STATICTEXT_STATE_226,   // state
-                 (GFX_XCHAR*)staticTextStr_226,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_3_DIS_InWatchReserve4text,    // text
                  GFX_STATICTEXT_ALIGNMENT_226,       //alignment
                  GFX_STATICTEXT_SCHEME_226
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchReserve3:
         hgcObj.pDIS_InWatchReserve3Obj = GFX_GOL_StaticTextCreate
@@ -9972,10 +18797,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_227,   // right
                  GFX_STATICTEXT_BOTTOM_227,  // bottom
                  GFX_STATICTEXT_STATE_227,   // state
-                 (GFX_XCHAR*)staticTextStr_227,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_3_DIS_InWatchReserve3text,    // text
                  GFX_STATICTEXT_ALIGNMENT_227,       //alignment
                  GFX_STATICTEXT_SCHEME_227
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchReserve2:
         hgcObj.pDIS_InWatchReserve2Obj = GFX_GOL_StaticTextCreate
@@ -9987,10 +18837,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_228,   // right
                  GFX_STATICTEXT_BOTTOM_228,  // bottom
                  GFX_STATICTEXT_STATE_228,   // state
-                 (GFX_XCHAR*)staticTextStr_228,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_3_DIS_InWatchReserve2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_228,       //alignment
                  GFX_STATICTEXT_SCHEME_228
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchReserve1:
         hgcObj.pDIS_InWatchReserve1Obj = GFX_GOL_StaticTextCreate
@@ -10002,10 +18877,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_229,   // right
                  GFX_STATICTEXT_BOTTOM_229,  // bottom
                  GFX_STATICTEXT_STATE_229,   // state
-                 (GFX_XCHAR*)staticTextStr_229,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_3_DIS_InWatchReserve1text,    // text
                  GFX_STATICTEXT_ALIGNMENT_229,       //alignment
                  GFX_STATICTEXT_SCHEME_229
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchVacuum2:
         hgcObj.pDIS_InWatchVacuum2Obj = GFX_GOL_StaticTextCreate
@@ -10017,10 +18917,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_230,   // right
                  GFX_STATICTEXT_BOTTOM_230,  // bottom
                  GFX_STATICTEXT_STATE_230,   // state
-                 (GFX_XCHAR*)staticTextStr_230,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_3_DIS_InWatchVacuum2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_230,       //alignment
                  GFX_STATICTEXT_SCHEME_230
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_InWatchHold2:
         hgcObj.pDIS_InWatchHold2Obj = GFX_GOL_StaticTextCreate
@@ -10032,10 +18957,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_231,   // right
                  GFX_STATICTEXT_BOTTOM_231,  // bottom
                  GFX_STATICTEXT_STATE_231,   // state
-                 (GFX_XCHAR*)staticTextStr_231,    // text
+                 (GFX_XCHAR*)InputWatchScreen1_3_DIS_InWatchHold2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_231,       //alignment
                  GFX_STATICTEXT_SCHEME_231
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchTravOut:
         hgcObj.pDIS_OutWatchTravOutObj = GFX_GOL_StaticTextCreate
@@ -10047,10 +18997,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_232,   // right
                  GFX_STATICTEXT_BOTTOM_232,  // bottom
                  GFX_STATICTEXT_STATE_232,   // state
-                 (GFX_XCHAR*)staticTextStr_232,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchTravOuttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_232,       //alignment
                  GFX_STATICTEXT_SCHEME_232
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchTravIn:
         hgcObj.pDIS_OutWatchTravInObj = GFX_GOL_StaticTextCreate
@@ -10062,10 +19037,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_233,   // right
                  GFX_STATICTEXT_BOTTOM_233,  // bottom
                  GFX_STATICTEXT_STATE_233,   // state
-                 (GFX_XCHAR*)staticTextStr_233,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchTravIntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_233,       //alignment
                  GFX_STATICTEXT_SCHEME_233
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchReserv2:
         hgcObj.pDIS_OutWatchReserv2Obj = GFX_GOL_StaticTextCreate
@@ -10077,10 +19077,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_234,   // right
                  GFX_STATICTEXT_BOTTOM_234,  // bottom
                  GFX_STATICTEXT_STATE_234,   // state
-                 (GFX_XCHAR*)staticTextStr_234,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchReserv2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_234,       //alignment
                  GFX_STATICTEXT_SCHEME_234
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchReserv1:
         hgcObj.pDIS_OutWatchReserv1Obj = GFX_GOL_StaticTextCreate
@@ -10092,10 +19117,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_235,   // right
                  GFX_STATICTEXT_BOTTOM_235,  // bottom
                  GFX_STATICTEXT_STATE_235,   // state
-                 (GFX_XCHAR*)staticTextStr_235,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchReserv1text,    // text
                  GFX_STATICTEXT_ALIGNMENT_235,       //alignment
                  GFX_STATICTEXT_SCHEME_235
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchSlowDown:
         hgcObj.pDIS_OutWatchSlowDownObj = GFX_GOL_StaticTextCreate
@@ -10107,10 +19157,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_236,   // right
                  GFX_STATICTEXT_BOTTOM_236,  // bottom
                  GFX_STATICTEXT_STATE_236,   // state
-                 (GFX_XCHAR*)staticTextStr_236,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchSlowDowntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_236,       //alignment
                  GFX_STATICTEXT_SCHEME_236
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchLowPress:
         hgcObj.pDIS_OutWatchLowPressObj = GFX_GOL_StaticTextCreate
@@ -10122,10 +19197,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_237,   // right
                  GFX_STATICTEXT_BOTTOM_237,  // bottom
                  GFX_STATICTEXT_STATE_237,   // state
-                 (GFX_XCHAR*)staticTextStr_237,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchLowPresstext,    // text
                  GFX_STATICTEXT_ALIGNMENT_237,       //alignment
                  GFX_STATICTEXT_SCHEME_237
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchMainDown:
         hgcObj.pDIS_OutWatchMainDownObj = GFX_GOL_StaticTextCreate
@@ -10137,10 +19237,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_238,   // right
                  GFX_STATICTEXT_BOTTOM_238,  // bottom
                  GFX_STATICTEXT_STATE_238,   // state
-                 (GFX_XCHAR*)staticTextStr_238,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchMainDowntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_238,       //alignment
                  GFX_STATICTEXT_SCHEME_238
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchMainUp:
         hgcObj.pDIS_OutWatchMainUpObj = GFX_GOL_StaticTextCreate
@@ -10152,10 +19277,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_239,   // right
                  GFX_STATICTEXT_BOTTOM_239,  // bottom
                  GFX_STATICTEXT_STATE_239,   // state
-                 (GFX_XCHAR*)staticTextStr_239,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchMainUptext,    // text
                  GFX_STATICTEXT_ALIGNMENT_239,       //alignment
                  GFX_STATICTEXT_SCHEME_239
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchAlarm:
         hgcObj.pDIS_OutWatchAlarmObj = GFX_GOL_StaticTextCreate
@@ -10167,10 +19317,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_240,   // right
                  GFX_STATICTEXT_BOTTOM_240,  // bottom
                  GFX_STATICTEXT_STATE_240,   // state
-                 (GFX_XCHAR*)staticTextStr_240,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchAlarmtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_240,       //alignment
                  GFX_STATICTEXT_SCHEME_240
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchMainBack:
         hgcObj.pDIS_OutWatchMainBackObj = GFX_GOL_StaticTextCreate
@@ -10182,10 +19357,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_241,   // right
                  GFX_STATICTEXT_BOTTOM_241,  // bottom
                  GFX_STATICTEXT_STATE_241,   // state
-                 (GFX_XCHAR*)staticTextStr_241,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchMainBacktext,    // text
                  GFX_STATICTEXT_ALIGNMENT_241,       //alignment
                  GFX_STATICTEXT_SCHEME_241
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchMainForw:
         hgcObj.pDIS_OutWatchMainForwObj = GFX_GOL_StaticTextCreate
@@ -10197,10 +19397,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_242,   // right
                  GFX_STATICTEXT_BOTTOM_242,  // bottom
                  GFX_STATICTEXT_STATE_242,   // state
-                 (GFX_XCHAR*)staticTextStr_242,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchMainForwtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_242,       //alignment
                  GFX_STATICTEXT_SCHEME_242
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchVacuum:
         hgcObj.pDIS_OutWatchVacuumObj = GFX_GOL_StaticTextCreate
@@ -10212,10 +19437,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_243,   // right
                  GFX_STATICTEXT_BOTTOM_243,  // bottom
                  GFX_STATICTEXT_STATE_243,   // state
-                 (GFX_XCHAR*)staticTextStr_243,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchVacuumtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_243,       //alignment
                  GFX_STATICTEXT_SCHEME_243
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchHold:
         hgcObj.pDIS_OutWatchHoldObj = GFX_GOL_StaticTextCreate
@@ -10227,10 +19477,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_244,   // right
                  GFX_STATICTEXT_BOTTOM_244,  // bottom
                  GFX_STATICTEXT_STATE_244,   // state
-                 (GFX_XCHAR*)staticTextStr_244,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchHoldtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_244,       //alignment
                  GFX_STATICTEXT_SCHEME_244
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchMainFix:
         hgcObj.pDIS_OutWatchMainFixObj = GFX_GOL_StaticTextCreate
@@ -10242,10 +19517,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_245,   // right
                  GFX_STATICTEXT_BOTTOM_245,  // bottom
                  GFX_STATICTEXT_STATE_245,   // state
-                 (GFX_XCHAR*)staticTextStr_245,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchMainFixtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_245,       //alignment
                  GFX_STATICTEXT_SCHEME_245
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchVerti:
         hgcObj.pDIS_OutWatchVertiObj = GFX_GOL_StaticTextCreate
@@ -10257,10 +19557,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_246,   // right
                  GFX_STATICTEXT_BOTTOM_246,  // bottom
                  GFX_STATICTEXT_STATE_246,   // state
-                 (GFX_XCHAR*)staticTextStr_246,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchVertitext,    // text
                  GFX_STATICTEXT_ALIGNMENT_246,       //alignment
                  GFX_STATICTEXT_SCHEME_246
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchHori:
         hgcObj.pDIS_OutWatchHoriObj = GFX_GOL_StaticTextCreate
@@ -10272,10 +19597,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_247,   // right
                  GFX_STATICTEXT_BOTTOM_247,  // bottom
                  GFX_STATICTEXT_STATE_247,   // state
-                 (GFX_XCHAR*)staticTextStr_247,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_1_DIS_OutWatchHoritext,    // text
                  GFX_STATICTEXT_ALIGNMENT_247,       //alignment
                  GFX_STATICTEXT_SCHEME_247
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchYReserv3:
         hgcObj.pDIS_OutWatchYReserv3Obj = GFX_GOL_StaticTextCreate
@@ -10287,10 +19637,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_248,   // right
                  GFX_STATICTEXT_BOTTOM_248,  // bottom
                  GFX_STATICTEXT_STATE_248,   // state
-                 (GFX_XCHAR*)staticTextStr_248,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchYReserv3text,    // text
                  GFX_STATICTEXT_ALIGNMENT_248,       //alignment
                  GFX_STATICTEXT_SCHEME_248
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchYReserv2:
         hgcObj.pDIS_OutWatchYReserv2Obj = GFX_GOL_StaticTextCreate
@@ -10302,10 +19677,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_249,   // right
                  GFX_STATICTEXT_BOTTOM_249,  // bottom
                  GFX_STATICTEXT_STATE_249,   // state
-                 (GFX_XCHAR*)staticTextStr_249,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchYReserv2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_249,       //alignment
                  GFX_STATICTEXT_SCHEME_249
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchYReserv1:
         hgcObj.pDIS_OutWatchYReserv1Obj = GFX_GOL_StaticTextCreate
@@ -10317,10 +19717,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_250,   // right
                  GFX_STATICTEXT_BOTTOM_250,  // bottom
                  GFX_STATICTEXT_STATE_250,   // state
-                 (GFX_XCHAR*)staticTextStr_250,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchYReserv1text,    // text
                  GFX_STATICTEXT_ALIGNMENT_250,       //alignment
                  GFX_STATICTEXT_SCHEME_250
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchThimSafe:
         hgcObj.pDIS_OutWatchThimSafeObj = GFX_GOL_StaticTextCreate
@@ -10332,10 +19757,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_251,   // right
                  GFX_STATICTEXT_BOTTOM_251,  // bottom
                  GFX_STATICTEXT_STATE_251,   // state
-                 (GFX_XCHAR*)staticTextStr_251,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchThimSafetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_251,       //alignment
                  GFX_STATICTEXT_SCHEME_251
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchRecycling:
         hgcObj.pDIS_OutWatchRecyclingObj = GFX_GOL_StaticTextCreate
@@ -10347,10 +19797,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_252,   // right
                  GFX_STATICTEXT_BOTTOM_252,  // bottom
                  GFX_STATICTEXT_STATE_252,   // state
-                 (GFX_XCHAR*)staticTextStr_252,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchRecyclingtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_252,       //alignment
                  GFX_STATICTEXT_SCHEME_252
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchOpenSafe:
         hgcObj.pDIS_OutWatchOpenSafeObj = GFX_GOL_StaticTextCreate
@@ -10362,10 +19837,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_253,   // right
                  GFX_STATICTEXT_BOTTOM_253,  // bottom
                  GFX_STATICTEXT_STATE_253,   // state
-                 (GFX_XCHAR*)staticTextStr_253,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchOpenSafetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_253,       //alignment
                  GFX_STATICTEXT_SCHEME_253
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchCloseSafe:
         hgcObj.pDIS_OutWatchCloseSafeObj = GFX_GOL_StaticTextCreate
@@ -10377,10 +19877,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_254,   // right
                  GFX_STATICTEXT_BOTTOM_254,  // bottom
                  GFX_STATICTEXT_STATE_254,   // state
-                 (GFX_XCHAR*)staticTextStr_254,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchCloseSafetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_254,       //alignment
                  GFX_STATICTEXT_SCHEME_254
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchEmergStop:
         hgcObj.pDIS_OutWatchEmergStopObj = GFX_GOL_StaticTextCreate
@@ -10392,10 +19917,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_255,   // right
                  GFX_STATICTEXT_BOTTOM_255,  // bottom
                  GFX_STATICTEXT_STATE_255,   // state
-                 (GFX_XCHAR*)staticTextStr_255,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchEmergStoptext,    // text
                  GFX_STATICTEXT_ALIGNMENT_255,       //alignment
                  GFX_STATICTEXT_SCHEME_255
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchConeryor:
         hgcObj.pDIS_OutWatchConeryorObj = GFX_GOL_StaticTextCreate
@@ -10407,10 +19957,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_256,   // right
                  GFX_STATICTEXT_BOTTOM_256,  // bottom
                  GFX_STATICTEXT_STATE_256,   // state
-                 (GFX_XCHAR*)staticTextStr_256,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchConeryortext,    // text
                  GFX_STATICTEXT_ALIGNMENT_256,       //alignment
                  GFX_STATICTEXT_SCHEME_256
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchScissor:
         hgcObj.pDIS_OutWatchScissorObj = GFX_GOL_StaticTextCreate
@@ -10422,10 +19997,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_257,   // right
                  GFX_STATICTEXT_BOTTOM_257,  // bottom
                  GFX_STATICTEXT_STATE_257,   // state
-                 (GFX_XCHAR*)staticTextStr_257,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchScissortext,    // text
                  GFX_STATICTEXT_ALIGNMENT_257,       //alignment
                  GFX_STATICTEXT_SCHEME_257
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchProcess1:
         hgcObj.pDIS_OutWatchProcess1Obj = GFX_GOL_StaticTextCreate
@@ -10437,10 +20037,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_258,   // right
                  GFX_STATICTEXT_BOTTOM_258,  // bottom
                  GFX_STATICTEXT_STATE_258,   // state
-                 (GFX_XCHAR*)staticTextStr_258,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchProcess1text,    // text
                  GFX_STATICTEXT_ALIGNMENT_258,       //alignment
                  GFX_STATICTEXT_SCHEME_258
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchSubFix:
         hgcObj.pDIS_OutWatchSubFixObj = GFX_GOL_StaticTextCreate
@@ -10452,10 +20077,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_259,   // right
                  GFX_STATICTEXT_BOTTOM_259,  // bottom
                  GFX_STATICTEXT_STATE_259,   // state
-                 (GFX_XCHAR*)staticTextStr_259,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchSubFixtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_259,       //alignment
                  GFX_STATICTEXT_SCHEME_259
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchSubDown:
         hgcObj.pDIS_OutWatchSubDownObj = GFX_GOL_StaticTextCreate
@@ -10467,10 +20117,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_260,   // right
                  GFX_STATICTEXT_BOTTOM_260,  // bottom
                  GFX_STATICTEXT_STATE_260,   // state
-                 (GFX_XCHAR*)staticTextStr_260,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchSubDowntext,    // text
                  GFX_STATICTEXT_ALIGNMENT_260,       //alignment
                  GFX_STATICTEXT_SCHEME_260
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchSubUp:
         hgcObj.pDIS_OutWatchSubUpObj = GFX_GOL_StaticTextCreate
@@ -10482,10 +20157,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_261,   // right
                  GFX_STATICTEXT_BOTTOM_261,  // bottom
                  GFX_STATICTEXT_STATE_261,   // state
-                 (GFX_XCHAR*)staticTextStr_261,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchSubUptext,    // text
                  GFX_STATICTEXT_ALIGNMENT_261,       //alignment
                  GFX_STATICTEXT_SCHEME_261
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchSubBack:
         hgcObj.pDIS_OutWatchSubBackObj = GFX_GOL_StaticTextCreate
@@ -10497,10 +20197,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_262,   // right
                  GFX_STATICTEXT_BOTTOM_262,  // bottom
                  GFX_STATICTEXT_STATE_262,   // state
-                 (GFX_XCHAR*)staticTextStr_262,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchSubBacktext,    // text
                  GFX_STATICTEXT_ALIGNMENT_262,       //alignment
                  GFX_STATICTEXT_SCHEME_262
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchSubForw:
         hgcObj.pDIS_OutWatchSubForwObj = GFX_GOL_StaticTextCreate
@@ -10512,10 +20237,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_263,   // right
                  GFX_STATICTEXT_BOTTOM_263,  // bottom
                  GFX_STATICTEXT_STATE_263,   // state
-                 (GFX_XCHAR*)staticTextStr_263,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_2_DIS_OutWatchSubForwtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_263,       //alignment
                  GFX_STATICTEXT_SCHEME_263
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchReserve5:
         hgcObj.pDIS_OutWatchReserve5Obj = GFX_GOL_StaticTextCreate
@@ -10527,10 +20277,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_264,   // right
                  GFX_STATICTEXT_BOTTOM_264,  // bottom
                  GFX_STATICTEXT_STATE_264,   // state
-                 (GFX_XCHAR*)staticTextStr_264,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_3_DIS_OutWatchReserve5text,    // text
                  GFX_STATICTEXT_ALIGNMENT_264,       //alignment
                  GFX_STATICTEXT_SCHEME_264
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchReserve4:
         hgcObj.pDIS_OutWatchReserve4Obj = GFX_GOL_StaticTextCreate
@@ -10542,10 +20317,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_265,   // right
                  GFX_STATICTEXT_BOTTOM_265,  // bottom
                  GFX_STATICTEXT_STATE_265,   // state
-                 (GFX_XCHAR*)staticTextStr_265,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_3_DIS_OutWatchReserve4text,    // text
                  GFX_STATICTEXT_ALIGNMENT_265,       //alignment
                  GFX_STATICTEXT_SCHEME_265
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchReserve3:
         hgcObj.pDIS_OutWatchReserve3Obj = GFX_GOL_StaticTextCreate
@@ -10557,10 +20357,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_266,   // right
                  GFX_STATICTEXT_BOTTOM_266,  // bottom
                  GFX_STATICTEXT_STATE_266,   // state
-                 (GFX_XCHAR*)staticTextStr_266,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_3_DIS_OutWatchReserve3text,    // text
                  GFX_STATICTEXT_ALIGNMENT_266,       //alignment
                  GFX_STATICTEXT_SCHEME_266
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchReserve2:
         hgcObj.pDIS_OutWatchReserve2Obj = GFX_GOL_StaticTextCreate
@@ -10572,10 +20397,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_267,   // right
                  GFX_STATICTEXT_BOTTOM_267,  // bottom
                  GFX_STATICTEXT_STATE_267,   // state
-                 (GFX_XCHAR*)staticTextStr_267,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_3_DIS_OutWatchReserve2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_267,       //alignment
                  GFX_STATICTEXT_SCHEME_267
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchReserve1:
         hgcObj.pDIS_OutWatchReserve1Obj = GFX_GOL_StaticTextCreate
@@ -10587,10 +20437,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_268,   // right
                  GFX_STATICTEXT_BOTTOM_268,  // bottom
                  GFX_STATICTEXT_STATE_268,   // state
-                 (GFX_XCHAR*)staticTextStr_268,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_3_DIS_OutWatchReserve1text,    // text
                  GFX_STATICTEXT_ALIGNMENT_268,       //alignment
                  GFX_STATICTEXT_SCHEME_268
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchVacuum2:
         hgcObj.pDIS_OutWatchVacuum2Obj = GFX_GOL_StaticTextCreate
@@ -10602,10 +20477,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_269,   // right
                  GFX_STATICTEXT_BOTTOM_269,  // bottom
                  GFX_STATICTEXT_STATE_269,   // state
-                 (GFX_XCHAR*)staticTextStr_269,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_3_DIS_OutWatchVacuum2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_269,       //alignment
                  GFX_STATICTEXT_SCHEME_269
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutWatchHold2:
         hgcObj.pDIS_OutWatchHold2Obj = GFX_GOL_StaticTextCreate
@@ -10617,10 +20517,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_270,   // right
                  GFX_STATICTEXT_BOTTOM_270,  // bottom
                  GFX_STATICTEXT_STATE_270,   // state
-                 (GFX_XCHAR*)staticTextStr_270,    // text
+                 (GFX_XCHAR*)OutputWatchScreen1_3_DIS_OutWatchHold2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_270,       //alignment
                  GFX_STATICTEXT_SCHEME_270
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_OutRecoverHint:
         hgcObj.pDIS_OutRecoverHintObj = GFX_GOL_StaticTextCreate
@@ -10632,10 +20557,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_271,   // right
                  GFX_STATICTEXT_BOTTOM_271,  // bottom
                  GFX_STATICTEXT_STATE_271,   // state
-                 (GFX_XCHAR*)staticTextStr_271,    // text
+                 (GFX_XCHAR*)OutputRecoverScreen_DIS_OutRecoverHinttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_271,       //alignment
                  GFX_STATICTEXT_SCHEME_271
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_DMT_ProgInfoVersion:
         hgcObj.pDIS_DMT_ProgInfoVersionObj = GFX_GOL_StaticTextCreate
@@ -10647,10 +20597,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_272,   // right
                  GFX_STATICTEXT_BOTTOM_272,  // bottom
                  GFX_STATICTEXT_STATE_272,   // state
-                 (GFX_XCHAR*)staticTextStr_272,    // text
+                 (GFX_XCHAR*)ProgramInfoScreen_DIS_DMT_ProgInfoVersiontext,    // text
                  GFX_STATICTEXT_ALIGNMENT_272,       //alignment
                  GFX_STATICTEXT_SCHEME_272
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_DMT_ProgInfoDate:
         hgcObj.pDIS_DMT_ProgInfoDateObj = GFX_GOL_StaticTextCreate
@@ -10662,10 +20637,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_273,   // right
                  GFX_STATICTEXT_BOTTOM_273,  // bottom
                  GFX_STATICTEXT_STATE_273,   // state
-                 (GFX_XCHAR*)staticTextStr_273,    // text
+                 (GFX_XCHAR*)ProgramInfoScreen_DIS_DMT_ProgInfoDatetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_273,       //alignment
                  GFX_STATICTEXT_SCHEME_273
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_DMT_ProgInfoType:
         hgcObj.pDIS_DMT_ProgInfoTypeObj = GFX_GOL_StaticTextCreate
@@ -10677,10 +20677,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_274,   // right
                  GFX_STATICTEXT_BOTTOM_274,  // bottom
                  GFX_STATICTEXT_STATE_274,   // state
-                 (GFX_XCHAR*)staticTextStr_274,    // text
+                 (GFX_XCHAR*)ProgramInfoScreen_DIS_DMT_ProgInfoTypetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_274,       //alignment
                  GFX_STATICTEXT_SCHEME_274
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ProgInfoVersion:
         hgcObj.pDIS_ProgInfoVersionObj = GFX_GOL_StaticTextCreate
@@ -10692,10 +20717,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_275,   // right
                  GFX_STATICTEXT_BOTTOM_275,  // bottom
                  GFX_STATICTEXT_STATE_275,   // state
-                 (GFX_XCHAR*)staticTextStr_275,    // text
+                 (GFX_XCHAR*)ProgramInfoScreen_DIS_ProgInfoVersiontext,    // text
                  GFX_STATICTEXT_ALIGNMENT_275,       //alignment
                  GFX_STATICTEXT_SCHEME_275
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ProgInfoDate:
         hgcObj.pDIS_ProgInfoDateObj = GFX_GOL_StaticTextCreate
@@ -10707,10 +20757,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_276,   // right
                  GFX_STATICTEXT_BOTTOM_276,  // bottom
                  GFX_STATICTEXT_STATE_276,   // state
-                 (GFX_XCHAR*)staticTextStr_276,    // text
+                 (GFX_XCHAR*)ProgramInfoScreen_DIS_ProgInfoDatetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_276,       //alignment
                  GFX_STATICTEXT_SCHEME_276
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ProgInfoType:
         hgcObj.pDIS_ProgInfoTypeObj = GFX_GOL_StaticTextCreate
@@ -10722,10 +20797,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_277,   // right
                  GFX_STATICTEXT_BOTTOM_277,  // bottom
                  GFX_STATICTEXT_STATE_277,   // state
-                 (GFX_XCHAR*)staticTextStr_277,    // text
+                 (GFX_XCHAR*)ProgramInfoScreen_DIS_ProgInfoTypetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_277,       //alignment
                  GFX_STATICTEXT_SCHEME_277
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_Time:
         hgcObj.pDIS_TimeObj = GFX_GOL_StaticTextCreate
@@ -10737,10 +20837,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_278,   // right
                  GFX_STATICTEXT_BOTTOM_278,  // bottom
                  GFX_STATICTEXT_STATE_278,   // state
-                 (GFX_XCHAR*)staticTextStr_278,    // text
+                 (GFX_XCHAR*)DateTimeSetScreen_DIS_Timetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_278,       //alignment
                  GFX_STATICTEXT_SCHEME_278
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_Date:
         hgcObj.pDIS_DateObj = GFX_GOL_StaticTextCreate
@@ -10752,10 +20877,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_279,   // right
                  GFX_STATICTEXT_BOTTOM_279,  // bottom
                  GFX_STATICTEXT_STATE_279,   // state
-                 (GFX_XCHAR*)staticTextStr_279,    // text
+                 (GFX_XCHAR*)DateTimeSetScreen_DIS_Datetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_279,       //alignment
                  GFX_STATICTEXT_SCHEME_279
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_CompInfoWeb:
         hgcObj.pDIS_CompInfoWebObj = GFX_GOL_StaticTextCreate
@@ -10767,10 +20917,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_280,   // right
                  GFX_STATICTEXT_BOTTOM_280,  // bottom
                  GFX_STATICTEXT_STATE_280,   // state
-                 (GFX_XCHAR*)staticTextStr_280,    // text
+                 (GFX_XCHAR*)CompanyInfoScreen_DIS_CompInfoWebtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_280,       //alignment
                  GFX_STATICTEXT_SCHEME_280
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_CompInfoFax:
         hgcObj.pDIS_CompInfoFaxObj = GFX_GOL_StaticTextCreate
@@ -10782,10 +20957,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_281,   // right
                  GFX_STATICTEXT_BOTTOM_281,  // bottom
                  GFX_STATICTEXT_STATE_281,   // state
-                 (GFX_XCHAR*)staticTextStr_281,    // text
+                 (GFX_XCHAR*)CompanyInfoScreen_DIS_CompInfoFaxtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_281,       //alignment
                  GFX_STATICTEXT_SCHEME_281
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_CompInfoTel:
         hgcObj.pDIS_CompInfoTelObj = GFX_GOL_StaticTextCreate
@@ -10797,10 +20997,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_282,   // right
                  GFX_STATICTEXT_BOTTOM_282,  // bottom
                  GFX_STATICTEXT_STATE_282,   // state
-                 (GFX_XCHAR*)staticTextStr_282,    // text
+                 (GFX_XCHAR*)CompanyInfoScreen_DIS_CompInfoTeltext,    // text
                  GFX_STATICTEXT_ALIGNMENT_282,       //alignment
                  GFX_STATICTEXT_SCHEME_282
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_CompInfoName:
         hgcObj.pDIS_CompInfoNameObj = GFX_GOL_StaticTextCreate
@@ -10812,10 +21037,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_283,   // right
                  GFX_STATICTEXT_BOTTOM_283,  // bottom
                  GFX_STATICTEXT_STATE_283,   // state
-                 (GFX_XCHAR*)staticTextStr_283,    // text
+                 (GFX_XCHAR*)CompanyInfoScreen_DIS_CompInfoNametext,    // text
                  GFX_STATICTEXT_ALIGNMENT_283,       //alignment
                  GFX_STATICTEXT_SCHEME_283
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_PsdRamTimeNoLimit:
         hgcObj.pDIS_PsdRamTimeNoLimitObj = GFX_GOL_StaticTextCreate
@@ -10827,10 +21077,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_284,   // right
                  GFX_STATICTEXT_BOTTOM_284,  // bottom
                  GFX_STATICTEXT_STATE_284,   // state
-                 (GFX_XCHAR*)staticTextStr_284,    // text
+                 (GFX_XCHAR*)PasswordRandomScreen_DIS_PsdRamTimeNoLimittext,    // text
                  GFX_STATICTEXT_ALIGNMENT_284,       //alignment
                  GFX_STATICTEXT_SCHEME_284
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_PsdRamWeekUsed:
         hgcObj.pDIS_PsdRamWeekUsedObj = GFX_GOL_StaticTextCreate
@@ -10842,10 +21117,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_285,   // right
                  GFX_STATICTEXT_BOTTOM_285,  // bottom
                  GFX_STATICTEXT_STATE_285,   // state
-                 (GFX_XCHAR*)staticTextStr_285,    // text
+                 (GFX_XCHAR*)PasswordRandomScreen_DIS_PsdRamWeekUsedtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_285,       //alignment
                  GFX_STATICTEXT_SCHEME_285
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_PsdRamWeekSet:
         hgcObj.pDIS_PsdRamWeekSetObj = GFX_GOL_StaticTextCreate
@@ -10857,10 +21157,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_286,   // right
                  GFX_STATICTEXT_BOTTOM_286,  // bottom
                  GFX_STATICTEXT_STATE_286,   // state
-                 (GFX_XCHAR*)staticTextStr_286,    // text
+                 (GFX_XCHAR*)PasswordRandomScreen_DIS_PsdRamWeekSettext,    // text
                  GFX_STATICTEXT_ALIGNMENT_286,       //alignment
                  GFX_STATICTEXT_SCHEME_286
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_PsdRamRegCode:
         hgcObj.pDIS_PsdRamRegCodeObj = GFX_GOL_StaticTextCreate
@@ -10872,10 +21197,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_287,   // right
                  GFX_STATICTEXT_BOTTOM_287,  // bottom
                  GFX_STATICTEXT_STATE_287,   // state
-                 (GFX_XCHAR*)staticTextStr_287,    // text
+                 (GFX_XCHAR*)PasswordRandomScreen_DIS_PsdRamRegCodetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_287,       //alignment
                  GFX_STATICTEXT_SCHEME_287
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_PsdRamSeriNo:
         hgcObj.pDIS_PsdRamSeriNoObj = GFX_GOL_StaticTextCreate
@@ -10887,10 +21237,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_288,   // right
                  GFX_STATICTEXT_BOTTOM_288,  // bottom
                  GFX_STATICTEXT_STATE_288,   // state
-                 (GFX_XCHAR*)staticTextStr_288,    // text
+                 (GFX_XCHAR*)PasswordRandomScreen_DIS_PsdRamSeriNotext,    // text
                  GFX_STATICTEXT_ALIGNMENT_288,       //alignment
                  GFX_STATICTEXT_SCHEME_288
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FacTimUseHourCnt:
         hgcObj.pDIS_FacTimUseHourCntObj = GFX_GOL_StaticTextCreate
@@ -10902,10 +21277,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_289,   // right
                  GFX_STATICTEXT_BOTTOM_289,  // bottom
                  GFX_STATICTEXT_STATE_289,   // state
-                 (GFX_XCHAR*)staticTextStr_289,    // text
+                 (GFX_XCHAR*)FactoryTimeScreen_DIS_FacTimUseHourCnttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_289,       //alignment
                  GFX_STATICTEXT_SCHEME_289
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FacTimUseWekCnt:
         hgcObj.pDIS_FacTimUseWekCntObj = GFX_GOL_StaticTextCreate
@@ -10917,10 +21317,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_290,   // right
                  GFX_STATICTEXT_BOTTOM_290,  // bottom
                  GFX_STATICTEXT_STATE_290,   // state
-                 (GFX_XCHAR*)staticTextStr_290,    // text
+                 (GFX_XCHAR*)FactoryTimeScreen_DIS_FacTimUseWekCnttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_290,       //alignment
                  GFX_STATICTEXT_SCHEME_290
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FacTimClrTimCnt:
         hgcObj.pDIS_FacTimClrTimCntObj = GFX_GOL_StaticTextCreate
@@ -10932,10 +21357,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_291,   // right
                  GFX_STATICTEXT_BOTTOM_291,  // bottom
                  GFX_STATICTEXT_STATE_291,   // state
-                 (GFX_XCHAR*)staticTextStr_291,    // text
+                 (GFX_XCHAR*)FactoryTimeScreen_DIS_FacTimClrTimCnttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_291,       //alignment
                  GFX_STATICTEXT_SCHEME_291
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_FacTimSetWekCnt:
         hgcObj.pDIS_FacTimSetWekCntObj = GFX_GOL_StaticTextCreate
@@ -10947,10 +21397,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_292,   // right
                  GFX_STATICTEXT_BOTTOM_292,  // bottom
                  GFX_STATICTEXT_STATE_292,   // state
-                 (GFX_XCHAR*)staticTextStr_292,    // text
+                 (GFX_XCHAR*)FactoryTimeScreen_DIS_FacTimSetWekCnttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_292,       //alignment
                  GFX_STATICTEXT_SCHEME_292
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case STE_ClrTimeCnt:
         hgcObj.pSTE_ClrTimeCntObj = GFX_GOL_StaticTextCreate
@@ -10962,10 +21437,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_293,   // right
                  GFX_STATICTEXT_BOTTOM_293,  // bottom
                  GFX_STATICTEXT_STATE_293,   // state
-                 (GFX_XCHAR*)staticTextStr_293,    // text
+                 (GFX_XCHAR*)FactoryTimeScreen_STE_ClrTimeCnttext,    // text
                  GFX_STATICTEXT_ALIGNMENT_293,       //alignment
                  GFX_STATICTEXT_SCHEME_293
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_AllMonitorValue:
         hgcObj.pDIS_AllMonitorValueObj = GFX_GOL_StaticTextCreate
@@ -10977,10 +21477,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_294,   // right
                  GFX_STATICTEXT_BOTTOM_294,  // bottom
                  GFX_STATICTEXT_STATE_294,   // state
-                 (GFX_XCHAR*)staticTextStr_294,    // text
+                 (GFX_XCHAR*)AllMonitorParaPage_DIS_AllMonitorValuetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_294,       //alignment
                  GFX_STATICTEXT_SCHEME_294
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ALLMonitorPara:
         hgcObj.pDIS_ALLMonitorParaObj = GFX_GOL_StaticTextCreate
@@ -10992,10 +21517,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_295,   // right
                  GFX_STATICTEXT_BOTTOM_295,  // bottom
                  GFX_STATICTEXT_STATE_295,   // state
-                 (GFX_XCHAR*)staticTextStr_295,    // text
+                 (GFX_XCHAR*)AllMonitorParaPage_DIS_ALLMonitorParatext,    // text
                  GFX_STATICTEXT_ALIGNMENT_295,       //alignment
                  GFX_STATICTEXT_SCHEME_295
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_AllMonitorValueZ:
         hgcObj.pDIS_AllMonitorValueZObj = GFX_GOL_StaticTextCreate
@@ -11007,10 +21557,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_296,   // right
                  GFX_STATICTEXT_BOTTOM_296,  // bottom
                  GFX_STATICTEXT_STATE_296,   // state
-                 (GFX_XCHAR*)staticTextStr_296,    // text
+                 (GFX_XCHAR*)AllMonitorParaPageZ_DIS_AllMonitorValueZtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_296,       //alignment
                  GFX_STATICTEXT_SCHEME_296
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ALLMonitorParaZ:
         hgcObj.pDIS_ALLMonitorParaZObj = GFX_GOL_StaticTextCreate
@@ -11022,10 +21597,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_297,   // right
                  GFX_STATICTEXT_BOTTOM_297,  // bottom
                  GFX_STATICTEXT_STATE_297,   // state
-                 (GFX_XCHAR*)staticTextStr_297,    // text
+                 (GFX_XCHAR*)AllMonitorParaPageZ_DIS_ALLMonitorParaZtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_297,       //alignment
                  GFX_STATICTEXT_SCHEME_297
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ERROR_CODE:
         hgcObj.pDIS_ERROR_CODEObj = GFX_GOL_StaticTextCreate
@@ -11037,10 +21637,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_298,   // right
                  GFX_STATICTEXT_BOTTOM_298,  // bottom
                  GFX_STATICTEXT_STATE_298,   // state
-                 (GFX_XCHAR*)staticTextStr_298,    // text
+                 (GFX_XCHAR*)MonitorParaPage_DIS_ERROR_CODEtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_298,       //alignment
                  GFX_STATICTEXT_SCHEME_298
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_HINK_TEMP:
         hgcObj.pDIS_HINK_TEMPObj = GFX_GOL_StaticTextCreate
@@ -11052,10 +21677,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_299,   // right
                  GFX_STATICTEXT_BOTTOM_299,  // bottom
                  GFX_STATICTEXT_STATE_299,   // state
-                 (GFX_XCHAR*)staticTextStr_299,    // text
+                 (GFX_XCHAR*)MonitorParaPage_DIS_HINK_TEMPtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_299,       //alignment
                  GFX_STATICTEXT_SCHEME_299
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_DC_BUS_VOLTAGE:
         hgcObj.pDIS_DC_BUS_VOLTAGEObj = GFX_GOL_StaticTextCreate
@@ -11067,10 +21717,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_300,   // right
                  GFX_STATICTEXT_BOTTOM_300,  // bottom
                  GFX_STATICTEXT_STATE_300,   // state
-                 (GFX_XCHAR*)staticTextStr_300,    // text
+                 (GFX_XCHAR*)MonitorParaPage_DIS_DC_BUS_VOLTAGEtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_300,       //alignment
                  GFX_STATICTEXT_SCHEME_300
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_DB_POWER:
         hgcObj.pDIS_DB_POWERObj = GFX_GOL_StaticTextCreate
@@ -11082,10 +21757,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_301,   // right
                  GFX_STATICTEXT_BOTTOM_301,  // bottom
                  GFX_STATICTEXT_STATE_301,   // state
-                 (GFX_XCHAR*)staticTextStr_301,    // text
+                 (GFX_XCHAR*)MonitorParaPage_DIS_DB_POWERtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_301,       //alignment
                  GFX_STATICTEXT_SCHEME_301
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_TRQ_BURDEN2:
         hgcObj.pDIS_TRQ_BURDEN2Obj = GFX_GOL_StaticTextCreate
@@ -11097,10 +21797,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_302,   // right
                  GFX_STATICTEXT_BOTTOM_302,  // bottom
                  GFX_STATICTEXT_STATE_302,   // state
-                 (GFX_XCHAR*)staticTextStr_302,    // text
+                 (GFX_XCHAR*)MonitorParaPage_DIS_TRQ_BURDEN2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_302,       //alignment
                  GFX_STATICTEXT_SCHEME_302
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_TRQ_BURDEN1:
         hgcObj.pDIS_TRQ_BURDEN1Obj = GFX_GOL_StaticTextCreate
@@ -11112,10 +21837,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_303,   // right
                  GFX_STATICTEXT_BOTTOM_303,  // bottom
                  GFX_STATICTEXT_STATE_303,   // state
-                 (GFX_XCHAR*)staticTextStr_303,    // text
+                 (GFX_XCHAR*)MonitorParaPage_DIS_TRQ_BURDEN1text,    // text
                  GFX_STATICTEXT_ALIGNMENT_303,       //alignment
                  GFX_STATICTEXT_SCHEME_303
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_P_ERROR:
         hgcObj.pDIS_P_ERRORObj = GFX_GOL_StaticTextCreate
@@ -11127,10 +21877,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_304,   // right
                  GFX_STATICTEXT_BOTTOM_304,  // bottom
                  GFX_STATICTEXT_STATE_304,   // state
-                 (GFX_XCHAR*)staticTextStr_304,    // text
+                 (GFX_XCHAR*)MonitorParaPage_DIS_P_ERRORtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_304,       //alignment
                  GFX_STATICTEXT_SCHEME_304
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_DO_PORT_STATUS:
         hgcObj.pDIS_DO_PORT_STATUSObj = GFX_GOL_StaticTextCreate
@@ -11142,10 +21917,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_305,   // right
                  GFX_STATICTEXT_BOTTOM_305,  // bottom
                  GFX_STATICTEXT_STATE_305,   // state
-                 (GFX_XCHAR*)staticTextStr_305,    // text
+                 (GFX_XCHAR*)MonitorParaPage_DIS_DO_PORT_STATUStext,    // text
                  GFX_STATICTEXT_ALIGNMENT_305,       //alignment
                  GFX_STATICTEXT_SCHEME_305
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_DI_PORT_STATUS:
         hgcObj.pDIS_DI_PORT_STATUSObj = GFX_GOL_StaticTextCreate
@@ -11157,10 +21957,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_306,   // right
                  GFX_STATICTEXT_BOTTOM_306,  // bottom
                  GFX_STATICTEXT_STATE_306,   // state
-                 (GFX_XCHAR*)staticTextStr_306,    // text
+                 (GFX_XCHAR*)MonitorParaPage_DIS_DI_PORT_STATUStext,    // text
                  GFX_STATICTEXT_ALIGNMENT_306,       //alignment
                  GFX_STATICTEXT_SCHEME_306
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ELEC_ANGLE:
         hgcObj.pDIS_ELEC_ANGLEObj = GFX_GOL_StaticTextCreate
@@ -11172,10 +21997,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_307,   // right
                  GFX_STATICTEXT_BOTTOM_307,  // bottom
                  GFX_STATICTEXT_STATE_307,   // state
-                 (GFX_XCHAR*)staticTextStr_307,    // text
+                 (GFX_XCHAR*)MonitorParaPage_DIS_ELEC_ANGLEtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_307,       //alignment
                  GFX_STATICTEXT_SCHEME_307
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_MECH_ANGLE:
         hgcObj.pDIS_MECH_ANGLEObj = GFX_GOL_StaticTextCreate
@@ -11187,10 +22037,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_308,   // right
                  GFX_STATICTEXT_BOTTOM_308,  // bottom
                  GFX_STATICTEXT_STATE_308,   // state
-                 (GFX_XCHAR*)staticTextStr_308,    // text
+                 (GFX_XCHAR*)MonitorParaPage_DIS_MECH_ANGLEtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_308,       //alignment
                  GFX_STATICTEXT_SCHEME_308
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_SPD_FBK:
         hgcObj.pDIS_SPD_FBKObj = GFX_GOL_StaticTextCreate
@@ -11202,10 +22077,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_309,   // right
                  GFX_STATICTEXT_BOTTOM_309,  // bottom
                  GFX_STATICTEXT_STATE_309,   // state
-                 (GFX_XCHAR*)staticTextStr_309,    // text
+                 (GFX_XCHAR*)MonitorParaPage_DIS_SPD_FBKtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_309,       //alignment
                  GFX_STATICTEXT_SCHEME_309
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZERROR_CODE:
         hgcObj.pDIS_ZERROR_CODEObj = GFX_GOL_StaticTextCreate
@@ -11217,10 +22117,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_310,   // right
                  GFX_STATICTEXT_BOTTOM_310,  // bottom
                  GFX_STATICTEXT_STATE_310,   // state
-                 (GFX_XCHAR*)staticTextStr_310,    // text
+                 (GFX_XCHAR*)MonitorParaPage1_DIS_ZERROR_CODEtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_310,       //alignment
                  GFX_STATICTEXT_SCHEME_310
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZHINK_TEMP:
         hgcObj.pDIS_ZHINK_TEMPObj = GFX_GOL_StaticTextCreate
@@ -11232,10 +22157,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_311,   // right
                  GFX_STATICTEXT_BOTTOM_311,  // bottom
                  GFX_STATICTEXT_STATE_311,   // state
-                 (GFX_XCHAR*)staticTextStr_311,    // text
+                 (GFX_XCHAR*)MonitorParaPage1_DIS_ZHINK_TEMPtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_311,       //alignment
                  GFX_STATICTEXT_SCHEME_311
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZDC_BUS_VOLTAGE:
         hgcObj.pDIS_ZDC_BUS_VOLTAGEObj = GFX_GOL_StaticTextCreate
@@ -11247,10 +22197,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_312,   // right
                  GFX_STATICTEXT_BOTTOM_312,  // bottom
                  GFX_STATICTEXT_STATE_312,   // state
-                 (GFX_XCHAR*)staticTextStr_312,    // text
+                 (GFX_XCHAR*)MonitorParaPage1_DIS_ZDC_BUS_VOLTAGEtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_312,       //alignment
                  GFX_STATICTEXT_SCHEME_312
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZDB_POWER:
         hgcObj.pDIS_ZDB_POWERObj = GFX_GOL_StaticTextCreate
@@ -11262,10 +22237,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_313,   // right
                  GFX_STATICTEXT_BOTTOM_313,  // bottom
                  GFX_STATICTEXT_STATE_313,   // state
-                 (GFX_XCHAR*)staticTextStr_313,    // text
+                 (GFX_XCHAR*)MonitorParaPage1_DIS_ZDB_POWERtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_313,       //alignment
                  GFX_STATICTEXT_SCHEME_313
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZTRQ_BURDEN2:
         hgcObj.pDIS_ZTRQ_BURDEN2Obj = GFX_GOL_StaticTextCreate
@@ -11277,10 +22277,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_314,   // right
                  GFX_STATICTEXT_BOTTOM_314,  // bottom
                  GFX_STATICTEXT_STATE_314,   // state
-                 (GFX_XCHAR*)staticTextStr_314,    // text
+                 (GFX_XCHAR*)MonitorParaPage1_DIS_ZTRQ_BURDEN2text,    // text
                  GFX_STATICTEXT_ALIGNMENT_314,       //alignment
                  GFX_STATICTEXT_SCHEME_314
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZTRQ_BURDEN1:
         hgcObj.pDIS_ZTRQ_BURDEN1Obj = GFX_GOL_StaticTextCreate
@@ -11292,10 +22317,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_315,   // right
                  GFX_STATICTEXT_BOTTOM_315,  // bottom
                  GFX_STATICTEXT_STATE_315,   // state
-                 (GFX_XCHAR*)staticTextStr_315,    // text
+                 (GFX_XCHAR*)MonitorParaPage1_DIS_ZTRQ_BURDEN1text,    // text
                  GFX_STATICTEXT_ALIGNMENT_315,       //alignment
                  GFX_STATICTEXT_SCHEME_315
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZP_ERROR:
         hgcObj.pDIS_ZP_ERRORObj = GFX_GOL_StaticTextCreate
@@ -11307,10 +22357,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_316,   // right
                  GFX_STATICTEXT_BOTTOM_316,  // bottom
                  GFX_STATICTEXT_STATE_316,   // state
-                 (GFX_XCHAR*)staticTextStr_316,    // text
+                 (GFX_XCHAR*)MonitorParaPage1_DIS_ZP_ERRORtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_316,       //alignment
                  GFX_STATICTEXT_SCHEME_316
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZDO_PORT_STATUS:
         hgcObj.pDIS_ZDO_PORT_STATUSObj = GFX_GOL_StaticTextCreate
@@ -11322,10 +22397,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_317,   // right
                  GFX_STATICTEXT_BOTTOM_317,  // bottom
                  GFX_STATICTEXT_STATE_317,   // state
-                 (GFX_XCHAR*)staticTextStr_317,    // text
+                 (GFX_XCHAR*)MonitorParaPage1_DIS_ZDO_PORT_STATUStext,    // text
                  GFX_STATICTEXT_ALIGNMENT_317,       //alignment
                  GFX_STATICTEXT_SCHEME_317
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZDI_PORT_STATUS:
         hgcObj.pDIS_ZDI_PORT_STATUSObj = GFX_GOL_StaticTextCreate
@@ -11337,10 +22437,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_318,   // right
                  GFX_STATICTEXT_BOTTOM_318,  // bottom
                  GFX_STATICTEXT_STATE_318,   // state
-                 (GFX_XCHAR*)staticTextStr_318,    // text
+                 (GFX_XCHAR*)MonitorParaPage1_DIS_ZDI_PORT_STATUStext,    // text
                  GFX_STATICTEXT_ALIGNMENT_318,       //alignment
                  GFX_STATICTEXT_SCHEME_318
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZELEC_ANGLE:
         hgcObj.pDIS_ZELEC_ANGLEObj = GFX_GOL_StaticTextCreate
@@ -11352,10 +22477,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_319,   // right
                  GFX_STATICTEXT_BOTTOM_319,  // bottom
                  GFX_STATICTEXT_STATE_319,   // state
-                 (GFX_XCHAR*)staticTextStr_319,    // text
+                 (GFX_XCHAR*)MonitorParaPage1_DIS_ZELEC_ANGLEtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_319,       //alignment
                  GFX_STATICTEXT_SCHEME_319
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZMECH_ANGLE:
         hgcObj.pDIS_ZMECH_ANGLEObj = GFX_GOL_StaticTextCreate
@@ -11367,10 +22517,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_320,   // right
                  GFX_STATICTEXT_BOTTOM_320,  // bottom
                  GFX_STATICTEXT_STATE_320,   // state
-                 (GFX_XCHAR*)staticTextStr_320,    // text
+                 (GFX_XCHAR*)MonitorParaPage1_DIS_ZMECH_ANGLEtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_320,       //alignment
                  GFX_STATICTEXT_SCHEME_320
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZSPD_FBK:
         hgcObj.pDIS_ZSPD_FBKObj = GFX_GOL_StaticTextCreate
@@ -11382,10 +22557,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_321,   // right
                  GFX_STATICTEXT_BOTTOM_321,  // bottom
                  GFX_STATICTEXT_STATE_321,   // state
-                 (GFX_XCHAR*)staticTextStr_321,    // text
+                 (GFX_XCHAR*)MonitorParaPage1_DIS_ZSPD_FBKtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_321,       //alignment
                  GFX_STATICTEXT_SCHEME_321
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_RotInertiaRatio:
         hgcObj.pDIS_RotInertiaRatioObj = GFX_GOL_StaticTextCreate
@@ -11397,10 +22597,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_322,   // right
                  GFX_STATICTEXT_BOTTOM_322,  // bottom
                  GFX_STATICTEXT_STATE_322,   // state
-                 (GFX_XCHAR*)staticTextStr_322,    // text
+                 (GFX_XCHAR*)ServoPage0_DIS_RotInertiaRatiotext,    // text
                  GFX_STATICTEXT_ALIGNMENT_322,       //alignment
                  GFX_STATICTEXT_SCHEME_322
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_PositionLoopGain:
         hgcObj.pDIS_PositionLoopGainObj = GFX_GOL_StaticTextCreate
@@ -11412,10 +22637,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_323,   // right
                  GFX_STATICTEXT_BOTTOM_323,  // bottom
                  GFX_STATICTEXT_STATE_323,   // state
-                 (GFX_XCHAR*)staticTextStr_323,    // text
+                 (GFX_XCHAR*)ServoPage0_DIS_PositionLoopGaintext,    // text
                  GFX_STATICTEXT_ALIGNMENT_323,       //alignment
                  GFX_STATICTEXT_SCHEME_323
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_SpeedLoopIntegral:
         hgcObj.pDIS_SpeedLoopIntegralObj = GFX_GOL_StaticTextCreate
@@ -11427,10 +22677,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_324,   // right
                  GFX_STATICTEXT_BOTTOM_324,  // bottom
                  GFX_STATICTEXT_STATE_324,   // state
-                 (GFX_XCHAR*)staticTextStr_324,    // text
+                 (GFX_XCHAR*)ServoPage0_DIS_SpeedLoopIntegraltext,    // text
                  GFX_STATICTEXT_ALIGNMENT_324,       //alignment
                  GFX_STATICTEXT_SCHEME_324
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_SpeedLoopGain:
         hgcObj.pDIS_SpeedLoopGainObj = GFX_GOL_StaticTextCreate
@@ -11442,10 +22717,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_325,   // right
                  GFX_STATICTEXT_BOTTOM_325,  // bottom
                  GFX_STATICTEXT_STATE_325,   // state
-                 (GFX_XCHAR*)staticTextStr_325,    // text
+                 (GFX_XCHAR*)ServoPage0_DIS_SpeedLoopGaintext,    // text
                  GFX_STATICTEXT_ALIGNMENT_325,       //alignment
                  GFX_STATICTEXT_SCHEME_325
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_SettingValue:
         hgcObj.pDIS_SettingValueObj = GFX_GOL_StaticTextCreate
@@ -11457,10 +22757,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_326,   // right
                  GFX_STATICTEXT_BOTTOM_326,  // bottom
                  GFX_STATICTEXT_STATE_326,   // state
-                 (GFX_XCHAR*)staticTextStr_326,    // text
+                 (GFX_XCHAR*)ServoPage1_DIS_SettingValuetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_326,       //alignment
                  GFX_STATICTEXT_SCHEME_326
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ParaSetting:
         hgcObj.pDIS_ParaSettingObj = GFX_GOL_StaticTextCreate
@@ -11472,10 +22797,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_327,   // right
                  GFX_STATICTEXT_BOTTOM_327,  // bottom
                  GFX_STATICTEXT_STATE_327,   // state
-                 (GFX_XCHAR*)staticTextStr_327,    // text
+                 (GFX_XCHAR*)ServoPage1_DIS_ParaSettingtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_327,       //alignment
                  GFX_STATICTEXT_SCHEME_327
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZRotInertiaRatio:
         hgcObj.pDIS_ZRotInertiaRatioObj = GFX_GOL_StaticTextCreate
@@ -11487,10 +22837,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_328,   // right
                  GFX_STATICTEXT_BOTTOM_328,  // bottom
                  GFX_STATICTEXT_STATE_328,   // state
-                 (GFX_XCHAR*)staticTextStr_328,    // text
+                 (GFX_XCHAR*)ServoPage2_DIS_ZRotInertiaRatiotext,    // text
                  GFX_STATICTEXT_ALIGNMENT_328,       //alignment
                  GFX_STATICTEXT_SCHEME_328
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZPositionLoopGain:
         hgcObj.pDIS_ZPositionLoopGainObj = GFX_GOL_StaticTextCreate
@@ -11502,10 +22877,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_329,   // right
                  GFX_STATICTEXT_BOTTOM_329,  // bottom
                  GFX_STATICTEXT_STATE_329,   // state
-                 (GFX_XCHAR*)staticTextStr_329,    // text
+                 (GFX_XCHAR*)ServoPage2_DIS_ZPositionLoopGaintext,    // text
                  GFX_STATICTEXT_ALIGNMENT_329,       //alignment
                  GFX_STATICTEXT_SCHEME_329
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZSpeedLoopIntegral:
         hgcObj.pDIS_ZSpeedLoopIntegralObj = GFX_GOL_StaticTextCreate
@@ -11517,10 +22917,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_330,   // right
                  GFX_STATICTEXT_BOTTOM_330,  // bottom
                  GFX_STATICTEXT_STATE_330,   // state
-                 (GFX_XCHAR*)staticTextStr_330,    // text
+                 (GFX_XCHAR*)ServoPage2_DIS_ZSpeedLoopIntegraltext,    // text
                  GFX_STATICTEXT_ALIGNMENT_330,       //alignment
                  GFX_STATICTEXT_SCHEME_330
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZSpeedLoopGain:
         hgcObj.pDIS_ZSpeedLoopGainObj = GFX_GOL_StaticTextCreate
@@ -11532,10 +22957,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_331,   // right
                  GFX_STATICTEXT_BOTTOM_331,  // bottom
                  GFX_STATICTEXT_STATE_331,   // state
-                 (GFX_XCHAR*)staticTextStr_331,    // text
+                 (GFX_XCHAR*)ServoPage2_DIS_ZSpeedLoopGaintext,    // text
                  GFX_STATICTEXT_ALIGNMENT_331,       //alignment
                  GFX_STATICTEXT_SCHEME_331
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZSettingValue:
         hgcObj.pDIS_ZSettingValueObj = GFX_GOL_StaticTextCreate
@@ -11547,10 +22997,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_332,   // right
                  GFX_STATICTEXT_BOTTOM_332,  // bottom
                  GFX_STATICTEXT_STATE_332,   // state
-                 (GFX_XCHAR*)staticTextStr_332,    // text
+                 (GFX_XCHAR*)ServoPage3_DIS_ZSettingValuetext,    // text
                  GFX_STATICTEXT_ALIGNMENT_332,       //alignment
                  GFX_STATICTEXT_SCHEME_332
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case DIS_ZParaSetting:
         hgcObj.pDIS_ZParaSettingObj = GFX_GOL_StaticTextCreate
@@ -11562,10 +23037,35 @@ bool GFX_HGC_DrawItem(int itemId)
                  GFX_STATICTEXT_RIGHT_333,   // right
                  GFX_STATICTEXT_BOTTOM_333,  // bottom
                  GFX_STATICTEXT_STATE_333,   // state
-                 (GFX_XCHAR*)staticTextStr_333,    // text
+                 (GFX_XCHAR*)ServoPage3_DIS_ZParaSettingtext,    // text
                  GFX_STATICTEXT_ALIGNMENT_333,       //alignment
                  GFX_STATICTEXT_SCHEME_333
                  ); // use alternate scheme
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case Picture1:
         hgcObj.pPicture1Obj = GFX_GOL_PictureControlCreate
@@ -11581,6 +23081,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&StartUp,    // bitmap
                  GFX_PICTURE_SCHEME_0
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PIC_StopPage:
         hgcObj.pPIC_StopPageObj = GFX_GOL_PictureControlCreate
@@ -11596,6 +23121,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&StopPageDisp,    // bitmap
                  GFX_PICTURE_SCHEME_1
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Warning_Gray:
         hgcObj.pPCB_Warning_GrayObj = GFX_GOL_PictureControlCreate
@@ -11611,6 +23161,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&Warning1,    // bitmap
                  GFX_PICTURE_SCHEME_2
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Information:
         hgcObj.pPCB_InformationObj = GFX_GOL_PictureControlCreate
@@ -11626,6 +23201,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&Information,    // bitmap
                  GFX_PICTURE_SCHEME_3
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Manual:
         hgcObj.pPCB_ManualObj = GFX_GOL_PictureControlCreate
@@ -11641,6 +23241,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&Manual,    // bitmap
                  GFX_PICTURE_SCHEME_4
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_AutoRun:
         hgcObj.pPCB_AutoRunObj = GFX_GOL_PictureControlCreate
@@ -11656,6 +23281,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&AutoRun1,    // bitmap
                  GFX_PICTURE_SCHEME_5
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Monitor:
         hgcObj.pPCB_MonitorObj = GFX_GOL_PictureControlCreate
@@ -11671,6 +23321,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&Monitor,    // bitmap
                  GFX_PICTURE_SCHEME_6
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Param:
         hgcObj.pPCB_ParamObj = GFX_GOL_PictureControlCreate
@@ -11686,6 +23361,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&Parameter,    // bitmap
                  GFX_PICTURE_SCHEME_7
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Instruct:
         hgcObj.pPCB_InstructObj = GFX_GOL_PictureControlCreate
@@ -11701,6 +23401,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&Instruct,    // bitmap
                  GFX_PICTURE_SCHEME_8
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Function:
         hgcObj.pPCB_FunctionObj = GFX_GOL_PictureControlCreate
@@ -11716,6 +23441,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&Function,    // bitmap
                  GFX_PICTURE_SCHEME_9
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Thimb_Red:
         hgcObj.pPCB_Thimb_RedObj = GFX_GOL_PictureControlCreate
@@ -11731,6 +23481,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_10
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_CloseD_Green:
         hgcObj.pPCB_CloseD_GreenObj = GFX_GOL_PictureControlCreate
@@ -11746,6 +23521,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_11
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_SafeD_Gray:
         hgcObj.pPCB_SafeD_GrayObj = GFX_GOL_PictureControlCreate
@@ -11761,6 +23561,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_12
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_OpenM_Gray:
         hgcObj.pPCB_OpenM_GrayObj = GFX_GOL_PictureControlCreate
@@ -11776,6 +23601,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_13
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MacNegativeM:
         hgcObj.pPCB_MacNegativeMObj = GFX_GOL_PictureControlCreate
@@ -11791,6 +23641,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_14
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MacMTravForw:
         hgcObj.pPCB_MacMTravForwObj = GFX_GOL_PictureControlCreate
@@ -11806,6 +23681,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_15
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MacTravFB:
         hgcObj.pPCB_MacTravFBObj = GFX_GOL_PictureControlCreate
@@ -11821,6 +23721,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_16
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MacMPosBack:
         hgcObj.pPCB_MacMPosBackObj = GFX_GOL_PictureControlCreate
@@ -11836,6 +23761,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_17
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MacMPosFB:
         hgcObj.pPCB_MacMPosFBObj = GFX_GOL_PictureControlCreate
@@ -11851,6 +23801,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_18
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MacMDown:
         hgcObj.pPCB_MacMDownObj = GFX_GOL_PictureControlCreate
@@ -11866,6 +23841,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_19
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MacMUD:
         hgcObj.pPCB_MacMUDObj = GFX_GOL_PictureControlCreate
@@ -11881,6 +23881,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_20
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MacNegativeV:
         hgcObj.pPCB_MacNegativeVObj = GFX_GOL_PictureControlCreate
@@ -11896,6 +23921,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_21
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MacSTravForw:
         hgcObj.pPCB_MacSTravForwObj = GFX_GOL_PictureControlCreate
@@ -11911,6 +23961,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_22
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MacSTravFB:
         hgcObj.pPCB_MacSTravFBObj = GFX_GOL_PictureControlCreate
@@ -11926,6 +24001,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_23
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MacSPosBack:
         hgcObj.pPCB_MacSPosBackObj = GFX_GOL_PictureControlCreate
@@ -11941,6 +24041,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_24
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MacSPosFB:
         hgcObj.pPCB_MacSPosFBObj = GFX_GOL_PictureControlCreate
@@ -11956,6 +24081,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_25
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MacSubDown:
         hgcObj.pPCB_MacSubDownObj = GFX_GOL_PictureControlCreate
@@ -11971,6 +24121,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_26
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MacSubUD:
         hgcObj.pPCB_MacSubUDObj = GFX_GOL_PictureControlCreate
@@ -11986,6 +24161,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_27
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X27TravOutLmt:
         hgcObj.pPCB_X27TravOutLmtObj = GFX_GOL_PictureControlCreate
@@ -12001,6 +24201,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_28
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X26TravInLmt:
         hgcObj.pPCB_X26TravInLmtObj = GFX_GOL_PictureControlCreate
@@ -12016,6 +24241,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_29
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X25Origin:
         hgcObj.pPCB_X25OriginObj = GFX_GOL_PictureControlCreate
@@ -12031,6 +24281,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_30
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X24OutSafe:
         hgcObj.pPCB_X24OutSafeObj = GFX_GOL_PictureControlCreate
@@ -12046,6 +24321,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_31
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X23InSafe:
         hgcObj.pPCB_X23InSafeObj = GFX_GOL_PictureControlCreate
@@ -12061,6 +24361,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_32
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X22CheckPress:
         hgcObj.pPCB_X22CheckPressObj = GFX_GOL_PictureControlCreate
@@ -12076,6 +24401,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_33
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X21Injection:
         hgcObj.pPCB_X21InjectionObj = GFX_GOL_PictureControlCreate
@@ -12091,6 +24441,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_34
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X17MainDown:
         hgcObj.pPCB_X17MainDownObj = GFX_GOL_PictureControlCreate
@@ -12106,6 +24481,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_35
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X16MainBack:
         hgcObj.pPCB_X16MainBackObj = GFX_GOL_PictureControlCreate
@@ -12121,6 +24521,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_36
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X15MainForw:
         hgcObj.pPCB_X15MainForwObj = GFX_GOL_PictureControlCreate
@@ -12136,6 +24561,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_37
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X14Vacuum:
         hgcObj.pPCB_X14VacuumObj = GFX_GOL_PictureControlCreate
@@ -12151,6 +24601,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_38
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X13Hold:
         hgcObj.pPCB_X13HoldObj = GFX_GOL_PictureControlCreate
@@ -12166,6 +24641,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_39
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X12MainFix:
         hgcObj.pPCB_X12MainFixObj = GFX_GOL_PictureControlCreate
@@ -12181,6 +24681,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_40
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X20Reserve:
         hgcObj.pPCB_X20ReserveObj = GFX_GOL_PictureControlCreate
@@ -12196,6 +24721,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_41
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X11Verti:
         hgcObj.pPCB_X11VertiObj = GFX_GOL_PictureControlCreate
@@ -12211,6 +24761,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_42
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X10Hori:
         hgcObj.pPCB_X10HoriObj = GFX_GOL_PictureControlCreate
@@ -12226,6 +24801,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_43
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X37Reserve2:
         hgcObj.pPCB_X37Reserve2Obj = GFX_GOL_PictureControlCreate
@@ -12241,6 +24841,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_44
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X36Process1:
         hgcObj.pPCB_X36Process1Obj = GFX_GOL_PictureControlCreate
@@ -12256,6 +24881,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_45
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X35MainUp:
         hgcObj.pPCB_X35MainUpObj = GFX_GOL_PictureControlCreate
@@ -12271,6 +24921,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_46
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X34SubFix:
         hgcObj.pPCB_X34SubFixObj = GFX_GOL_PictureControlCreate
@@ -12286,6 +24961,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_47
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X33ViceDown:
         hgcObj.pPCB_X33ViceDownObj = GFX_GOL_PictureControlCreate
@@ -12301,6 +25001,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_48
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X32SubUp:
         hgcObj.pPCB_X32SubUpObj = GFX_GOL_PictureControlCreate
@@ -12316,6 +25041,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_49
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X31ViceBack:
         hgcObj.pPCB_X31ViceBackObj = GFX_GOL_PictureControlCreate
@@ -12331,6 +25081,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_50
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X30ViceForw:
         hgcObj.pPCB_X30ViceForwObj = GFX_GOL_PictureControlCreate
@@ -12346,6 +25121,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_51
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_EmergStop:
         hgcObj.pPCB_EmergStopObj = GFX_GOL_PictureControlCreate
@@ -12361,6 +25161,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_52
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Thimble:
         hgcObj.pPCB_ThimbleObj = GFX_GOL_PictureControlCreate
@@ -12376,6 +25201,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_53
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_MidMold:
         hgcObj.pPCB_MidMoldObj = GFX_GOL_PictureControlCreate
@@ -12391,6 +25241,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_54
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_AutoLmt:
         hgcObj.pPCB_AutoLmtObj = GFX_GOL_PictureControlCreate
@@ -12406,6 +25281,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_55
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_DefProd:
         hgcObj.pPCB_DefProdObj = GFX_GOL_PictureControlCreate
@@ -12421,6 +25321,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_56
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_CloFini:
         hgcObj.pPCB_CloFiniObj = GFX_GOL_PictureControlCreate
@@ -12436,6 +25361,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_57
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_OpenFini:
         hgcObj.pPCB_OpenFiniObj = GFX_GOL_PictureControlCreate
@@ -12451,6 +25401,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_58
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_SafeDoor:
         hgcObj.pPCB_SafeDoorObj = GFX_GOL_PictureControlCreate
@@ -12466,6 +25441,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_59
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X47Reserve6:
         hgcObj.pPCB_X47Reserve6Obj = GFX_GOL_PictureControlCreate
@@ -12481,6 +25481,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_60
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X46Reserve5:
         hgcObj.pPCB_X46Reserve5Obj = GFX_GOL_PictureControlCreate
@@ -12496,6 +25521,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_61
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X45Reserve4:
         hgcObj.pPCB_X45Reserve4Obj = GFX_GOL_PictureControlCreate
@@ -12511,6 +25561,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_62
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X44Reserve3:
         hgcObj.pPCB_X44Reserve3Obj = GFX_GOL_PictureControlCreate
@@ -12526,6 +25601,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_63
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X43Reserve2:
         hgcObj.pPCB_X43Reserve2Obj = GFX_GOL_PictureControlCreate
@@ -12541,6 +25641,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_64
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X42Reserve1:
         hgcObj.pPCB_X42Reserve1Obj = GFX_GOL_PictureControlCreate
@@ -12556,6 +25681,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_65
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X41Vacuum2:
         hgcObj.pPCB_X41Vacuum2Obj = GFX_GOL_PictureControlCreate
@@ -12571,6 +25721,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_66
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_X40Hold2:
         hgcObj.pPCB_X40Hold2Obj = GFX_GOL_PictureControlCreate
@@ -12586,6 +25761,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_67
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y27TravOut:
         hgcObj.pPCB_Y27TravOutObj = GFX_GOL_PictureControlCreate
@@ -12601,6 +25801,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_68
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y26TravIn:
         hgcObj.pPCB_Y26TravInObj = GFX_GOL_PictureControlCreate
@@ -12616,6 +25841,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_69
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y25Reserv2:
         hgcObj.pPCB_Y25Reserv2Obj = GFX_GOL_PictureControlCreate
@@ -12631,6 +25881,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_70
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y24Reserv1:
         hgcObj.pPCB_Y24Reserv1Obj = GFX_GOL_PictureControlCreate
@@ -12646,6 +25921,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_71
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y23SlowDown:
         hgcObj.pPCB_Y23SlowDownObj = GFX_GOL_PictureControlCreate
@@ -12661,6 +25961,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_72
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y22LowPress:
         hgcObj.pPCB_Y22LowPressObj = GFX_GOL_PictureControlCreate
@@ -12676,6 +26001,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_73
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y21MainDown:
         hgcObj.pPCB_Y21MainDownObj = GFX_GOL_PictureControlCreate
@@ -12691,6 +26041,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_74
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y20MainUp:
         hgcObj.pPCB_Y20MainUpObj = GFX_GOL_PictureControlCreate
@@ -12706,6 +26081,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_75
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y17Alarm:
         hgcObj.pPCB_Y17AlarmObj = GFX_GOL_PictureControlCreate
@@ -12721,6 +26121,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_76
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y16MainBack:
         hgcObj.pPCB_Y16MainBackObj = GFX_GOL_PictureControlCreate
@@ -12736,6 +26161,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_77
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y15MainForw:
         hgcObj.pPCB_Y15MainForwObj = GFX_GOL_PictureControlCreate
@@ -12751,6 +26201,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_78
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y14Vacuum:
         hgcObj.pPCB_Y14VacuumObj = GFX_GOL_PictureControlCreate
@@ -12766,6 +26241,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_79
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y13Hold:
         hgcObj.pPCB_Y13HoldObj = GFX_GOL_PictureControlCreate
@@ -12781,6 +26281,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_80
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y12MainFix:
         hgcObj.pPCB_Y12MainFixObj = GFX_GOL_PictureControlCreate
@@ -12796,6 +26321,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_81
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y11Verti:
         hgcObj.pPCB_Y11VertiObj = GFX_GOL_PictureControlCreate
@@ -12811,6 +26361,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_82
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y10Hori:
         hgcObj.pPCB_Y10HoriObj = GFX_GOL_PictureControlCreate
@@ -12826,6 +26401,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_83
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case OutWatchPicYReserv3:
         hgcObj.pOutWatchPicYReserv3Obj = GFX_GOL_PictureControlCreate
@@ -12841,6 +26441,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_84
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case OutWatchPicYReserv2:
         hgcObj.pOutWatchPicYReserv2Obj = GFX_GOL_PictureControlCreate
@@ -12856,6 +26481,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_85
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case OutWatchPicYReserv1:
         hgcObj.pOutWatchPicYReserv1Obj = GFX_GOL_PictureControlCreate
@@ -12871,6 +26521,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_86
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_ThjmSafe:
         hgcObj.pPCB_ThjmSafeObj = GFX_GOL_PictureControlCreate
@@ -12886,6 +26561,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_87
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Recycling:
         hgcObj.pPCB_RecyclingObj = GFX_GOL_PictureControlCreate
@@ -12901,6 +26601,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_88
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_OpenSafe:
         hgcObj.pPCB_OpenSafeObj = GFX_GOL_PictureControlCreate
@@ -12916,6 +26641,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_89
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_CloseSafe:
         hgcObj.pPCB_CloseSafeObj = GFX_GOL_PictureControlCreate
@@ -12931,6 +26681,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_90
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y47EmergStop:
         hgcObj.pPCB_Y47EmergStopObj = GFX_GOL_PictureControlCreate
@@ -12946,6 +26721,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_91
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y37Coneryor:
         hgcObj.pPCB_Y37ConeryorObj = GFX_GOL_PictureControlCreate
@@ -12961,6 +26761,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_92
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y36Scissor:
         hgcObj.pPCB_Y36ScissorObj = GFX_GOL_PictureControlCreate
@@ -12976,6 +26801,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_93
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y35Process1:
         hgcObj.pPCB_Y35Process1Obj = GFX_GOL_PictureControlCreate
@@ -12991,6 +26841,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_94
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y34SubFix:
         hgcObj.pPCB_Y34SubFixObj = GFX_GOL_PictureControlCreate
@@ -13006,6 +26881,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_95
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y33SubDown:
         hgcObj.pPCB_Y33SubDownObj = GFX_GOL_PictureControlCreate
@@ -13021,6 +26921,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_96
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y32SubUp:
         hgcObj.pPCB_Y32SubUpObj = GFX_GOL_PictureControlCreate
@@ -13036,6 +26961,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_97
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y31SubBack:
         hgcObj.pPCB_Y31SubBackObj = GFX_GOL_PictureControlCreate
@@ -13051,6 +27001,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_98
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y30SubForw:
         hgcObj.pPCB_Y30SubForwObj = GFX_GOL_PictureControlCreate
@@ -13066,6 +27041,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_99
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y46Reserve5:
         hgcObj.pPCB_Y46Reserve5Obj = GFX_GOL_PictureControlCreate
@@ -13081,6 +27081,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_100
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y45Reserve4:
         hgcObj.pPCB_Y45Reserve4Obj = GFX_GOL_PictureControlCreate
@@ -13096,6 +27121,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_101
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y44Reserve3:
         hgcObj.pPCB_Y44Reserve3Obj = GFX_GOL_PictureControlCreate
@@ -13111,6 +27161,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_102
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y43Reserve2:
         hgcObj.pPCB_Y43Reserve2Obj = GFX_GOL_PictureControlCreate
@@ -13126,6 +27201,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_103
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y42Reserve1:
         hgcObj.pPCB_Y42Reserve1Obj = GFX_GOL_PictureControlCreate
@@ -13141,6 +27241,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_104
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y41Vacuum2:
         hgcObj.pPCB_Y41Vacuum2Obj = GFX_GOL_PictureControlCreate
@@ -13156,6 +27281,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_105
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PCB_Y40Hold2:
         hgcObj.pPCB_Y40Hold2Obj = GFX_GOL_PictureControlCreate
@@ -13171,6 +27321,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&ledgray,    // bitmap
                  GFX_PICTURE_SCHEME_106
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
     case PicCompanyLogo:
         hgcObj.pPicCompanyLogoObj = GFX_GOL_PictureControlCreate
@@ -13186,6 +27361,31 @@ bool GFX_HGC_DrawItem(int itemId)
                  (GFX_RESOURCE_HDR*)&Logogray,    // bitmap
                  GFX_PICTURE_SCHEME_107
                  );
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         break;
 		case Line10:
 		{
@@ -13196,7 +27396,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 227,  // p1y
 						 360,  // p2x
 						 249); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case Line9:
 		{
@@ -13207,7 +27432,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 227,  // p1y
 						 240,  // p2x
 						 249); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case Line8:
 		{
@@ -13218,7 +27468,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 227,  // p1y
 						 120,  // p2x
 						 249); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case Line7:
 		{
@@ -13229,7 +27504,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 40,  // p1y
 						 300,  // p2x
 						 63); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case Line6:
 		{
@@ -13240,7 +27540,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 40,  // p1y
 						 150,  // p2x
 						 63); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case Line5:
 		{
@@ -13251,7 +27576,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 40,  // p1y
 						 80,  // p2x
 						 63); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case Line2:
 		{
@@ -13262,7 +27612,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 63,  // p1y
 						 480,  // p2x
 						 63); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case Line1:
 		{
@@ -13273,7 +27648,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 40,  // p1y
 						 480,  // p2x
 						 40); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case Line3:
 		{
@@ -13284,7 +27684,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 227,  // p1y
 						 480,  // p2x
 						 227); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case Line4:
 		{
@@ -13295,7 +27720,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 249,  // p1y
 						 480,  // p2x
 						 249); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case AlaRptLine5:
 		{
@@ -13306,7 +27756,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 191,  // p1y
 						 480,  // p2x
 						 191); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case AlaRptLine4:
 		{
@@ -13317,7 +27792,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 167,  // p1y
 						 480,  // p2x
 						 167); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case AlaRptLine3:
 		{
@@ -13328,7 +27828,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 143,  // p1y
 						 480,  // p2x
 						 143); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case AlaRptLine2:
 		{
@@ -13339,7 +27864,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 119,  // p1y
 						 480,  // p2x
 						 119); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case AlaRptLine1:
 		{
@@ -13350,7 +27900,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 95,  // p1y
 						 480,  // p2x
 						 95); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case CycTimRptLine5:
 		{
@@ -13361,7 +27936,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 191,  // p1y
 						 480,  // p2x
 						 191); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case CycTimRptLine4:
 		{
@@ -13372,7 +27972,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 167,  // p1y
 						 480,  // p2x
 						 167); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case CycTimRptLine3:
 		{
@@ -13383,7 +28008,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 143,  // p1y
 						 480,  // p2x
 						 143); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case CycTimRptLine2:
 		{
@@ -13394,7 +28044,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 119,  // p1y
 						 480,  // p2x
 						 119); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case CycTimRptLine1:
 		{
@@ -13405,7 +28080,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						 95,  // p1y
 						 480,  // p2x
 						 95); // p2y
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}		
 		case Text1:
 		{
@@ -13418,7 +28118,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						       196, // draw point y
                                Text1_text, // string
 							   0); // length
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}	
 		case Text6:
 		{
@@ -13431,7 +28156,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						       142, // draw point y
                                Text6_text, // string
 							   0); // length
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}	
 		case Text5:
 		{
@@ -13444,7 +28194,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						       141, // draw point y
                                Text5_text, // string
 							   0); // length
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}	
 		case Text4:
 		{
@@ -13457,7 +28232,32 @@ bool GFX_HGC_DrawItem(int itemId)
 						       103, // draw point y
                                Text4_text, // string
 							   0); // length
-			break;
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
 		}	
 		case Text3:
 		{
@@ -13470,9 +28270,33 @@ bool GFX_HGC_DrawItem(int itemId)
 						       102, // draw point y
                                Text3_text, // string
 							   0); // length
-			break;
-		}	
-	default:
+			
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        break;
+default:
 		return false; // process by default
     }
 
@@ -13629,8 +28453,4 @@ bool GFX_HGC_MsgPictures(uint16_t objMsg, GFX_GOL_OBJ_HEADER *pObj, GFX_GOL_MESS
     switch (GFX_GOL_ObjectIDGet(pObj))
     {
         default:
-            return false; // default false as it is not processed
-    }    
-}
-
-
+            return false; // default false as it is not
